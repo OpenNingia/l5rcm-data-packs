@@ -102,5 +102,8 @@
 
     <KihoDef type="tattoo" id="tattoo_vine" name="Vine">
         <Description>this tattoo is only given to Ize-zumi and a few Tsurai-zumi. When this tattoo is activated, you recover school rank wounds per round during the reaction stage of the round. When this tattoo is active, he doesn't prevent the use of another tattoo.</Description>
-    </KihoDef> 
+    </KihoDef>
+    <KihoDef type="tattoo" id="tattoo_torii" name="Torii">
+	<Description>this tattoo is active at all times and do not prevent the use of other tattoos. The TN of your opponent’s assessment roll during duels is increased by your school rank x 5</Description>
+    </KihoDef>
 </L5RCM>  
