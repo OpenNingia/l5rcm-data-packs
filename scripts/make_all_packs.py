@@ -19,7 +19,7 @@
 import os
 import json
 
-from dal.report import ContentToMarkdown
+from dal.report import ContentToMarkDown
 
 from subprocess import call
 
@@ -50,7 +50,7 @@ def main():
 			print('bad manifest', ms)
 			continue
 
-		ctm = ContentToMarkdown( root_path, os.path.join('../contents', ms['id'] + '.md') )
+		ctm = ContentToMarkDown( root_path, os.path.join('../contents', ms['id'] + '.md') )
 		ctm.build()
 
 		if os.name == 'nt':
