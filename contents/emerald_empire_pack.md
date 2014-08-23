@@ -4,7 +4,7 @@ Emerald Empire book
 
 Clans
 -----
-* Any Minor Clan
+* [Any Minor Clan](#any_minor_clan)
 
 Schools
 -------

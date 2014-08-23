@@ -4,14 +4,14 @@ Legends of the Burning Sands
 
 Clans
 -----
-* Medinnat Al-Salaam
-* The Ashalan
-* The Assassins
-* The Ebonites
-* The Jackals
-* The Ra'Shari
-* The Senpet
-* The Yodotai
+* [Medinnat Al-Salaam](#medinnat)
+* [The Ashalan](#ashalan)
+* [The Assassins](#assassins)
+* [The Ebonites](#ebonites)
+* [The Jackals](#jackals)
+* [The Ra'Shari](#rashari)
+* [The Senpet](#senpet)
+* [The Yodotai](#yodatai)
 
 Families
 --------

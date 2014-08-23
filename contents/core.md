@@ -4,32 +4,32 @@ Core book
 
 Clans
 -----
-* Badger
-* Bat
-* Boar
-* Crab
-* Crane
-* Dragon
-* Dragonfly
-* Falcon
-* Fox
-* Hare
-* Imperial
-* Lion
-* Mantis
-* Monkey
-* Monks
-* Oriole
-* Ox
-* Phoenix
-* Ronin
-* Scorpion
-* Snake
-* Sparrow
-* Spider
-* Tiger
-* Tortoise
-* Unicorn
+* [Badger](#badger)
+* [Bat](#bat)
+* [Boar](#boar)
+* [Crab](#crab)
+* [Crane](#crane)
+* [Dragon](#dragon)
+* [Dragonfly](#dragonfly)
+* [Falcon](#falcon)
+* [Fox](#fox)
+* [Hare](#hare)
+* [Imperial](#imperial)
+* [Lion](#lion)
+* [Mantis](#mantis)
+* [Monkey](#monkey)
+* [Monks](#monks)
+* [Oriole](#oriole)
+* [Ox](#ox)
+* [Phoenix](#phoenix)
+* [Ronin](#ronin)
+* [Scorpion](#scorpion)
+* [Snake](#snake)
+* [Sparrow](#sparrow)
+* [Spider](#spider)
+* [Tiger](#tiger)
+* [Tortoise](#tortoise)
+* [Unicorn](#unicorn)
 
 Families
 --------
