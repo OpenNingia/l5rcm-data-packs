@@ -4,11 +4,13 @@ Community
 
 Families
 --------
+
 ### [ronin]
 * Kaeru
 * Tsi
 * Tsume
 * Yotsu
+
 ### [tiger]
 * Yotsu
 
@@ -20,10 +22,12 @@ Spells
 
 Advantages
 ----------
+
 ### [material]
 * Inheritance: Trained Falcon
 
 Disadvantages
 -------------
+
 ### [mental]
 * Sleeper Agent

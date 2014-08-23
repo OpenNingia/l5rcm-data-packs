@@ -4,6 +4,7 @@ Strongholds
 
 Alternate Paths
 ---------------
+
 ### [phoenix]
 * Asako Philosopher
 
@@ -15,12 +16,15 @@ Spells
 
 Advantages
 ----------
+
 ### [material]
 * Inheritance: Asahina Blade
 * Inheritance: Kobune
 * Water Hammer Armor
+
 ### [physical]
 * Ruined City Shadow
+
 ### [social]
 * Broken Wave Citizen
 * Clear Water Native
@@ -34,8 +38,10 @@ Advantages
 
 Disadvantages
 -------------
+
 ### [material]
 * Ruined City Survivor
+
 ### [social]
 * Bounty
 * Broken Wave Stigma
@@ -44,5 +50,6 @@ Disadvantages
 * Nikesake Stigma
 * Water Hammer Stigma
 * Zakyo Toshi Stigma
+
 ### [varies]
 * Wanderer

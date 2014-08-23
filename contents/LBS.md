@@ -15,6 +15,7 @@ Clans
 
 Families
 --------
+
 ### [medinnat]
 * House Asmari
 * House Basiri
@@ -24,31 +25,39 @@ Families
 * House Mendadi
 * House Menjari
 * House Rashid
+
 ### [rashari]
 * The Great Caravan of Commerce
 * The Great Caravan of Entertainment
 * The Great Caravan of Memory
 * The Great Caravan of Mysticism
+
 ### [senpet]
 * Senpet
 
 Schools
 -------
+
 ### [rashari]
 * Ra'Shari Knife-Fighter
+
 ### [senpet]
 * Legionnaire
 
 Skills
 ------
+
 ### [bugei]
 * Swordmanship
 * Tahaddi
+
 ### [high]
 * Storytelling
+
 ### [low]
 * Deceit
 * Traps
+
 ### [merchant]
 * Locksmith
 

@@ -33,12 +33,16 @@ Clans
 
 Families
 --------
+
 ### [badger]
 * Ichiro
+
 ### [bat]
 * Komori
+
 ### [boar]
 * Heichi
+
 ### [crab]
 * Hida
 * Hiruma
@@ -46,11 +50,13 @@ Families
 * Kuni
 * Toritaka
 * Yasuki
+
 ### [crane]
 * Asahina
 * Daidoji
 * Doji
 * Kakita
+
 ### [dragon]
 * Hitomi
 * Hoshi
@@ -58,15 +64,20 @@ Families
 * Mirumoto
 * Tamori
 * Togashi
+
 ### [dragonfly]
 * Tonbo
+
 ### [falcon]
 * Toritaka
+
 ### [fox]
 * Kitsune
+
 ### [hare]
 * Ujina
 * Usagi
+
 ### [imperial]
 * Hantei
 * Miya
@@ -74,19 +85,23 @@ Families
 * Otomo
 * Seppun
 * Toturi
+
 ### [lion]
 * Akodo
 * Ikoma
 * Kitsu
 * Matsu
+
 ### [mantis]
 * Kitsune
 * Moshi
 * Tsuruchi
 * Yoritomo
+
 ### [monkey]
 * Fuzake
 * Toku
+
 ### [monks]
 * Four Temples
 * Order of Heroes
@@ -94,31 +109,40 @@ Families
 * The Temple Of Kaimetsu-Uo
 * The Temple of Osano-Wo
 * The Temples of the Thousand Fortunes
+
 ### [oriole]
 * Tsi
+
 ### [ox]
 * Morito
+
 ### [phoenix]
 * Agasha
 * Asako
 * Isawa
 * Shiba
+
 ### [scorpion]
 * Bayushi
 * Shosuro
 * Soshi
 * Yogo
+
 ### [snake]
 * Chuda
+
 ### [sparrow]
 * Suzume
+
 ### [spider]
 * Chuda
 * Daigotsu
 * Goju
 * Spider Monks
+
 ### [tortoise]
 * Kasuga
+
 ### [unicorn]
 * Horiuchi
 * Ide
@@ -129,12 +153,16 @@ Families
 
 Schools
 -------
+
 ### [badger]
 * Ichiro Bushi School
+
 ### [bat]
 * Komori Shugenja School
+
 ### [boar]
 * Heichi Bushi School
+
 ### [crab]
 * Hida Bushi School
 * Hiruma Bushi School
@@ -142,11 +170,13 @@ Schools
 * Kuni Shugenja School
 * Toritaka Bushi School
 * Yasuki Courtier School
+
 ### [crane]
 * Asahina Shugenja School
 * Daidoji Iron Warriors
 * Doji Courtier School
 * Kakita Bushi School
+
 ### [dragon]
 * Hitomi Kikage Zumi
 * Hoshi Tsurui Zumi
@@ -154,33 +184,42 @@ Schools
 * Mirumoto Bushi School
 * Tamori Shugenja School
 * Togashi Tattooed Order
+
 ### [dragonfly]
 * Tonbo Shugenja School
+
 ### [falcon]
 * Toritaka Bushi School
+
 ### [fox]
 * Kitsune Shugenja School
+
 ### [hare]
 * Usagi Bushi School
 * Usagi Bushi School (After Clan War)
+
 ### [imperial]
 * Miya Herald School
 * Otomo Courtier School
 * Seppun Guardsman School
 * Seppun Shugenja School
+
 ### [lion]
 * Akodo Bushi School
 * Ikoma Bard School
 * Kitsu Shugenja School
 * Matsu Berserker School
+
 ### [mantis]
 * Kitsune Shugenja School
 * Moshi Shugenja School
 * Tsuruchi Archer School
 * Yoritomo Bushi School
 * Yoritomo Courtier School
+
 ### [monkey]
 * Toku Bushi School
+
 ### [monks]
 * Four Temples Monk School
 * Order of Heroes Monk School
@@ -188,37 +227,47 @@ Schools
 * The Temple Of Kaimetsu-Uo
 * The Temple of Osano-Wo Monk School
 * The Temples of the Thousand Fortunes Monk School
+
 ### [oriole]
 * Tsi Smith School
+
 ### [ox]
 * Morito Bushi School
+
 ### [phoenix]
 * Agasha Shugenja School
 * Asako Loremaster School
 * Isawa Shugenja School
 * Shiba Bushi School
+
 ### [ronin]
 * Disciples of Sun Tao
 * Forest Killers
 * Tawagoto's Army
 * Tengoku's Justice
 * The Tessen
+
 ### [scorpion]
 * Bayushi Bushi School
 * Bayushi Courtier School
 * Shosuro Infiltrator School
 * Soshi Shugenja School
+
 ### [snake]
 * Chuda Shugenja School
+
 ### [sparrow]
 * Suzume Bushi School
+
 ### [spider]
 * Chuda Shugenja School
 * Daigotsu Bushi School
 * Daigotsu Courtier School
 * Order of the Spider Monk
+
 ### [tortoise]
 * Kasuga Smuggler School
+
 ### [unicorn]
 * Ide Emissary School
 * Iuchi Shugenja School
@@ -227,25 +276,32 @@ Schools
 
 Advanced Schools
 ----------------
+
 ### [crab]
 * Defender of the Wall
+
 ### [crane]
 * Kenshinzen
+
 ### [dragon]
 * Swordsmasters
 * Tamori Master Of The Mountains
+
 ### [lion]
 * The Lion's Pride
+
 ### [mantis]
 * Storm Riders
 
 Alternate Paths
 ---------------
+
 ### [crab]
 * Crab Berserker
 
 Skills
 ------
+
 ### [bugei]
 * Athletics
 * Battle
@@ -263,6 +319,7 @@ Skills
 * Spears
 * Staves
 * War Fan
+
 ### [high]
 * Acting
 * Artisan (Bonsai)
@@ -325,6 +382,7 @@ Skills
 * Sincerity
 * Spellcraft
 * Tea Ceremony
+
 ### [low]
 * Craft (Explosives)
 * Craft (Poison)
@@ -341,6 +399,7 @@ Skills
 * Sleight of Hand
 * Stealth
 * Temptation
+
 ### [merchant]
 * Animal Handling
 * Commerce
@@ -363,7 +422,9 @@ Skills
 
 Spells
 ------
+
 ### [air]
+
 #### [Mastery 1]
 * Blessed Wind
 * By the Light of the Moon
@@ -380,6 +441,7 @@ Spells
 * [MAHO] Legacy Of The Dark One
 * [MAHO] Sinful Dreams
 * [MAHO] Ward of Divine Peace
+
 #### [Mastery 2]
 * Benten's Touch
 * Call Upon the Wind
@@ -392,6 +454,7 @@ Spells
 * [MAHO] Curse Of The Clan
 * [MAHO] Curse Of The Kansen
 * [MAHO] Curse Of The Unblinking Eye
+
 #### [Mastery 3]
 * Essence Of Air
 * Mask Of Wind
@@ -404,6 +467,7 @@ Spells
 * [MAHO] Hate's Heart
 * [MAHO] Mists Of Fear
 * [MAHO] Symbol Of The Bloodspeaker
+
 #### [Mastery 4]
 * Call The Spirit
 * False Realm
@@ -413,6 +477,7 @@ Spells
 * Symbol Of Air
 * [MAHO] No Pure Breaths
 * [MAHO] Truth Is A Scourge
+
 #### [Mastery 5]
 * Cloud The Mind
 * Draw Back The Shadow
@@ -420,17 +485,22 @@ Spells
 * Legion Of The Moon
 * Slayer's Knives
 * [MAHO] Possession
+
 #### [Mastery 6]
 * Rise, Air
 * The False Legion
 * Wrath Of Kaze-no-kami (hurricane)
 * [MAHO] Take The Body
+
 ### [all]
+
 #### [Mastery 1]
 * Commune
 * Sense
 * Summon
+
 ### [earth]
+
 #### [Mastery 1]
 * Armor Of Earth
 * Courage Of The Seven Thunders
@@ -447,6 +517,7 @@ Spells
 * [MAHO] Purge The Weak
 * [MAHO] Suck The Marrow
 * [MAHO] Summon Undead Champion
+
 #### [Mastery 2]
 * Be The Mountain
 * Earth Becomes Sky
@@ -460,6 +531,7 @@ Spells
 * [MAHO] Drain The Soul
 * [MAHO] Pain
 * [MAHO] Spreading The Darkness
+
 #### [Mastery 3]
 * Bonds Of Ningen-do
 * Earth Kami's Blessing
@@ -471,6 +543,7 @@ Spells
 * [MAHO] Death Beyond Life
 * [MAHO] Essence Of Undeath
 * [MAHO] Summon Oni
+
 #### [Mastery 4]
 * Armor Of The Emperor
 * Essence Of Earth
@@ -480,6 +553,7 @@ Spells
 * [MAHO] Chains Of Jigoku
 * [MAHO] Stealing The Soul
 * [MAHO] Tomb Of Earth
+
 #### [Mastery 5]
 * Earthquake
 * Major Binding
@@ -489,12 +563,15 @@ Spells
 * [MAHO] Blood Armor
 * [MAHO] Fierce Blood Of The Earth
 * [MAHO] Touch Of Death
+
 #### [Mastery 6]
 * Essence Of Jade
 * Power Of The Earth Dragon
 * Prison Of Earth
 * Rise, Earth
+
 ### [fire]
+
 #### [Mastery 1]
 * Biting Steel
 * Burning Kiss Of Steel
@@ -508,6 +585,7 @@ Spells
 * The Raging Forge
 * [MAHO] Bleeding
 * [MAHO] Written In Blood
+
 #### [Mastery 2]
 * Disrupt The Aura
 * Enticing Dance Of The Flame
@@ -519,6 +597,7 @@ Spells
 * Ward Of Purity
 * [MAHO] Gift Of The Maker
 * [MAHO] Puppet Master
+
 #### [Mastery 3]
 * Breath Of The Fire Dragon
 * Fiery Wrath
@@ -528,6 +607,7 @@ Spells
 * Shining Light
 * The Fist Of Osano-wo
 * [MAHO] Armour Of Obsidian
+
 #### [Mastery 4]
 * Death Of Flame
 * Defense Of The Firestorm
@@ -536,6 +616,7 @@ Spells
 * Wall Of Fire
 * Ward Of Thunder
 * [MAHO] Burning Blood
+
 #### [Mastery 5]
 * Destructive Wave
 * Everburning Rage
@@ -543,11 +624,14 @@ Spells
 * Light Of The Sun
 * Wings Of The Phoenix
 * [MAHO] Strength Of Darkness
+
 #### [Mastery 6]
 * Beam Of The Inferno
 * Globe Of The Everlasting Sun
 * The Soul's Blade
+
 ### [void]
+
 #### [Mastery 1]
 * Boundless Sight
 * Drawing The Void
@@ -557,6 +641,7 @@ Spells
 * The Void's Caress
 * Touch The Emptiness
 * Witness The Untold
+
 #### [Mastery 2]
 * Altering The Course
 * Drink Of Your Essence
@@ -564,26 +649,32 @@ Spells
 * Reach Through The Void
 * Severed From The Stream
 * The Empty Voice
+
 #### [Mastery 3]
 * Echoes In The Void
 * Kharmic Intent
 * Moment Of Clarity
 * Read The Essence
 * Void Release
+
 #### [Mastery 4]
 * Balance Of Elements
 * Draw Closed The Veil
 * Fill With Emptiness
 * Void Strike
+
 #### [Mastery 5]
 * Divide The Soul
 * Reforge
 * Unbound Essence
+
 #### [Mastery 6]
 * Ring Of The Void
 * Rise From The Ashes
 * Unmake The World
+
 ### [water]
+
 #### [Mastery 1]
 * Bo Of Water
 * Clarity Of Purpose
@@ -597,6 +688,7 @@ Spells
 * The Rushing Wave
 * [MAHO] Disrupt The Limb
 * [MAHO] Symbol Of Blood
+
 #### [Mastery 2]
 * Cloak Of The Miya
 * Inari's Blessing
@@ -608,6 +700,7 @@ Spells
 * Wisdom and Clarity
 * [MAHO] Curse Of Weakness
 * [MAHO] Dark Wings
+
 #### [Mastery 3]
 * Near To Ice
 * Regrow The Wound
@@ -616,6 +709,7 @@ Spells
 * Visions Of The Future
 * Walking Upon The Waves
 * Water Kami's Blessing
+
 #### [Mastery 4]
 * Dominion Of Suitengu
 * Ebb and Flow of Battle
@@ -623,12 +717,14 @@ Spells
 * Strike Of The Flowing Waters
 * Symbol Of Water
 * The Path Not Taken
+
 #### [Mastery 5]
 * Ever-changing Waves
 * Hands Of The Tides
 * Power Of The Ocean
 * Suitengu's Embrace
 * The Final Bond
+
 #### [Mastery 6]
 * Peace Of The Kami
 * Rise, Water
@@ -636,6 +732,7 @@ Spells
 
 Advantages
 ----------
+
 ### [material]
 * Gaijin Gear
 * Gentry
@@ -651,6 +748,7 @@ Advantages
 * Sacred Weapon (Twin Sister Blades)
 * Servant
 * Wealthy
+
 ### [mental]
 * Absolute Direction
 * Balance
@@ -688,6 +786,7 @@ Advantages
 * Virtuous
 * Wary
 * Way of the Land
+
 ### [physical]
 * Bland
 * Crab Hands
@@ -700,6 +799,7 @@ Advantages
 * Silent
 * Strength of the Earth
 * Voice
+
 ### [social]
 * Allies
 * Blackmail
@@ -716,6 +816,7 @@ Advantages
 * Sacrosanct
 * Sensation
 * Social Position
+
 ### [spiritual]
 * Ancestor, Agasha Kitsuki
 * Ancestor, Akodo
@@ -781,11 +882,13 @@ Advantages
 * Touch of the Spirit Realms (Toshigoku)
 * Touch of the Spirit Realms (Yomi)
 * Touch of the Spirit Realms (Yume-do)
+
 ### [varies]
 * Great Potential
 
 Disadvantages
 -------------
+
 ### [mental]
 * Ascetic
 * Brash
@@ -822,6 +925,7 @@ Disadvantages
 * Phobia
 * Soft-Hearted
 * True Love
+
 ### [physical]
 * Bad Eyesight
 * Bad Health
@@ -841,6 +945,7 @@ Disadvantages
 * Weakness (Stamina)
 * Weakness (Strength)
 * Weakness (Willpower)
+
 ### [social]
 * Antisocial
 * Bitter Betrothal
@@ -860,6 +965,7 @@ Disadvantages
 * Social Disadvantage
 * Sworn Enemy
 * Sworn Enemy (Kharmic)
+
 ### [spiritual]
 * Bad Fortune
 * Benten's Curse
