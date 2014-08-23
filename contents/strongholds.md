@@ -53,3 +53,9 @@ Disadvantages
 
 ### [varies]
 * Wanderer
+
+Kata
+----
+
+Kiho
+----

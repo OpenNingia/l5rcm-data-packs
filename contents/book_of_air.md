@@ -87,3 +87,36 @@ Advantages
 
 Disadvantages
 -------------
+
+Kata
+----
+
+### [air]
+
+#### [Mastery 4]
+* North Wind Style
+* South Wind Style
+
+Kiho
+----
+
+### [air]
+
+#### [Mastery 4]
+* The Wind's Vision
+
+#### [Mastery 5]
+* Calling the East Wind
+* Eye of the Eagle
+* Strike through the Wind
+
+#### [Mastery 6]
+* Thunder's Word
+* Touch of the Storm
+
+#### [Mastery 7]
+* Censure of Thunder
+* Hurricane Palm
+
+#### [Mastery 8]
+* Inari's Wrath

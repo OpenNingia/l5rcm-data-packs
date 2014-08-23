@@ -135,3 +135,43 @@ Disadvantages
 
 ### [spiritual]
 * Enlightened Madness
+
+Kata
+----
+
+### [air]
+
+#### [Mastery 3]
+* Dance Of The Winds
+* Strength Of The Crane
+* Strength of The Mantis
+
+### [earth]
+
+#### [Mastery 3]
+* Strength Of The Crab
+* Strength Of The Spider
+
+### [fire]
+
+#### [Mastery 3]
+* Strength Of The Dragon
+* Strength Of The Scorpion
+
+### [void]
+
+#### [Mastery 3]
+* Strength Of The Phoenix
+
+### [water]
+
+#### [Mastery 3]
+* Son Of Storms
+* Strength Of The Lion
+* Strength Of The Unicorn
+
+#### [Mastery 5]
+* Art of Ninjutsu
+
+Kiho
+----

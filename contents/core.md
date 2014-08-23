@@ -994,3 +994,158 @@ Disadvantages
 * Touch of the Void
 * Unlucky
 * Wrath of the Kami
+
+Kata
+----
+
+### [air]
+
+#### [Mastery 3]
+* Breath of Wind Style
+* Striking as Air
+
+#### [Mastery 4]
+* Hidden Blade Style
+* Iron Forest Style
+* Veiled Menace Style
+
+### [earth]
+
+#### [Mastery 3]
+* Iron in the Mountains Style
+* Striking as Earth
+
+#### [Mastery 4]
+* Indomitable Warrior Style
+
+### [fire]
+
+#### [Mastery 3]
+* Striking as Fire
+
+#### [Mastery 4]
+* Disappearing World Style
+* Reckless Abandon Style
+
+#### [Mastery 5]
+* Spinning Blades Style
+
+### [void]
+
+#### [Mastery 3]
+* Balance The Elements Style
+* Striking as Void
+
+#### [Mastery 4]
+* Strength Of Purity Style
+
+### [water]
+
+#### [Mastery 4]
+* Strength In Arms Style
+* Striking as Water
+
+Kiho
+----
+
+### [None]
+
+### [air]
+
+#### [Mastery 3]
+* Air Fist
+* Riding the Clouds
+* Stain Upon the Soul
+
+#### [Mastery 4]
+* Soul of the Four Winds
+* The Great Silence
+
+#### [Mastery 5]
+* Harmony of the Mind
+* Way of the Willow
+
+#### [Mastery 6]
+* Flee the Darkness
+
+#### [Mastery 7]
+* Steal the Air Dragon
+
+### [earth]
+
+#### [Mastery 3]
+* Earth Needs No Eyes
+* Earthen Fist
+
+#### [Mastery 4]
+* Cleansing Spirit
+* Speed of the Mountains
+* Way of the Earth
+
+#### [Mastery 5]
+* Embrace the Stone
+* Grasp of the Earth Dragon
+* Rest, My Brother
+* Root the Mountain
+
+### [fire]
+
+#### [Mastery 3]
+* Breaking Flow
+* Flame Fist
+
+#### [Mastery 4]
+* Destiny's Strike
+* Fire's Fleeting Speed
+* The Body is an Anvil
+
+#### [Mastery 5]
+* Unbalance the Mind
+
+#### [Mastery 6]
+* Channel the Fire Dragon
+* Dance of the Flames
+
+#### [Mastery 7]
+* Falling Star Strike
+
+### [void]
+
+#### [Mastery 3]
+* Song of the World
+* To the Last Breath
+
+#### [Mastery 4]
+* Banish All Shadows
+* Touch the Void Dragon
+* Void Fist
+
+#### [Mastery 5]
+* Eight Directions Awareness
+* Silent Solace
+
+#### [Mastery 7]
+* Death Touch
+
+#### [Mastery 8]
+* Spin the Kharmic Wheel
+
+### [water]
+
+#### [Mastery 3]
+* Buoyed by the Kami
+* Ride the Water Dragon
+
+#### [Mastery 4]
+* Chi Protection
+* Waves in All Things
+
+#### [Mastery 5]
+* As the Breakers
+
+#### [Mastery 6]
+* Partaking the Waves
+
+#### [Mastery 7]
+* Freezing the Lifeblood
+* Slap the Wave

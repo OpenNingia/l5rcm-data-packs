@@ -90,3 +90,42 @@ Advantages
 
 Disadvantages
 -------------
+
+Kata
+----
+
+### [earth]
+
+#### [Mastery 3]
+* Strike as the Avalanche
+* The Power of the Mountain
+* The Strength of the Mountain
+
+#### [Mastery 4]
+* Lee of the Stone
+
+#### [Mastery 5]
+* Weathered and Unbroken
+
+Kiho
+----
+
+### [None]
+
+### [earth]
+
+#### [Mastery 4]
+* Depths of the World
+
+#### [Mastery 5]
+* The Rolling Avalanche
+
+#### [Mastery 6]
+* Earth Palm
+* Harmony in Earth
+* Rising Mountain
+* Shadowed Mountain
+* Wholeness in All
+
+#### [Mastery 7]
+* Bishamon's Grasp

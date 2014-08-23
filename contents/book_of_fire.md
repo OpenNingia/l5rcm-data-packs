@@ -86,3 +86,20 @@ Advantages
 
 Disadvantages
 -------------
+
+Kata
+----
+
+Kiho
+----
+
+### [None]
+
+### [fire]
+
+#### [Mastery 4]
+* Sever the Dark Lord's Touch
+* The Mind's Fire
+
+#### [Mastery 6]
+* Seven Storm's Fist

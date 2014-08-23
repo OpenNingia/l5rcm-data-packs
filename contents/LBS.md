@@ -69,3 +69,9 @@ Advantages
 
 Disadvantages
 -------------
+
+Kata
+----
+
+Kiho
+----
