@@ -4,7 +4,7 @@ Book of Air
 
 Clans
 -----
-* [Various](#various)
+* Various
 
 Schools
 -------
