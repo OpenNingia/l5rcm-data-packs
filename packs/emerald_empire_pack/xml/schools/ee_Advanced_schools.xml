@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="any_minor_clan" name="Minor Clan Defender" id="any_minor_clan_defender">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>minor_clan</Tag>
+      <Tag>advanced</Tag>
+    </Tags>
+    <Skills/>
+    <Spells/>
+    <Techs>
+      <Tech name="Know no Boundaries" rank="1" id="minor_know_no_boundaries">
+        <Description>
+Conviction and determination can elevate even the lowest
+samurai to greatness if he but follows his own sense of honor
+in moments of crisis. You may spend a Void Point to tempo-
+rarily gain two ranks of Status, forcing others to recognize
+your talents and abilities. This effect lasts for a period of one
+hour.
+      </Description>
+      </Tech>
+      <Tech name="The Speed of Certainty" rank="2" id="minor_speed_of_certainty">
+        <Description>
+A true master of destiny is versatile and fleet of action. Once
+per Round you may spend a Void Point to make one melee
+attack as a Free Action. You may make no other attacks
+during this Round.
+      </Description>
+      </Tech>
+      <Tech name="The Strength of Humility" rank="3" id="minor_strength_of_humility">
+        <Description>
+A defender of the Minor Clans is a paragon of strength and
+certainty, skilled in the samurai arts and capable of virtually
+any deadly action. You may make melee attacks as a Simple
+Action when using weapons with the Samurai keyword. If you
+already possess the ability to make attacks as a Simple Action
+when wielding such weapons, you may choose any one other
+type of melee weapon (knives, heavy weapons, spears, etc.).
+You gain the ability to attack with these weapons as a Simple
+Action instead.
+      </Description>
+      </Tech>
+    </Techs>
+    <Requirements>
+
+      <RequirementOption text="Only members of Minor Clans can take ranks in this Advanced School">
+        <Requirement field="badger" type="tag"/>
+        <Requirement field="bat" type="tag"/>
+        <Requirement field="boar" type="tag"/>
+        <Requirement field="dragonfly" type="tag"/>
+        <Requirement field="falcon" type="tag"/>
+        <Requirement field="fox" type="tag"/>
+        <Requirement field="hare" type="tag"/>
+        <Requirement field="monkey" type="tag"/>
+        <Requirement field="oriole" type="tag"/>
+        <Requirement field="ox" type="tag"/>
+        <Requirement field="snake" type="tag"/>
+        <Requirement field="sparrow" type="tag"/>
+        <Requirement field="tiger" type="tag"/>
+        <Requirement field="tortoise" type="tag"/>
+      </RequirementOption>
+
+      <RequirementOption text="Must possess one Paragon Advantage">
+        <Requirement field="paragon_compassion" type="rule"/>
+        <Requirement field="paragon_courage" type="rule"/>
+        <Requirement field="paragon_courtesy" type="rule"/>
+        <Requirement field="paragon_duty" type="rule"/>
+        <Requirement field="paragon_honesty" type="rule"/>
+        <Requirement field="paragon_honor" type="rule"/>
+        <Requirement field="paragon_sincerity" type="rule"/>
+      </RequirementOption>
+
+      <Requirement field="agility" type="trait" min="5">Agility: 5</Requirement>
+      <Requirement field="strength" type="trait" min="4">Strength: 4</Requirement>
+      <Requirement field="*weapon" type="skill" min="5">Any Weapon Skill at Rank 5</Requirement>
+      
+    </Requirements>
+  </School>
+</L5RCM>
