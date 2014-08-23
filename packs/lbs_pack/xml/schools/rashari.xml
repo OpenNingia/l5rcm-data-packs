@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <L5RCM>
-  <School clanid="rashari" name="Ra’Shari Knife-Fighter" id="rashari_knife_fighter">
+  <School clanid="rashari" name="Ra'Shari Knife-Fighter" id="rashari_knife_fighter">
     <Trait>agility</Trait>
     <Honor>3.5</Honor>
     <Tags>
