@@ -18,12 +18,21 @@
 
 import os
 import json
+
+from dal.report import ContentToMarkdown
+
 from subprocess import call
 
 def main():
 	r = '../packs'
+
+	packs_path = []
+
 	for p in os.listdir(r):
 		m  = os.path.join(r, p, 'manifest')
+
+		root_path = os.path.join(r, p)
+
 		print(m)
 		if not os.path.exists(m):
 			print('manifest not found', m)
@@ -40,6 +49,9 @@ def main():
 		if not 'id' in ms or not 'version' in ms:
 			print('bad manifest', ms)
 			continue
+
+		ctm = ContentToMarkdown( root_path, os.path.join('../contents', ms['id'] + '.md') )
+		ctm.build()
 
 		if os.name == 'nt':
 			c = 'makepack.bat'
