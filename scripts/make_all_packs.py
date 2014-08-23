@@ -21,7 +21,7 @@ import json
 from subprocess import call
 
 def main():
-	r = './data_packs'
+	r = '../packs'
 	for p in os.listdir(r):
 		m  = os.path.join(r, p, 'manifest')
 		print(m)
