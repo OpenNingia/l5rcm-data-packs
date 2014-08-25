@@ -13,7 +13,7 @@
     <Skills />
     <Spells />
     <Requirements>
-      <Requirement field="knives" type="skill" min="5" trg="kama">Knives (Kama) 5</Requirement>
+      <Requirement field="knives" type="skill" min="5" trg="Kama">Knives (Kama) 5</Requirement>
       <Requirement field="mantis_strike_of_the_mantis" type="rule">Replaces Yoritomo Bushi 4</Requirement>
     </Requirements>
   </School>
