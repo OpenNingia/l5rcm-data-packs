@@ -57,7 +57,7 @@ spell slot normally.
     <Requirements/>
   </School>
   <School clanid="scorpion" name="Shosuro Actors" id="scorpion_shosuro_actors_school">
-    <Trait>reflexes</Trait>
+    <Trait>awareness</Trait>
     <Honor>1.5</Honor>
     <Tags>
       <Tag>ninja</Tag>
@@ -69,6 +69,7 @@ spell slot normally.
       <Skill id="knives" rank="1"/>
       <Skill id="meditation" rank="1"/>
       <Skill rank="1" id="sincerity" emphases="Deceit"/>
+	  <Skill id="stealth" rank="1"/>
       <PlayerChoose rank="1">
         <Wildcard>high</Wildcard>
         <Wildcard>low</Wildcard>
@@ -76,11 +77,52 @@ spell slot normally.
     </Skills>
     <Spells/>
     <Techs>
-      <Tech name="The First Face" rank="1" id="scorpion_the_first_face"/>
-      <Tech name="The Subtle Sting" rank="2" id="scorpion_the_subtle_sting"/>
-      <Tech name="The Second Face" rank="3" id="scorpion_the_second_face"/>
-      <Tech name="The Vipers Kiss" rank="4" id="scorpion_the_vipers_kiss"/>
-      <Tech name="The Third Face" rank="5" id="scorpion_the_third_face"/>
+      <Tech name="The First Face" rank="1" id="scorpion_the_first_face">
+		<Description>
+The Shosuro Actor begins his career by learning the basics
+of deception and mimicry, and takes his first steps on
+the path of infiltrating the Empire. You learn one persona.
+Any time you spend a Void Point on an Acting or Sincerity
+(Deceit) Skill roll, you a bonus of +3k1 instead of the
+normal +1k1.	  
+		</Description>
+	  </Tech>
+      <Tech name="The Subtle Sting" rank="2" id="scorpion_the_subtle_sting">
+		  <Description>
+Shosuro Actors are expected to serve their clan as both infiltrators and assassins. 
+You gain a bonus of +2k0 to your attack rolls when wielding a Small weapon.		  
+		  </Description>
+	  </Tech>
+
+      <Tech name="The Second Face" rank="3" id="scorpion_the_second_face">
+		  <Description>
+The Actor’s training has now advanced enough to make
+him a far more flexible and capable infiltrator. You learn a
+second persona. In addition, you may now spend two Void
+Points (rather than just one) when enhancing a Skill roll
+with any of your School Skills. This stacks with the effects
+of your Rank One ability.		  
+		  </Description>
+	  </Tech>
+	  
+      <Tech name="The Vipers Kiss" rank="4" id="scorpion_the_vipers_kiss">
+		  <Description>
+The Shosuro Actor intensifies his martial training to enable
+swift and deadly assassinations of his targets. You
+may attack as a Simple Action instead of a Complex Action
+when using a Small-sized weapon.		  
+		  </Description>
+	  </Tech>
+
+      <Tech name="The Third Face" rank="5" id="scorpion_the_third_face">
+		  <Description>
+The Shosuro Actor is now a true master of deception, infiltration,
+and murder. You gain a third persona. In addition,
+if you attack a foe who is unaware or does not expect
+danger from you, your Raises are not limited by your Void.		  
+		  </Description>
+	  </Tech>
+	  
     </Techs>
     <Requirements/>
   </School>
