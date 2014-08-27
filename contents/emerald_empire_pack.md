@@ -21,6 +21,9 @@ Schools
 ### [lion]
 * The Ikoma Lion's Shadow School
 
+### [monks]
+* Shinmaki Order
+
 ### [phoenix]
 * Shiba Artisan School
 
