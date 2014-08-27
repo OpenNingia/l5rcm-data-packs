@@ -163,6 +163,7 @@ how many damage dice you roll on that attack.
       <Skill id="defense" rank="1"/>
       <Skill id="investigation" rank="1"/>
       <Skill id="jiujutsu" rank="1"/>
+      <Skill id="war_fan" rank="1"/>
       <PlayerChoose rank="1">
         <Wildcard>any</Wildcard>
       </PlayerChoose>
