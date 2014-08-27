@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="monks" name="Shinmaki Order" id="monks_shinmaki_order">
+    <Trait>void</Trait>
+    <Honor>6.5</Honor>
+    <Devotion>Shintao</Devotion>
+    <Tags>
+      <Tag>monk</Tag>
+      <Tag>monks_monk</Tag>
+      <Tag>brotherhood</Tag>
+      <Tag>monks_brotherhood</Tag>
+    </Tags>
+    <Kihos count="3"/>
+    <Skills>
+      <Skill id="divination" rank="1"/>
+      <Skill id="jiujutsu" rank="1"/>
+      <Skill rank="1" id="lore_theology" emphases="Diamond Sutra"/>
+      <Skill id="meditation" rank="2"/>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Techs>
+      <Tech name="The Diamond Sutra" rank="1" id="monks_shinmaki_diamond_sutra">
+        <Description>
+The monks who study the Diamond Sutra are known for
+their strange and bizarre behavior and esoteric practices, but
+also for their extreme spiritual purity and lack of respect for
+conventional etiquette. You start play with the Disturbing
+Countenance Disadvantage for no points, but gain a +1k0
+bonus to Meditation rolls, Fear rolls, and to all Social Skill
+Rolls involving members of the heimin and hinin castes. You
+do not lose Honor for touching dead flesh (but lose Glory or
+gain Infamy normally).
+        </Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit bu="0" koku="0" zeni="2">
+      <Item>Bo (or pair of jo)</Item>
+      <Item>Coarse and plain Traveling Clothing</Item>
+      <Item>Scroll Satchel with passages from the Tao</Item>
+    </Outfit>
+    <Flaws>
+        <Flaw id="disturbing_countenance" value="0"/>
+    </Flaws>
+    <Merits/>
+    <Modifiers/>
+  </School>
+</L5RCM>
