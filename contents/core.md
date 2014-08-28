@@ -298,6 +298,24 @@ Alternate Paths
 
 ### [crab]
 * Crab Berserker
+* Oni Slayer
+
+### [crane]
+* Asahina Fetishist
+* Empress Guard (Rank 3)
+* Empress Guard (Rank 4)
+
+### [dragon]
+* Mirumoto Mountaineer
+* Tamori Warrior Priest
+
+### [lion]
+* Bishamon's Chosen
+* Deathseeker
+
+### [mantis]
+* Mantis Navigator
+* Yoritomo Scoundrel
 
 Skills
 ------

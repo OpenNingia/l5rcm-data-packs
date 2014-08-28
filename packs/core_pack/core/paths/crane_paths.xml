@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- EMPRESS GUARD RANK 3 -->
+
+  <School clanid="crane" name="Empress Guard (Rank 3)" id="crane_empress_guard_rank3">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>crane_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="To Defend Unto Death" rank="3" id="crane_to_defend_unto_death_rank3">
+        <Description>
+The Empress Guard hold the honor of their duties seriously.
+Only the pure of soul and sharp of eye meet the Crane
+Clan's exacting standards. You may add half your
+Honor Rank to all attack and Perception rolls. Also,
+while defending the Imperial family, you may add +10
+to your Armor TN.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="perception" type="trait" min="3">Perception: 3</Requirement>
+      <RequirementOption text="Replaces Kakita Bushi 3">
+        <Requirement field="crane_speed_of_lightning" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+<!-- EMPRESS GUARD RANK 4 -->
+
+  <School clanid="crane" name="Empress Guard (Rank 4)" id="crane_empress_guard_rank4">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>crane_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="To Defend Unto Death" rank="4" id="crane_to_defend_unto_death_rank4">
+        <Description>
+The Empress Guard hold the honor of their duties seriously.
+Only the pure of soul and sharp of eye meet the Crane
+Clan's exacting standards. You may add half your
+Honor Rank to all attack and Perception rolls. Also,
+while defending the Imperial family, you may add +10
+to your Armor TN.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="perception" type="trait" min="3">Perception: 3</Requirement>
+      <RequirementOption text="Replaces Daidoji Iron Warriors 4">
+        <Requirement field="crane_strike_beneath_the_veil" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+<!-- ASAHINA FETISHIST RANK 2 -->
+
+  <School clanid="crane" name="Asahina Fetishist" id="crane_asahina_fetishist">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>crane_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The World in the Palm of the Hand" rank="2" id="crane_the_world_in_the_palm_of_the_hand">
+        <Description>
+The Asahina are the fi nest crafters of tsangusuri (fetishes)
+in the whole of Rokugan, and their treasures are
+highly prized. When using an Artisan Skill or a Craft
+Skill to create a small token of some kind, you may
+spend a Void Point to confer a one-time blessing into
+the token. Whoever is in possession of the token may
+activate this blessing at any time. When activated, the
+token grants a bonus of +2k0 to one High Skill Roll.
+No more than one token may be used per day per individual.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <RequirementOption text="One Craft or Artisan Skill at rank 3">
+        <Requirement field="*craft" type="skill" min="3"/>
+        <Requirement field="*artisan" type="skill" min="3"/>
+      </RequirementOption>
+      <RequirementOption text="Replaces Asahina Shugenja 2">
+        <Requirement field="crane_the_souls_grace" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+</L5RCM>

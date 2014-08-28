@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- DEATHSEEKER RANK 1 -->
+
+  <School clanid="lion" name="Deathseeker" id="lion_deathseeker">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>lion_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Honor of the Lion" rank="1" id="lion_heart_of_the_lion">
+        <Description>
+Deathseekers redeem their dishonored names by falling in the
+thick of battle. You gain the Benefit, Skills, Honor,
+and Outfit of a Rank 1 Lion bushi (any Lion bushi
+school). You may add your Honor Rank to the total
+of one damage roll during your Turn. If you do,
+your Armor TN is reduced by 5 until the Reactions
+Stage of the following Combat Round. Addition-
+ally, you add +1k0 to attack rolls while in the Full
+Attack Stance.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="honor" type="trait" min="5">Honor Rank 5</Requirement>
+      <Requirement field="dishonored" type="rule">Dishonored disadvantage</Requirement>
+      <RequirementOption text="Replaces Any Lion Bushi School 1">
+        <Requirement field="lion_bushi" type="tag"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+  <!-- BISHAMON'S CHOSEN RANK 3 -->
+
+  <School clanid="lion" name="Bishamon's Chosen" id="lion_bishamon_chosen">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>lion_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Scion of Strength" rank="3" id="lion_scion_of_strength">
+        <Description>
+The Fortune of Strength shows obvious favor to those who follow his
+teachings without question or reservation. You may
+expend a spell slot as a Free Action to gain a bonus of
++1k0 to any Strength-based roll, including the dam-
+age roll of a melee weapon. You may also expend
+a spell slot in this manner to gain a bonus of +1k0
+to the Spell Casting roll made for any spell with the
+Battle descriptor.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="battle" type="skill" min="3">Battle 3</Requirement>
+      <Requirement field="lion_kitsu_shugenja_school" type="school" min="2">Replaces Kitsu Shugenja 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
+
+<!-- CRAB BERSERKER -->
+
 <School clanid="crab" name="Crab Berserker" id="crab_berserker">
     <Tags>
       <Tag>bushi</Tag>
@@ -8,9 +11,9 @@
       <Tag>crab_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Berserker’s Rage" rank="2" id="crab_berserkers_rage">
+      <Tech name="Berserker's Rage" rank="2" id="crab_berserkers_rage">
         <Description>
-            The Crab berserkers manifest their unique and dangerous gifts after spending some time – often months, sometimes even years – on the Kaiu Wall. Some berserkers call on ma- niacal fury to power their rages, while others enter the notorious “dead eye” trance, but the result is the same: superhuman strength and a near-immunity to pain. Once per skirmish, you may enter your rage dur- ing the Reactions Stage. Once begun, the rage lasts for a number of Combat Rounds equal to double your Earth Ring. (You may end it during an earlier round by spending a Void point during the Reactions Stage.) While in your rage, you cannot take the Center, De- fense, or Full Defense stances, and cannot use any non-Bugei skills. While in the raging state, you ig- nore all penalties and effects of Wound Ranks. You also gain a +2k1 bonus to all attack and damage rolls. If you are killed while raging, you remain alive and can continue to attack until the rage ends, but you cannot be healed (unless you are first targeted with the Force of Will spell) – you are dead, your body simply does not know it yet. The rage ends if you sustain Wounds equal to twice the amount that would normally kill you
+The Crab berserkers manifest their unique and dangerous gifts after spending some time – often months, sometimes even years – on the Kaiu Wall. Some berserkers call on ma- niacal fury to power their rages, while others enter the notorious “dead eye” trance, but the result is the same: superhuman strength and a near-immunity to pain. Once per skirmish, you may enter your rage dur- ing the Reactions Stage. Once begun, the rage lasts for a number of Combat Rounds equal to double your Earth Ring. (You may end it during an earlier round by spending a Void point during the Reactions Stage.) While in your rage, you cannot take the Center, De- fense, or Full Defense stances, and cannot use any non-Bugei skills. While in the raging state, you ig- nore all penalties and effects of Wound Ranks. You also gain a +2k1 bonus to all attack and damage rolls. If you are killed while raging, you remain alive and can continue to attack until the rage ends, but you cannot be healed (unless you are first targeted with the Force of Will spell) – you are dead, your body simply does not know it yet. The rage ends if you sustain Wounds equal to twice the amount that would normally kill you
                 </Description>
       </Tech>
     </Techs>
@@ -18,11 +21,46 @@
     <Spells/>
     <Requirements>
       <Requirement field="earth" type="ring" min="4">Earth Ring: 4</Requirement>
-      <Requirement field="crab" type="tag">Member of Crab Clan</Requirement>
-      <RequirementOption text="Replaces Hida Bushi 2 or Hiruma Bushi 2">
-        <Requirement field="crab_the_way_of_the_crab" type="rule"/>
-        <Requirement field="crab_torchs_flame_flickers" type="rule"/>
-      </RequirementOption>
+      <Requirement field="*crab_bushi" type="school" min="1">Replaces Any Crab Bushi School Rank 2</Requirement>
+    </Requirements>
+  </School>
+
+<!-- ONI SLAYER -->
+
+
+  <School clanid="crab" name="Oni Slayer" id="crab_oni_slayer">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>crab_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>crab_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Bound by the World" rank="3" id="crab_bound_by_the_world">
+        <Description>
+The Kuni study the poorly understood art of binding, of using ritual
+circles and symbols to trap demons so they can be
+destroyed forever. You may expend an Earth spell slot
+and make a Spell Casting roll (without TN, see below)
+in order to ritually prepare a binding circle, a process
+which takes one hour. This circle may encompass
+a maximum area equal to your School Rank x 5 in
+square feet, although you may combine efforts with
+other Kuni to encompass larger areas by adding your
+School Ranks together (only one of you may make the
+Spell Casting Roll). Once an oni enters the circle, it becomes
+active. The oni may not leave the circle without
+first succeeding at a Willpower Trait Roll against a
+TN equal to the total of your Spell Casting roll. While
+the circle is active, you gain one less Earth spell slot per day.
+            </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="lore_shadowlands" type="skill" min="3">Lore: Shadowlands 3</Requirement>
+      <Requirement field="crab_kuni_shugenja_school" type="school" min="2">Replaces Kuni Shugenja 3</Requirement>
     </Requirements>
   </School>
 </L5RCM>

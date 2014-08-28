@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- YORITOMO SCOUNDREL RANK 2 -->
+
+  <School clanid="mantis" name="Yoritomo Scoundrel" id="mantis_yoritomo_scoundrel">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>mantis_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>mantis_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Revel in Villainy" rank="2" id="mantis_revel_in_villany">
+        <Description>
+The Scoundrel will do what he must, despite what society may say about his
+activities. Whenever you spent a Void Point to enhance
+an Athletics, Commerce, Sailing, Sincerity, or Low Skill
+Roll, you gain an additional bonus to the total of the
+roll equal to twice your School Rank.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="commerce" type="skill" min="2">Commerce 2</Requirement>
+      <Requirement field="sailing" type="skill" min="2">Sailing 2</Requirement>
+      <Requirement field="yoritomo_bushi_school" type="school" min="1">Replaces Yoritomo Bushi 2</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- MANTIS NAVIGATOR RANK 3 -->
+
+  <School clanid="mantis" name="Mantis Navigator" id="mantis_navigator">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>mantis_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>mantis_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Fortunes' Guidance" rank="3" id="mantis_the_fortunes_guidance">
+        <Description>
+The shugenja who serve the Mantis are taught many techniques
+that allow them to placate the elements, even under
+extreme circumstances. When confronted with dif-
+ficult weather conditions, you may negate them by
+spending a Void Point as a Simple Action. This af-
+fects an area equal to your School Rank x 20 feet
+in all directions from you. In a skirmish, this effect
+lasts a number of Rounds equal to your School Rank.
+Outside of combat, this effect lasts a number of hours
+equal to your School Rank. If the weather effect being
+negated is the result of a spell, you may only negate
+spells with a Mastery Level equal or less than your
+School Rank, and then only by spending a number
+of spell slots equal to the Mastery Level in addition
+to the Void Point.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="sailing" type="skill" trg="Navigation" min="3">Sailing (Navigation) 3</Requirement>
+      <Requirement field="*mantis_shugenja" type="school" min="2">Any Mantis Shugenja School, Rank 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- MIRUMOTO MOUNTAINEER RANK 2 -->
+
+  <School clanid="dragon" name="Mirumoto Mountaineer" id="dragon_mirumoto_mountaineer">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>dragon_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Heart of the Mountain" rank="2" id="dragon_heart_of_the_mountain">
+        <Description>
+The Mountaineer is a rugged warrior whose constant dealings with
+the unpredictability of nature makes him ready for
+anything that may await him in battle. When you are
+surprised during a skirmish due to failing your Investigation
+(Notice) / Perception Contested Roll, you may
+immediately make a second roll using Athletics / Agility.
+If you are successful, you are not surprised. You
+may also add half your Athletics Skill Rank (rounded up)
+to the total of all your ranged attack rolls.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="athletics" type="skill" min="2" trg="Climbing">Athletics (Climbing) 3</Requirement>
+      <RequirementOption text="Replaces Mirumoto Bushi 2">
+        <Requirement field="dragon_way_of_the_dragon" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+  <!-- TAMORI WARRIOR PRIEST RANK 2 -->
+
+  <School clanid="dragon" name="Tamori Warrior Priest" id="dragon_tamori_warrior_priest">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>dragon_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Strength of the Soul" rank="4" id="dragon_strength_of_the_soul">
+        <Description>
+The Tamori are the most martially inclined of all Rokugan's shugenja
+families, often training alongside their clan’s bushi.
+You can expend a spell slot as a Free Action to gain
+a bonus of +1k0 on any Bugei Skill roll. You may not
+expend more spell slots per round in this manner than
+your School Rank. You may make melee attacks as a
+Simple Action when using a weapon created by one
+of the following spells: Bo of Water, Tetsubo of Earth,
+Katana of Fire, or Yari of Air.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="*weapon" type="skill" min="3">One Weapon Skill at rank 3</Requirement>
+      <Requirement field="dragon_tamori_shugenja_school" type="school" min="3">Replaces Tamori Shugenja 4</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>
