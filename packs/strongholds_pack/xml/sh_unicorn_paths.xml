@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="unicorn" name="Calm Heart Duelist" id="unicorn_calm_heart_duelist">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>unicorn_bushi</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Calm Heart Conquers" rank="3" id="unicorn_calm_heart_conquers">
+        <Description>A soul of serenity can overcome even the most stalwart
+opponent. You gain a bonus of +1k0 to the total of any
+Iaijutsu Skill Roll when you are not striking to kill your
+opponent, whether in a duel to first blood or a skirmish.
+You may make melee attacks as a Simple Action instead
+of a Complex Action when you are wielding a katana or
+wakizashi.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="*unicorn_bushi" type="school" min="2"/>Any Unicorn Bushi School, Rank 3</Requirement>
+      <Requirement field="iaijutsu" type="skill" min="3">Iaijutsu: 3</Requirement>
+      <Requirement field="lore_law" type="skill" min="1">Lore: Law: 1</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="unicorn" name="Ide Caravan Master" id="unicorn_ide_caravan_master">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>courtier</Tag>
+      <Tag>unicorn_courtier</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Gilded Road" rank="1" id="unicorn_ide_the_gilded_road">
+        <Description>A true master of the caravan path can forge lasting bonds
+with his customers, and has reaped the rewards of his travels.
+You gain a bonus of +1k1 on all Commerce Skill Rolls.
+You also gain this bonus on all Social Skill Rolls made
+with your customers. You gain one level of the Wealthy
+Advantage and one instance of the Way of the Land Advantage
+for free.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Merit id="wealthy" rank="1"/>
+    <Merit id="way_of_the_land" rank="1"/>
+    <Requirements>
+      <Requirement field="unicorn_ide_emissary_school" type="school" min="0">Ide Emissary School, Rank 1</Requirement>
+      <Requirement field="commerce" type="skill" min="2">Commerce: 2</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

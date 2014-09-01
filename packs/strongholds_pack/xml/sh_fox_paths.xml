@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="fox" name="Kitsune Artisan" id="fox_kitsune_artisan">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>artisan</Tag>
+      <Tag>fox_artisan</Tag>
+      <Tag>fox_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Beauty of the World" rank="2" id="kitsune_artisan_beauty_of_the_world">
+        <Description>A master of the Kitsune naturalist art style can craft incredible
+beauty out of any aspect of the world, be it wood,
+stone, or whatever can be found in nature. When working
+with natural materials, you may expend an Earth spell slot
+to gain a bonus of +1k0 on any Artisan or Craft Skill Roll.
+You may expend a number of spell slots in this manner
+equal to your School Rank, and this may be used in conjunction
+with Void Points.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Any one Artisan or Craft Skill at 3">
+        <Requirement field="*artisan" type="skill" min="3"/>
+        <Requirement field="*craft" type="skill" min="3"/>
+      </RequirementOption>
+      <Requirement field="kitsune_shugenja" type="school" min="1">Replaces Kitsune Shugenja 2</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

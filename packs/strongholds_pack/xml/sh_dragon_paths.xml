@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <School clanid="dragon" name="Mirumoto Sentinel (Rank 3)" id="dragon_mirumoto_sentinel_rank3">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>dragon_bushi</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Master the Land" rank="3" id="dragon_master_the_land_rank3">
+        <Description>A Mirumoto Sentinel is intimately familiar with the land he
+is tasked with patrolling, and can use its every resource to
+his advantage. When you are in a province for which you
+possess the Way of the Land Advantage, you may select
+any three Bugei Skills you possess. While in the selected
+province, you gain a bonus of +1k0 to Skill
+Rolls using those Skills. You may select different
+Skills for each province for which you possess
+the Way of the Land Advantage. Additionally,
+you may make a Contested Void Roll against one
+opponent at the beginning of a skirmish, before
+Initiative is rolled. That opponent’s Water Ring
+is considered one rank lower for the purpose
+of determining Move Action distances for the
+remainder of the skirmish.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <!--
+      <RequirementOptions text="Replaces Mirumoto Bushi 4 or Taoist Swordsman 3">
+        <Requirement field="dragon_mirumoto_bushi_school" type="school" min="3"/>
+        <Requirement field="dragon_ob_mirumoto_taoist_swordsman" type="school" min="2"/>
+      </RequirementOptions>
+    -->
+      <Requirement field="dragon_ob_mirumoto_taoist_swordsman" type="school" min="2">Replaces Taoist Swordsman 3</Requirement>
+      <Requirement field="way_of_the_land" type="rule">Way of the Land Advantage</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="dragon" name="Mirumoto Sentinel (Rank 4)" id="dragon_mirumoto_sentinel_rank4">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>dragon_bushi</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Master the Land" rank="4" id="dragon_master_the_land_rank4">
+        <Description>A Mirumoto Sentinel is intimately familiar with the land he
+is tasked with patrolling, and can use its every resource to
+his advantage. When you are in a province for which you
+possess the Way of the Land Advantage, you may select
+any three Bugei Skills you possess. While in the selected
+province, you gain a bonus of +1k0 to Skill
+Rolls using those Skills. You may select different
+Skills for each province for which you possess
+the Way of the Land Advantage. Additionally,
+you may make a Contested Void Roll against one
+opponent at the beginning of a skirmish, before
+Initiative is rolled. That opponent’s Water Ring
+is considered one rank lower for the purpose
+of determining Move Action distances for the
+remainder of the skirmish.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="dragon_mirumoto_bushi_school" type="school" min="3">Replaces Mirumoto Bushi 4</Requirement>
+      <Requirement field="way_of_the_land" type="rule">Way of the Land Advantage</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="dragon" name="Water Hammer Smith" id="dragon_water_hammer_smith">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Child of the Water" rank="2" id="dragon_child_of_the_water">
+        <Description>Water Hammer City, and the path of the smith has been
+made open to you. You may spend a Void Point to add
+double your Water Ring to the total of all Craft Skills you
+make for the rest of the day. If you are a shugenja, you
+may instead pay this cost by spending a Water spell slot.
+You may only benefit from a single use of this Technique
+at a time (i.e. you cannot spent two Void Points at different
+times during the day and gain two bonuses equal to three
+times your Void Point).
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOptions text="Any Dragon School at Rank 2">
+        <Requirement field="*dragon_bushi" type="school" min="1"/>
+        <Requirement field="*dragon_shugenja" type="school" min="1"/>
+        <Requirement field="*dragon_monk" type="school" min="1"/>
+        <Requirement field="*dragon_courtier" type="school" min="1"/>
+        <Requirement field="*dragon_ninja" type="school" min="1"/>
+      </RequirementOptions>
+
+      <Requirement field="*craft" type="skill" min=3>Any one Craft Skill at 3 or higher</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

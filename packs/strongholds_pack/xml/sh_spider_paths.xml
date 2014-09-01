@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <School clanid="spider" name="Daigotsu Scout" id="spider_daigotsu_scout">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>spider_bushi</Tag>
+      <Tag>spider_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Cloak of Shadows" rank="2" id="spider_the_cloak_of_shadows">
+        <Description>Although not as talented as the inhuman
+minions of the Shadow Dragon or the Lying
+Darkness, the Daigotsu scouts are still highly
+skilled in moving about without being detected.
+Stealth is now considered a School Skill for you, and
+you gain one additional Emphasis in the skill above any
+you may already possess, and in excess of the maximum
+normal number of Emphases you may posses. Your Move
+Actions are not reduced when using Stealth, and when
+using Stealth you may also ignore any terrain penalties
+that would normally reduce your Move Actions.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="spider_daigotsu_bushi_school" type="school" min="1">Replaces Daigotsu Bushi 2</Requirement>
+      <Requirement field="stealth" type="skill" min="3">Stealth 3</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="spider" name="Dark Path Sohei" id="spider_dark_path_sohei">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>monk</Tag>
+      <Tag>spider_monk</Tag>
+      <Tag>spider_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Walk upon the Dark Path" rank="2" id="spider_walk_upon_the_dark_path">
+        <Description>Even the most devout member of the Brotherhood of
+Shinsei would attest that there is no one true path to
+enlightenment, and certain members of the Order of the
+Spider seem to bear out that theory. You gain two Kiho, for
+which you must meet all normal prerequisites. These Kiho
+do not count against the normal number of Kiho you may
+learn as determined by your School Rank.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="spider_order_of_the_spider_monk" type="school" min="1">Order of the Spider 2</Requirement>
+      <Requirement field="theology" type="skill" min="3">Theology 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

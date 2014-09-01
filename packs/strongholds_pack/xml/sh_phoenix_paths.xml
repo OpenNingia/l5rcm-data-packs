@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
+
   <School clanid="phoenix" name="Asako Philosopher" id="phoenix_asako_philosopher">
     <Tags>
       <Tag>courtier</Tag>
@@ -15,9 +16,34 @@
     <Requirements>
       <Requirement field="courtier" trg="Rhetoric" type="skill" min="2">Courtier (Rhetoric) 2</Requirement>
       <Requirement field="etiquette" type="skill" min="3">Etiquette 3</Requirement>
-      <RequirementOption text="Replaces Asako Loremaster 2">
-        <Requirement field="phoenix_temple_of_the_soul" type="rule" />
-      </RequirementOption>
+      <Requirement field="phoenix_asako_loremaster_school" type="school" min="1">Replaces Asako Loremaster 2</Requirement>
     </Requirements>
   </School>
+
+  <School clanid="phoenix" name="Provincial Guard" id="phoenix_provincial_guard">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>phoenix_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Maintaining the Peace" rank="2" id="phoenix_maintaining_the_peace">
+        <Description>A Shiba member of the Provincial Guard is skilled in
+protecting himself from all harm, regardless of its source.
+When in the Defense or Full Defense Stances and spending
+a Void Point to augment your Armor TN, you also add an
+amount to your Armor TN equal to your Etiquette Skill.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="phoenix_shiba_bushi_school" type="school" min="1">Replaces Shiba Bushi 2</Requirement>
+      <Requirement field="defense" type="skill" min="2">Defense 2</Requirement>
+      <Requirement field="etiquette" type="skill" min="2">Etiquette 2</Requirement>
+    </Requirements>
+  </School>
+
 </L5RCM>

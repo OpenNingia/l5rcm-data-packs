@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="crab" name="Hiruma Yojimbo" id="crab_hiruma_yojimbo">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>crab_bushi</Tag>
+      <Tag>crab_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Crab's Shell" rank="3" id="hiruma_yojimbo_crabs_shell">
+        <Description>Those Hiruma tasked with protecting the lives of important
+Crab personages understand that the best and most
+effective means of defending them is to destroy their enemies
+as quickly as possible. After making a successful
+melee attack, you may immediately perform the Guard Action
+as a Free Action (if your charge is close enough for
+you to Guard). If you do so, you may add the amount by
+which your attack roll exceeded your opponent’s Armor
+TN to the Armor TN of your charge until your next Turn.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Hiruma Bushi 3 or Hiruma Scout 3">
+        <Requirement field="crab_hiruma_bushi_school" type="school" min="2"/>
+        <Requirement field="crab_ob_hiruma_scout_school" type="school" min="2"/>
+      </RequirementOption>
+      <Requirement field="defense" type="skill" min="3">Defense: 3</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="crab" name="Yasuki Enforcer" id="crab_yasuki_enforcer">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>crab_bushi</Tag>
+      <Tag>crab_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Gentle Encouragement" rank="2" id="yasuki_enforcer_gentle_encouragement">
+        <Description>The enforcers of the Yasuki family know how to threaten
+in such a way that thoroughly cows any potential opponent.
+You may make a Contested Roll against any individual,
+using your Willpower / Intimidation against their
+Willpower / Etiquette. If you are successful, you gain a
+bonus of +1k0 on all attack rolls made against that individual
+during the first Round of combat against them
+during your next skirmish. Each successful Raise made on
+this Contested Roll increases your bonus by an additional
++1k0. If this Technique is activated during a skirmish, the
+initial Contested Roll is a Complex Action
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Yasuki Courtier 2 or Hida Pragmatist 2">
+        <Requirement field="crab_yasuki_courtier_school" type="school" min="1"/>
+        <Requirement field="crab_ob_hida_pragmatist_school" type="school" min="1"/>
+      </RequirementOption>
+      <Requirement field="intimidation" type="skill" min="3">Intimidation: 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

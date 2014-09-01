@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="mantis" name="Tsuruchi Swordsman" id="mantis_tsuruchi_swordsman">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>mantis_bushi</Tag>
+      <Tag>mantis_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Ascendancy of Steel" rank="4" id="tsuruchi_ascendancy_of_steel">
+        <Description>A master of the Tsuruchi style is a flurry of movement
+and unrelenting assault. You may make a melee attack
+as a Simple Action rather than a Complex Action when
+wielding a sword.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Replaces Tsuruchi Archer 4, Tsuruchi Bounty Hunter 4">
+        <Requirement field="mantis_tsuruchi_archer_school" type="school" min="3"/>
+        <Requirement field="mantis_ob_tsuruchi_bounty_hunter_school" type="school" min="3"/>
+      </RequirementOption>
+      <Requirement field="kenjutsu" type="skill" min="3">Kenjutsu: 3</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

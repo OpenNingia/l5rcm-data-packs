@@ -46,7 +46,7 @@ gain Infamy normally).
       <Item>Scroll Satchel with passages from the Tao</Item>
     </Outfit>
     <Flaws>
-        <Flaw id="disturbing_countenance" value="0"/>
+        <Flaw id="disturbing_countenance" rank="1"/>
     </Flaws>
     <Merits/>
     <Modifiers/>
