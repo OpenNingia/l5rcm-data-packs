@@ -43,6 +43,10 @@ Alternate Paths
 * Daigotsu Scout
 * Dark Path Sohei
 
+### [unicorn]
+* Calm Heart Duelist
+* Ide Caravan Master
+
 Skills
 ------
 
