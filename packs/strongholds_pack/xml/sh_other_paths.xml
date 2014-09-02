@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <School clanid="ronin" name="Minor Clan Alliance Diplomat" id="minor_clan_alliance_diplomat">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>courtier</Tag>
+      <Tag>minor_clan</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Courts of Kudo Mura" rank="4" id="the_courts_of_kudo_mura">
+        <Description>The diplomats of Kudo Mura are masters at dealing with
+the needs, desires, and whims of their superiors. When
+conversing with a samurai from one of the Great Clans
+or the Imperial Families, you gain +3k0 on all Contested
+Rolls using the skills of Etiquette or Sincerity.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="*any" type="school" min="4">Any Minor Clan School 4</Requirement>
+      <Requirement field="more" type="rpg">Character must belong to a Minor Clan</Requirement>
+    </Requirements>
+  </School>
+
+
+</L5RCM>

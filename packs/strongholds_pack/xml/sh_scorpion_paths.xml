@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <School clanid="scorpion" name="Scorpion Weaponmaster" id="scorpion_weaponmaster_school">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>scorpion_bushi</Tag>
+      <Tag>scorpion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="I Am A Weapon" rank="4" id="scorpion_i_am_a_weapon">
+        <Description>A true weaponmaster understands the common thread
+between all weapons, and draws upon it. When wielding
+any melee weapon, a number of times per skirmish equal
+to your school rank, you may as a Free Action use any
+other melee Weapon Skill you possess for attack rolls
+using your current weapon. For example, you could spend
+a Void Point to use Kenjutsu when wielding a tetsubo if
+you had no ranks in Heavy Weapons. You gain no benefits
+from any Mastery Abilities or Emphases when utilizing
+this Technique. The effect lasts a number of Rounds equal
+to your School Rank, and while this Technique is in effect
+you may make melee attacks as a Simple Action rather
+than a Complex Action.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="scorpion_bayushi_bushi_school" type="school" min="3">Replaces Bayushi Bushi 4</Requirement>
+      <Requirement field="*weapon" type="skill" min="2">Any Weapon Skills at 2</Requirement>
+      <Requirement field="*weapon" type="skill" min="2">Any Weapon Skills at 2</Requirement>
+      <Requirement field="*weapon" type="skill" min="2">Any Weapon Skills at 2</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="scorpion" name="Shadow Blades" id="scorpion_shadow_blades">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>ninja</Tag>
+      <Tag>scorpion_ninja</Tag>
+      <Tag>scorpion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Never Beyond My Reach" rank="2" id="scorpion_never_beyond_my_reach">
+        <Description>The flawless blend of warrior and assassin works
+unlocks a samurai’s true potential as a killer of men. You
+may make melee attacks as a Simple Action instead of a
+Complex Action when wielding a katana or any weapon
+with the Ninja keyword. When wielding a weapon with the
+Ninja keyword, you may also add +1k1 to your attack and
+damage rolls with that weapon.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOptions text="Bayushi Bushi 3 or Shosuro Infiltrator 3">
+        <Requirement field="scorpion_bayushi_bushi_school" type="school" min="2"/>
+        <Requirement field="scorpion_shosuro_infiltrator_school" type="school" min="2"/>
+      </RequirementOptions>
+      <Requirement field="ninjutsu" type="skill" min="3">Ninjutsu 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

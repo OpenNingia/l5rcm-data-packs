@@ -31,12 +31,6 @@ remainder of the skirmish.
     <Skills />
     <Spells />
     <Requirements>
-      <!--
-      <RequirementOptions text="Replaces Mirumoto Bushi 4 or Taoist Swordsman 3">
-        <Requirement field="dragon_mirumoto_bushi_school" type="school" min="3"/>
-        <Requirement field="dragon_ob_mirumoto_taoist_swordsman" type="school" min="2"/>
-      </RequirementOptions>
-    -->
       <Requirement field="dragon_ob_mirumoto_taoist_swordsman" type="school" min="2">Replaces Taoist Swordsman 3</Requirement>
       <Requirement field="way_of_the_land" type="rule">Way of the Land Advantage</Requirement>
     </Requirements>
@@ -107,7 +101,7 @@ times your Void Point).
         <Requirement field="*dragon_ninja" type="school" min="1"/>
       </RequirementOptions>
 
-      <Requirement field="*craft" type="skill" min=3>Any one Craft Skill at 3 or higher</Requirement>
+      <Requirement field="*craft" type="skill" min="3">Any one Craft Skill at 3 or higher</Requirement>
     </Requirements>
   </School>
 

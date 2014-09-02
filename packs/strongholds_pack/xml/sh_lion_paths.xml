@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <School clanid="lion" name="Ikoma Warden" id="lion_ikoma_warden">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>lion_bushi</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="To Race the Wind" rank="2" id="lion_to_race_the_wind">
+        <Description>A true warden understands that mounted warfare is
+as natural as fighting among the glorious Lion infantry.
+When Mounted, you gain a bonus of +1k0 to all Bugei
+Skill Rolls. Additionally, when spending a Void Point to
+augment a Horsemanship or Investigation Skill Roll, you
+gain a bonus of +2k2 instead of +1k1.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOptions text="Replaces Akodo Bushi 2 or Ikoma Lion's Shadow 2">
+        <Requirement field="lion_akodo_bushi_school" type="school" min="1"/>
+        <Requirement field="lion_ob_the_ikoma_lions_shadow_school" type="school" min="1"/>
+      </RequirementOptions>
+
+      <Requirement field="horsemanship" type="skill" min="3">Horsemanship 3</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="lion" name="Lioness Legion" id="lioness_legion">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>lion_bushi</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Charge of the Pride" rank="2" id="lion_charge_of_the_pride">
+        <Description>The Lioness Legion is feared for many reasons, but the greatest
+among them is their fleetness on the field of battle. When in
+the Full Attack Stance, any movement you make during the
+course of the Round gains an additional 5 feet (this benefit
+is only gained once per Round). Additionally, as a Complex
+Move Action, you may move your Water Ring x25 feet.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOptions text="Replaces Matsu Berserker 2, Akodo Bushi 2, or Matsu Beastmaster 2">
+        <Requirement field="lion_akodo_bushi_school" type="school" min="1"/>
+        <Requirement field="lion_matsu_berserker_school" type="school" min="1"/>
+        <Requirement field="lion_ob_matsu_beastmaster_school" type="school" min="1"/>
+      </RequirementOptions>
+
+      <Requirement field="athletics" type="skill" min="3">Athletics 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

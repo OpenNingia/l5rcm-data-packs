@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <School clanid="crane" name="Crane Elite Spearman" id="crane_elite_spearman">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>crane_bushi</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Talons of the Daidoji" rank="2" id="crane_talons_of_the_daidoji">
+        <Description>The ferocity of the Crane spearmen is well known upon the
+battlefield, as is their ability to pin and immobilize those
+who would threaten the clan. When using a spear to attack
+an opponent, if you strike an opponent who has not yet
+acted this round, he must make two Raises to successfully
+attack you for the remainder of this Round.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOptions text="Daidoji Iron Warrior 2 or Daidoji Scout 2">
+        <Requirement field="crane_daidoji_iron_warriors" type="school" min="1"/>
+        <Requirement field="crane_ob_daidoji_scout_school" type="school" min="1"/>
+      </RequirementOptions>
+      <Requirement field="spears" type="skill" min="3">Spears 3</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="crane" name="Doji Warrior-Poet" id="crane_doji_warrior_poet">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>crane_bushi</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Fan &amp; Sword" rank="2" id="crane_fan_and_sword">
+        <Description>A warrior-poet understands that focus is the one and only
+key to not only victory, but enlightenment as well. When
+you spend a Void Point to augment an Iaijutsu Skill Roll or a
+Perform: Poetry Skill Roll, you gain a bonus of +2k1 instead
+of +1k1. Additionally, whenever you are victorious in a duel
+or a poetry contest, you gain one additional point of Glory. If
+you were championing someone else, that person also gains
+one additional point of Glory. This is in addition to any normal
+amount being rewarded.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="crane_kakita_bushi_school" type="school" min="1">Replaces Kakita Bushi 2</Requirement>
+      <Requirement field="iaijutsu" type="skill" min="2">Iaijutsu 2</Requirement>
+      <Requirement field="perform_poetry" type="skill" min="2">Perform: Poetry 2</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <SkillDef trait="awareness" type="high" id="perform_poetry" name="Perform (Poetry)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+</L5RCM>
