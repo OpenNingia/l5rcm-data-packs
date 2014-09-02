@@ -1,8 +1,9 @@
 {
-	"id": "strongholds",
-	"display_name": "Strongholds",
-	"authors": ["D'ziel Djenn", "Ryon Levitt", "Daniele Simonetti"],
-	"version": "1.2",
-	"update-uri": "",
-	"download-uri": ""
+    "id": "strongholds",
+    "display_name": "Strongholds",
+    "authors": ["D'ziel Djenn", "Ryon Levitt", "Daniele Simonetti"],
+    "version": "1.2",
+    "min-cm-version": "3.9.5",
+    "update-uri": "",
+    "download-uri": ""
 }
