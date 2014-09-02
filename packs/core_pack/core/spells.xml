@@ -34,7 +34,7 @@
 			<Raise>Area (+1 individual)</Raise>
 			<Raise>Range (+10 miles)</Raise>
 		</Raises>
-		<Description>You are able call upon the spirits of the wind to take form as a bird and carry a message for you. The bird that is created by this spell appears perfectly normal in all regards, but if it takes any damage it dissipates into wind immediately, ending the spell. Upon creating the bird, you may speak tit, giving it a spoken message of up tone minute in length. The bird will then flyaway to deliver the message the person (or persons) specified when the spell is cast. The bird will fly to their location, deliver the message via a whisper (it can be overheard by others, but not easily), and then disappear. If the bird is unable to reach the individual, but they are within range (if they are within a building with no windows, for instance will remain outside waiting for up tone week before disappearing. If the person specified by the spell is not within range, the bird will fly away in a random direction and disappear when it is out of your line of sight.</Description>
+		<Description>You are able call upon the spirits of the wind to take form as a bird and carry a message for you. The bird that is created by this spell appears perfectly normal in all regards, but if it takes any damage it dissipates into wind immediately, ending the spell. Upon creating the bird, you may speak tit, giving it a spoken message of up tone minute in length. The bird will then fly away to deliver the message the person (or persons) specified when the spell is cast. The bird will fly to their location, deliver the message via a whisper (it can be overheard by others, but not easily), and then disappear. If the bird is unable to reach the individual, but they are within range (if they are within a building with no windows, for instance will remain outside waiting for up tone week before disappearing). If the person specified by the spell is not within range, the bird will fly away in a random direction and disappear when it is out of your line of sight.</Description>
 	</SpellDef>
 	<SpellDef name="Nature's Touch" area="One Creature" mastery="1" element="air" range="10'" duration="Special" id="natures_touch">
 		<Tags/>
@@ -1977,7 +1977,7 @@
       <Raise>Duration (+30 minutes per Raise)</Raise>
     </Raises>
     <Description>The caster summons the power of Jigoku, temporarily granting the blessings of the Taint. Most Bloodspeakers rationalize this spell’s effects by claiming it is evoking power from within themselves. The caster (or another person touched by the caster) gains a Greater Shadowlands Power of his choice for the duration of the spell.</Description>
-  </SpellDef>  
+  </SpellDef>
   <SpellDef name="[MAHO] Dark Wings" area="Caster" mastery="2" element="water" range="Self" duration="10 minutes" id="maho_dark_wings">
     <Tags>
       <Tag>maho</Tag>

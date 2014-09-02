@@ -22,7 +22,7 @@ wakizashi.
     <Skills />
     <Spells />
     <Requirements>
-      <Requirement field="*unicorn_bushi" type="school" min="2"/>Any Unicorn Bushi School, Rank 3</Requirement>
+      <Requirement field="*unicorn_bushi" type="school" min="2">Any Unicorn Bushi School, Rank 3</Requirement>
       <Requirement field="iaijutsu" type="skill" min="3">Iaijutsu: 3</Requirement>
       <Requirement field="lore_law" type="skill" min="1">Lore: Law: 1</Requirement>
     </Requirements>
