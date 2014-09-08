@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- BITTER LIES SWORDSMAN RANK 3 -->
+
+  <School clanid="scorpion" name="Bitter Lies Swordsman" id="scorpion_bitter_lies_swordsman">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>scorpion_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>scorpion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Dark Sword of Bitter Lies" rank="3" id="scorpion_dark_sword_bitter_lies">
+        <Description>
+          The Bitter Lies Swordsman charges into battle with no regard for his own safety. You may spend a Void Point to immediately re-roll any one roll. This re-roll suffers no penalty to the TN, even if you failed the original roll. You may keep either result that you prefer. However, you may not re-roll the same roll another time through any means.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="kenjutsu" type="skill" min="3">Kenjutsu 3</Requirement>
+      <Requirement field="scorpion_bayushi_bushi_school" type="school" min="2">Replaces Bayushi Bushi 3</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- SHADOW HUNTER RANK 3 -->
+
+  <School clanid="scorpion" name="Shadow Hunter" id="scorpion_shadow_hunter">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>scorpion_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>scorpion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Scourge in Shadow" rank="3" id="scorpion_scourge_in_shadow">
+        <Description>
+          There are some targets the Shosuro ninja are unable to eliminate, either because of their protection or simply because they are too difficult to kill. For such targets, the Soshi send in their Shadow Hunters. When casting a damaging spell targeting an opponent who is unaware of your presence, you gain a bonus of +2kO on the Spell Casting Roll. You may also expend a single spell slot as a Free Action to gain a bonus of +1k1 on a Knives or Stealth Skill Roll.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="stealth" type="skill" min="3">Stealth 3</Requirement>
+      <Requirement field="*scorpion_shugenja" type="school" min="2">Any Scorpion Shugenja School, Rank 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

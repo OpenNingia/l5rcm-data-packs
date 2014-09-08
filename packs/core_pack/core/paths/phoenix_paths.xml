@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- SHIBA YOJIMBO RANK 3 -->
+
+  <School clanid="phoenix" name="Shiba Yojimbo" id="phoenix_shiba_yojimbo">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>phoenix_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Shiba's Sacrifice" rank="3" id="phoenix_shibas_sacrifice">
+        <Description>
+          The Shiba yojimho are an elite cadre of personal guards, trained to give their lives for their charges at a moment's notice. Only the most honorable and selfless of the Shiha are selected fOr this training, since it requires a willingness to throw one's life away without hesitation. At the start of any skirmish, you may designate one ally as your charge for that skirmish. Any time your charge is hit by a physical attack or a targeted (non-area-affect) damage-causing spell, if you are within 10', you may make a Defense/ Reflexes roll at TN 25. With a success, you take the damage instead of your charge. If you spend a Void Point to reduce this damage, it is reduced by 20 instead of the normal 10.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="honor" type="trait" min="5">Honor 5</Requirement>
+      <Requirement field="phoenix_shiba_bushi_school" type="school" min="2">Replaces Shiba Bushi 3</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- ISAWA TENSAI RANK 2 -->
+
+  <School clanid="phoenix" name="Isawa Tensai" id="phoenix_isawa_tensai">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>phoenix_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Embrace the Elements" rank="2" id="phoenix_embrace_the_elements">
+        <Description>
+          There are those among the Phoenix whose chi is so strongly attuned to the essence of a single Element that they are able to accomplish incredible things by studying that Element to the exclusion of others. You gain an additional Afflllity in any one Element for which you already possess an Affinity. You gain a Deficiency in all otber Elements. For example, if you are a Rank 1 lsawa Shugenja with an Affinity for Fire, when you advance to this Technique. you will be a Rank 2 shugenja capable of casting Mastery Level 4 Fire spells, but only Mastery Level 1 spells of all other Elements.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="lore" type="skill" trg="Elements" min="3">Lore (Elements) 3</Requirement>
+      <Requirement field="spellcraft" type="skill" min="3">Spellcraft 3</Requirement>
+      <Requirement field="phoenix_isawa_shugenja_school" type="school" min="1">Isawa Shugenja School, Rank 2</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

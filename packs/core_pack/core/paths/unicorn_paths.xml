@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- SHINJO SCOUT (MOTO) RANK 2 -->
+
+  <School clanid="unicorn" name="Shinjo Scout (Moto Bushi)" id="unicorn_shinjo_scout_moto_bushi">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>unicorn_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Swift Soul" rank="2" id="unicorn_swift_soul">
+        <Description>
+          The Obsidian Magistrate is the bastion of Shourido and enforcer of Daigotsu's will. You gain the BeneFit, Skills, Honor, and Outfit of a Rank 1 Daigotsu Bushi. You may add your Perception Trait plus your Taint Rank to the total of all High and Bugei Skill Rolls. This bonus does not apply to Weapon Skills. You may also add the difference between your Honor and that of your opponent to the total of attack rolls made against that opponent.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="stealth" type="skill" min="3">Stealth 3</Requirement>
+      <RequirementOption text="Replaces Moto Bushi 2">
+        <Requirement field="unicorn_shinseis_smile" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+
+  <!-- SHINJO SCOUT (MOTO) RANK 2 -->
+
+  <School clanid="unicorn" name="Shinjo Scout (Shinjo Bushi)" id="unicorn_shinjo_scout_shinjo_bushi">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>unicorn_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Swift Soul" rank="2" id="unicorn_swift_soul">
+        <Description>
+          The Obsidian Magistrate is the bastion of Shourido and enforcer of Daigotsu's will. You gain the BeneFit, Skills, Honor, and Outfit of a Rank 1 Daigotsu Bushi. You may add your Perception Trait plus your Taint Rank to the total of all High and Bugei Skill Rolls. This bonus does not apply to Weapon Skills. You may also add the difference between your Honor and that of your opponent to the total of attack rolls made against that opponent.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="stealth" type="skill" min="3">Stealth 3</Requirement>
+      <RequirementOption text="Replaces Shinjo Bushi 2">
+        <Requirement field="unicorn_dance_of_the_blade" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+  <!-- IUCHI TRAVELER (IUCHI) RANK 3 -->
+
+  <School clanid="unicorn" name="Iuchi Traveler" id="unicorn_iuchi_traveler_iuchi_shugenja">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>unicorn_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Where the Wind Wills" rank="3" id="unicorn_where_the_wind_wills">
+        <Description>
+          You possess knowledge of the most sacred Unicorn magic: the art of moving from one point to another without crossing the space in between. You may spend one Void Point and expend one spell slot of either Air or Water (Void may not be used) as a Simple Action to instantly teleport a maximum distance equal to your School Rank x 100 feet. This affects only you and the material you are carrying, but by expending a second Void Point you may also teleport any horse-sized mount on which you are sitting at the time of the effect.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="athletics" type="skill" min="2">Athletics 2</Requirement>
+      <Requirement field="horsemanship" type="skill" min="2">Horsemanship 2</Requirement>
+      <RequirementOption text="Replaces Iuchi Shugenja 3">
+        <Requirement field="unicorn_spirit_of_the_wind" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+  <!-- IUCHI TRAVELER (HORIUCHI) RANK 3 -->
+
+  <School clanid="unicorn" name="Iuchi Traveler" id="unicorn_iuchi_traveler_horiuchi_shugenja">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>unicorn_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Where the Wind Wills" rank="3" id="unicorn_where_the_wind_wills">
+        <Description>
+          You possess knowledge of the most sacred Unicorn magic: the art of moving from one point to another without crossing the space in between. You may spend one Void Point and expend one spell slot of either Air or Water (Void may not be used) as a Simple Action to instantly teleport a maximum distance equal to your School Rank x 100 feet. This affects only you and the material you are carrying, but by expending a second Void Point you may also teleport any horse-sized mount on which you are sitting at the time of the effect.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="athletics" type="skill" min="2">Athletics 2</Requirement>
+      <Requirement field="horsemanship" type="skill" min="2">Horsemanship 2</Requirement>
+      <RequirementOption text="Replaces Horiuchi Shugenja 3">
+        <Requirement field="unicorn_mysteries_of_meishodo" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+</L5RCM>

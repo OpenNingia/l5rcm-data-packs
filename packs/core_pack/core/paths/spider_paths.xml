@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- OBSIDIAN MAGISTRATE RANK 1 -->
+
+  <School clanid="spider" name="Obsidian Magistrate" id="spider_obsidian_magistrate">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>spider_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>spider_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Strength in Terror" rank="1" id="spider_strength_in_terror">
+        <Description>
+          The Obsidian Magistrate is the bastion of Shourido and enforcer of Daigotsu's will. You gain the BeneFit, Skills, Honor, and Outfit of a Rank 1 Daigotsu Bushi. You may add your Perception Trait plus your Taint Rank to the total of all High and Bugei Skill Rolls. This bonus does not apply to Weapon Skills. You may also add the difference between your Honor and that of your opponent to the total of attack rolls made against that opponent.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="investigation" type="trait" min="2">Investigation 2</Requirement>
+      <Requirement field="spider_daigotsu_bushi_school" type="school" min="0">Replaces Daigotsu Bushi 1</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- CHUDA SUBVERSIVE RANK 4 -->
+
+  <School clanid="spider" name="Chuda Subversive" id="spider_chuda_subversive">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>spider_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>spider_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Dark Kami's Discretion" rank="4" id="spider_dark_kamis_descretion">
+        <Description>
+          Certain sects of the Chuda have extensively studied means by which the influence of Jigoku in the mortal realm can be concealed from others. By expending three spell slots, you may completely suppress your own Taint, or that of a willing target you touch, for a number of hours equal to your School Rank. In the case of a human who possesses the Taint, this will render them temporarily immune to damage from jade or other effects that target the Taint, but will deny them access to any Taint-based abilities, such as maho or Shadowlands powers. In the case of inherently Tainted creatures targeted by this effect, such as oni or goblins, the effect only renders them immune to Taint-detection abilities. They gain no immunities and lose no abilities. This Technique in no way disguises physical mutations.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="lore" type="skill" trg="Shadowlands" min="4">Lore (Shadowlands) 4</Requirement>
+      <Requirement field="spider_chuda_shugenja_school" type="school" min="3">Chuda Shugenja School, Rank 4</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>
