@@ -317,6 +317,24 @@ Alternate Paths
 * Mantis Navigator
 * Yoritomo Scoundrel
 
+### [phoenix]
+* Isawa Tensai
+* Shiba Yojimbo
+
+### [scorpion]
+* Bitter Lies Swordsman
+* Shadow Hunter
+
+### [spider]
+* Chuda Subversive
+* Obsidian Magistrate
+
+### [unicorn]
+* Iuchi Traveler
+* Iuchi Traveler
+* Shinjo Scout (Moto Bushi)
+* Shinjo Scout (Shinjo Bushi)
+
 Skills
 ------
 
