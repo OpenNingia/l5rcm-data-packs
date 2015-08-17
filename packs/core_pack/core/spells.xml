@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
 	<SpellDef name="Blessed Wind" area="10' radius around the caster" mastery="1" element="air" range="Personal" duration="Concentration" id="blessed_wind">
 		<Tags>

@@ -98,10 +98,55 @@ Skills
 Spells
 ------
 
-### [earth]
+### [air]
+
+#### [Mastery 1]
+* By the Light of the Moon
+* To Seek the Truth
 
 #### [Mastery 2]
+* Benten's Touch
+
+#### [Mastery 3]
+* Summon Fog
+
+### [earth]
+
+#### [Mastery 1]
+* Armor Of Earth
+* Courage Of The Seven Thunders
+
+#### [Mastery 2]
+* Force Of Will
+* Wholeness Of The World
 * [MAHO] Eternal Unrest
+
+### [fire]
+
+#### [Mastery 1]
+* Extinguish
+* Fires Of Purity
+
+#### [Mastery 2]
+* Disrupt The Aura
+
+#### [Mastery 3]
+* Haze Of Battle
+
+#### [Mastery 6]
+* Globe Of The Everlasting Sun
+
+### [water]
+
+#### [Mastery 1]
+* Reversal Of Fortunes
+
+#### [Mastery 2]
+* Rejuvenating Vapors
+* Wisdom and Clarity
+
+#### [Mastery 3]
+* Near To Ice
 
 Advantages
 ----------
