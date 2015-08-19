@@ -37,14 +37,14 @@
     <Techs>
       <Tech name="Embrace the Elements" rank="2" id="phoenix_embrace_the_elements">
         <Description>
-          There are those among the Phoenix whose chi is so strongly attuned to the essence of a single Element that they are able to accomplish incredible things by studying that Element to the exclusion of others. You gain an additional Afflllity in any one Element for which you already possess an Affinity. You gain a Deficiency in all otber Elements. For example, if you are a Rank 1 lsawa Shugenja with an Affinity for Fire, when you advance to this Technique. you will be a Rank 2 shugenja capable of casting Mastery Level 4 Fire spells, but only Mastery Level 1 spells of all other Elements.
+          There are those among the Phoenix whose chi is so strongly attuned to the essence of a single Element that they are able to accomplish incredible things by studying that Element to the exclusion of others. You gain an additional Affinity in any one Element for which you already possess an Affinity. You gain a Deficiency in all otber Elements. For example, if you are a Rank 1 lsawa Shugenja with an Affinity for Fire, when you advance to this Technique. you will be a Rank 2 shugenja capable of casting Mastery Level 4 Fire spells, but only Mastery Level 1 spells of all other Elements.
         </Description>
       </Tech>
     </Techs>
     <Skills/>
     <Spells/>
     <Requirements>
-      <Requirement field="lore" type="skill" trg="Elements" min="3">Lore (Elements) 3</Requirement>
+      <Requirement field="lore_elements" type="skill" min="3">Lore (Elements) 3</Requirement>
       <Requirement field="spellcraft" type="skill" min="3">Spellcraft 3</Requirement>
       <Requirement field="phoenix_isawa_shugenja_school" type="school" min="1">Isawa Shugenja School, Rank 2</Requirement>
     </Requirements>
