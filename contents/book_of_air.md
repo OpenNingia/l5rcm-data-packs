@@ -28,6 +28,9 @@ Alternate Paths
 ### [mantis]
 * Tsuruchi Master Bowman
 
+### [monks]
+* Kaze-Do Fighter
+
 ### [scorpion]
 * Saigo's Blades
 
