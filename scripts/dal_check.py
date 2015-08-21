@@ -21,6 +21,8 @@ import dal
 import sys
 import os
 import re
+import logging
+import logging.handlers
 
 def printe(*args):
     sys.stderr.write(*args)
@@ -29,6 +31,9 @@ def printe(*args):
 class DataCheck(object):
 
     def __init__(self, path=None, includes=None):
+
+        # disable dal logging
+        logging.getLogger('data').addHandler(logging.NullHandler())
 
         if not includes:
             includes = []
@@ -42,8 +47,8 @@ class DataCheck(object):
     def check(self):
 
         try:
-            self.ref = dal.Data([self.path] + self.includes, log=False)
-            self.d = dal.Data([self.path], log=False)
+            self.ref = dal.Data([self.path] + self.includes, exception=True)
+            self.d = dal.Data([self.path], exception=True)
         except dal.DataPackLoadingError as e:
             printe("E] XML data is malformed")
             printe( str(e) )
