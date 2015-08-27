@@ -57,7 +57,10 @@ def main():
 			c = 'makepack.bat'
 		else:
 			c = './makepack.sh'
-		call([c, os.path.join(r, p), "{0}-{1}".format(ms['id'], ms['version'])])
+		if 'language' in ms:
+		    call([c, os.path.join(r, p), "{0}-{1}-{2}".format(ms['id'], ms['version'], ms['language'])])
+        else:
+            call([c, os.path.join(r, p), "{0}-{1}".format(ms['id'], ms['version'])])
 
 if __name__ == "__main__":
 	main()
