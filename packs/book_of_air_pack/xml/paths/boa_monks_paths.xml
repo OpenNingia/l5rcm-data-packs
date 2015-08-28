@@ -16,7 +16,7 @@
     <Spells />
     <Requirements>
       <Requirement field="jiujutsu" type="skill" trg="Kaze-do" min="3">Jiujutsu (Kaze-do) 3</Requirement>
-      <Requirement field="rpg" type="more">Must be at Rank 2</Requirement>
+      <Requirement field="2" type="rank">Must be at Rank 2</Requirement>
     </Requirements>
   </School>
 </L5RCM>
