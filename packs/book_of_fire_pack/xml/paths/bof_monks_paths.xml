@@ -19,8 +19,8 @@ Special: The Hitsu-do makes it easier for its students to master the ways of Fir
     <Requirements>
       <Requirement field="jiujutsu" type="skill" trg="Hitsu-do" min="4">Jiujutsu (Hitsu-do) 4</Requirement>
       <Requirement field="fire" type="ring" min="3">Fire 3</Requirement>
-      <Requirement field="monks" type="rule">Must be a Brotherhood Monk</Requirement>
-      <Requirement field="rpg" type="more">Must be at Rank 2</Requirement>
+      <Requirement field="monks_brotherhood" type="tag">Must be a Brotherhood Monk</Requirement>
+      <Requirement field="2" type="rank">Must be at Rank 2</Requirement>
       <Requirement field="rpg" type="more">Must have access to a Hitsu-do dojo</Requirement>
     </Requirements>
   </School>
