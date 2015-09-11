@@ -34,10 +34,11 @@ def main():
 
         root_path = os.path.join(r, p)
 
-        print(m)
         if not os.path.exists(m):
-            print('manifest not found', m)
+            #print('manifest not found', m)
             continue
+        print(m)
+
         ms = {}
 
         try:
@@ -60,8 +61,8 @@ def main():
             c = './makepack.sh'
         if 'language' in ms:
             call([c, os.path.join(r, p), "{0}-{1}-{2}".format(ms['id'], ms['version'], ms['language'])])
-    else:
-        call([c, os.path.join(r, p), "{0}-{1}".format(ms['id'], ms['version'])])
+        else:
+            call([c, os.path.join(r, p), "{0}-{1}".format(ms['id'], ms['version'])])
 
 
 if __name__ == "__main__":

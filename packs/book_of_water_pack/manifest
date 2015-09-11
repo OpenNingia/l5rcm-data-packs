@@ -1,0 +1,9 @@
+{
+	"id": "book_of_water",
+	"display_name": "Book of Water",
+	"authors": ["Eugen Platzer"],
+	"version": "1.0",
+	"update-uri": "",
+	"download-uri": "",
+	"min-cm-version": "3.9"
+}

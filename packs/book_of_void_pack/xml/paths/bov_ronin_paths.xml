@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="ronin" id="ronin_hateru_ninja" name="Hateru Ninja">
+    <Tags>
+      <Tag>ninja</Tag>
+      <Tag>ronin</Tag>
+      <Tag>ronin_ninja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>ronin_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="the_false_dragon" name="The False Dragon" rank="2">
+        <Description>The Hateru specialize in pretending to be Dragon samurai, and have actually infiltrated the Kitsuki family in order to keep tabs on the clan. When using the Acting Skill to play the role of a Dragon samurai, you gain a +2k1 bonus. You gain a Free Raise on any Skill roll made for the purpose of either avoiding leaving clues to your identity or creating false clues to lead enemies away from you.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="acting" min="3" type="skill">Acting 3</Requirement>
+      <Requirement field="stealth" min="3" type="skill">Stealth 3</Requirement>
+    </Requirements>
+  </School>
+  <School clanid="ronin" id="ronin_the_ghosts_of_the_forest" name="The Ghosts of the Forest">
+    <Tags>
+      <Tag>ronin</Tag>
+      <Tag>alternate</Tag>
+      <Tag>ronin_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="walk_among_the_trees" name="Walk Among the Trees" rank="2">
+        <Description>The enigmas of the forest at Nazo Mori are more familiar to you than almost anyone else in the Empire. Whenever you are within a woodland area, you gain a Free Raise on all Athletics, Hunting, and Stealth Rolls. If you are within sight of Nazo Mori, you also gain a bonus of +1k0 on any roll involving the Perception Trait (these effects can stack).</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="lore_spirit_realms" min="2" type="skill">Lore: Spirit Realms 2</Requirement>
+      <Requirement field="way_of_the_land" type="merit">Way of the land Advantage</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="ronin" id="ronin_void_mystic" name="Void Mystic">
+    <Trait>willpower</Trait>
+    <Honor>3.5</Honor>
+    <Tags>
+      <Tag>ronin</Tag>
+      <Tag>alternate</Tag>
+      <Tag>ronin_alternate</Tag>
+      <Tag>shugenja</Tag>
+      <Tag>ronin_shugenja</Tag>
+    </Tags>
+    <Skills>
+      <Skill id="defense" rank="1"/>
+      <Skill id="divination" rank="1"/>
+      <Skill id="hunting" rank="1"/>
+      <Skill emphases="Void" id="lore_elements" rank="1"/>
+      <Skill id="meditation" rank="1"/>
+      <Skill id="stealth" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>merchant</Wildcard>
+        <Wildcard>low</Wildcard>
+        <Wildcard>bugei</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells>
+      <Spell id="commune"/>
+      <Spell id="sense"/>
+      <Spell id="summon"/>
+      <PlayerChoose count="7" element="void"/>
+    </Spells>
+    <Techs>
+      <Tech id="ronin_the_voids_caress" name="The Void's Caress" rank="1">
+        <Description>Affinity/Deficiency: None. Instead, the Void Mystic begins play with both the Ishiken-do Advantage and the Touch of the Void Disadvantage. You cannot cast spells of the four non-Void Elements except for the basic spells of Sense, Commune, and Summon, and you cannot Importune for spells.
+
+    The Void Mystic, born with a close attunement to the Void but lacking any conventional training, does not need to acquire spell-scrolls. You may cast any Void spell up to your current Mastery Level, expending a Spell Slot as normal. Mechanically, the spell is cast as normal, but you do not need to speak aloud to cast your spells. You may only cast each Spell once per day, and you may never cast Void spells above Rank 5. You also gain a Free Raise to the Divination Skill (a by-product of your attunement to the Void).
+
+    Spells: As noted above, you may cast any Void Spell within your Mastery Level
+
+    Option: If the GM feels the Void Mystic’s limited spell abilities are too confining, the Mystic may be granted one additional Spell Slot for each Insight Rank he attains.</Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit bu="0" koku="5" zeni="0">
+      <Item>Sturdy Clothing</Item>
+      <Item>Wakizashi</Item>
+      <Item>any 1 weapon</Item>
+      <Item>Travelling Pack</Item>
+    </Outfit>
+  </School>
+</L5RCM>

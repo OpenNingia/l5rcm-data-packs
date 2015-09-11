@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="monks" id="order_of_eternity" name="Order of Eternity">
+    <Trait>intelligence</Trait>
+    <Honor>4.5</Honor>
+    <Tags>
+      <Tag>monk</Tag>
+      <Tag>monks_monk</Tag>
+      <Tag>brotherhood</Tag>
+      <Tag>monks_brotherhood</Tag>
+    </Tags>
+    <Kihos count="3"/>
+    <Skills>
+      <Skill id="defense" rank="1"/>
+      <Skill emphases="astrology" id="divination" rank="1"/>
+      <Skill id="jiujutsu" rank="1"/>
+      <Skill id="meditation" rank="1"/>
+      <Skill id="lore_theology" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>high</Wildcard>
+      </PlayerChoose>
+      <PlayerChoose rank="1">
+        <Wildcard>high</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Techs>
+      <Tech id="the_touch_of_eternity" name="The Touch of Eternity" rank="1">
+        <Description>The monks of this Order believe that time is an illusion and that the events of the past, present, and future are all coexistent. This causes them to engage in many strange actions, but also allows them an unusual degree of insight into the world around them. You may contemplate a noncombat situation, for an amount of time determined by the GM (the monks of this Order have been known to size up a complex situation in an instant, but also to spend an hour considering whether to eat a bowl of rice). At the end of your contemplation, you roll Meditation / Void at TN 25 (higher for complex situations). With a success, you gain a bonus of +1k1 +Void to any Skill Rolls you make to try to resolve that specific situation.
+    The GM should exercise good judgment in considering the application of the Order of Eternity Technique – some situations may be too complex to master with a single consideration. In general, the monk should not be able to apply this Technique’s benefits to more Skill Rolls than his Void Rank – any rolls beyond that will require further contemplation and another Meditation / Void roll.</Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit bu="0" koku="0" zeni="2">
+      <Item>Bo (or pair of jo)</Item>
+      <Item>Coarse and plain Traveling Clothing</Item>
+      <Item>Scroll Satchel with passages from the Tao</Item>
+    </Outfit>
+  </School>
+</L5RCM>

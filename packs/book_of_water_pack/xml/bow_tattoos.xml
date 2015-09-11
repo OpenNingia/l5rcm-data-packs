@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+    <KihoDef id="tattoo_wave" name="Wave" type="tattoo">
+        <Description>This tattoo invokes the mighty power of the tsunami to resist enemy force and drive your opponents to their knees. While this tattoo is active, you gain a +Xk0 bonus (where X is your Insight Rank) to the Contested Strength Roll used to determine the success of a Knockdown maneuver you perform with an unarmed attack. You also gain an identical bonus to resist all enemy Knockdown attempts, regardless of whether they are made unarmed or with weapons.</Description>
+    </KihoDef>
+</L5RCM>

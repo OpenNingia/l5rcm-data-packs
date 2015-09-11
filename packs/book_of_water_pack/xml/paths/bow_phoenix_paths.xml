@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="phoenix" id="phoenix_the_acolytes_of_snow" name="The Acolytes of Snow">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>phoenix_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="phoenix_the_maidens_icy_grasp" name="The Maiden's Icy Grasp" rank="2">
+        <Description>The Acolytes of Snow recognize that the icy touch of the Snow Maiden allows Water to mirror the strength and power of Earth. You may cast the following Earth spells as Water spells: Armor of Earth, Armor of the Emperor, Be the Mountain, Bonds of Ningen-do, Earth’s Stagnation, Grasp of Earth, Major Binding, Minor Binding, and Wall of Earth. The spells create their physical effects from ice instead of from earth or stone, and the Acolytes usually rename these spells to incorporate “Ice” into their titles.</Description>
+      </Tech>
+      <Tech id="phoenix_the_maidens_icy_grasp" name="The Maiden's Icy Grasp" rank="3">
+        <Description>The Acolytes of Snow recognize that the icy touch of the Snow Maiden allows Water to mirror the strength and power of Earth. You may cast the following Earth spells as Water spells: Armor of Earth, Armor of the Emperor, Be the Mountain, Bonds of Ningen-do, Earth’s Stagnation, Grasp of Earth, Major Binding, Minor Binding, and Wall of Earth. The spells create their physical effects from ice instead of from earth or stone, and the Acolytes usually rename these spells to incorporate “Ice” into their titles.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <RequirementOption text="Lore: Yuki-no-Onna 3 or Water Affinity">
+        <Requirement field="lore_yuki_no_onna" min="3" type="skill"/>
+        <Requirement field="water" type="affinity"/>
+      </RequirementOption>
+      <RequirementOption text="Replaces Isawa Shugenja 2, any other Phoenix Shugenja 3 ">
+        <Requirement field="phoenix_isawa_shugenja_school" max="1" min="1" type="school"/>
+        <Requirement field="*phoenix_shugenja" max="2" min="2" type="school"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+  <School clanid="phoenix" id="phoenix_kawaru_sages" name="Kawaru Sages">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>phoenix_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="phoenix_the_veil_of the_future" name="The Veil of the Future" rank="2">
+        <Description>The Kawaru Sages have mastered the art of reading the sixty-four hexagrams of kawaru in order to divine what will happen in the near future, enhancing their forecasts with the aid of the kami of Water. At the beginning of each day, you may spend one hour in meditation and make a Divination Skill Roll, at a basic TN of 15. If successful, you gain a +1k0 bonus die, and you may Raise on the roll to gain addition bonus dice up to your Water Ring. You may spend these +1k0 bonus dice on any Spell Casting Rolls made during the rest of the day. Unused dice are lost at nightfall.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="divination" min="3" trg="Kawaru" type="skill">Divination (Kawaru) 3</Requirement>
+      <Requirement field="*phoenix_shugenja" max="1" min="1" type="school">Replaces any Phoenix Shugenja 2</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

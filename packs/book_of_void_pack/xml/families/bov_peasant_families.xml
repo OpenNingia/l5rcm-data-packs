@@ -1,0 +1,6 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<L5RCM>
+    <Family clanid="peasant" id="peasant_koga" name="Koga">
+        <Trait>awareness</Trait>
+    </Family>
+</L5RCM>

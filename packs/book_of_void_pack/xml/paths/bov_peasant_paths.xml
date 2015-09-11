@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="peasant" id="peasant_koga_ninja" name="Koga Ninja">
+    <Tags>
+      <Tag>ninja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>peasant_alternate</Tag>
+      <Tag>peasant</Tag>
+      <Tag>peasant_ninja</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="the_peoples_vengeance" name="The People's Vengeance" rank="1">
+        <Description>The Koga Ninja specialize in protecting and avengingthe common people by killing those samurai who abuse their station. You gain a +1k1 bonus to any Skill roll made against a member of the samurai caste.</Description>
+      </Tech>
+    </Techs>
+    <Skills>
+      <Skill id="acting" rank="1"/>
+      <Skill id="athletics" rank="1"/>
+      <Skill id="chain_weapons" rank="1"/>
+      <Skill id="craft_poison" rank="1"/>
+      <Skill emphases="Tanto" id="knives" rank="1"/>
+      <Skill id="stealth" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>low</Wildcard>
+        <Wildcard>merchant</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Requirements/>
+  </School>
+</L5RCM>

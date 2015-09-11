@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="monks" id="monks_order_of_jurojins_blessing" name="Order of Jurojin's Blessing">
+    <Trait>intelligence</Trait>
+    <Honor>5.5</Honor>
+    <Tags>
+      <Tag>monk</Tag>
+      <Tag>monks_monk</Tag>
+      <Tag>brotherhood</Tag>
+      <Tag>monks_brotherhood</Tag>
+    </Tags>
+    <Devotion>Fortunist</Devotion>
+    <Kihos count="3"/>
+    <Skills>
+      <Skill id="athletics" rank="1"/>
+      <Skill id="jiujutsu" rank="1"/>
+      <Skill emphases="disease" id="lore_anatomy" rank="1"/>
+      <Skill emphases="disease, herbalism" id="medicine" rank="1"/>
+      <Skill id="meditation" rank="1"/>
+      <Skill id="staves" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Techs>
+      <Tech id="monks_blessings_of_longevity" name="Blessings of Longevity" rank="1">
+        <Description>You gain a +1k1 bonus to all Medicine rolls made for the purpose of treating disease or infection, and a +1k0 bonus to all Medicine rolls made for the purpose of treating Wounds. You may also attempt to treat natural (non- Taint-induced) insanity with a Medicine roll, although it is the GM’s option whether your treatment actually has any effect.</Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit bu="0" koku="0" zeni="2">
+      <Item>Bo (or pair of jo)</Item>
+      <Item>Coarse and plain Traveling Clothing</Item>
+      <Item>Scroll Satchel with passages from the Tao</Item>
+    </Outfit>
+  </School>
+  <School clanid="monks" id="monks_the_shrine_of_heavens_mirror" name="The Shrine of Heaven's Mirror">
+    <Trait>perception</Trait>
+    <Honor>3.5</Honor>
+    <Tags>
+      <Tag>monk</Tag>
+      <Tag>monks_monk</Tag>
+      <Tag>brotherhood</Tag>
+      <Tag>monks_brotherhood</Tag>
+    </Tags>
+    <Devotion>Fortunist</Devotion>
+    <Kihos count="3"/>
+    <Skills>
+      <Skill id="athletics" rank="1"/>
+      <Skill emphases="Omens" id="divination" rank="1"/>
+      <Skill id="jiujutsu" rank="1"/>
+      <Skill id="lore_omens" rank="1"/>
+      <Skill id="meditation" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Techs>
+      <Tech id="monks_gaze_into_the_mirror" name="Gaze Into the Mirror" rank="1">
+        <Description>The peculiar practices of Heaven’s Mirror monks grant them insights denied to other mortals. You gain a bonus of +1k0 to all Divination Skill rolls. If the roll involves interpretation of an omen, the bonus is +1k1 instead. Once per day, you may spend a Void Point to interpret an omen with absolute accuracy, with no need for a Skill roll to do so. (Of course, the GM still has discretion as to what the correct interpretation of the omen might be.)
+    Special: You must be Ascetic and follow the peculiar practices of the Heaven’s Mirror sect, regardless of the social consequences of doing so. Failing to embrace these practices will result in your losing the benefits of your School Technique, and may also result in expulsion from this sect.</Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit bu="0" koku="0" zeni="2">
+      <Item>Bo (or pair of jo)</Item>
+      <Item>Coarse and plain Traveling Clothing</Item>
+      <Item>Scroll Satchel with passages from the Tao</Item>
+    </Outfit>
+  </School>
+</L5RCM>

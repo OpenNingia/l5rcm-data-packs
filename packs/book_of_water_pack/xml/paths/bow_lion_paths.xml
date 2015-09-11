@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="lion" id="lion_disciples_of_the_river" name="Disciples of the River">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>lion</Tag>
+      <Tag>alternate</Tag>
+      <Tag>lion_shugenja</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="lion_servant_of_the_river" name="Servant of the River" rank="3">
+        <Description>The Disciples of the River take the concept of Water magic much more literally than do most of the Kitsu family. Their approach is more like that of a Phoenix, although none would ever admit such (and they would be insulted by the comparison). When casting a Water spell while standing within one hundred feet of a naturally occurring river, you gain one Free Raise on that spell.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="lion_kitsu_shugenja_school" max="3" min="3" type="school"/>
+      <Requirement field="way_of_the_land" type="merit">Way of the land Advantage for an area with a river.</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

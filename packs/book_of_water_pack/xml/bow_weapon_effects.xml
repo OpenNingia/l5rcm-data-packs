@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<L5RCM>
+    <EffectDef id="dragon_beard_hook_rule">The dragon beard hook may be used to initiate and maintain a grapple at a distance of up to 30 feet.</EffectDef>
+    <EffectDef id="rope_dart_rule">Rope darts may be used to initiate and maintain a grapple at a distance of up to 15 feet.</EffectDef>
+    <EffectDef id="pitchfork_rule">If a pitchfork inflicts more than 20 Wounds with a single attack, it breaks.</EffectDef>
+    <EffectDef id="torch_rule">Enemies hit with a torch must roll Reflexes at TN 10 to avoid catching on fire. Foes who are set on fire take 1k1 fire damage during the Reactions Stage of each Round until they extinguish the fire (such as by jumping into water, or taking a Complex Action to smother the flames).</EffectDef>
+</L5RCM>

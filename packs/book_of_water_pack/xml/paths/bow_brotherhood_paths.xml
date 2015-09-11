@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="monks" id="monks_the_servants_of_mercy" name="The Servants of Mercy">
+    <Tags>
+      <Tag>monk</Tag>
+      <Tag>monks_monk</Tag>
+      <Tag>alternate</Tag>
+      <Tag>monks_alternate</Tag>
+    </Tags>
+    <Devotion>Fortunist (Jizo)</Devotion>
+    <Techs>
+      <Tech id="monks_mercys_touch" name="Mercy's Touch" rank="4">
+        <Description>So long as you remain absolutely pacifistic and aid all victims with equal care, your Medicine rolls heal an additional +2k1 Wounds. If you ever forsake the path of absolute pacifism (that is, if you ever voluntarily engage in violence against another creature) you lose this benefit forever.
+        You may not learn any Kiho this Rank.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="medicine" min="5" trg="Wound Treatment" type="skill">Medicine (Wound Treatment) 5</Requirement>
+      <Requirement field="rpg" type="more">Oath of absolute pacifism</Requirement>
+      <RequirementOption text="Replaces: Order of Jurojin's Blessing 4, any pacifist Brotherhood School 4">
+        <Requirement field="*monks_monk" max="3" min="3" type="school"/>
+        <Requirement field="monks_order_of_jurojins_blessing" max="3" min="3" type="school"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+</L5RCM>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="phoenix" id="phoenix_sesai_ninja" name="Sesai Ninja">
+    <Tags>
+      <Tag>ninja</Tag>
+      <Tag>phoenix_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="anything_for_the_phoenix" name="Anything for the Phoenix" rank="2">
+        <Description>When on a battlefield, you gain +1k1 to all Stealth rolls and a Free Raise on all attack rolls made by surprise. When performing dishonorable acts on behalf of the Phoenix Clan, you lose half the normal amount of Honor (rounded up).
+      </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="stealth" min="3" type="skill">Stealth 3</Requirement>
+      <RequirementOption text="Replaces Shiba Bushi 2">
+        <Requirement field="phoenix_shiba_bushi_school" max="1" min="1" type="school"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+</L5RCM>

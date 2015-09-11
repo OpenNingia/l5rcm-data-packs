@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <SpellDef area="self" duration="1 round per question (must maintain concentration)" element="void" id="commune_with_the_void" mastery="2" name="Commune with the Void" range="n/a">
+    <Tags/>
+    <Raises>
+      <Raise>Special (1 Question per three Raises)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="strengthen_the_void" mastery="2" name="Strengthen the Void" range="n/a">
+    <Tags/>
+    <Raises>
+      <Raise>Duration (+1 round per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per two Raises), Duration (+1 Round per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="banish_the_Void" mastery="3" name="Banish the Void" range="n/a">
+    <Tags/>
+    <Raises>
+      <Raise>Duration (+1 round per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per two Raises), Duration (+1 Round per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="one target creature" duration="concentration" element="void" id="essence_of_void" mastery="4" name="Essence of Void" range="50’">
+    <Tags/>
+    <Raises>
+      <Raise>Range (+10’ per Raise)</Raise>
+      <Raise>Special (+1k0 to Contested Roll per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="cone 50' long and 30' wide at base" duration="Instantaneous" element="multielement" id="air_and_earth" mastery="3" name="Air and Earth" range="self">
+    <Tags/>
+    <Raises>
+      <Raise>Area of Effect (+5’ to width or length per Raise)</Raise>
+      <Raise>Damage (+1k0 per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+</L5RCM>
