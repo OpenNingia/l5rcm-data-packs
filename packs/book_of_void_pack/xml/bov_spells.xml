@@ -27,11 +27,17 @@
       <Raise>Special (+1k0 to Contested Roll per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef area="cone 50' long and 30' wide at base" duration="Instantaneous" element="multielement" id="air_and_earth" mastery="3" name="Air and Earth" range="self">
-    <Tags/>
+  <SpellDef area="cone 50' long and 30' wide at base" duration="Instantaneous" element="multi" id="air_and_earth" mastery="3" name="Air and Earth" range="self">
+    <Tags>
+      <Tag>jade</Tag>
+    </Tags>
     <Raises>
       <Raise>Area of Effect (+5’ to width or length per Raise)</Raise>
       <Raise>Damage (+1k0 per Raise)</Raise>
     </Raises>
+    <MultiElement>
+      <Element>air</Element>
+      <Element>earth</Element>
+    </MultiElement>
   </SpellDef>
 </L5RCM>
