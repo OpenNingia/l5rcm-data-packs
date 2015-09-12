@@ -15,7 +15,7 @@
     <Skills/>
     <Spells/>
     <Requirements>
-      <Requirement field="void" min="4" type="trait">Void 4</Requirement>
+      <Requirement field="void" min="4" type="ring">Void 4</Requirement>
       <Requirement field="spellcraft" min="5" type="skill">Spellcraft 5</Requirement>
       <Requirement field="forbidden_knowledge_lying_darkness" type="merit">Forbidden Knowledge (Lying Darkness)</Requirement>
       <Requirement field="rpg" type="more">Must be inducted into the Hidden Moon Dojo (exact circumstances up to the GM, but only Scorpion characters of irreproachable loyalty and discretion will even be considered)</Requirement>
