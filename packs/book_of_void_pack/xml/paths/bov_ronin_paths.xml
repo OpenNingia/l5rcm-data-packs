@@ -44,8 +44,6 @@
     <Honor>3.5</Honor>
     <Tags>
       <Tag>ronin</Tag>
-      <Tag>alternate</Tag>
-      <Tag>ronin_alternate</Tag>
       <Tag>shugenja</Tag>
       <Tag>ronin_shugenja</Tag>
     </Tags>
@@ -57,9 +55,8 @@
       <Skill id="meditation" rank="1"/>
       <Skill id="stealth" rank="1"/>
       <PlayerChoose rank="1">
-        <Wildcard>merchant</Wildcard>
-        <Wildcard>low</Wildcard>
-        <Wildcard>bugei</Wildcard>
+        <Wildcard>any</Wildcard>
+        <Wildcard modifier="not">high</Wildcard>
       </PlayerChoose>
     </Skills>
     <Spells>
@@ -86,5 +83,9 @@
       <Item>any 1 weapon</Item>
       <Item>Travelling Pack</Item>
     </Outfit>
+    <Perks>
+      <Perk id="ishikendo"/>
+      <Perk id="touch_of_the_void"/>
+    </Perks>
   </School>
 </L5RCM>

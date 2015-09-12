@@ -1,189 +1,175 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-
-  <SpellDef name="Purification of the Kami" area="Body of water up to 500 feet in radius" mastery="1" element="water" range="touch" duration="permanent" id="purification_of_the_kami">
-    <Tags />
+  <SpellDef area="Body of water up to 500 feet in radius" duration="permanent" element="water" id="purification_of_the_kami" mastery="1" name="Purification of the Kami" range="touch">
+    <Tags/>
     <Raises>
-      <Raise> Area of Effect (+500 feet radius per Raise)</Raise>
+      <Raise>Area of Effect (+500 feet radius per Raise)</Raise>
     </Raises>
   </SpellDef>
-
-  <SpellDef name="The Swell of the Storm" area="one target creature" mastery="1" element="water" range="25'" duration="Instantaneous" id="the_swell_of_the_storm">
+  <SpellDef area="one target creature" duration="Instantaneous" element="water" id="the_swell_of_the_storm" mastery="1" name="The Swell of the Storm" range="25'">
     <Tags>
       <Tag>defense</Tag>
     </Tags>
     <Raises>
       <Raise>Range (+10' per Raise)</Raise>
-	  <Raise>Area of Effect (+1 target per two Raises)</Raise>
-	  <Raise>Special (+1k0 on the Contested Roll per Raise)</Raise>
+      <Raise>Area of Effect (+1 target per two Raises)</Raise>
+      <Raise>Special (+1k0 on the Contested Roll per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Suitengu's Curse" area="one target creature" mastery="1" element="water" range="20'" duration="10 Rounds" id="suitengus_curse">
-    <Tags>
-    </Tags>
+  <SpellDef area="one target creature" duration="10 Rounds" element="water" id="suitengus_curse" mastery="1" name="Suitengu's Curse" range="20'">
+    <Tags/>
     <Raises>
-	  <Raise>Range (+10' per Raise)</Raise>
+      <Raise>Range (+10' per Raise)</Raise>
       <Raise>Duration (+3 round per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Strength of the Tsunami" area="caster" mastery="2" element="water" range="touch" duration="3 Rounds" id="strength_of_the_tsunami">
-    <Tags>
-    </Tags>
+  <SpellDef area="caster" duration="3 Rounds" element="water" id="strength_of_the_tsunami" mastery="2" name="Strength of the Tsunami" range="touch">
+    <Tags/>
     <Raises>
       <Raise>Area of Effect (cast on someone else for two Raises)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Surging Soul" area="one target person" mastery="2" element="water" range="10'" duration="3 Rounds" id="surging_soul">
+  <SpellDef area="one target person" duration="3 Rounds" element="water" id="surging_soul" mastery="2" name="Surging Soul" range="10'">
     <Tags>
-	<Tag>battle</Tag>
+      <Tag>battle</Tag>
     </Tags>
     <Raises>
       <Raise>Range (+10’ per Raise)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Yuki's Touch" area="Body of water 100' radius from caster" mastery="2" element="water" range="touch" duration="Instantaneous" id="yukis_touch">
+  <SpellDef area="Body of water 100' radius from caster" duration="Instantaneous" element="water" id="yukis_touch" mastery="2" name="Yuki's Touch" range="touch">
     <Tags>
-	<Tag>travel</Tag>
+      <Tag>travel</Tag>
     </Tags>
     <Raises>
       <Raise>Area of Effect (+50’ radius per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Heaven's Tears" area="30' radius around caster" mastery="2" element="water" range="centered on caster" duration="2 Rounds" id="heavens_tears">
+  <SpellDef area="30' radius around caster" duration="2 Rounds" element="water" id="heavens_tears" mastery="2" name="Heaven's Tears" range="centered on caster">
     <Tags>
-	<Tag>crystal</Tag>
+      <Tag>crystal</Tag>
     </Tags>
     <Raises>
       <Raise>Area of Effect (+5’ radius per Raise)</Raise>
-	  <Raise>Duration (+1 Round per Raise, may only be done once)</Raise>
+      <Raise>Duration (+1 Round per Raise, may only be done once)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Endless Deluge" area="1 mile diameter" mastery="3" element="water" range="centered on caster" duration="12 hours" id="endless_deluge">
-    <Tags>
-    </Tags>
+  <SpellDef area="1 mile diameter" duration="12 hours" element="water" id="endless_deluge" mastery="3" name="Endless Deluge" range="centered on caster">
+    <Tags/>
     <Raises>
       <Raise>Area of Effect (+1 mile per two Raises)</Raise>
-	  <Raise>Duration (+6 hours per Raise)</Raise>
+      <Raise>Duration (+6 hours per Raise)</Raise>
     </Raises>
   </SpellDef>
-
-  <SpellDef name="Sanctuary of the Waves" area="one target person" mastery="3" element="water" range="50'" duration="10 Rounds" id="sanctuary_of_the_waves">
+  <SpellDef area="one target person" duration="10 Rounds" element="water" id="sanctuary_of_the_waves" mastery="3" name="Sanctuary of the Waves" range="50'">
     <Tags>
-	<Tag>defense</Tag>
+      <Tag>defense</Tag>
     </Tags>
     <Raises>
       <Raise>Area of Effect (+1 person per Raise)</Raise>
-	  <Raise>Duration (+3 Rounds per Raise)</Raise>
+      <Raise>Duration (+3 Rounds per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="The Inner Ocean" area="one willing person" mastery="3" element="water" range="50'" duration="5 minutes" id="the_inner_ocean">
-    <Tags>
-    </Tags>
+  <SpellDef area="one willing person" duration="5 minutes" element="water" id="the_inner_ocean" mastery="3" name="The Inner Ocean" range="50'">
+    <Tags/>
     <Raises>
       <Raise>Range (+20' per Raise)</Raise>
-	  <Raise>Duration (+1 Minute per Raise)</Raise>
+      <Raise>Duration (+1 Minute per Raise)</Raise>
     </Raises>
   </SpellDef>
-  <SpellDef name="Typhoon's Surge" area="one or more target allies" mastery="3" element="water" range="50'" duration="Instantaneous" id="typhoons_surge">
-    <Tags>
-    </Tags>
+  <SpellDef area="one or more target allies" duration="Instantaneous" element="water" id="typhoons_surge" mastery="3" name="Typhoon's Surge" range="50'">
+    <Tags/>
     <Raises>
-	  <Raise>Range (+10' per Raise)</Raise>
+      <Raise>Range (+10' per Raise)</Raise>
       <Raise>Area of Effect (+1 target beyond casters water per two Raises)</Raise>
     </Raises>
   </SpellDef>
-
-  <SpellDef name="Steed of the Ebbing Tides" area="one summoned steed" mastery="4" element="water" range="25'" duration="4 hours" id="steed_of_the_ebbing_tides">
+  <SpellDef area="one summoned steed" duration="4 hours" element="water" id="steed_of_the_ebbing_tides" mastery="4" name="Steed of the Ebbing Tides" range="25'">
     <Tags>
-	<Tag>travel</Tag>
+      <Tag>travel</Tag>
     </Tags>
     <Raises>
-	  <Raise>Duration (+2 hours per Raise)</Raise>
+      <Raise>Duration (+2 hours per Raise)</Raise>
     </Raises>
   </SpellDef>
-
-  <SpellDef name="Master of the Roling River" area="Up to 25 allies in one group" mastery="4" element="water" range="100'" duration="5 minutes" id="master_of_the_rolling_river">
+  <SpellDef area="Up to 25 allies in one group" duration="5 minutes" element="water" id="master_of_the_rolling_river" mastery="4" name="Master of the Roling River" range="100'">
     <Tags>
-	<Tag>battle</Tag>
+      <Tag>battle</Tag>
     </Tags>
     <Raises>
-	  <Raise>Range (+50’ per Raise)</Raise>
-	  <Raise>Duration (+1 minute per Raise)</Raise>
-	  <Raise>Special (affect non-samurai, see description)</Raise>
+      <Raise>Range (+50’ per Raise)</Raise>
+      <Raise>Duration (+1 minute per Raise)</Raise>
+      <Raise>Special (affect non-samurai, see description)</Raise>
     </Raises>
   </SpellDef>
-
-   <SpellDef name="Seed of Qanan" area="any two people" mastery="4" element="water" range="touch" duration="5 rounds" id="seed_of_qanan">
+  <SpellDef area="any two people" duration="5 rounds" element="water" id="seed_of_qanan" mastery="4" name="Seed of Qanan" range="touch">
+    <Tags/>
+    <Raises>
+      <Raise>Duration (+2 rounds per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="One Imperial road up to ten miles in length" duration="8 hours" element="water" id="the_emperors_road" mastery="4" name="The Emperor's Road" range="touch">
     <Tags>
+      <Tag>travel</Tag>
+      <Tag>imperial</Tag>
     </Tags>
     <Raises>
-	  <Raise>Duration (+2 rounds per Raise)</Raise>
-	</Raises>
+      <Raise>Area of Effect (+1 mile per Raise)</Raise>
+    </Raises>
   </SpellDef>
-
-  <SpellDef name="The Emperor's Road" area="One Imperial road up to ten miles in length" mastery="4" element="water" range="touch" duration="8 hours" id="the_emperors_road">
+  <SpellDef area="10' diameter sphere" duration="one hour" element="water" id="within_the_waves" mastery="4" name="Within the Waves" range="self">
     <Tags>
-	<Tag>travel</Tag>
-	<Tag>imperial</Tag>
+      <Tag>travel</Tag>
     </Tags>
     <Raises>
-	  <Raise>Area of Effect (+1 mile per Raise)</Raise>
-	</Raises>
+      <Raise>Duration (+1/2 hour per Raise)</Raise>
+      <Raise>Special (add an additional person within the bubble for three Raises)</Raise>
+    </Raises>
   </SpellDef>
-  <SpellDef name="Within the Waves" area="10' diameter sphere" mastery="4" element="water" range="self" duration="one hour" id="within_the_waves">
+  <SpellDef area="one target person/creature" duration="one hour" element="water" id="chi_reversal" mastery="5" name="Chi Reversal" range="20'">
+    <Tags/>
+    <Raises>
+      <Raise>Range (+20’ per Raise)</Raise>
+      <Raise>Duration (+1/2 hour per Raise)</Raise>
+      <Raise>Special (one additional pair of Traits per two Raises)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="Trench up to 30' wide and deep and 300' long" duration="15 minutes" element="water" id="open_the_waves" mastery="5" name="Open the Waves" range="300'">
     <Tags>
-	<Tag>travel</Tag>
+      <Tag>Battle</Tag>
     </Tags>
     <Raises>
-	  <Raise>Duration (+1/2 hour per Raise)</Raise>
-	  <Raise>Special (add an additional person within the bubble for three Raises)</Raise>
-	</Raises>
+      <Raise>Area of Effect (increase width or depth of trench by 5’ per Raise)</Raise>
+      <Raise>Duration (+5 minutes per Raise)</Raise>
+    </Raises>
   </SpellDef>
-  <SpellDef name="Chi Reversal" area="one target person/creature" mastery="5" element="water" range="20'" duration="one hour" id="chi_reversal">
+  <SpellDef area="Whirlpool 200' in radius" duration="10 minutes" element="water" id="whirlpool" mastery="5" name="Whirlpool" range="1 mile">
     <Tags>
+      <Tag>thunder</Tag>
     </Tags>
     <Raises>
-	  <Raise>Range (+20’ per Raise)</Raise>
-	  <Raise>Duration (+1/2 hour per Raise)</Raise>
-	  <Raise>Special (one additional pair of Traits per two Raises)</Raise>
-	</Raises>
+      <Raise>Area of Effect (+25’ radius per Raise)</Raise>
+      <Raise>Duration (+2 minutes per Raise)</Raise>
+    </Raises>
   </SpellDef>
-  <SpellDef name="Open the Waves" area="Trench up to 30' wide and deep and 300' long" mastery="5" element="water" range="300'" duration="15 minutes" id="open_the_waves">
+  <SpellDef area="10'" duration="one hour" element="water" id="opening_the_veil" mastery="6" name="Opening the Veil" range="One spirit portal">
     <Tags>
-	<Tag>Battle</Tag>
+      <Tag>Travel</Tag>
     </Tags>
     <Raises>
-	  <Raise>Area of Effect (increase width or depth of trench by 5’ per Raise)</Raise>
-	  <Raise>Duration (+5 minutes per Raise)</Raise>
-	</Raises>
+      <Raise>Duration (+10 minutes per Raise)</Raise>
+      <Raise>Special (reach Sakkaku or Yume-do for one Raise, Gaki-do or Toshigoku for two Raises, Yomi for four Raises)</Raise>
+    </Raises>
   </SpellDef>
-  <SpellDef name="Whirlpool" area="Whirlpool 200' in radius" mastery="5" element="water" range="1 mile" duration="10 minutes" id="whirlpool">
+  <SpellDef area="a circular area 200' in radius" duration="30 minutes" element="water" id="breath_of_mist" mastery="6" name="Breath of Mist" range="1/2 mile">
     <Tags>
-	<Tag>thunder</Tag>
+      <Tag>defense</Tag>
     </Tags>
     <Raises>
-	  <Raise>Area of Effect (+25’ radius per Raise)</Raise>
-	  <Raise>Duration (+2 minutes per Raise)</Raise>
-	</Raises>
+      <Raise>Area of Effect (+25’ radius per Raise)</Raise>
+      <Raise>Duration (+10 minutes per Raise)</Raise>
+    </Raises>
   </SpellDef>
-  <SpellDef name="Opening the Veil" area="10'" mastery="6" element="water" range="One spirit portal" duration="one hour" id="opening_the_veil">
-    <Tags>
-	<Tag>Travel</Tag>
-    </Tags>
-    <Raises>
-	  <Raise>Duration (+10 minutes per Raise)</Raise>
-	  <Raise>Special (reach Sakkaku or Yume-do for one Raise, Gaki-do or Toshigoku for two Raises, Yomi for four Raises)</Raise>
-	</Raises>
-  </SpellDef>
-  <SpellDef name="Breath of Mist" area="a circular area 200' in radius" mastery="6" element="water" range="1/2 mile" duration="30 minutes" id="breath_of_mist">
-    <Tags>
-	<Tag>defense</Tag>
-    </Tags>
-    <Raises>
-	  <Raise>Area of Effect (+25’ radius per Raise)</Raise>
-	  <Raise>Duration (+10 minutes per Raise)</Raise>
-	</Raises>
-  </SpellDef>
- </L5RCM>
+</L5RCM>

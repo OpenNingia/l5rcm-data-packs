@@ -24,8 +24,11 @@ Schools
 ### [monks]
 * Order of Eternity
 
+### [peasant]
+* Koga Ninja
+
 ### [ronin]
-* Hateru Ninja
+* Void Mystic
 
 Alternate Paths
 ---------------
@@ -34,15 +37,12 @@ Alternate Paths
 * Abbot
 * Order of Ebisu
 
-### [peasant]
-* Koga Ninja
-
 ### [phoenix]
 * Sesai Ninja
 
 ### [ronin]
+* Hateru Ninja
 * The Ghosts of the Forest
-* Void Mystic
 
 ### [scorpion]
 * Fading Shadows
@@ -53,7 +53,7 @@ Skills
 Spells
 ------
 
-### [multielement]
+### [multi]
 
 #### [Mastery 3]
 * Air and Earth

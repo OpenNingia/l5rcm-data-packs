@@ -3,8 +3,11 @@
   <School clanid="peasant" id="peasant_koga_ninja" name="Koga Ninja">
     <Tags>
       <Tag>ninja</Tag>
+<!-- should this be tagged as an alternate path or not?
+     it does offer starting skills, still it doesn't grant you any trait bonus
       <Tag>alternate</Tag>
       <Tag>peasant_alternate</Tag>
+-->
       <Tag>peasant</Tag>
       <Tag>peasant_ninja</Tag>
     </Tags>
@@ -27,5 +30,12 @@
     </Skills>
     <Spells/>
     <Requirements/>
+    <Outfit bu="0" koku="0" zeni="5">
+      <Item>Peasant clothing</Item>
+      <Item>Dark clothing</Item>
+      <Item>Knife</Item>
+      <Item>Any 3 ninja weapons</Item>
+      <Item>Traveling pack</Item>
+    </Outfit>
   </School>
 </L5RCM>
