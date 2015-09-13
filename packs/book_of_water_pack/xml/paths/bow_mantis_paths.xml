@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="mantis" id="mantis_student_of_cliffs_edge" name="Student of Cliff's Edge">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>mantis_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>mantis_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="howl_of_the_cliffs_edge_3" name="Howl of the Cliff's Edge" rank="3">
+        <Description>The Mantis who train at Cliff’s Edge Dojo are particularly fond of using the kusarigama to trip, disarm, and otherwise disable their foes. When using a kusarigama to make a Knockdown or Disarm maneuver, you gain a +2k1 bonus to your attack roll. You may call three Raises on an attack with a kusarigama to Entangle an opponent up to 15’ away (as per the Entangled condition in the L5R 4th Edition Core rulebook, page 89). The condition lasts until you voluntarily release the foe (as a Free Action), or the foe succeeds in a Contested Strength Roll against you (as a Simple Action).</Description>
+      </Tech>
+      <Tech id="howl_of_the_cliffs_edge_4" name="Howl of the Cliff's Edge" rank="4">
+        <Description>The Mantis who train at Cliff’s Edge Dojo are particularly fond of using the kusarigama to trip, disarm, and otherwise disable their foes. When using a kusarigama to make a Knockdown or Disarm maneuver, you gain a +2k1 bonus to your attack roll. You may call three Raises on an attack with a kusarigama to Entangle an opponent up to 15’ away (as per the Entangled condition in the L5R 4th Edition Core rulebook, page 89). The condition lasts until you voluntarily release the foe (as a Free Action), or the foe succeeds in a Contested Strength Roll against you (as a Simple Action).</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="agility" min="4" type="trait">Agility: 4</Requirement>
+      <Requirement field="chain_weapons" min="5" type="skill">Chain Weapons: 5</Requirement>
+      <RequirementOption text="Replaces: Tsuruchi Bounty Hunter 3, Yoritomo Bushi 4">
+        <Requirement field="mantis_strike_of_the_mantis" type="rule"/>
+        <Requirement field="mantis_no_prey_escapes" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+</L5RCM>

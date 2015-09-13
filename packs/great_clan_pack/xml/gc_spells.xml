@@ -9,7 +9,9 @@
       <Raise>Area of Effect (+1 corpse per Raise)</Raise>
       <Raise>Special(-10 minutes casting time per Raise)</Raise>
     </Raises>
-    <Text>
+    <Description>
+The Great Clans, page 283.
+
 As masters of necromancy, the Chuda often find themselves
 in need of corpses for their spells and techniques.
 This ritual is designed to ensure such corpses are always
@@ -23,7 +25,251 @@ take a Complex Action and expend an Earth spell slot to
 instantly summon the prepared corpses to your location.
 Chuda Necromancers are particularly fond of using this
 spell to summon forth corpses for use with their insidious
-Technique.    
-    </Text>
+Technique.
+    </Description>
+  </SpellDef>
+
+  <!-- THESE SPELLS GAIN THE WARDS TAG IF USED BY YOGO WARDMASTER -->
+  <!-- *** AIR *** -->
+  <SpellDef name="To Seek the Truth" area="One individual touched (may be the caster)" mastery="1" element="air" range="Personal / Touch" duration="5 minutes" id="to_seek_the_truth">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 minute)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+You call upon the wind to purge the mind of your target, granting him clarity. This spell may negate temporary mental or social penalties suffered as a result of a mechanical effect, including Techniques, Wound Ranks, or other spells. The TN of the Spell Casting Roll made to cast this spell is increased by an amount equal the Technique Rank, Wound Rank, or spell Mastery Level used create the penalty in the first place. Disadvantages permanently possessed by an individual may not be countered using this spell.</Description>
+  </SpellDef>
+
+  <SpellDef name="By the Light of the Moon" area="20' radius around the caster" mastery="1" element="air" range="Personal" duration="1 minute" id="by_the_light_of_the_moon">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area (+5' radius)</Raise>
+      <Raise>Duration (+1 minute)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+You call upon the kami to reveal that which has been hidden. All concealed objects within the area of effect appear as slightly luminous outlines to you. Any non-magical concealment is revealed, including secret compartments, trap doors, concealed weapons, etc. Only you can see the presence of these objects.</Description>
+  </SpellDef>
+
+  <SpellDef name="Benten's Touch" area="Target individual (may be the caster)" mastery="2" element="air" range="Personal / Touch" duration="1 hour" id="bentens_touch">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (may increase range to 5' with a single Raise)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+By calling upon the air kami to whisper suggestions to others, you may cause them perceive the target of this spell more positively than they otherwise might. The target of this spell gains a bonus of + 1k1, plus your Air Ring, the total of all Social Skill rolls made for the duration of the spell.</Description>
+  </SpellDef>
+
+  <SpellDef name="Summon Fog" area="50' radius" mastery="3" element="air" range="100'" duration="1 minute" id="summon_fog">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area (+5' radius)</Raise>
+      <Raise>Duration (+1 minute)</Raise>
+      <Raise>Range (+10')</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+The kami can be petitioned to coalesce in an area as they do in the coast, creating a thick, obscuring fog. Within the area affected by your spell, the visibility is decreased to a meager five feet. Fabrics and other absorbent materials within the spells area of effect will become damp or even wet if they remain within it long enough. Small sources of open flame such as candles, might be extinguished as well, at the GM's discretion. The moistness of fog is extremely damaging to rice paper.</Description>
+  </SpellDef>
+
+  <!-- *** EARTH *** -->
+
+  <SpellDef name="Armor Of Earth" area="Self" mastery="1" element="earth" range="Personal" duration="10 rounds" id="armor_of_earth">
+    <Tags>
+      <Tag>battle</Tag>
+      <Tag>defense</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+2 rounds)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+This spell infuses the caster's body with the strength of Earth, weakening the force of any physical or magical attack which strikes him. For the duration of the spell, you gain Reduction in an amount equal to your Earth Ring + School Rank. However, this infusion of Earth slows your movements. Your Water is considered 1 Rank lower for purposes of movement while you are under the effects of this spell.</Description>
+  </SpellDef>
+
+  <SpellDef name="Courage Of The Seven Thunders" area="Targets up to caster's Shugenja School Rank" mastery="1" element="earth" range="30'" duration="10 minutes" id="courage_of_the_seven_thunders">
+    <Tags>
+      <Tag>battle</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 minute)</Raise>
+      <Raise>Targets (+1)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+This spell infuses the targets (who may include the caster) with firm and unyielding courage, bolstered by the eternal power of the Earth. For the duration of the spell, all the targets gain +5k to resist any kind of Fear effect, whether magical or natural. However, this spell is associated with the memory of the legendary Seven Thunders, and those whose connection the Thunders is tenuous do not receive the same degree of blessing from the Earth kami. Samurai who are not of the original Seven Great Clans receive only + 3k to their rolls to resist Fear. Anyone who has at least a full Rank of Shadowlands Taint cannot benefit from this spell, although this will not actually reveal that they are tainted. This spell may be cast as a combined ritual by two or more shugenja who know the spell, in which case they may add their highest single Earth Rank to their combined total School Ranks to determine how many targets the spell can affect.</Description>
+  </SpellDef>
+
+  <SpellDef name="Force Of Will" area="One target" mastery="2" element="earth" range="50'" duration="2 rounds" id="force_of_will">
+    <Tags>
+      <Tag>battle</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 round, maximum 4 Rounds duration)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+This spell infuses the target with an intense resistance to pain and death, as the Earth kami bolster his will to live to superhuman levels. He is able to shrug off the pain and shock of his wounds, even continuing in the face of lethal injuries for a short time. For the duration of this spell, the target is immune to all Wound Rank penalties and effects - including the effect of being dead if the Out rank is completely filled. When the spell expires, however, the full effects of any Wounds apply immediately - thus, this spell typically affords either a brief chance to be healed before it is too late, or the chance to wage a final battle in the face of certain death.</Description>
+  </SpellDef>
+
+  <SpellDef name="Wholeness Of The World" area="One target creature" mastery="2" element="earth" range="Personal or 20'" duration="10 minutes" id="wholeness_of_the_world">
+    <Tags>
+      <Tag>defense</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 minute)</Raise>
+      <Raise>Range (+5')</Raise>
+      <Raise>Targets (+1 per two Raises)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+This spell infuses the target with the strength of Earth to such a degree that his Rings and Traits become wholly resistant to any effort to change them. Any physical or magical effect which would raise or lower his Traits or Rings is completely ineffective for the duration of those spell, as the Earth kami normally rebuff any such efforts to alter the target's Elemental balance.</Description>
+  </SpellDef>
+
+  <!-- *** FIRE *** -->
+  <SpellDef name="Extinguish" area="100' radius" mastery="1" element="fire" range="Personal" duration="Instantaneous" id="extinguish">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area (+20 feet)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+Fire spirits can be driven away by the proper invocation, a very useful ability in Rokugani towns and cities where the construction is all wood and paper. This spell dismisses the active Fire kami in the area. All non-magical fire in the area of effect is immediately snuffed out, and any damage dealt by fire (magical or not) reduces its DR by 1k1 until the start of the next Round.</Description>
+  </SpellDef>
+
+  <SpellDef name="Fires Of Purity" area="One target" mastery="1" element="fire" range="25'" duration="1 minute" id="fires_of_purity">
+    <Tags>
+      <Tag>defense</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Damage (+1k0 per two Raises)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+This spell, one of to the few directly protective prayers involving the Fire kami, asks the kami to protect one person, enveloping the target in a shroud of bright flames. Neither the caster nor anything he carries takes damage from the spell, but anyone who comes into contact with him or strikes him with a melee attack takes 2k2 Wounds. Anyone the target strikes in melee with an unarmed attack or a weapon he carried when the spell was cast also rakes an extra 2k2 Wounds. Anything the target puts down, however, cannot be picked back up without subjecting it to the damage from the spell. Ranged weapons such as arrows bypass this barrier of fire, dealing Wounds as normal.</Description>
+  </SpellDef>
+
+  <SpellDef name="Disrupt The Aura" area="Target person or creature" mastery="2" element="fire" range="50'" duration="24 hours" id="disrupt_the_aura">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+12 hours per Raise)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+Anyone whose elements are out of balance will feel the effects, and this spell creates this condition deliberately by aggravating the Fire present in the target's body. While the spell is in effect, the target cannot be healed by magical means. Magical spells, items, or Techniques that attempt to restore Wounds to the target automatically fail. (Mundane wound treatment with the Medicine skill will still be effective.) The target may realize something is physically wrong with him but cannot find out what is happening without the help of a shugenja - casting Sense (Fire will show the presence of many excited Fire spirits within the target.</Description>
+  </SpellDef>
+
+  <SpellDef name="Haze Of Battle" area="One target" mastery="3" element="fire" range="10'" duration="5 Rounds, or 1 hour out of combat" id="haze_of_battle">
+    <Tags>
+      <Tag>battle</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 Round)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+Fire spirits are known for their erratic and temperamental nature, and shugenja can badly disrupt their foes in battle by imbuing them with this aspect of the element. The target of this spell is filled with the unfocused fury of Fire, enraging him and forcing him to lose perspective. The target immediately assumes the Full Attack Stance and cannot switch from that Stance for the duration of the spell. If the spell is cast out of Battle, the target gains the Brash and Contrary Disadvantages for the duration of the spell. This spells effects can be overcome by those of strong will. The target can attempt to resist with an opposed Willpower roll, but you add you’re Fire to the total of your roll. If the spell is cast in battle, this roll occurs during the Reactions Stage of Battle. The roll occurs once every 10 minutes.</Description>
+  </SpellDef>
+
+  <SpellDef name="Globe Of The Everlasting Sun" area="1 mile" mastery="6" element="fire" range="500'" duration="1 day" id="globe_of_the_everlasting_sun">
+    <Tags>
+      <Tag>defense</Tag>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>None</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+This mighty prayer calls on all the Fire kami in the area to remain quiet and calm, soothing the agitation which often afflicts them. It is often invoked during major festivals, such as the crowning of a new Emperor. For the duration of the spell, all buildings within the area of effect are immune to the effects of magical fire, and all Fire spells cast within that area have the TN of their Spell Casting Rolls increased by 15. Normal fires will still ignite and burn, but they do so sluggishly, and do not spread easily.</Description>
+  </SpellDef>
+
+  <!-- *** WATER *** -->
+  <SpellDef name="Reversal Of Fortunes" area="One target individual" mastery="1" element="water" range="10'" duration="3 rounds" id="reversal_of_fortunes">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 round)</Raise>
+      <Raise>Range (+5')</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+Versatility is the domain of water, and those who carry its blessing reap the rewards. For the duration of this spell, the target may immediately re-roll anyone roll per round. This must be done immediately after the first roll is completed, and the target may keep either result.</Description>
+  </SpellDef>
+
+  <SpellDef name="Rejuvenating Vapors" area="One target individual" mastery="2" element="water" range="Touch" duration="Instantaneous" id="rejuvenating_vapors">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Targets (one additional person per 2 Raises)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+Water washes away all that is impure, refreshing and reinvigorating all it touches. The target of this spell is instantly refreshed as if he had just arisen from a full night's sleep. This does not restore spent Void Points, but can eliminate fatigue and exhaustion. When used on a shugenja, this spell does restore the spell slots associated with the Void Ring (which can be used for any elements), but not the spell slots associated with other Rings. Abilities that characters may use a limited number of times per day are not refreshed by this spell. No Individual can benefit from Rejuvenating Vapors more than once within a 24-hour period.</Description>
+  </SpellDef>
+
+  <SpellDef name="Wisdom and Clarity" area="self" mastery="2" element="water" range="Personal" duration="1 hour" id="wisdom_and_clarity">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+30 minutes)</Raise>
+      <Raise>Targets (may target another with 2 Raises)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+By entreating the insight of the Water kami, a shugenja may dramatically increase his ability to perceive the world around him. For the duration of this spell, your reading speed doubles, and you will have perfect recall of everything you read while under the influence of this spell. This spell does not enhance comprehension, however, so any language or cipher you are not familiar with is still completely indecipherable.</Description>
+  </SpellDef>
+
+  <SpellDef name="Near To Ice" area="One target individual" mastery="3" element="water" range="Touch" duration="5 rounds" id="near_to_ice">
+    <Tags>
+      <Tag school="scorpion_yogo_wardmaster_school">wards</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 round)</Raise>
+      <Raise>Range (increased to 10' with 2 Raises)</Raise>
+    </Raises>
+    <Description>
+Updated on "The Great Clans", page 230.
+
+As water grows durable and resistant with the coming winter, so too can the water within the human form become sterner and more durable. The target of this spell has all current Wound Penalties negated for the duration of the spell. Any additional penalties incurred take full effect, using the difference between the negated penalty and the new penalty as the effective penalty incurred. Wounds are not healed by this effect, they simply cease to inhibit those suffering from them.</Description>
   </SpellDef>
 </L5RCM>

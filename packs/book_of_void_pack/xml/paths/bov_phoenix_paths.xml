@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="phoenix" id="phoenix_sesai_ninja" name="Sesai Ninja">
+    <Tags>
+      <Tag>ninja</Tag>
+      <Tag>phoenix_ninja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="anything_for_the_phoenix" name="Anything for the Phoenix" rank="2">
+        <Description>When on a battlefield, you gain +1k1 to all Stealth rolls and a Free Raise on all attack rolls made by surprise. When performing dishonorable acts on behalf of the Phoenix Clan, you lose half the normal amount of Honor (rounded up).
+      </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="stealth" min="3" type="skill">Stealth 3</Requirement>
+      <RequirementOption text="Replaces Shiba Bushi 2">
+        <Requirement field="phoenix_shiba_bushi_school" max="1" min="1" type="school"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+
+  <!-- DRAGON CHANNELER -->
+  <School clanid="phoenix" id="phoenix_dragon_channeler" name="Dragon Channeler">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>phoenix_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>phoenix_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="beseech_the_dragons" name="Beseech The Dragons" rank="6">
+        <Description>You lose any Affinities and Deficiencies you had prior to becoming a Dragon Channeler, instead gaining an Affinity for Dragon spells. Your normal spell slots are reduced by 2 in each Ring; in return, you gain three “Dragon Spell Slots” which can only be used to invoke the powers of the Dragons via Dragon Spells. You may spend Void Points to cast additional Dragon spells when your slots are exhausted. Dragon spell slots do not recover from rest – you may only regain them by sustained meditation (two hours of uninterrupted meditation and Meditation/ Void at TN 30 to regain one slot). GM’s Option: Some GMs may wish to create a connection between the Dragon Channelers and the Chosen by the Oracles Advantage (due to the link between the Oracles and the Dragons). If this is desired, a character with Chosen by the Oracles starts with four Dragon Spell slots rather than three.
+      </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="*any" min="5" type="ring">Any Ring at Rank 5</Requirement>
+      <Requirement field="*any" min="4" type="ring">Any Ring at Rank 4</Requirement>
+      <Requirement field="*any" min="4" type="ring">Any Ring at Rank 4</Requirement>
+      <Requirement field="meditation" type="skill" min="5">Meditation 5</Requirement>
+      <Requirement field="spellcraft" type="skill" min="5">Spellcraft 5</Requirement>
+      <Requirement field="lore_theology" type="skill" min="5">Lore: Theology 5</Requirement>
+      <Requirement field="more" type="rpg">Either personally chosen by the Elemental Dragons or personally trained by an existing Dragon Channeler.
+      </Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+	<School clanid="ronin" id="ronin_the_scales_of_the_carp" name="The Scales of the Carp">
+		<Tags>
+			<Tag>courtier</Tag>
+			<Tag>ronin_courtier</Tag>
+			<Tag>alternate</Tag>
+			<Tag>ronin_alternate</Tag>
+		</Tags>
+		<Techs>
+			<Tech id="ronin_swimming_beneath_the_waves" name="Swimming Beneath the Waves" rank="3">
+				<Description>The Scales of the Carp operate beneath the level where most samurai take notice, and are adept at convincing the authorities – especially those on either side of the Crab-Crane border – to ignore their activities. You gain a +1k0 bonus to all Temptation (Bribery) rolls. If the roll is against a Crab or Crane samurai, the bonus is +1k1 instead, and if the samurai agrees to the bribe you may (with the GM’s permission) spend a Void Point to gain him as an Ally with 1 point of Devotion. He will remain an Ally permanently unless you betray him or otherwise break the alliance.</Description>
+			</Tech>
+		</Techs>
+		<Skills/>
+		<Spells/>
+		<Requirements>
+			<Requirement field="commerce" min="3" type="skill">Commerce 3</Requirement>
+			<Requirement field="lore_underworld" min="3" type="skill">Lore: Underworld 3</Requirement>
+			<Requirement field="rpg" type="more">Must be recruited into the Scales by existing members</Requirement>
+		</Requirements>
+	</School>
+</L5RCM>

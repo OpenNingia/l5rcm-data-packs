@@ -1,0 +1,9 @@
+{
+	"id": "book_of_void",
+	"display_name": "Book of Void",
+	"authors": ["Eugen Platzer"],
+	"version": "1.0",
+	"update-uri": "",
+	"download-uri": "",
+	"min-cm-version": "3.9"
+}

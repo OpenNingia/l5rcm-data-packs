@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+	<School clanid="crane" id="crane_student_of_mizu_do" name="Student of Mizu-Do">
+		<Tags>
+			<Tag>monk</Tag>
+			<Tag>artisan</Tag>
+			<Tag>alternate</Tag>
+			<Tag>monks_alternate</Tag>
+			<Tag>crane_alternate</Tag>
+		</Tags>
+		<Techs>
+			<Tech id="the_way_of_water" name="The Way of Water" rank="3">
+				<Description>Masters of Mizu-do techniques are able to avoid nearly any strike, subduing their attackers by using their own strength against them. When performing a Grapple, you use your opponent’s Strength Rank in place of your own. While you are in the Defense or Full Defense stance, when a melee attack misses you, you may immediately take a Free Action to spend a Void Point and make a Jiujutsu (Mizu-do) / Strength roll against a TN of the opponent’s attack roll, but using the opponent’s Strength Rank in place of your own. If you succeed in this roll, you may either immediately Throw the opponent (as per the option in Grappling) or immediately take control of a Grapple against the opponent.</Description>
+			</Tech>
+		</Techs>
+		<Skills/>
+		<Spells/>
+		<Requirements>
+			<Requirement field="jiujutsu" min="4" trg="Mizu-Do" type="skill">Jiujutsu (Mizu-Do) 4</Requirement>
+			<Requirement field="water" min="3" type="ring">Water 3</Requirement>
+			<Requirement field="rpg" type="more">Access to a Mizu-do sensei</Requirement>
+			<RequirementOption text="Replaces any non martial Brotherhood Monk 3, Doji Courtier 3, Kakita Artisan 3, Asahina Shugenja 3">
+				<Requirement field="*monks_brotherhood" min="3" type="school"/>
+				<Requirement field="crane_doji_courtier_school" min="3" type="school"/>
+				<Requirement field="crane_ob_kakita_artisan_school" min="3" type="school"/>
+				<Requirement field="crane_asahina_shugenja_school" min="3" type="school"/>
+			</RequirementOption>
+		</Requirements>
+	</School>
+	<School clanid="crane" id="crane_daidoji_spy_master" name="Daidoji Spy Master">
+		<Tags>
+			<Tag>courtier</Tag>
+			<Tag>ninja</Tag>
+			<Tag>alternate</Tag>
+			<Tag>crane_alternate</Tag>
+			<Tag>crane_courtier</Tag>
+			<Tag>crane_ninja</Tag>
+		</Tags>
+		<Techs>
+			<Tech id="crane_truth_in_shadows" name="Truth in Shadows" rank="3">
+				<Description>You gain the Spy Network Advantage for no points; if you already possess Advantage, you may use it twice as this often. You gain a +2k0 bonus to Stealth, Investigation, and Temptation rolls. When you use Low Skills or otherwise perform moderately dishonorable actions on behalf of the Crane Clan, you lose half the normal amount of Honor, rounded up (you still lose normal amounts of Honor for actions which are not for the Crane and for truly heinous actions like murder, betrayal, or blasphemy).</Description>
+			</Tech>
+		</Techs>
+		<Skills/>
+		<Spells/>
+		<Requirements>
+			<Requirement field="crane_daidoji" type="tag">Must be a member of the Daidoji family</Requirement>
+			<RequirementOption text="Crafty Advantage or an Honor Rank of 4.0 or less">
+				<Requirement field="crafty" type="merit"/>
+				<Requirement field="honor" max="4" type="trait"/>
+			</RequirementOption>
+			<RequirementOption text="Replaces: Daidoji Iron Warrior 3, Daidoji Scout 3, Doji Courtier 3">
+				<Requirement field="crane_daidoji_iron_warrior_school" max="2" min="2" type="school"/>
+				<Requirement field="crane_daidoji_scout" max="2" min="2" type="school"/>
+				<Requirement field="crane_doji_courtier_school" max="2" min="2" type="school"/>
+			</RequirementOption>
+		</Requirements>
+	</School>
+</L5RCM>

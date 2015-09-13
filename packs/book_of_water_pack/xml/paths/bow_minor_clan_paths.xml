@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="dragonfly" id="dragonfly_kawaru_sages" name="Kawaru Sages">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>dragonfly_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>dragonfly_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="phoenix_the_veil_of the_future" name="The Veil of the Future" rank="2">
+        <Description>The Kawaru Sages have mastered the art of reading the sixty-four hexagrams of kawaru in order to divine what will happen in the near future, enhancing their forecasts with the aid of the kami of Water. At the beginning of each day, you may spend one hour in meditation and make a Divination Skill Roll, at a basic TN of 15. If successful, you gain a +1k0 bonus die, and you may Raise on the roll to gain addition bonus dice up to your Water Ring. You may spend these +1k0 bonus dice on any Spell Casting Rolls made during the rest of the day. Unused dice are lost at nightfall.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="divination" min="3" trg="Kawaru" type="skill">Divination (Kawaru) 3</Requirement>
+      <Requirement field="drgonfly_tonbo_shugenja_school" max="1" min="1" type="school">Replaces Tonbo Shugenja 2</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

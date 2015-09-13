@@ -23,41 +23,47 @@ from dal.report import ContentToMarkDown
 
 from subprocess import call
 
+
 def main():
-	r = '../packs'
+    r = '../packs'
 
-	packs_path = []
+    packs_path = []
 
-	for p in os.listdir(r):
-		m  = os.path.join(r, p, 'manifest')
+    for p in os.listdir(r):
+        m = os.path.join(r, p, 'manifest')
 
-		root_path = os.path.join(r, p)
+        root_path = os.path.join(r, p)
 
-		print(m)
-		if not os.path.exists(m):
-			print('manifest not found', m)
-			continue
-		ms = {}
+        if not os.path.exists(m):
+            #print('manifest not found', m)
+            continue
+        print(m)
 
-		try:
-			with open(m, 'r') as f:
-				ms = json.load(f)
-		except:
-			print('bad manifest', m)
-			continue
+        ms = {}
 
-		if not 'id' in ms or not 'version' in ms:
-			print('bad manifest', ms)
-			continue
+        try:
+            with open(m, 'r') as f:
+                ms = json.load(f)
+        except:
+            print('bad manifest', m)
+            continue
 
-		ctm = ContentToMarkDown( root_path, os.path.join('../contents', ms['id'] + '.md') )
-		ctm.build()
+        if not 'id' in ms or not 'version' in ms:
+            print('bad manifest', ms)
+            continue
 
-		if os.name == 'nt':
-			c = 'makepack.bat'
-		else:
-			c = './makepack.sh'
-		call([c, os.path.join(r, p), "{0}-{1}".format(ms['id'], ms['version'])])
+        ctm = ContentToMarkDown(root_path, os.path.join('../contents', ms['id'] + '.md'))
+        ctm.build()
+
+        if os.name == 'nt':
+            c = 'makepack.bat'
+        else:
+            c = './makepack.sh'
+        if 'language' in ms:
+            call([c, os.path.join(r, p), "{0}-{1}-{2}".format(ms['id'], ms['version'], ms['language'])])
+        else:
+            call([c, os.path.join(r, p), "{0}-{1}".format(ms['id'], ms['version'])])
+
 
 if __name__ == "__main__":
-	main()
+    main()

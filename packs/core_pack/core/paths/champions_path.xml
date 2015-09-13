@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+<!-- THE AMETHYST CHAMPION -->
+
+  <School clanid="imperial" name="The Amethyst Champion" id="amethyst_champion_path">
+    <Tags>
+      <Tag>champion</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Emperor's Voice" rank="0" id="the_emperors_voice">
+        <Description>
+The Amethyst Champion brings the voice of the Emperor and the Imperial Court to those who cannot attend the Imperial Court.
+As such, the Champion is a master at dealing with any threats to the sanctity of the Emperor’s court. As a Free Action, you may spend a Void Point to temporarily gain the ability to use any courtier Technique that has been used against you in the past seven days’ time.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="courtier" type="tag">Courtier only</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- THE EMERALD CHAMPION -->
+
+  <School clanid="imperial" name="The Emerald Champion" id="emerald_champion_path">
+    <Tags>
+      <Tag>champion</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Emperor's Hand" rank="0" id="the_emperors_hand">
+        <Description>
+The Emerald Champion is the hand of the Emperor, and the champion of his laws.
+You gain a bonus of +1k1 on all High and Bugei Skill Rolls, and an additional +1k0 on all your School Skills.
+You also gain a number of bonus Void Points per day equal to your highest Ring.
+These Void Points may be granted to any one subordinate or ally in your line of sight for use on any appropriate roll.
+Granting these bonus Void Points in this manner is a Free Action, but may only be done once per Round.
+You may not use these bonus Void Points yourself.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="bushi" type="tag">Bushi only</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- THE JADE CHAMPION -->
+
+  <School clanid="imperial" name="The Jade Champion" id="jade_champion_path">
+    <Tags>
+      <Tag>champion</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Emperor's Will" rank="0" id="the_emperors_will">
+        <Description>
+The Jade Champion is the enforcer of the Emperor’s laws related to magic and religion.
+You gain a Free Raise on all Spell Casting Rolls.
+When confronting an opponent who practices any form of outlawed magic (maho, yobanjin shamanism, any form of gaijin sorcery, etc.) or who possesses corrupt supernatural abilities (the Shadowlands Taint or corruption by the Lying Darkness), you gain an additional Free Raise on your Spell Casting Roll.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="shugenja" type="tag">Shugenja only</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- THE RUBY CHAMPION -->
+
+  <School clanid="imperial" name="The Ruby Champion" id="ruby_champion_path">
+    <Tags>
+      <Tag>champion</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Master of the Dojo" rank="0" id="master_of_the_dojo">
+        <Description>
+The Ruby Champion is among the greatest sensei in the Empire, and can inspire those under his command to almost unparalleled heights.
+When fighting alongside allies under your command, you may spend a Void Point as a Complex Action to allow any one ally within line of sight to use one of your Techniques as if that ally were a member of your School of equivalent rank.
+This effect lasts until the start of your next Turn.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="bushi" type="tag">Bushi only</Requirement>
+    </Requirements>
+  </School>
+
+  <!-- THE TOPAZ CHAMPION -->
+
+  <School clanid="imperial" name="The Topaz Champion" id="topaz_champion_path">
+    <Tags>
+      <Tag>champion</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Soul of Promise" rank="0" id="soul_of_promise">
+        <Description>
+The Topaz Champion is among the best and brightest of each generation.
+When you advance in Insight Rank and into this Path, you gain the Technique it would normally replace.
+You also gain a number of bonus Void Points per day equal to your highest Ring.
+You may spend these just like normal Void Points (with all the normal restrictions), but they may only be used to enhance your School Skill Rolls.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+    </Requirements>
+  </School>
+
+  <!-- THE EMERALD MAGISTRATE -->
+
+  <School clanid="imperial" name="The Emerald Magistrate" id="emerald_magistrate_path">
+    <Tags>
+      <Tag>magistrate</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Honor Is My Shield" rank="0" id="honor_is_my_shield">
+        <Description>
+Those who enforce the Emperor’s laws are among the most virtuous souls, and that is their protection. You gain Reduction equal to half your Honor Rank, rounded up.
+This effect is cumulative with Reduction you may have from other sources, including armor.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+
+      <RequirementOption text="Replaces Any Bushi, Courtier, or Shugenja School, Rank 3, 4 or 5">
+        <Requirement field="*bushi" type="school" min="2" max="4"/>
+        <Requirement field="*courtier" type="school" min="2" max="4"/>
+        <Requirement field="*shugenja" type="school" min="2" max="4"/>
+      </RequirementOption>
+
+      <Requirement field="investigation" type="skill" min="3">Investigation 3</Requirement>
+      <Requirement field="lore_law" type="skill" min="3">Lore: Law 3</Requirement>
+      <Requirement field="more" type="rpg">Must receive an appointment as an Emerald Magistrate</Requirement>
+
+    </Requirements>
+  </School>
+
+  <!-- THE JADE MAGISTRATE -->
+
+  <School clanid="imperial" name="The Jade Magistrate" id="jade_magistrate_path">
+    <Tags>
+      <Tag>magistrate</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Scent of the Kami" rank="0" id="scent_of_the_kami">
+        <Description>
+A servant of the Jade Champion is a master at deciphering the mysteries of the kami.
+You may make a Perception / Spellcraft Skill Roll to identify any spells cast in an area during the past forty-eight hours.
+The TN for this roll is equal to the basic TN to cast the spell in question (which is to say its Mastery Level x 5, plus 5).
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+
+      <RequirementOption text="Replaces Any Bushi, Courtier, or Shugenja School, Rank 4">
+        <Requirement field="*bushi" type="school" min="3" max="3"/>
+        <Requirement field="*courtier" type="school" min="3" max="3"/>
+        <Requirement field="*shugenja" type="school" min="3" max="3"/>
+      </RequirementOption>
+
+      <Requirement field="lore_law" type="skill" min="3">Lore: Law 3</Requirement>
+      <Requirement field="spellcraft" type="skill" min="3">Spellcraft 3</Requirement>
+      <Requirement field="more" type="rpg">Must receive an appointment as an Jade Magistrate</Requirement>
+
+    </Requirements>
+  </School>
+
+  <!-- THE IMPERIAL LEGIONNAIRE -->
+
+  <School clanid="imperial" name="The Imperial Legionnaire" id="imperial_legionnaire_path">
+    <Tags>
+      <Tag>legionnaire</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Strength of the Empire" rank="0" id="strength_of_the_empire">
+        <Description>
+The strength of the Emperor is exerted via the actions of his loyal legions.
+When fighting alongside other members of the Imperial legions, or alongside Emerald or Jade Magistrates, when you spend a Void Point to enhance a roll you also gain a bonus to the roll equal to the number of allied legionnaires and/or magistrates within 25 feet.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+
+      <RequirementOption text="Any Bushi School, Rank 2">
+        <Requirement field="*bushi" type="school" min="1" max="1"/>
+      </RequirementOption>
+
+      <Requirement field="glory" type="trait" min="2">Glory 2+</Requirement>
+      <Requirement field="more" type="rpg">Must receive an appointment to the Imperial Legions</Requirement>
+
+    </Requirements>
+  </School>
+
+  <!-- THE JADE LEGIONNAIRE -->
+
+  <School clanid="imperial" name="The Jade Legionnaire" id="jade_legionnaire_path">
+    <Tags>
+      <Tag>legionnaire</Tag>
+      <Tag>alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Purity in Purpose &amp; Deed" rank="0" id="purity_in_purpose_and_deed">
+        <Description>
+The Jade Legionnaires accompany the Jade Magistrates against the most dangerous, most insidious, and most numerous of the Empire’s magical threats.
+If your Honor Rank is higher than that of your opponent, you may add the difference between the two to the total of all your attack and damage rolls made against that opponent.
+For the purposes of this Technique, all creatures and other opponents who do not possess an Honor Rank are assumed to have an Honor Rank of 0.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+
+      <RequirementOption text="Any Bushi or Shugenja School, Rank 2">
+        <Requirement field="*bushi" type="school" min="1" max="1"/>
+        <Requirement field="*shugenja" type="school" min="1" max="1"/>
+      </RequirementOption>
+
+      <Requirement field="glory" type="trait" min="2">Glory 2+</Requirement>
+      <Requirement field="more" type="rpg">Must receive an appointment to the Jade Legion</Requirement>
+
+    </Requirements>
+  </School>
+
+</L5RCM>

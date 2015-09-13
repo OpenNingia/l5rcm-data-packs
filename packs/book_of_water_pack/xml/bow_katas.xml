@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <KataDef element="water" id="waves_upon_the_breakers" mastery="3" name="Waves upon the Breakers">
+    <Description>This kata channels a samurai’s chi such that it enhances their natural strength and focus and brings it to bear on the battlefield. When this kata is active and you are wielding a weapon in which you have at least three skill ranks, your damage is increased by +1k0.</Description>
+    <Requirements>
+      <Requirements field="crane_kakita_bushi_school" type="tag">Kakita Bushi School</Requirements>
+      <Requirements field="lion_akodo_bushi_school" type="tag">Akodo Bushi School</Requirements>
+      <Requirements field="unicorn_shinjo_bushi" type="tag">Shinjo Bushi School</Requirements>
+    </Requirements>
+  </KataDef>
+  <KataDef element="water" id="leaves_in_the_stream" mastery="3" name="Leaves in the Stream">
+    <Description>This kata teaches the samurai to embrace the flowing speed of water, allowing him to move significantly faster across the battlefield. While this kata is active, you may reduce your Armor TN by up to 5 x your Water (but cannot reduce it below 5). In return, you may increase your maximum possible movement distance for the Round by the same amount.</Description>
+    <Requirements>
+      <Requirements field="scorpion_bayushi_bushi_school" type="tag">Bajushi Bushi School</Requirements>
+      <Requirements field="crab_hiruma_bushi_school" type="tag">Hiruma Bushi School</Requirements>
+      <Requirements field="phoenix_shiba_bushi_school" type="tag">Shiba Bushi School</Requirements>
+      <Requirements field="dragon_mirumoto_bushi_school" type="tag">Mirumoto Bushi School</Requirements>
+    </Requirements>
+  </KataDef>
+  <KataDef element="water" id="power_of_the_tsunami" mastery="4" name="Lee Power of the Tsunami">
+    <Description>While this kata is active, once per Round when attacking an opponent you may ignore an amount of Reduction equal to your Water Ring. For example, if you possess Water 4 and attack an opponent with Reduction 5 while this kata is active, once per Round that enemy would be treated as if he only possessed Reduction 1.</Description>
+    <Requirements>
+      <Requirements field="crab_hida_bushi_school" type="tag">Hida Bushi School</Requirements>
+      <Requirements field="spider_daigotsu_bushi_school" type="tag">Daigotsu Bushi School</Requirements>
+      <Requirements field="unicorn_moto_bushi_school" type="tag">Moto Bushi School</Requirements>
+    </Requirements>
+  </KataDef>
+</L5RCM>
