@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="monks" name="Kaze-Do Fighter" id="monks_kaze_do_fighter">
+    <Tags>
+      <Tag>monk</Tag>
+      <Tag>monks_monk</Tag>
+      <Tag>alternate</Tag>
+      <Tag>monks_alternate</Tag>
+      <Tag>brotherhood</Tag>
+      <Tag>monks_brotherhood</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Way of Air" rank="2" id="monks_the_way_of_air"><Description>The students of Kaze’s ancient techniques learn how to use the speed of their opponents against them while evading enemy weapons. When you are fighting unarmed, any opponent attacking you with a melee weapon suffers a penalty of –Xk0 to his attacking Skill Roll, where X equals his Air Ring. This penalty cannot apply to more opponents within the same Round than your Insight Rank.</Description></Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="jiujutsu" type="skill" trg="Kaze-do" min="3">Jiujutsu (Kaze-do) 3</Requirement>
+      <Requirement field="2" type="rank">Must be at Rank 2</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>
