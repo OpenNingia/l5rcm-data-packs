@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="dragon" id="dragon_kitsukis_eye" name="Kitsuki's Eye">
+    <Tags>
+      <Tag>courtier</Tag>
+      <Tag>dragon_courtier</Tag>
+      <Tag>alternate</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="dragon_the_eye_sees_all" name="The Eye Sees All" rank="6">
+        <Description>Your ability to perceive details and recognize their significance has been refined to the point of seeming preternatural. Any time you enter an area (room, courtyard, garden, etc), you may spend a Void Point and take a minute to observe the area, after which you make a Perception Roll at TN 25. With a success, you spot any tracks, handprints, out-of-place items, or other such visual clues in the area. You may call a Raise on the roll to gain additional clues (GM’s choice as to what they are) from other senses, such as hearing and scent (one Raise per sense). You may call two Raises to know if there is anything physically hidden in the area (although you will not know exactly where it is). You are also extremely difficult to surprise. You gain a bonus of +2k2 to any rolls made to avoid being surprised.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="dragon_the_eyes_betray_the_heart" type="rule">Must attain Rank 5 in the Kitsuki Investigator School and be recruited into the Eye by its sensei.</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

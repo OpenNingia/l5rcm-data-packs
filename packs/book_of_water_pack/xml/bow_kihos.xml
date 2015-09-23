@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+	<KihoDef element="Water" id="musubi" mastery="5" name="Musubi" type="internal">
+		<Description>This kiho invokes the flowing strength and motion of Water to protect the monk. While the kiho is active, the monk moves his staff in a constant whirlwind of motion, swift and relentless yet also graceful and without pause or pattern, guided only by the innate perception of Water. Enemy attacks are deflected away by these motions, suppressed and turned aside by the flow of Water’s power. So long as the Kiho is active and the monk is holding and moving his staff (for mechanical purposes moving the staff in this way is considered a Free Action), the monk adds the combined total of his Water Ring and his Staves Skill Rank to his Armor TN.
+		Furthermore, if the monk devotes more of his time and effort to the whirling and flowing motions of the staff, his defense becomes correspondingly more potent; for each Simple Action in the same Round the monk uses to enhance the Kiho, he may increase his Armor TN by his Water Ring again for that Round. (This additional Armor TN bonus ends at the beginning of the monk’s next Turn.)</Description>
+		<Tag>staff</Tag>
+	</KihoDef>
+	<KihoDef element="water" id="dharma_technique" mastery="7" name="Dharma Technique" type="martial">
+		<Description>A more advanced form of Musubi, this Kiho calls on Water’s defensive powers to protect the monk not only physically but also spiritually. Much like Musubi, this Kiho requires the monk to have a staff and maintain it in motion; however, this Kiho requires the monk to expend a Simple Action on the staff’s movement each Round in order to provide a sufficient focus for his chi. While this Kiho is in effect, the monk has the ability to deflect kami with the Water chi which he focuses through the staff. In game terms, when a spell specifically targets the monk (not an area-effect spell), the monk may make a Contested Roll of his Staves/Water against the shugenja’s Spell Casting roll. If the monk wins the roll, his chi disrupts the spell and disperses it, negating its effects against him. (If the spell is targeting multiple people, the other targets are not protected by the Kiho.) The monk may do this a number of times per skirmish equal to his Water Ring. At the GM’s option, this Kiho may also be able to defend against maho spells, using the pure Water chi to disrupt the kansen. However, the monk must make 3 Raises on the Contested Roll in order to succeed.</Description>
+		<Tag>staff</Tag>
+	</KihoDef>
+	<KihoDef element="water" id="tasaii_do" mastery="6" name="Tasaii-Do" type="martial">
+		<Description>This Kiho focuses the monk’s Water chi offensively, channeling it through his staff in order to overwhelm his opponent. It is activated with an attack in the same manner as an atemi Kiho, but using a staff attack instead of an unarmed attack. After striking his opponent (typically in a chi-focusing location like the head, chest, or stomach), the monk unleashes his chi through the staff and makes a Contested Roll of his Water against the target’s Earth. With a success, the target is Stunned.</Description>
+		<Tag>atemi</Tag>
+		<Tag>staff</Tag>
+	</KihoDef>
+</L5RCM>

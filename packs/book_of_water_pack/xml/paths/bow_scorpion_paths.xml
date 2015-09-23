@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="scorpion" id="scorpion_the_scorpions_tail" name="The Scorpion's Tail">
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>scorpion_bushi</Tag>
+      <Tag>alternate</Tag>
+      <Tag>scorpion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="scorpion_the_tails_reach_3" name="The Tail's Reach" rank="3">
+        <Description>The Scorpion’s Tail dojo teaches students several effective ways to employ the kusarigama and its brethren. If you use any chain weapon as a climbing tool, you gain a +1k1 bonus to any Athletics rolls made for that purpose. You may attack with a kusarigama at a distance of up to 15’ from your target. Also, any time you attack with a kusarigama, you may call three Raises on the attack to inflict the Lame Disadvantage on your opponent – the Disadvantage lasts until the Wounds from the attack are healed.</Description>
+      </Tech>
+      <Tech id="scorpion_the_tails_reach_4" name="The Tail's Reach" rank="4">
+        <Description>The Scorpion’s Tail dojo teaches students several effective ways to employ the kusarigama and its brethren. If you use any chain weapon as a climbing tool, you gain a +1k1 bonus to any Athletics rolls made for that purpose. You may attack with a kusarigama at a distance of up to 15’ from your target. Also, any time you attack with a kusarigama, you may call three Raises on the attack to inflict the Lame Disadvantage on your opponent – the Disadvantage lasts until the Wounds from the attack are healed.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="athletics" min="4" type="skill">Athletics 4</Requirement>
+      <Requirement field="chain_weapons" min="4" type="skill">Chain Weapons 4</Requirement>
+      <RequirementOption text="Replaces: Bayushi Bushi 3, Shosuro Infiltrator 4">
+        <Requirement field="scorpion_pincers_and_tail" type="rule"/>
+        <Requirement field="scorpion_steel_within_silk" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+</L5RCM>

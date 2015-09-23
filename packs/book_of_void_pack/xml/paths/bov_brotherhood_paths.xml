@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="monks" id="monks_abbot" name="Abbot">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>monks_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="the_reverence_of_wisdom" name="The Reverence of Wisdom" rank="4">
+        <Description>Your fellow monks have chosen to honor you by elevating you to the position of abbot at your monastery. Within the Brotherhood, you are now considered to be Status 4.0. When interacting with members of your own Order, you gain +1k1 to all Social Skill rolls (except Temptation). With outsiders of all types, you add +1k0 to those rolls instead. Note: If the GM is using the Duty Points system from Appendix One of the L5R 4th Edition supplement Emerald Empire, this Path awards 10 Duty Points.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <RequirementOption text="Replaces any Brotherhood Monk 4 or higher">
+        <Requirement field="*monks_brotherhood" min="3" type="school"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+  <School clanid="monks" id="monks_order_of_ebisu" name="Order of Ebisu">
+    <Tags>
+      <Tag>courtier</Tag>
+      <Tag>monks_courtier</Tag>
+      <Tag>alternate</Tag>
+      <Tag>monks_alternate</Tag>
+    </Tags>
+    <Devotion>Fortunist</Devotion>
+    <Techs>
+      <Tech id="the_voice_of_humility" name="The Voice of Humility" rank="3">
+        <Description>The monks of the Order of Ebisu spend their time among the peasants, seeking enlightenment by sharing the simple work of the heimin. However, on those occasions when they offer counsel to the samurai caste or make appeals on behalf of the peasants, their humble labors grant them an aura of serene enlightened harmony which even the most stubborn or callous samurai finds difficult to resist. In order to use this Technique, you must spend time working alongside the peasants at humble tasks (e.g. utilizing the Craft Skills associated with this Path). For each week you spend laboring in this manner, you gain a bonus Void Point which you may only spend on those Craft Skills, on Medicine Skill Rolls made to help peasants/hinin, or on Social Skill Rolls made against samurai. The maximum number of these bonus Void Points you may “hold” are equal to your Void Rank.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="courtier" min="3" type="skill">Courtier 3</Requirement>
+      <RequirementOption text="Replaces: Thousand Fortunes Monk 3, Jurojin’s Blessing Monk 3">
+        <Requirement field="monks_the_temples_of_the_thousand_fortunes_monk_school" max="2" min="2" type="school"/>
+        <Requirement field="monks_order_of_jurojins_blessing" max="2" min="2" type="school"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+</L5RCM>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
 	<SpellDef name="Blessed Wind" area="10' radius around the caster" mastery="1" element="air" range="Personal" duration="Concentration" id="blessed_wind">
 		<Tags>
@@ -666,7 +666,7 @@
 	</SpellDef>
 	<SpellDef name="Ward Of Purity" area="15' radius from the object touched" mastery="2" element="fire" range="Touch" duration="1 day" id="ward_of_purity">
 		<Tags>
-			<Tag>ward</Tag>
+			<Tag>wards</Tag>
 		</Tags>
 		<Raises>
 			<Raise>None</Raise>
@@ -1114,7 +1114,7 @@
 	</SpellDef>
 	<SpellDef name="Symbol Of Air" area="Special" mastery="4" element="air" range="Touch" duration="Permanent" id="symbol_of_air">
 		<Tags>
-			<Tag>ward</Tag>
+			<Tag>wards</Tag>
 		</Tags>
 		<Raises>
 			<Raise>None</Raise>
@@ -1188,7 +1188,7 @@
 	</SpellDef>
 	<SpellDef name="Symbol Of Fire" area="10' radius" mastery="4" element="fire" range="100'" duration="Permanent" id="symbol_of_fire">
 		<Tags>
-			<Tag>ward</Tag>
+			<Tag>wards</Tag>
 		</Tags>
 		<Raises>
 			<Raise>None</Raise>
@@ -1215,7 +1215,7 @@
 		<Tags>
 			<Tag>defense</Tag>
 			<Tag>thunder</Tag>
-			<Tag>ward</Tag>
+			<Tag>wards</Tag>
 		</Tags>
 		<Raises>
 			<Raise>None</Raise>
@@ -1280,7 +1280,7 @@
 	</SpellDef>
 	<SpellDef name="Symbol Of Water" area="Special" mastery="4" element="water" range="Touch" duration="Permanent" id="symbol_of_water">
 		<Tags>
-			<Tag>ward</Tag>
+			<Tag>wards</Tag>
 		</Tags>
 		<Raises>
 			<Raise>None</Raise>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <SpellDef area="self" duration="1 round per question (must maintain concentration)" element="void" id="commune_with_the_void" mastery="2" name="Commune with the Void" range="n/a">
+    <Tags/>
+    <Raises>
+      <Raise>Special (1 Question per three Raises)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="strengthen_the_void" mastery="2" name="Strengthen the Void" range="n/a">
+    <Tags/>
+    <Raises>
+      <Raise>Duration (+1 round per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per two Raises), Duration (+1 Round per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="banish_the_Void" mastery="3" name="Banish the Void" range="n/a">
+    <Tags/>
+    <Raises>
+      <Raise>Duration (+1 round per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per two Raises), Duration (+1 Round per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="one target creature" duration="concentration" element="void" id="essence_of_void" mastery="4" name="Essence of Void" range="50’">
+    <Tags/>
+    <Raises>
+      <Raise>Range (+10’ per Raise)</Raise>
+      <Raise>Special (+1k0 to Contested Roll per Raise)</Raise>
+    </Raises>
+  </SpellDef>
+  <SpellDef area="cone 50' long and 30' wide at base" duration="Instantaneous" element="multi" id="air_and_earth" mastery="3" name="Air and Earth" range="self">
+    <Tags>
+      <Tag>jade</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area of Effect (+5’ to width or length per Raise)</Raise>
+      <Raise>Damage (+1k0 per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>air</Element>
+      <Element>earth</Element>
+    </MultiElement>
+  </SpellDef>
+  <SpellDef name="Fire and Air" area="10' radius" mastery="3" element="multi" range="self" duration="Instantaneous" id="fire_and_air">
+		<Tags>
+			<Tag>travel</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Damage (+1k1 per two Raises)</Raise>
+			<Raise>Special (+10’ to flight distance per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>air</Element>
+			<Element>fire</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Fire and Water" area="10' radius" mastery="2" element="multi" range="50'" duration="2 Rounds" id="fire_and_water">
+		<Tags>
+			<Tag>battle</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+25' per Raise)</Raise>
+			<Raise>Area of Effect (+5’ to radius per Raise, maximum radius equal to caster's Fire x 10')</Raise>
+			<Raise>Duration (+1 Round per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>fire</Element>
+			<Element>water</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Earth and Fire" area="5' radius" mastery="4" element="multi" range="100'" duration="Instantaneous" id="earth_and_fire">
+		<Tags>
+			<Tag>jade</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+25’ per Raise)</Raise>
+			<Raise>Area of Effect (double the radius for 2 Raises, can only be done once)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>earth</Element>
+			<Element>fire</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Water and Air" area="self" mastery="2" element="multi" range="1 mile" duration="Concentration" id="water_and_air">
+		<Tags>
+			<Tag>divination</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+1/2 mile per two Raises)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>air</Element>
+			<Element>water</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Water and Earth" area="20' radius" mastery="2" element="multi" range="100'" duration="5 Rounds" id="water_and_earth">
+		<Tags>
+			<Tag>battle</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+25' per Raise)</Raise>
+			<Raise>Area of Effect (+5’ radius per Raise)</Raise>
+			<Raise>Duration (+1 Round per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>earth</Element>
+			<Element>water</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Cleansing the Body" area="1 target person (can be the caster)" mastery="2" element="multi" range="touch" duration="Instantaneous/24 hours (see description)" id="cleansing_the_body">
+		<Tags>
+			<Tag>jade</Tag>
+			<Tag>Crab</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Area of Effect (+1 person per two Raises)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>earth</Element>
+			<Element>water</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="The Mountain's Wrath" area="self" mastery="4" element="multi" range="N/A" duration="4 Rounds" id="the_mountains_wrath">
+		<Tags>
+			<Tag>defense</Tag>
+			<Tag>Dragon</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Duration (+1 Round per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>earth</Element>
+			<Element>fire</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Wrath of the Sun" area="30' radius" mastery="5" element="multi" range="100'" duration="Instantaneous" id="wrath_of_the_sun">
+		<Tags>
+			<Tag>thunder</Tag>
+			<Tag>Mantis</Tag>
+			<Tag>Centipede</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+25' per Raise)</Raise>
+			<Raise>Area of Effect (+5’ radius per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>fire</Element>
+			<Element>air</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Whispering Flames" area="All Rokugani within 50'" mastery="4" element="multi" range="50'" duration="Concentration" id="cleansing_the_body">
+		<Tags>
+			<Tag>illusion</Tag>
+			<Tag>Phoenix</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+25' per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>fire</Element>
+			<Element>air</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Stifling Wind" area="20' radius" mastery="3" element="multi" range="100'" duration="5 Rounds" id="stiffling_wind">
+		<Tags>
+			<Tag>Scorpion</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+25' per Raise)</Raise>
+			<Raise>Area of Effect (+5’ radius per Raise)</Raise>
+			<Raise>Duration (+1 Round per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>earth</Element>
+			<Element>air</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Soul Sword" area="self" mastery="5" element="multi" range="self" duration="10 rounds" id="soul_sword">
+		<Tags>
+			<Tag>craft</Tag>
+			<Tag>Phoenix</Tag>
+			<Tag>Dragon</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Duration (+2 Rounds per Raise)</Raise>
+			<Raise>Special (pass the blade to another person for two Raises)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>fire</Element>
+			<Element>air</Element>
+			<Element>earth</Element>
+			<Element>water</Element>
+		</MultiElement>
+	</SpellDef>
+	<SpellDef name="Drown the Spirit" area="1 target creature" mastery="4" element="multi" range="30'" duration="3 Rounds" id="drown_the_spirit">
+		<Tags>
+			<Tag>Phoenix</Tag>
+		</Tags>
+		<Raises>
+			<Raise>Range (+10' per Raise)</Raise>
+			<Raise>Duration (+1 Round per Raise)</Raise>
+		</Raises>
+		<MultiElement>
+			<Element>air</Element>
+			<Element>water</Element>
+			<Element>void</Element>
+		</MultiElement>
+	</SpellDef>
+</L5RCM>

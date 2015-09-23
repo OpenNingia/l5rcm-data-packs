@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="scorpion" id="scorpion_fading_shadows" name="Fading Shadows">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>scorpion_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>scorpion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="scorpion_unravel_the_shadow" name="Unravel The Shadow" rank="5">
+        <Description>The shugenja of the Fading Shadows are trained to perceive the lies and distortions of the Nothing and to disrupt the powers of the Shadowspawn by exploiting their vulnerability to the Void. As a Simple Action, you may spend a Void Point to try to strip away the false identity of any Shadowspawn and other minions of the Nothing within your sight, revealing them for what they are. This requires a Contested Roll of your Void against their Willpower. With a success, the creatures are revealed as what they truly are, and are unable to reassume a false identity as long as they remain in your sight. As a Free Action, you may spend a Void Point when you cast a spell or make a physical attack. That spell/attack will have full effect on a minion of the Nothing, regardless of normal resistances or immunities.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="void" min="4" type="ring">Void 4</Requirement>
+      <Requirement field="spellcraft" min="5" type="skill">Spellcraft 5</Requirement>
+      <Requirement field="forbidden_knowledge_lying_darkness" type="merit">Forbidden Knowledge (Lying Darkness)</Requirement>
+      <Requirement field="rpg" type="more">Must be inducted into the Hidden Moon Dojo (exact circumstances up to the GM, but only Scorpion characters of irreproachable loyalty and discretion will even be considered)</Requirement>
+      <Requirement field="*scorpion_shugenja" max="4" min="4" type="school">Replaces any Scorpion shugenja 5</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

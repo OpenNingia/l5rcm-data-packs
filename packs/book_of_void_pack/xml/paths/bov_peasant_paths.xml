@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="peasant" id="peasant_koga_ninja" name="Koga Ninja">
+    <Tags>
+      <Tag>ninja</Tag>
+<!-- should this be tagged as an alternate path or not?
+     it does offer starting skills, still it doesn't grant you any trait bonus
+      <Tag>alternate</Tag>
+      <Tag>peasant_alternate</Tag>
+-->
+      <Tag>peasant</Tag>
+      <Tag>peasant_ninja</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="the_peoples_vengeance" name="The People's Vengeance" rank="1">
+        <Description>The Koga Ninja specialize in protecting and avengingthe common people by killing those samurai who abuse their station. You gain a +1k1 bonus to any Skill roll made against a member of the samurai caste.</Description>
+      </Tech>
+    </Techs>
+    <Skills>
+      <Skill id="acting" rank="1"/>
+      <Skill id="athletics" rank="1"/>
+      <Skill id="chain_weapons" rank="1"/>
+      <Skill id="craft_poison" rank="1"/>
+      <Skill emphases="Tanto" id="knives" rank="1"/>
+      <Skill id="stealth" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>low</Wildcard>
+        <Wildcard>merchant</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Requirements/>
+    <Outfit bu="0" koku="0" zeni="5">
+      <Item>Peasant clothing</Item>
+      <Item>Dark clothing</Item>
+      <Item>Knife</Item>
+      <Item>Any 3 ninja weapons</Item>
+      <Item>Traveling pack</Item>
+    </Outfit>
+  </School>
+</L5RCM>

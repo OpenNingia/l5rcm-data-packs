@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<L5RCM>
+  <Weapon cost="4k" dr="1k2" name="Dragon Beard Hook" skill="chain_weapons">
+    <Tags>
+      <Tag>large</Tag>
+      <Tag>melee</Tag>
+    </Tags>
+    <Effect id="dragon_beard_hook_rule"/>
+  </Weapon>
+  <Weapon cost="5b" dr="1k1" name="Rope Dart" skill="chain_weapons">
+    <Tags>
+      <Tag>large</Tag>
+      <Tag>ninja</Tag>
+      <Tag>melee</Tag>
+    </Tags>
+    <Effect id="rope_dart_rule"/>
+  </Weapon>
+  <Weapon cost="1k" dr="2k2" name="Three Section Staff" skill="staves">
+    <Tags>
+      <Tag>large</Tag>
+      <Tag>monk</Tag>
+      <Tag>ninja</Tag>
+      <Tag>melee</Tag>
+    </Tags>
+  </Weapon>
+  <Weapon cost="3b" dr="1k2" name="Pitchfork" skill="staves">
+    <Tags>
+      <Tag>large</Tag>
+      <Tag>peasant</Tag>
+      <Tag>melee</Tag>
+    </Tags>
+    <Effect id="pitchfork_rule"/>
+  </Weapon>
+  <Weapon cost="1b" dr="0k1" name="Torch" skill="jiujutsu">
+    <Tags>
+      <Tag>improvised</Tag>
+      <Tag>peasant</Tag>
+      <Tag>melee</Tag>
+    </Tags>
+    <Effect id="torch_rule"/>
+  </Weapon>
+</L5RCM>

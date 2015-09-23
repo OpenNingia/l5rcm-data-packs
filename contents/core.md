@@ -309,6 +309,17 @@ Alternate Paths
 * Mirumoto Mountaineer
 * Tamori Warrior Priest
 
+### [imperial]
+* The Amethyst Champion
+* The Emerald Champion
+* The Emerald Magistrate
+* The Imperial Legionnaire
+* The Jade Champion
+* The Jade Legionnaire
+* The Jade Magistrate
+* The Ruby Champion
+* The Topaz Champion
+
 ### [lion]
 * Bishamon's Chosen
 * Deathseeker

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+	<KihoDef element="void" id="knowledge_from_within" mastery="4" name="Knowledge from Within" type="internal">
+		<Description>The power of the Void allows a centered monk to sense the presence of other magical effects in the area. You must be meditating or in the Center Stance to activate this Kiho. Once it is active, you become generally aware of the presence of Elemental spell effects and nemuranai (within a radius equal to your Void x10 in feet) so long as you maintain the Kiho. You will know the general direction and nature of the effects/objects (e.g. “a Fire spell in that direction”) but not their specific identity or specific location.</Description>
+		<Tags/>
+	</KihoDef>
+	<KihoDef element="void" id="mind_no_mind" mastery="6" name="Mind / No-Mind" type="mystical">
+		<Description>Monks practice meditation in order to attain the thought-free clarity of a pure soul on the path to Enlightenment. This Kiho allows a monk to briefly bestow this clarity on another person… whether or not that person wishes it. You make an atemi strike and a Contested Roll of your Void against your target’s Fire. If you win the Contested Roll, your target’s mind is momentarily purged of all thoughts, and he forgets everything that has happened during the last minute. At the GM’s option, this might also cause the target to be Dazed for one Round. (It may also be noted that this Kiho has helpful applications, such as calming someone who is overwhelmed with fear, rage, grief, or other uncontrolled emotion.)</Description>
+		<Tag>atemi</Tag>
+	</KihoDef>
+	<KihoDef element="void" id="rebuke_of_the_heavens" mastery="5" name="Rebuke of the Heavens" type="kharmic">
+		<Description>Your holy authority can cow disruptive spirits and weaken their influence. This Kiho may target any one supernatural creature (an entity not native to Jigoku or Tengoku). It is activated as a Complex Action by performing some gesture of spiritual rebuke, such as chanting a sutra, shaking a ringed staff, or forming a mudra with your hands. (This is in addition to the normal roll to activate a Kiho.) Make a Contested Roll of your Meditation / Void against the creature’s highest Ring – if you succeed, the creature suffers a –Xk1 penalty to all rolls, where X is your Monk School Ranks. This penalty continues until the creature is slain or it departs from your presence. This Kiho is only available to monks, not to shugenja.</Description>
+		<Tags/>
+	</KihoDef>
+	<KihoDef element="void" id="sense_the_balance" mastery="6" name="Sense the Balance" type="kharmic">
+		<Description>The spiritual balance of individuals can be felt in the flow of their chi. The Air kiho called Harmony of the Mind allows monks to sense a few of another person’s inner secrets, but those who follow the path of Void can do so far more effectively. If you succeed at an atemi strike on your target, you may spend a Void Point to learn the total number of Spiritual Advantages or Disadvantages (one or the other, your choice) which the target possesses. If you succeed in a Contested Void roll, you may also learn the name and specific nature of the Advantage / Disadvantage with the highest point value – e.g. you not only learn the target is Cursed by the Realms, but also which Spirit Realm has cursed him. Subsequent uses of this Kiho against the same target can reveal a new Advantage or Disadvantage each time, until there are no more to learn.</Description>
+		<Tag>atemi</Tag>
+	</KihoDef>
+	<KihoDef element="void" id="striking_through_the_void" mastery="7" name="Striking through the Void" type="martial">
+		<Description>This rare martial Void Kiho allows you to channel the power of the Void into your unarmed strikes. It is controversial within the more peaceful sects of the Brotherhood, who believe that the Void should not be used as a weapon. When active, this Kiho allows you to spend a Void Point on damage rolls for your unarmed strikes (one Void Point per attack).</Description>
+		<Tags/>
+	</KihoDef>
+	<KihoDef element="void" id="the_world_dissapears" mastery="6" name="The World Disappears" type="internal">
+		<Description>Those who are approaching the edge of Enlightenment are said to float slightly above the ground, their pure souls buoying them up toward the Heavens. This Kiho allows you to temporarily attain this rarified state. You must be meditating or in the Center Stance to activate this Kiho. Once it is active, you float a few inches above the ground for as long as it remains active, and can move at your normal speed across any surface (ground, water, molten lava) without touching it. This serene disconnection from the ground also makes you immune to Grappling and Entangling attacks while the Kiho remains active.</Description>
+		<Tags/>
+	</KihoDef>
+</L5RCM>

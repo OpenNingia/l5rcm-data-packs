@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="imperial" id="imperial_seppun_astrologer" name="Seppun Astrologers">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>imperial_shugenja</Tag>
+      <Tag>alternate</Tag>
+      <Tag>imperial_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech id="imperial_the_wisdom_of_the_heavens" name="The Wisdom of the Heavens" rank="4">
+        <Description>The sage-priests of the Seppun Astrologers are capable of finding great wisdom in the alignments of the Celestial Heavens, and their recognition of previously unnoticed patterns can bring joy… or doom… to the mortal world. Once per month, you may clarify a person’s place in the great tapestry of fate and thereby confer one Spiritual Advantage or Spiritual Disadvantage on that person. (This is a ritual effect and cannot be performed during a skirmish.) This effect lasts for one month or until you use this Technique on a different person, whichever comes first. If you are attempting to confer a Disadvantage, you must also succeed at a Contested Void Roll against the target.</Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="divination" min="4" trg="Astrology" type="skill">Divination (Astrology) 4</Requirement>
+      <Requirement field="lore_omens" min="5" type="skill">Lore: Omens 5</Requirement>
+      <Requirement field="imperial_seppun_shugenja_school" max="3" min="3" type="school"/>
+    </Requirements>
+  </School>
+</L5RCM>
