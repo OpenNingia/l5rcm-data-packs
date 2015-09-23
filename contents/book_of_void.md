@@ -38,6 +38,7 @@ Alternate Paths
 * Order of Ebisu
 
 ### [phoenix]
+* Dragon Channeler
 * Sesai Ninja
 
 ### [ronin]
@@ -55,8 +56,25 @@ Spells
 
 ### [multi]
 
+#### [Mastery 2]
+* Fire and Water
+* Water and Air
+* Water and Earth
+
 #### [Mastery 3]
 * Air and Earth
+* Fire and Air
+* Stifling Wind
+
+#### [Mastery 4]
+* Drown the Spirit
+* Earth and Fire
+* The Mountain's Wrath
+* Whispering Flames
+
+#### [Mastery 5]
+* Soul Sword
+* Wrath of the Sun
 
 ### [void]
 
