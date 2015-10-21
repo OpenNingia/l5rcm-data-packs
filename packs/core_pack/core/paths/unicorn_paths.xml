@@ -22,7 +22,7 @@
     <Requirements>
       <Requirement field="stealth" type="skill" min="3">Stealth 3</Requirement>
       <RequirementOption text="Replaces Moto Bushi 2">
-        <Requirement field="unicorn_shinseis_smile" type="rule"/>
+        <Requirement field="unicorn_the_way_of_the_unicorn" type="rule"/>
       </RequirementOption>
     </Requirements>
   </School>
@@ -49,7 +49,7 @@
     <Requirements>
       <Requirement field="stealth" type="skill" min="3">Stealth 3</Requirement>
       <RequirementOption text="Replaces Shinjo Bushi 2">
-        <Requirement field="unicorn_dance_of_the_blade" type="rule"/>
+        <Requirement field="unicorn_the_way_of_the_kirin" type="rule"/>
       </RequirementOption>
     </Requirements>
   </School>
