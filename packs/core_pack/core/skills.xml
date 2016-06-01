@@ -614,7 +614,7 @@
       <MasteryAbility rank="7">+0k1 to Forgery Skill Roll vs Investigation/Perception detection Skill Roll.</MasteryAbility>
     </MasteryAbilities>
   </SkillDef>
-  <SkillDef trait="awareness" type="low" id="intimidation" name="Intimidation">
+  <SkillDef trait="willpower" type="low" id="intimidation" name="Intimidation">
     <Tags>
       <Tag>social</Tag>
     </Tags>
