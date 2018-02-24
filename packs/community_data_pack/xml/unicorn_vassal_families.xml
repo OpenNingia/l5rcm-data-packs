@@ -1,0 +1,26 @@
+<L5RCM>
+  <Family clanid="unicorn" name="Hateru" id="unicorn_hateru">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="unicorn" name="Suio" id="unicorn_suio">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="unicorn" name="Battue" id="unicorn_battue">
+    <Trait>willpower</Trait>
+  </Family>
+  <Family clanid="unicorn" name="Kenshin" id="unicorn_kenshin">
+    <Trait>perception</Trait>
+  </Family>
+    <Family clanid="unicorn" name="Onshigawa" id="unicorn_onshigawa">
+    <Trait>stamina</Trait>
+  </Family>
+  <Family clanid="unicorn" name="Marta" id="unicorn_marta">
+    <Trait>awareness</Trait>
+  </Family>
+  <Family clanid="unicorn" name="Hyuga" id="unicorn_hyuga">
+    <Trait>awareness</Trait>
+  </Family>
+  <Family clanid="unicorn" name="Naoko" id="unicorn_naoko">
+    <Trait>perception</Trait>
+  </Family>
+</L5RCM>

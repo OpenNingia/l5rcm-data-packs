@@ -1,0 +1,20 @@
+<L5RCM>
+  <Family clanid="crane" name="Hiramichi" id="crane_hiramichi">
+    <Trait>awareness</Trait>
+  </Family>
+  <Family clanid="crane" name="Hiramori" id="crane_hiramori">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="crane" name="Katogama" id="crane_katogama">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="crane" name="Tsume" id="crane_tsume">
+    <Trait>agility</Trait>
+  </Family>
+  <Family clanid="crane" name="Ashidaka" id="crane_ashidaka">
+    <Trait>agility</Trait>
+  </Family>
+  <Family clanid="crane" name="Iwasaki" id="crane_iwasaki">
+    <Trait>awareness</Trait>
+  </Family>
+</L5RCM>

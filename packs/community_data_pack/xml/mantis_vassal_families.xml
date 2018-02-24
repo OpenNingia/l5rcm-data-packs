@@ -1,0 +1,23 @@
+<L5RCM>
+  <Family clanid="mantis" name="Byako" id="mantis_byako">
+    <Trait>willpower</Trait>
+  </Family>
+  <Family clanid="mantis" name="Shudo" id="mantis_shudo">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="mantis" name="Goraiku" id="mantis_goraiku">
+    <Trait>reflexes</Trait>
+  </Family>
+  <Family clanid="mantis" name="Kagehisa" id="mantis_kagehisa">
+    <Trait>awareness</Trait>
+  </Family>
+    <Family clanid="mantis" name="Suguru" id="mantis_suguru">
+    <Trait>perception</Trait>
+  </Family>
+    <Family clanid="mantis" name="Hogosha" id="mantis_hogosha">
+    <Trait>willpower</Trait>
+  </Family>
+  <Family clanid="mantis" name="Watanabe" id="mantis_watanabe">
+    <Trait>perception</Trait>
+  </Family>
+</L5RCM>

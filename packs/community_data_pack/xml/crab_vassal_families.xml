@@ -1,0 +1,32 @@
+<L5RCM>
+  <Family clanid="crab" name="Kakeguchi" id="crab_kakeguchi">
+    <Trait>agility</Trait>
+  </Family>
+  <Family clanid="crab" name="Moshibaru" id="crab_moshibaru">
+    <Trait></Trait>
+  </Family>
+  <Family clanid="crab" name="Endo" id="crab_endo">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="crab" name="Raikuto" id="crab_raikuto">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="crab" name="Fundai" id="crab_fundai">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="crab" name="Maisuna" id="crab_maisuna">
+    <Trait>strength</Trait>
+  </Family>
+    <Family clanid="crab" name="Meishozo" id="crab_meishozo">
+    <Trait>willpower</Trait>
+  </Family>
+    <Family clanid="crab" name="Ugawari" id="crab_ugawari">
+    <Trait>strength</Trait>
+  </Family>
+    <Family clanid="crab" name="Kano" id="crab_kano">
+    <Trait>awareness</Trait>
+  </Family>
+    <Family clanid="crab" name="Nobuto" id="crab_nobuto">
+    <Trait>strength</Trait>
+  </Family>
+</L5RCM>
