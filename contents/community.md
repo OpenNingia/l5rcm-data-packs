@@ -14,6 +14,8 @@ Families
 ### [tiger]
 * Yotsu
 
+### [great_clans]
+* All vassals
 Skills
 ------
 
