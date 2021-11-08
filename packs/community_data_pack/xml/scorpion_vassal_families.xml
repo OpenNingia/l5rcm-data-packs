@@ -1,0 +1,23 @@
+<L5RCM>
+  <Family clanid="scorpion" name="Aotora" id="scorpion_aotora">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="scorpion" name="Rokugo" id="scorpion_rokugo">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="scorpion" name="Kochako" id="scorpion_kochako">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="scorpion" name="Tokagure" id="scorpion_tokagure">
+    <Trait>perception</Trait>
+  </Family>
+    <Family clanid="scorpion" name="Nanbu" id="scorpion_nanbu">
+    <Trait>intelligence</Trait>
+  </Family>
+    <Family clanid="scorpion" name="Naganori" id="scorpion_naganori">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="scorpion" name="Tansaku" id="scorpion_tansaku">
+    <Trait>agility</Trait>
+  </Family>
+</L5RCM>

@@ -1,0 +1,26 @@
+<L5RCM>
+  <Family clanid="phoenix" name="Atsumaru" id="phoenix_atsumaru">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="phoenix" name="Izaku" id="phoenix_izaku">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="phoenix" name="Chukan" id="phoenix_chukan">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="phoenix" name="Nani" id="phoenix_nani">
+    <Trait>perception</Trait>
+  </Family>
+    <Family clanid="phoenix" name="Shingon" id="phoenix_shingon">
+    <Trait>intelligence</Trait>
+  </Family>
+    <Family clanid="phoenix" name="Nasu" id="phoenix_nasu">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="phoenix" name="Sesai" id="phoenix_sesai">
+    <Trait>agility</Trait>
+  </Family>
+  <Family clanid="phoenix" name="Sodona" id="phoenix_sodona">
+    <Trait>perception</Trait>
+  </Family>
+</L5RCM>

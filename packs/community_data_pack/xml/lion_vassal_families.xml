@@ -1,0 +1,29 @@
+<L5RCM>
+  <Family clanid="lion" name="Katai" id="lion_katai">
+    <Trait>agility</Trait>
+  </Family>
+  <Family clanid="lion" name="Seizuka" id="lion_seizuka">
+    <Trait>awareness</Trait>
+  </Family>
+  <Family clanid="lion" name="Hosokawa" id="lion_hosokawa">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="lion" name="Kaeru" id="lion_kaeru">
+    <Trait>awareness</Trait>
+  </Family>
+  <Family clanid="lion" name="Murame" id="lion_murame">
+    <Trait>perception</Trait>
+  </Family>
+    <Family clanid="lion" name="Ise" id="lion_ise">
+    <Trait>strength</Trait>
+  </Family>
+    <Family clanid="lion" name="Noroko" id="lion_noroko">
+    <Trait>willpower</Trait>
+  </Family>
+    <Family clanid="lion" name="Ikeda" id="lion_ikeda">
+    <Trait>agility</Trait>
+  </Family>
+    <Family clanid="lion" name="Koritome" id="lion_koritome">
+    <Trait>reflexes</Trait>
+  </Family>
+</L5RCM>

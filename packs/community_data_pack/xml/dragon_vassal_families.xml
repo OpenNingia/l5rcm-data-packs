@@ -1,0 +1,20 @@
+<L5RCM>
+  <Family clanid="dragon" name="Sakura" id="dragon_sakura">
+    <Trait>willpower</Trait>
+  </Family>
+  <Family clanid="dragon" name="Kouken" id="dragon_kouken">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="dragon" name="Zurui" id="dragon_zurui">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="dragon" name="Chiyu" id="dragon_chiyu">
+    <Trait>perception</Trait>
+  </Family>
+  <Family clanid="dragon" name="Hiasobi" id="dragon_hiasobi">
+    <Trait>intelligence</Trait>
+  </Family>
+  <Family clanid="dragon" name="Izaku" id="dragon_izaku">
+    <Trait>intelligence</Trait>
+  </Family>
+</L5RCM>
