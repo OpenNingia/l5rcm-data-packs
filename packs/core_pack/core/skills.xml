@@ -1,50 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <SkillDef trait="strength" type="bugei" id="athletics" name="Athletics">
-    <Tags/>
+  <SkillDef trait="strength" type="bugei" id="athletics" name="Athletics" page="139">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">No impedements on Moderate Terrains and Difficult Terrain only reduces Water Ring by 1.</MasteryAbility>
       <MasteryAbility rank="5">No impedements on any terrains.</MasteryAbility>
       <MasteryAbility rank="7">+5 feet to the total of one Move Action per Round.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The training that every bushi student receives includes vigorous physical conditioning. For some, this results in a lifelong enjoyment of athletics. Like many who pursue a martial lifestyle, some bushi spend their off duty hours engaging in competitions with one another, or simply pitting themselves against challenges designed to test the limits of their physical abilities. Athletics covers many areas normally governed by Trait Rolls. If you have a background in Athletics, however, you can perform these activities, principally climbing, running, and swimming, with considerably more ease than most. Athletics can also increase your capacity for movement, even when restricted by heavy armor and the like. The Throwing Emphasis allows you to throw items with greater accuracy, including certain weapons such as knives or even the wakizashi (see the Equipment section for more information on which weapons can be thrown). Using Athletics to throw a weapon offensively is considered an attack roll. Athletics Skill Rolls to climb, run, or swim use Strength, whereas the Throwing Emphasis requires Agility.</Description>
   </SkillDef>
-  <SkillDef trait="perception" type="bugei" id="battle" name="Battle">
-    <Tags/>
+  <SkillDef trait="perception" type="bugei" id="battle" name="Battle" page="139">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rule="ma_battle_5" rank="5">Add Battle Skill Rank to Initiative Score</MasteryAbility>
     </MasteryAbilities>
+    <Description>A samurai&#8217;s calling is to war, whether on the battlefi eld with steel in hand, in the courts confounding the enemies of one&#8217;s lord, or behind the lines, summoning the kami to punish the sins of one&#8217;s enemies. The study of war is highly regarded among all divisions of the samurai caste, and many lengthy debates can be enjoyed both in court and in the temples over tactics, strategy, maneuvers, and the like.</Description>
   </SkillDef>
-  <SkillDef trait="reflexes" type="bugei" id="defense" name="Defense">
-    <Tags/>
+  <SkillDef trait="reflexes" type="bugei" id="defense" name="Defense" page="139">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">Keep Defense/Reflexes roll for subsequent rounds in Full Defense stance.</MasteryAbility>
       <MasteryAbility rank="5">+3 Armor TN in Defense and Full Defense stances.</MasteryAbility>
       <MasteryAbility rank="7">A Simple Action ( no attacks ) can be taken while in the Full Defense stance.</MasteryAbility>
     </MasteryAbilities>
+    <Description>A warrior who cannot defend himself is of little use, for he will serve his lord but once in battle before he falls and must be replaced. The Rokugani understanding of battle does not permit things such as parries and ripostes, but instead involves positioning one&#8217;s blade and body so that the katana and armor defl ect incoming blows. Defense is an essential Skill necessary to adopt the Defense and Full Defense Stances, both of which increase your Armor TN and make you more diffi cult to hit in a skirmish or a duel. More information on this application of Defense can be found in the Book of Earth. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="horsemanship" name="Horsemanship">
-    <Tags/>
+  <SkillDef trait="agility" type="bugei" id="horsemanship" name="Horsemanship" page="139">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">May utilize Full attack stance when on horseback.</MasteryAbility>
       <MasteryAbility rank="5">Mounting a horse is a Simple Action, dismounting a Free Action.</MasteryAbility>
       <MasteryAbility rank="7">Mounting a horse is a Free Action.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The ability to use a mount is essential to participation in cavalry units, and to swift travel through the Empire. It is a utilitarian skill, taught in most bushi schools in the Empire without having any real degree of prestige attached (save among the ranks of the Unicorn Clan, who consider an inability to ride roughly equivalent to a crippling physical disability). In general, all samurai can ride a horse at normal speed on level ground without the need for a Skill roll &#8211; the Skill only comes into play when riding a horse in diffi cult or stressful situations (bad terrain, thunderstorm, combat, etc.). Individual types of horses react differently to various circumstances, and some can be much harder to control under stressful situations such as combat. Statistics for the common horses found in Rokugan are located in the Book of the Void, including typical TNs for controlling them in different circumstances. </Description>
   </SkillDef>
-  <SkillDef trait="perception" type="bugei" id="hunting" name="Hunting">
-    <Tags/>
+  <SkillDef trait="perception" type="bugei" id="hunting" name="Hunting" page="140">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">+1k0 to all Stealth Skill Rolls made in wilderness environments.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Hunting is a sport favored by warriors, even though game is rarely if ever consumed by members of the samurai caste. The types of game hunted in Rokugan can be quite dangerous, however, and as a result there is a great deal of survival knowledge associated with the sport of hunting. Hunting is never done with a samurai&#8217;s daisho; it is typically performed either with bow and arrow or, in the case of particularly large game, spears. The Survival Emphasis allows you to forage for sustenance and shelter in the wilderness, with a TN varying upon the severity of the conditions (the forest is simpler than the mountains, which are simpler than the desert, etc.). The Tracking Emphasis allows you to locate and follow the tracks of prey through rural environments, although repeated Skill Rolls are necessary for longer trails. Trailblazing allows you to forge a trail through the wilderness that others can follow, making better time and requiring less work in order to follow it. </Description>
   </SkillDef>
-  <SkillDef trait="reflexes" type="bugei" id="iaijutsu" name="Iaijutsu">
-    <Tags/>
+  <SkillDef trait="reflexes" type="bugei" id="iaijutsu" name="Iaijutsu" page="140">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">Readying a katana is a Free Action.</MasteryAbility>
       <MasteryAbility rank="5">Gain 1 Free Raise on Focus Stage of a Iaijutsu duel.</MasteryAbility>
       <MasteryAbility rank="7">+2k2 to the total of all Focus Rolls if Assessment roll exceed opponent one by 10+.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Iaijutsu is the formal dueling system of Rokugan, an ancient and venerated tradition that even the most irreverent bushi would never imagine slandering. When two parties are in dispute, and the matter cannot be resolved in any other manner, a duel is often the result, and the form of a duel is almost always iaijutsu. The winner of the duel is proven correct, and the defeated party is proven to be wrong. There can be no contestation of a duel&#8217;s outcome, barring dishonorable conduct on the part of the winner during the duel. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="jiujutsu" name="Jiujutsu">
+  <SkillDef trait="agility" type="bugei" id="jiujutsu" name="Jiujutsu" page="140">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -53,8 +58,9 @@
       <MasteryAbility rank="5">Free Raise toward initiating a Grapple.</MasteryAbility>
       <MasteryAbility rank="7">+0k1 to damage of all unarmed attacks.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The art of unarmed combat is something that all bushi appreciate, although not all pursue it in the dojo. Many rely upon the weapon-based techniques they learn from their sensei to defend them even without their weapons, and while this can be marginally effective, the actual study of unarmed combat is much more useful. Monks in particular devote a great amount of time to the art of hand-to-hand combat, believing they both hone the body and unify it with the mind. Jiujutsu can be used as a Weapon Skill, rolling Jiujitsu / Agility against an opponent&#8217;s Armor TN to hit and rolling a number of dice equal to your Strength, keeping one for damage (so if you had Strength 3, you would roll 3k1 damage for an unarmed attack). Jiujutsu is also used for initiating and maintaining Grapples, which are explained in the Book of Earth. The Improvised Weapons Emphasis allows you to use almost anything you can get your hands on to increase your capacity to infl ict damage. The GM is the fi nal arbiter of what damage a particular improvised weapon infl icts, but generally it should grant additional rolled or kept dice, but not both. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="chain_weapons" name="Chain Weapons">
+  <SkillDef trait="agility" type="bugei" id="chain_weapons" name="Chain Weapons" page="141">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -63,8 +69,9 @@
       <MasteryAbility rank="5">+1k0 on Contested Rolls against Grappled opponents.</MasteryAbility>
       <MasteryAbility rank="7">Free Raise toward use of the Disarm or Knockdown Maneuvers.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Chain weapons are considered unconventional by most traditional bushi, but they have become accepted as legitimate weapons because of the complexity and effectiveness of their use. Generally, chain weapons see a higher degree of use among the Mantis Clan, who favor exotic and unconventional weapons, but see only periodic use among other Great Clans, and typically then only by small groups of specialized warriors. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="heavy_weapons" name="Heavy Weapons">
+  <SkillDef trait="agility" type="bugei" id="heavy_weapons" name="Heavy Weapons" page="141">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -73,8 +80,9 @@
       <MasteryAbility rank="5">Free Raise toward use of the Knockdown Maneuver.</MasteryAbility>
       <MasteryAbility rank="7">Damage dice explode on 9 and 10.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Training in the use of heavy weapons, a skill known as tsubojutsu, is the hallmark of bushi in service to the Crab Clan. While the dojo of virtually all Great Clans address the use of heavy weapons during training, they are seldom seen in use in the ranks of any army other than the Crab. For the sons of Hida, however, the sheer power of these weapons is an essential component in their defense of the Great Wall, where the use of weapons such as the tetsubo and ono allow them to defeat formidable enemies that a katana would not be able to harm. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="kenjutsu" name="Kenjutsu">
+  <SkillDef trait="agility" type="bugei" id="kenjutsu" name="Kenjutsu" page="141">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -83,8 +91,9 @@
       <MasteryAbility rank="5">Readying a sword is a Free Action.</MasteryAbility>
       <MasteryAbility rank="7">Damage dice explode on 9 and 10.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Kenjutsu is the path of the sword, the essential training in use of the katana and other blades that all bushi receive as part of their training. Almost without exception, the principle weapon training that all bushi receive centers around the katana, the signature weapon of the samurai caste and the representation of a warrior&#8217;s soul. All dojo offer weapon training in other areas for those interested in learning, but only the katana is considered mandatory, save perhaps for the bow in some areas. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="knives" name="Knives">
+  <SkillDef trait="agility" type="bugei" id="knives" name="Knives" page="141">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -93,8 +102,9 @@
       <MasteryAbility rank="5">Use of a sai or jitte convers one Free Raise toward use of the Disarm Maneuver.</MasteryAbility>
       <MasteryAbility rank="7">Gain Free Raise toward use of Extra Attack Maneuver.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The art of wielding a knife, or tantojutsu, is not typically considered a priority at most bushi dojo. The katana is the principle weapon of the samurai, of course, and even if one chooses to take up another weapon instead, there are many more effective, more lethal weapons than a simple knife. Yet despite this, virtually every bushi in the Empire is trained in the use of the knife, and carries one at all times. Bushi are imminently practical warriors, after all. </Description>
   </SkillDef>
-  <SkillDef trait="reflexes" type="bugei" id="kyujutsu" name="Kyujutsu">
+  <SkillDef trait="reflexes" type="bugei" id="kyujutsu" name="Kyujutsu" page="142">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -103,8 +113,9 @@
       <MasteryAbility rule="ma_kyujutsu_5" rank="5">Increase maximum range by 50%.</MasteryAbility>
       <MasteryAbility rule="ma_kyujutsu_7" rank="7">Increase the Strength of any bow by 1.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The art of the bow is an accepted part of all bushi&#8217;s training, save perhaps for a handful of esoteric warriors who place misguided principle above practicality. To all others, the value of the bow in striking at an enemy who is not within range is obvious. Indeed, the way of the samurai has sometimes been called the Way of the Horse and Bow. The Rokugani form of archery does not rely upon aiming, however; rather, the practitioners are taught to assess their target, then draw and fi re as a smooth, fl uid motion, the bow held near the waist at all times. As the saying goes, the arrow knows the way. A character making a ranged attack who is fi ring at someone within melee range suffers a penalty of -10 to the total of his attack roll. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="polearms" name="Polearms">
+  <SkillDef trait="agility" type="bugei" id="polearms" name="Polearms" page="142">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -113,8 +124,9 @@
       <MasteryAbility rank="5">+1k0 to damage with polearms against mounted or larger opponents.</MasteryAbility>
       <MasteryAbility rank="7">Readying a polearm is a Free Action.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Long-reaching weapons with considerable power and versatility, polearms are essentially a stopgap between heavy weapons and the traditional katana. They consist of bladed weapons mounted atop sturdy poles of wood or metal, granting a warrior skilled in their use the ability to keep his opponents at bay while taking a terrible toll on them at the same time. The practice of using polearms is sometimes referred to as umayarijutsu. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="spears" name="Spears">
+  <SkillDef trait="agility" type="bugei" id="spears" name="Spears" page="142">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -123,8 +135,9 @@
       <MasteryAbility rank="5">Increase ranged attacks by 5'.</MasteryAbility>
       <MasteryAbility rank="7">Readying a spear is a Free Action.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Yarijutsu, the art of the spear, is a longstanding tradition in many bushi families, most notably the Daidoji family of the Crane Clan. Unlike polearms, which are primarily slashing weapons, spears are typically designed for puncturing or thrusting, and can be an extremely effective weapon against cavalry. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="staves" name="Staves">
+  <SkillDef trait="agility" type="bugei" id="staves" name="Staves" page="142">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -133,8 +146,9 @@
       <MasteryAbility rank="5">Free Raise toward use of the Knockdown Maneuvers.</MasteryAbility>
       <MasteryAbility rank="7">Large staves may be readied as a Free Action, small staves gains +1k0 to damage rolls.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Seldom seen among the ranks of most respectable bushi families, the practice of using staves (also known as bojutsu) is more common among monks and even some peasants, given that a walking stick cannot reasonably be assumed to be a weapon. Staves are excellent for delivering brute force to stun or incapacitate an opponent, but their blunt nature can make killing an opponent diffi cult and messy work without proper training. Also staves have tremendous trouble overcoming armor, which diffuses their impact very effectively. Armor bonuses to the Armor TN are doubled against attacks made with a staff. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="bugei" id="war_fan" name="War Fan">
+  <SkillDef trait="agility" type="bugei" id="war_fan" name="War Fan" page="142">
     <Tags>
       <Tag>weapon</Tag>
     </Tags>
@@ -143,8 +157,9 @@
       <MasteryAbility rank="5">Increase Armor TN by 1.</MasteryAbility>
       <MasteryAbility rank="7">Increase Armor TN by 3.</MasteryAbility>
     </MasteryAbilities>
+    <Description>War fans, or tessen, are tools that serve a number of purposes, not the least of which is as weapons. They were originally created for the purpose of sending signals to different units on the battlefi eld, and were specifi cally made from metal because paper fans were so ill suited to the unpredictability of battlefi eld conditions. While they continue toserve such a purpose, as well as the various purposes of the traditional paper fan, some groups have made excellent use of these metal fans as weapons as well, particularly among the Lion Clan and a group of ronin called the Tessen, who make Toshi Ranbo their home. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="acting" name="Acting">
+  <SkillDef trait="awareness" type="high" id="acting" name="Acting" page="135">
     <Tags>
       <Tag>social</Tag>
     </Tags>
@@ -153,64 +168,74 @@
       <MasteryAbility rank="5">The TN to create a disguise is reduced by 10 (total).</MasteryAbility>
       <MasteryAbility rank="7">The TN to create a disguise is reduced by 15 (total).</MasteryAbility>
     </MasteryAbilities>
+    <Description>This is a measure of an individual's ability to convincingly pass himself off as someone else, whether assuming a role in a play or attempting to infiltrate the fortress of his lord's enemy. It also represents a character's knowledge of the primary theater styles in Rokugan: Kabuki, a flamboyant, high action style; and Noh, a more subdued, stylistic manner of play. The TN to disguise yourself is 15. This assumes that you are taking on the role of a non-specific individual who shares the same Clan affiliation, gender, and profession (bushi, courtier, or shugenja). Each of these basic features that are changed increase the total TN of the Skill Roll by +5 (for example, a male Scorpion bushi attempting to impersonate a female Crane courtier would have a base TN of 30). Attempting to imitate a specific individual is significantly more difficult, and increases the TN by a total of +15 in addition to any other increases because of Clan, gender, or profession. You may also Raise on your roll to make your disguise harder to see through. A character who is trying to see through your disguise must roll Investigation / Perception against a TN of 15, +5 for each Raise you made.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_bonsai" name="Artisan (Bonsai)">
+  <SkillDef trait="awareness" type="high" id="artisan_bonsai" name="Artisan (Bonsai)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_gardening" name="Artisan (Gardening)">
+  <SkillDef trait="awareness" type="high" id="artisan_gardening" name="Artisan (Gardening)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_ikebana" name="Artisan (Ikebana)">
+  <SkillDef trait="awareness" type="high" id="artisan_ikebana" name="Artisan (Ikebana)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_origami" name="Artisan (Origami)">
+  <SkillDef trait="awareness" type="high" id="artisan_origami" name="Artisan (Origami)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_painting" name="Artisan (Painting)">
+  <SkillDef trait="awareness" type="high" id="artisan_painting" name="Artisan (Painting)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_poetry" name="Artisan (Poetry)">
+  <SkillDef trait="awareness" type="high" id="artisan_poetry" name="Artisan (Poetry)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_sculpture" name="Artisan (Sculpture)">
+  <SkillDef trait="awareness" type="high" id="artisan_sculpture" name="Artisan (Sculpture)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="artisan_tattoing" name="Artisan (Tattoing)">
+  <SkillDef trait="awareness" type="high" id="artisan_tattoing" name="Artisan (Tattoing)" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>This is a catch-all that represents a character's talent in one of the many recognized noble arts in Rokugani society. In addition to being soldiers and priests, samurai are the epitome of culture, and as such an occupation as an artisan is regarded by many Clans as a noble and honorable pursuit. Artisan Skill Rolls are used to create works of art, and generally have variable TNs as decided by the GM.</Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="calligraphy" name="Calligraphy">
+  <SkillDef trait="intelligence" type="high" id="calligraphy" name="Calligraphy" page="135">
     <Tags>
       <Tag>artisan</Tag>
     </Tags>
     <MasteryAbilities>
       <MasteryAbility rank="5">The character gains a bonus of +10 when attempting to break a code or cipher.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Calligraphy is considered an art form by many, and is typically used not only among shugenja, who use advanced ciphers and scripts to protect their mystical secrets, but also by artisans and courtiers, who use it to impress others as part of their complex schemes to gain favor in court. Training in calligraphy is not necessary as part of literacy, as all samurai are literate, but it does allow one to show refinement and sophistication. If you possess the Cipher Emphasis, you are assumed to know one cipher commonly used by your Clan. Ciphers can be very difficult to break, with varying TNs depending upon their commonality of use and means of creation. Typically, the TN to break a cipher is the result of the Calligraphy (Cipher) / Intelligence roll used to create it. The High Rokugani Emphasis is used to make use of the ancient, florid, and sophisticated style of language used in the Imperial Court.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="courtier" name="Courtier">
+  <SkillDef trait="awareness" type="high" id="courtier" name="Courtier" page="135">
     <Tags>
       <Tag>social</Tag>
     </Tags>
@@ -219,14 +244,17 @@
       <MasteryAbility rank="5">+1k0 to all Courtier Contested Rolls</MasteryAbility>
       <MasteryAbility rule="ma_insight_plus_7" rank="7">Gain +7 Insight bonus (cumulable to bonus from Rank 3)</MasteryAbility>
     </MasteryAbilities>
+    <Description>The essential skill of any Rokugani court, this is a measure of a character's ability to participate in the deadly political games that are so prevalent in the Empire's highest social echelons. Courtiers have their own style of warfare, and are able to maneuver one another into disadvantageous positions through their skill with words. Essentially, Courtier is the &#8220;social offense&#8221; Skill. Socially adept characters that are on the offensive against their opponents use Courtier, often with the Manipulation or Rhetoric Emphases, to outmaneuver their opponents, infl uence their views and opinions, steer conversations in a desired direction, win arguments, or deliver cunning put-downs. Courtier can also be used to obtain or spread rumors about someone, using the Gossip Emphasis. This can be more diffi cult depending upon the target's Glory, with a suggested TN of 10 plus the target's Glory x5, minus your Glory x5. GMs can have players Raise on the roll to conceal that they are the source of the gossip, and it should be noted that attempting to spread malicious rumors about someone with higher Status is generally unwise and can easily lead to a death sentence in Rokugan.</Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="divination" name="Divination">
-    <Tags/>
+  <SkillDef trait="intelligence" type="high" id="divination" name="Divination" page="135">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">Attempt a second Skill Roll without spending Void Points.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Some individuals possess the ability to glimpse the strands of fate and destiny that make up the universe, and can gain some glimmer of insight into the future as a result. This sometimes involves studying the stars and their placement via astrology, but most often comes from use of kawaru, small stones, sticks, and coins with a variety of hexagram symbols engraved upon them. Kawaru are typically thrown into a bowl or other receptacle and then examined to determine the patterns. You may attempt a divination once per day. The TN for this Skill Roll is 15, although depending upon the circumstances the GM may dictate a higher TN. If the roll is failed, a second roll may be attempted immediately if you expend a Void Point. (As usual, the TN for the second roll is increased by +10.) The results of divination attempts are notoriously vague, but should give some indistinct inkling of what is to come in the immediate future (i.e. &#8220;you see difficult times ahead,&#8221; &#8220;an old enemy returns soon,&#8221; &#8220;a shadow will fall over your father's house,&#8221; etc).</Description>
+    &gt;
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="etiquette" name="Etiquette">
+  <SkillDef trait="awareness" type="high" id="etiquette" name="Etiquette" page="136">
     <Tags>
       <Tag>social</Tag>
     </Tags>
@@ -235,353 +263,409 @@
       <MasteryAbility rank="5">+1k0 to all Etiquette Contested Rolls</MasteryAbility>
       <MasteryAbility rule="ma_insight_plus_7" rank="7">Gain +7 Insight bonus (cumulable to bonus from Rank 3)</MasteryAbility>
     </MasteryAbilities>
+    <Description>In a rigid hierarchical society such as the Emerald Empire, knowledge of appropriate conduct is essential for all but the most jaded and uncouth bushi. In many ways a proper code of etiquette is a defense for samurai, who can use their knowledge of how one should behave in a court setting as a shield against the manipulation of others. It can also allow them to avoid embarrassing faux pas by ensuring that they know to whom any particular concern should be addressed in the vast and often confusing Imperial bureaucracy, as well as the lesser bureaucracies maintained by the Great Clans. Etiquette is essentially the &#8220;social defense&#8221; Skill of honorable characters in Rokugan&#8217;s courts. When someone tries to tempt, manipulate, or otherwise influence you (typically with skills like Courtier or Temptation), Etiquette is usually used in the ensuing Contested Roll, most often with the Courtesy Emphasis. Courtesy also allows you to offer an opinion without risking offense (at a TN chosen by the GM) or to remember important social mores that might otherwise be forgotten (TN of anywhere from 5 to 20, depending on obscurity). The Bureaucracy Emphasis is used when trying to maneuver through government channels appropriately, such as trying to arrange a meeting with someone of high Status (the Imperial bureaucracy is notoriously difficult to navigate). Conversation allows you to determine an appropriate, non-offensive topic for discussion (TN 15+).</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="games_fortunes_winds" name="Games (Fortunes &amp; Winds)">
+  <SkillDef trait="awareness" type="high" id="games_fortunes_winds" name="Games (Fortunes &amp; Winds)" page="136">
     <Tags>
       <Tag>games</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Games are an important diversion for the normally somber samurai caste of Rokugan. Although some clans generally prefer direct physical activities such as wrestling or other competitive pursuits, virtually everyone in the Empire plays a game of one form or another on a regular basis. Some popular games include: kemari, which involves one or more participants kicking a small ball to keep it off of the ground; go, a strategic game that uses colored stones placed on a game board; letters, in which two or more individuals correspond with one another, using elaborately written letters as a sort of strategic back-and-forth; shogi, a chess-like strategic game; and sadane, a game of trading impromptu criticism of an agreed subject. Games Skill Rolls are typically Contested Rolls made between two individuals, each attempting to defeat the other at the game in question.</Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="games_go" name="Games (Go)">
+  <SkillDef trait="intelligence" type="high" id="games_go" name="Games (Go)" page="136">
     <Tags>
       <Tag>games</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Games are an important diversion for the normally somber samurai caste of Rokugan. Although some clans generally prefer direct physical activities such as wrestling or other competitive pursuits, virtually everyone in the Empire plays a game of one form or another on a regular basis. Some popular games include: kemari, which involves one or more participants kicking a small ball to keep it off of the ground; go, a strategic game that uses colored stones placed on a game board; letters, in which two or more individuals correspond with one another, using elaborately written letters as a sort of strategic back-and-forth; shogi, a chess-like strategic game; and sadane, a game of trading impromptu criticism of an agreed subject. Games Skill Rolls are typically Contested Rolls made between two individuals, each attempting to defeat the other at the game in question.</Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="games_kemari" name="Games (Kemari)">
+  <SkillDef trait="agility" type="high" id="games_kemari" name="Games (Kemari)" page="136">
     <Tags>
       <Tag>games</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Games are an important diversion for the normally somber samurai caste of Rokugan. Although some clans generally prefer direct physical activities such as wrestling or other competitive pursuits, virtually everyone in the Empire plays a game of one form or another on a regular basis. Some popular games include: kemari, which involves one or more participants kicking a small ball to keep it off of the ground; go, a strategic game that uses colored stones placed on a game board; letters, in which two or more individuals correspond with one another, using elaborately written letters as a sort of strategic back-and-forth; shogi, a chess-like strategic game; and sadane, a game of trading impromptu criticism of an agreed subject. Games Skill Rolls are typically Contested Rolls made between two individuals, each attempting to defeat the other at the game in question.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="games_letters" name="Games (Letters)">
+  <SkillDef trait="awareness" type="high" id="games_letters" name="Games (Letters)" page="136">
     <Tags>
       <Tag>games</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Games are an important diversion for the normally somber samurai caste of Rokugan. Although some clans generally prefer direct physical activities such as wrestling or other competitive pursuits, virtually everyone in the Empire plays a game of one form or another on a regular basis. Some popular games include: kemari, which involves one or more participants kicking a small ball to keep it off of the ground; go, a strategic game that uses colored stones placed on a game board; letters, in which two or more individuals correspond with one another, using elaborately written letters as a sort of strategic back-and-forth; shogi, a chess-like strategic game; and sadane, a game of trading impromptu criticism of an agreed subject. Games Skill Rolls are typically Contested Rolls made between two individuals, each attempting to defeat the other at the game in question.</Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="games_sadane" name="Games (Sadane)">
+  <SkillDef trait="awareness" type="high" id="games_sadane" name="Games (Sadane)" page="136">
     <Tags>
       <Tag>games</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Games are an important diversion for the normally somber samurai caste of Rokugan. Although some clans generally prefer direct physical activities such as wrestling or other competitive pursuits, virtually everyone in the Empire plays a game of one form or another on a regular basis. Some popular games include: kemari, which involves one or more participants kicking a small ball to keep it off of the ground; go, a strategic game that uses colored stones placed on a game board; letters, in which two or more individuals correspond with one another, using elaborately written letters as a sort of strategic back-and-forth; shogi, a chess-like strategic game; and sadane, a game of trading impromptu criticism of an agreed subject. Games Skill Rolls are typically Contested Rolls made between two individuals, each attempting to defeat the other at the game in question.</Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="games_shogi" name="Games (Shogi)">
+  <SkillDef trait="intelligence" type="high" id="games_shogi" name="Games (Shogi)" page="136">
     <Tags>
       <Tag>games</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Games are an important diversion for the normally somber samurai caste of Rokugan. Although some clans generally prefer direct physical activities such as wrestling or other competitive pursuits, virtually everyone in the Empire plays a game of one form or another on a regular basis. Some popular games include: kemari, which involves one or more participants kicking a small ball to keep it off of the ground; go, a strategic game that uses colored stones placed on a game board; letters, in which two or more individuals correspond with one another, using elaborately written letters as a sort of strategic back-and-forth; shogi, a chess-like strategic game; and sadane, a game of trading impromptu criticism of an agreed subject. Games Skill Rolls are typically Contested Rolls made between two individuals, each attempting to defeat the other at the game in question.</Description>
   </SkillDef>
-  <SkillDef trait="perception" type="high" id="investigation" name="Investigation">
-    <Tags/>
+  <SkillDef trait="perception" type="high" id="investigation" name="Investigation" page="136">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">Second attempt to Search emphasis without TN increase.</MasteryAbility>
       <MasteryAbility rank="5">+5 to the total of any Investigation Contested Rolls.</MasteryAbility>
       <MasteryAbility rank="7">Second attempt to Search emphasis even if second attempt fails.</MasteryAbility>
     </MasteryAbilities>
+    <Description>One of the most prestigious appointments a samurai can receive is that of magistrate, an offi cial tasked with enforcing the laws within his lord&#8217;s domain. As magistrates, samurai must often determine what has taken place under mysterious circumstances, and search out who is to blame for violating the word of their daimyo. Those with a keen eye and a sharp mind are often promoted to higher positions, serving their family, clan, or even the Empire as a whole. Investigation represents your ability to assess your surroundings and gather information based on physical clues. It can also represent an ability to gather information from others over a longer period of time, hours or even days, in order to piece together different bits of information into a cohesive picture. Unlike other Intelligence or Perception Skill Rolls, Investigation can be re-rolled if you fail the initial roll. The second roll may not be made for at least an hour, however, and suffers a +15 increase to TN. Investigation is most frequently used to locate something (or someone) hidden or concealed. If this is a person in hiding, a Contested Roll will be used, pitting the character&#8217;s Investigation (Notice or Search Emphasis according to the circumstances) against the target&#8217;s Stealth. The Interrogation Emphasis can be used to try to fi gure out if someone is lying, typically in a Contested Roll against the target&#8217;s Sincerity. </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_architecture" name="Lore (Architecture)">
+  <SkillDef trait="intelligence" type="high" id="lore_architecture" name="Lore (Architecture)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_bushido" name="Lore (Bushido)">
+  <SkillDef trait="intelligence" type="high" id="lore_bushido" name="Lore (Bushido)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_crab" name="Lore (Crab)">
+  <SkillDef trait="intelligence" type="high" id="lore_crab" name="Lore (Crab)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_crane" name="Lore (Crane)">
+  <SkillDef trait="intelligence" type="high" id="lore_crane" name="Lore (Crane)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_dragon" name="Lore (Dragon)">
+  <SkillDef trait="intelligence" type="high" id="lore_dragon" name="Lore (Dragon)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_scorpion" name="Lore (Scorpion)">
+  <SkillDef trait="intelligence" type="high" id="lore_scorpion" name="Lore (Scorpion)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_phoenix" name="Lore (Phoenix)">
+  <SkillDef trait="intelligence" type="high" id="lore_phoenix" name="Lore (Phoenix)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_unicorn" name="Lore (Unicorn)">
+  <SkillDef trait="intelligence" type="high" id="lore_unicorn" name="Lore (Unicorn)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_lion" name="Lore (Lion)">
+  <SkillDef trait="intelligence" type="high" id="lore_lion" name="Lore (Lion)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_mantis" name="Lore (Mantis)">
+  <SkillDef trait="intelligence" type="high" id="lore_mantis" name="Lore (Mantis)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_elements" name="Lore (Elements)">
+  <SkillDef trait="intelligence" type="high" id="lore_elements" name="Lore (Elements)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_gaijin_culture" name="Lore (Gaijin Culture)">
+  <SkillDef trait="intelligence" type="high" id="lore_gaijin_culture" name="Lore (Gaijin Culture)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_ghosts" name="Lore (Ghosts)">
+  <SkillDef trait="intelligence" type="high" id="lore_ghosts" name="Lore (Ghosts)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_heraldry" name="Lore (Heraldry)">
+  <SkillDef trait="intelligence" type="high" id="lore_heraldry" name="Lore (Heraldry)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_history" name="Lore (History)">
+  <SkillDef trait="intelligence" type="high" id="lore_history" name="Lore (History)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_nature" name="Lore (Nature)">
+  <SkillDef trait="intelligence" type="high" id="lore_nature" name="Lore (Nature)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_nonhuman_culture" name="Lore (Nonhuman Culture)">
+  <SkillDef trait="intelligence" type="high" id="lore_nonhuman_culture" name="Lore (Nonhuman Culture)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_omens" name="Lore (Omens)">
+  <SkillDef trait="intelligence" type="high" id="lore_omens" name="Lore (Omens)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_shugenja" name="Lore (Shugenja)">
+  <SkillDef trait="intelligence" type="high" id="lore_shugenja" name="Lore (Shugenja)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_spirit_realms" name="Lore (Spirit Realms)">
+  <SkillDef trait="intelligence" type="high" id="lore_spirit_realms" name="Lore (Spirit Realms)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_theology" name="Lore (Theology)">
+  <SkillDef trait="intelligence" type="high" id="lore_theology" name="Lore (Theology)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_war" name="Lore (War)">
+  <SkillDef trait="intelligence" type="high" id="lore_war" name="Lore (War)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_the_sea" name="Lore (The Sea)">
+  <SkillDef trait="intelligence" type="high" id="lore_the_sea" name="Lore (The Sea)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="lore_law" name="Lore (Law)">
+  <SkillDef trait="intelligence" type="high" id="lore_law" name="Lore (Law)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="medicine" name="Medicine">
-    <Tags/>
+  <SkillDef trait="intelligence" type="high" id="medicine" name="Medicine" page="137">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">+1k0 to the amount of healed Wounds.</MasteryAbility>
     </MasteryAbilities>
+    <Description>War is the purpose of all samurai, and war often results in those who are wounded but not slain. A wounded samurai is a burden on his lord, unable to perform his duties and yet still requiring resources. Those who practice medicine have the sacred task of ensuring that a samurai recovers from his wounds and can rise again to serve once more. Medicine can be used to treat many different injuries and ailments, including some spiritual ones. Specifi c diseases may be treated with the Disease Emphasis, although the TN for treatment will vary depending upon the disease in question. The same applies to poisons and the Antidote Emphasis. Non-human races may be treated using the Non-human Emphasis, but it must be purchased separately for each race (i.e. Nezumi Medicine, Naga Medicine, Zokujin Medicine, etc.). When you treat Wounds that an ally has suffered from damage, a successful Medicine (Wound Treatment) / Intelligence roll (TN 15) will remove one die (1k1) of Wounds from the victim. Each successful Raise on this roll allows an additional die to be rolled, but no more than one die is ever kept on such a roll. An injured individual may only benefi t from a single Medicine Skill Roll per day, and each such roll made requires the use of a Medicine Kit, which allows for ten Medicine Skill Rolls before being consumed.</Description>
   </SkillDef>
-  <SkillDef trait="void" type="high" id="meditation" name="Meditation">
-    <Tags/>
+  <SkillDef trait="void" type="high" id="meditation" name="Meditation" page="137">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">Restore up to 2 Void Points</MasteryAbility>
       <MasteryAbility rank="5">Fasting emphasis TN is reduced by 5.</MasteryAbility>
       <MasteryAbility rank="7">Restore up to 3 Void Points</MasteryAbility>
     </MasteryAbilities>
+    <Description>A dutiful samurai is a spiritual soul. In order to fully embrace the code of Bushido, all samurai are expected to study the Tao of Shinsei and meditate upon its wisdom. In practice, of course, this is rarely the case among many martial families, but a surprising number of soldiers can often be found meditating in a shrine or temple to prepare themselves for war. Meditation is the simplest means other than resting that you can recover spent Void Points. A Meditation (Void Recovery) / Void roll versus TN 20 allows you to recover one Void Point with a half hour of uninterrupted meditation. The Fasting Emphasis allows you to make a Meditation / Stamina roll (TN 15 + 5 per day of fasting) to ignore the effects of going without food and water. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="perform_biwa" name="Perform (Biwa)">
+  <SkillDef trait="agility" type="high" id="perform_biwa" name="Perform (Biwa)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="perform_dance" name="Perform (Dance)">
+  <SkillDef trait="agility" type="high" id="perform_dance" name="Perform (Dance)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="perform_drums" name="Perform (Drums)">
+  <SkillDef trait="agility" type="high" id="perform_drums" name="Perform (Drums)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="perform_flute" name="Perform (Flute)">
+  <SkillDef trait="agility" type="high" id="perform_flute" name="Perform (Flute)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="perform_oratory" name="Perform (Oratory)">
+  <SkillDef trait="awareness" type="high" id="perform_oratory" name="Perform (Oratory)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="perform_puppeteer" name="Perform (Puppeteer)">
+  <SkillDef trait="agility" type="high" id="perform_puppeteer" name="Perform (Puppeteer)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="high" id="perform_samisen" name="Perform (Samisen)">
+  <SkillDef trait="agility" type="high" id="perform_samisen" name="Perform (Samisen)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="perform_song" name="Perform (Song)">
+  <SkillDef trait="awareness" type="high" id="perform_song" name="Perform (Song)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="perform_storytelling" name="Perform (Storytelling)">
+  <SkillDef trait="awareness" type="high" id="perform_storytelling" name="Perform (Storytelling)" page="137">
     <Tags>
       <Tag>perform</Tag>
       <Tag>social</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>While not as numerous as other artisans, performers are still considered by many Clans to fulfi ll a vital aspect of maintaining Rokugan&#8217;s culture. Musicians, orators, poets, and even actors are lauded in the highest circles of court because of the entertainment they provide. Many bushi have a different opinion on the value of a performer, but even they must admit that nothing rouses the spirits for war like a play wherein the actions of their ancestors are memorialized and the actions of their enemies demonized. Performers are not merely entertainment, but a form of living memory that all samurai enjoy, even if some of them do not always respect those who provide it. Perform Skill Rolls are made to complete a performance successfully. The TN for such a roll generally depends upon the mood of the audience and is determined by the GM. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="high" id="sincerity" name="Sincerity">
+  <SkillDef trait="awareness" type="high" id="sincerity" name="Sincerity" page="138">
     <Tags>
       <Tag>social</Tag>
     </Tags>
     <MasteryAbilities>
       <MasteryAbility rank="5">+5 to the total of any Sincerity Contested Rolls.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Many in the Empire have a curious stance on the notion of lying; in many courts, it is not considered dishonorable to lie so long as the individual speaking genuinely appears to believe what he says is the truth. This is a skill that many have honed in order to defend themselves from the predation of more skilled opponents in court. Even bushi attending court as yojimbo often practice such things, to ensure that they are not viable targets of their charges&#8217; enemies. This can also be used to avoid offering insult. Honesty is used when you must speak the truth in a convincing manner, while Deceit is used when you must tell a lie and appear to tell the truth (&#8220;I assure you, magistrate, I was meditating in the shrine well after sunset last night&#8221;). Sincerity can also be employed to tell the truth in a very cautious manner to avoid giving insult (when a morbidly obese governor asks a samurai if he is not the greatest warrior in the Empire, the samurai cautiously responds with &#8220;All other warriors would surely vanish within your mighty shadow&#8221;). Rolls made with Sincerity can be opposed with Investigation by those who doubt the truth of the speaker&#8217;s words. </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="high" id="spellcraft" name="Spellcraft">
-    <Tags/>
+  <SkillDef trait="intelligence" type="high" id="spellcraft" name="Spellcraft" page="138">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">+1k0 on Spell Casting Rolls.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The path of the shugenja begins with the innate ability to speak to the kami, but it continues with a life of rigorous study and devotion to research. Although non-shugenja can take up this craft, the essential understanding of how the invocation of the kami works makes it primarily the domain of shugenja. This research also allows scholarly shugenja to create new prayers that others can use, and allows them to entreat certain types of kami to perform tasks for them. The Spell Research Emphasis allows you to formulate new spells. This typically requires a Spellcraft (Spell Research) / Intelligence roll with a TN equal to 10 plus the new spell&#8217;s Mastery Level x10. This requires a number of weeks of uninterrupted study equal to the new spell&#8217;s Mastery Level. New spells should be submitted to the GM for consultation and approval before they are used. The Importune Emphasis is used in the manner of a Social Skill when using the Commune spell to converse with a spirit, and especially when trying to persuade that spirit to be helpful. More information on this can be found in the description of the Commune spell later in this chapter. </Description>
   </SkillDef>
-  <SkillDef trait="void" type="high" id="tea_ceremony" name="Tea Ceremony">
-    <Tags/>
+  <SkillDef trait="void" type="high" id="tea_ceremony" name="Tea Ceremony" page="139">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">All partecipants regain 2 Void Points instead of 1.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The tea ceremony is an ancient and sacred tradition that was created in the Empire&#8217;s earliest days, ostensibly by Lady Doji herself. It is a ritual that is handed down from parent to child, often with as much weight and attention as the passing down of a family blade from one to another. In a formal tea ceremony, the individual conducting the ritual formally sets the table, prepares the tea, and pours it for all participants, who then consume it in unison, all in complete silence. The ceremony has great spiritual signifi cance, and helps clear the mind for those involved. When conducting a tea ceremony, you must make a Tea Ceremony / Void roll (TN 15 + 5 for each participant after the second). The ceremony is intended for two people, but you may conduct it alone if desired, or up to fi ve people total may be included. If the Skill Roll is successful, all participants regain a spent Void Point. The ceremony takes thirty minutes to complete successfully, and requires a quiet location to be conducted. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="high" id="craft_armorsmithing" name="Craft (Armorsmithing)">
+  <SkillDef trait="varies" type="high" id="craft_armorsmithing" name="Craft (Armorsmithing)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="high" id="craft_bowyer" name="Craft (Bowyer)">
+  <SkillDef trait="varies" type="high" id="craft_bowyer" name="Craft (Bowyer)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="high" id="craft_weaponsmithing" name="Craft (Weaponsmithing)">
+  <SkillDef trait="varies" type="high" id="craft_weaponsmithing" name="Craft (Weaponsmithing)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_anatomy" name="Lore (Anatomy)">
+  <SkillDef trait="intelligence" type="low" id="lore_anatomy" name="Lore (Anatomy)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_maho" name="Lore (Maho)">
+  <SkillDef trait="intelligence" type="low" id="lore_maho" name="Lore (Maho)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_kolat" name="Lore (Kolat)">
+  <SkillDef trait="intelligence" type="low" id="lore_kolat" name="Lore (Kolat)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_gozoku" name="Lore (Gozoku)">
+  <SkillDef trait="intelligence" type="low" id="lore_gozoku" name="Lore (Gozoku)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_lying_darkness" name="Lore (Lying Darkness)">
+  <SkillDef trait="intelligence" type="low" id="lore_lying_darkness" name="Lore (Lying Darkness)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_shadowlands" name="Lore (Shadowlands)">
+  <SkillDef trait="intelligence" type="low" id="lore_shadowlands" name="Lore (Shadowlands)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="low" id="lore_underworld" name="Lore (Underworld)">
+  <SkillDef trait="intelligence" type="low" id="lore_underworld" name="Lore (Underworld)" page="137">
     <Tags>
       <Tag>lore</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>Many among the samurai caste are called to pursue the role of the scholar in order to better serve their lord, or for their own purposes. Although this is most common among shugenja, it is not unusual for a courtier or a bushi to study some subject or another that catches their interest. History and heraldry are among the most common and useful, but literally any subject can be taken up. Lore Skill Rolls are made to determine if a character possesses certain information regarding the subject area (i.e., a bushi character might make a Lore: Shugenja Skill Roll to see if he could determine the purpose of a ritual being conducted). </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="low" id="ninjutsu" name="Ninjutsu">
+  <SkillDef trait="agility" type="low" id="ninjutsu" name="Ninjutsu" page="142">
     <Tags>
       <Tag>reflexes</Tag>
       <Tag>weapon</Tag>
@@ -591,20 +675,23 @@
       <MasteryAbility rank="5">Dices on damage rolls explode normally.</MasteryAbility>
       <MasteryAbility rule="ma_ninjutsu_7" rank="7">+0k1 to the damage of all ninjutsu weapons.</MasteryAbility>
     </MasteryAbilities>
+    <Description>A disgraceful practice, ninjutsu is the art of using specialized weapons created specifi cally for use by the deadly assassins and shadow warriors known as ninja. No honorable warrior would ever humiliate himself and his ancestors by demonstrating knowledge of such a shameful nature, and indeed many samurai, when confronted with the bizarre implements of the ninja, have diffi culty fathoming their use altogether, other than as crude and relatively ineffective weapons. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="low" id="craft_poison" name="Craft (Poison)">
+  <SkillDef trait="varies" type="low" id="craft_poison" name="Craft (Poison)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="low" id="craft_explosives" name="Craft (Explosives)">
+  <SkillDef trait="varies" type="low" id="craft_explosives" name="Craft (Explosives)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="low" id="forgery" name="Forgery">
+  <SkillDef trait="agility" type="low" id="forgery" name="Forgery" page="144">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
@@ -613,144 +700,166 @@
       <MasteryAbility rank="5">+1k0 on any roll to detect a forgery made by someone else.</MasteryAbility>
       <MasteryAbility rank="7">+0k1 to Forgery Skill Roll vs Investigation/Perception detection Skill Roll.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Documentation is very important in Rokugan, from information on an individual&#8217;s illustrious lineage to travel papers issued by magistrates, and even the offi cial Imperial Decrees of the Emperor himself. Those with an eye for detail, a steady hand, and a distinct lack of honor can take advantage of this system by falsifying such papers, either for their own use or to sell to others. When a forgery is created, the result of your Forgery / Agility Skill Roll should be noted. This is the TN for others to detect the forgery using an Investigation / Perception Skill Roll. </Description>
   </SkillDef>
-  <SkillDef trait="willpower" type="low" id="intimidation" name="Intimidation">
+  <SkillDef trait="awareness" type="low" id="intimidation" name="Intimidation" page="144">
     <Tags>
       <Tag>social</Tag>
     </Tags>
     <MasteryAbilities>
       <MasteryAbility rank="5">Gain +5 to the total of any Intimidation Contested Roll.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The manipulation of others through the use of threats, both stated and implied, is an oft-employed tool for those who have left their honor behind. Even bushi who are generally honorable but have a strong sense of pragmatism will occasionally abandon decorum and threaten those who refuse to cooperate. It is a shameful act, but one that many are willing to commit (and promptly forget) in order to ensure the successful completion of their duty. The Bullying Emphasis is the simplest form of Intimidation, and involves the immediate, short-term threat of violence to get another to perform a specifi c act. Control, on the other hand, indicates a longer-term attempt to shape another&#8217;s behavior to your will, and is often used by courtiers to manipulate lower-ranking, weaker-willed individuals. Torture, which is never a subject for polite conversation, is used by hinin working for magistrates in order to elicit confessions and information from criminals. No proper samurai will dirty his soul by torturing in person. Intimidation is usually a Contested Roll, resisted with Etiquette (Courtesy) / Willpower. The GM may require a different Skill or Trait to resist the Intimidation attempt if it seems more appropriate to the situation. Regardless, the resisting character&#8217;s Honor Rank is added to the total of his roll. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="low" id="sleight_of_hand" name="Sleight of Hand">
-    <Tags/>
+  <SkillDef trait="agility" type="low" id="sleight_of_hand" name="Sleight of Hand" page="145">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">May use Conceal Emphasis to conceal small weapons.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The dexterous manipulation of small objects for the purpose of misdirection or concealment is not looked upon favorably by most honorable samurai. The code of Bushido fl atly calls for sincerity in action, word, and thought, and such parlor tricks smack of deception and dishonesty, which no honorable samurai can abide. The Conceal Emphasis allows you to hide small objects (something that can fi t in your hand) on your person, requiring a Contested Roll using Sleight of Hand / Agility against Investigation / Perception to detect it. The Escape Emphasis allows you to slip free of bonds. The TN for this varies considerably, and can be TN 15 for simple ropes or as high as TN 25 or 30 for high-grade chains or bindings, or it can be a Contested Roll against the responsible party&#8217;s Sailing (Knotwork). Pick Pockets is fairly self explanatory, requiring the same manner of Contested Roll as Conceal in order to avoid detection, and Prestidigitation allows you to use the Skill to entertain or distract people by performing tricks. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="low" id="stealth" name="Stealth">
-    <Tags/>
+  <SkillDef trait="agility" type="low" id="stealth" name="Stealth" page="145">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">Simple Move Actions while using Stealth allow Water x 5 feet distance.</MasteryAbility>
       <MasteryAbility rank="5">Simple Move Actions while using Stealth allow Water x 10 feet distance.</MasteryAbility>
       <MasteryAbility rank="7">Free Move Action as normal when using Stealth.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Although generally a dishonorable practice, stealth has its uses in such situations as hunting or while scouting during a military engagement. For most samurai, however, these are necessary evils, and under any other circumstances, no honorable souls will ever dare disgrace themselves by sneaking about in the shadows like common criminals, or failing to face their opponents like true samurai would. While concealed via Stealth, you may take Move Actions. When taking a Move Action while using Stealth, you may only make Simple Move Actions, and these only allow you to move a number of feet equal to your Water Ring (although Mastery Abilities can increase this signifi cantly). The Ambush Emphasis allows you to make a Stealth (Ambush) / Agility roll, contested by an opponent&#8217;s Investigation (Notice) /Perception, to gain an advantage over them during the fi rst round of combat if they are unaware of your presence. The Spell Casting Emphasis allows you to make a Contested Roll against an opponent&#8217;s Investigation (Notice) / Perception when casting a spell. If you win, they are unable to determine where the spell originated from. You lose no Honor for using Stealth (Sneaking), although other Emphases do usually result in Honor loss as normal. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="low" id="temptation" name="Temptation">
+  <SkillDef trait="awareness" type="low" id="temptation" name="Temptation" page="145">
     <Tags>
       <Tag>social</Tag>
     </Tags>
     <MasteryAbilities>
       <MasteryAbility rank="5">Gain +5 to the total of any Temptation Contested Roll.</MasteryAbility>
     </MasteryAbilities>
+    <Description>The art of offering another something that they desire in order to gain in turn something one desires is as old as civilization itself, and in truth very little has changed. The two greatest temptations for most are fi nancial gain and physical pleasure, and both are frequently bandied about in court settings to fulfi ll the agendas of the Clans. Temptation is best used against opponents who possess certain kinds of Disadvantages, such as Lechery, Fascination, Greed, or perhaps a Dark Secret. The GM will usually require a Contested Roll using Temptation / Awareness (with the appropriate Emphasis) against the target&#8217;s Etiquette (Courtesy) / Willpower. Much as with Intimidation, the GM can choose to let a PC roll against a fl at TN when employing Temptation against a minor NPC. </Description>
   </SkillDef>
-  <SkillDef trait="awareness" type="merchant" id="animal_handling" name="Animal Handling">
-    <Tags/>
+  <SkillDef trait="awareness" type="merchant" id="animal_handling" name="Animal Handling" page="143">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="3">Commonly domesticated animals may be trained for use by others.</MasteryAbility>
       <MasteryAbility rank="5">May command an animal to attack.</MasteryAbility>
       <MasteryAbility rank="7">May command an animal not-verbally.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Animals play a vital role in a number of samurai endeavors, including recreation, transportation, or the actual waging of war. Horses and falcons are the animals most commonly trained by samurai, but a number of others exist: the Lion Clan uses trained warcats in battle, the Unicorn use war dogs, and many families use trained pigeons to carry correspondence. The diffi culty to domesticate and train an animal for use varies widely depending upon the animal in question. An assortment of animals can be found in the bestiary in the Book of Void, along with some guidelines on what they can do when trained. </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="merchant" id="commerce" name="Commerce">
-    <Tags/>
+  <SkillDef trait="intelligence" type="merchant" id="commerce" name="Commerce" page="143">
+    <Tags />
     <MasteryAbilities>
       <MasteryAbility rank="5">May increase or decrease the price of an item by a maximum of 20%.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Occupations that involve money are distasteful to the samurai caste. They are not inherently dishonorable, of course, for it is absolutely necessary for a samurai to oversee such activities to ensure that his Clan and family are adequately provided for, but it is defi nitely considered something of a social stigma to deal in commerce. The actual day to day trading and conducting of business is typically left to merchant vassals, but it is not unheard of for samurai to have training in such matters. These individuals are typically referred to as &#8220;merchant patrons.&#8221; The Appraisal Emphasis allows you to quickly determine the approximate value of an object in any given market. The value will vary depending upon the quality of the object&#8217;s construction, how exotic or unusual it is, and how practically it can be put to use. More exotic or rare objects are not only more expensive, but also are signifi cantly more diffi cult to appraise properly. The Mathematics Emphasis is typically used to calculate things like taxes and tariffs, but can obviously be used in a number of non-business applications as well. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_blacksmithing" name="Craft (Blacksmithing)">
+  <SkillDef trait="varies" type="merchant" id="craft_blacksmithing" name="Craft (Blacksmithing)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_brewing" name="Craft (Brewing)">
+  <SkillDef trait="varies" type="merchant" id="craft_brewing" name="Craft (Brewing)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_carpentry" name="Craft (Carpentry)">
+  <SkillDef trait="varies" type="merchant" id="craft_carpentry" name="Craft (Carpentry)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_cartography" name="Craft (Cartography)">
+  <SkillDef trait="varies" type="merchant" id="craft_cartography" name="Craft (Cartography)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_cobbling" name="Craft (Cobbling)">
+  <SkillDef trait="varies" type="merchant" id="craft_cobbling" name="Craft (Cobbling)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_farming" name="Craft (Farming)">
+  <SkillDef trait="varies" type="merchant" id="craft_farming" name="Craft (Farming)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_fishing" name="Craft (Fishing)">
+  <SkillDef trait="varies" type="merchant" id="craft_fishing" name="Craft (Fishing)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_masonry" name="Craft (Masonry)">
+  <SkillDef trait="varies" type="merchant" id="craft_masonry" name="Craft (Masonry)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_mining" name="Craft (Mining)">
+  <SkillDef trait="varies" type="merchant" id="craft_mining" name="Craft (Mining)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_pottery" name="Craft (Pottery)">
+  <SkillDef trait="varies" type="merchant" id="craft_pottery" name="Craft (Pottery)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_shipbuilding" name="Craft (Shipbuilding)">
+  <SkillDef trait="varies" type="merchant" id="craft_shipbuilding" name="Craft (Shipbuilding)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_tailoring" name="Craft (Tailoring)">
+  <SkillDef trait="varies" type="merchant" id="craft_tailoring" name="Craft (Tailoring)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_tattooing" name="Craft (Tattooing)">
+  <SkillDef trait="varies" type="merchant" id="craft_tattooing" name="Craft (Tattooing)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="varies" type="merchant" id="craft_weaving" name="Craft (Weaving)">
+  <SkillDef trait="varies" type="merchant" id="craft_weaving" name="Craft (Weaving)" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
-    <MasteryAbilities/>
+    <MasteryAbilities />
+    <Description>If artisans are tasked with producing items that are considered abstract and beautiful by the people of the Empire, then craftsmen have a duty to create things of practical value. Blacksmiths, armorsmiths, cartwrights, carpenters, and shipwrights are all craftsmen. Fishermen and farmers are as well, although they do not produce an item but rather the food that is the lifeblood of the Empire. While crafting is not as honorable and noble a profession as being an artist, it is still highly valued and looked upon without stigma. </Description>
   </SkillDef>
-  <SkillDef trait="intelligence" type="merchant" id="engineering" name="Engineering">
+  <SkillDef trait="intelligence" type="merchant" id="engineering" name="Engineering" page="143">
     <Tags>
       <Tag>craft</Tag>
     </Tags>
     <MasteryAbilities>
       <MasteryAbility rank="5">Gain +5 to the total of all Cooperative or Cumulative Engineering Skill Roll.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Far more complex than a simple crafting skill, engineering is a rare gift among the people of Rokugan, even the samurai who rule over it. It involves an understanding of how things are constructed and, as a result, how they can best be deconstructed. The siege engineers of the Kaiu family are the unquestioned masters of this, but there are others among other clans who have such gifts as well. The Construction Emphasis specializes in making plans for others to follow, building things from a simple tower to an elaborate palace. The Siege Emphasis is the exact opposite of this, and tells you best how such things can be destroyed in battle. </Description>
   </SkillDef>
-  <SkillDef trait="agility" type="merchant" id="sailing" name="Sailing">
+  <SkillDef trait="agility" type="merchant" id="sailing" name="Sailing" page="144">
     <Tags>
       <Tag>craft</Tag>
       <Tag>intelligence</Tag>
@@ -758,5 +867,6 @@
     <MasteryAbilities>
       <MasteryAbility rank="5">Gain +5 to the total of all Cooperative or Cumulative Sailing Skill Roll.</MasteryAbility>
     </MasteryAbilities>
+    <Description>Rokugan has a vast coastline, and there is a tremendous amount of activity on the sea during the majority of the year. Trade vessels and fi shing vessels make their way across the shallow waters along the coast during spring, summer, and fall, and the hardier ships belonging to the Mantis Clan make the long voyage to and from the Islands of Silk &amp; Spice even during the depths of winter. The Navigation Emphasis can be used to determine your approximate location using the stars, and determine in what direction a specifi c destination lies (assuming you already know where the destination is and simply want to know where it is relative to you). Navigation can be used on land, but the TN is increased by +10 when doing so. The Knot-work Emphasis is used in working with the ropes and cloths aboard a Rokugani sailing vessel. </Description>
   </SkillDef>
 </L5RCM>
