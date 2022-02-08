@@ -1,0 +1,9 @@
+{
+	"id": "enemies_of_the_empire",
+	"display_name": "Enemies of the Empire",
+	"authors": ["Daniele Simonetti"],
+	"version": "1.0",
+	"update-uri": "",
+	"download-uri": "",
+	"min-cm-version": "3.9"
+}
