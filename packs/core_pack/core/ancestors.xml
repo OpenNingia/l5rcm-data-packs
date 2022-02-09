@@ -1,57 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <Merit type="spiritual" id="ancestor_crab_hida" name="Ancestor, Hida">
-    <Rank id="1" value="14"/>
+  <Merit type="spiritual" id="ancestor_crab_hida" name="Ancestor, Hida" page="242">
+    <Rank id="1" value="14" />
+    <Description>Hida was a warrior of unmatched strength and endurance, who relied on that to defeat all foes, never backing down from any of them, even his own Taint-corrupted son. With Hida watching over you, your blows strike hard and true &#8211; you gain +1k0 to all damage rolls and may ignore 4 points of an enemy&#8217;s Reduction, regardless of what weapon you are using. Further, any Crab who fi ght alongside you in a skirmish are inspired by the spirit of Hida which infuses your frame, and gain +1 bonus Void point (if they do not use this Void point by the end of the skirmish, it is lost). Demands: Any Round that at least one fellow Crab is wounded within your sight, you must suffer 1 Wound in sympathy. (This does not increase if multiple Crab are wounded in the same Round.) This Wound ignores Reduction and any other effects which would otherwise negate damage. However, you can voluntarily choose not to suffer the Wound. If you ever refuse to suffer these Wounds, or if you ever voluntarily retreat from a fi ght with a creature of the Shadowlands, Hida will abandon you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_crab_kuni" name="Ancestor, Kuni">
-    <Rank id="1" value="8"/>
+  <Merit type="spiritual" id="ancestor_crab_kuni" name="Ancestor, Kuni" page="242">
+    <Rank id="1" value="8" />
+    <Description>The founder of the Crab shugenja school was a capable shugenja and a man who knew more about the creatures of the Shadowlands than any other. Once per session, you may spend a Void point to gain a bonus to your spellcasting roll equal to your Earth Rank in kept dice. Also, when rolling to resist gaining the Shadowlands Taint, you may roll twice and keep the better result. Demands: Kuni&#8217;s demand to his descendents is a simple one &#8211; stay pure. If you ever gain so much as a single point of the Shadowlands Taint, Kuni will abandon you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_crane_doji" name="Ancestor, Doji">
-    <Rank id="1" value="8"/>
+  <Merit type="spiritual" id="ancestor_crane_doji" name="Ancestor, Doji" page="242">
+    <Rank id="1" value="8" />
+    <Description>The Lady Doji created most of the rules and concepts of Rokugani civilization, and her infl uence is still felt throughout the Empire&#8217;s courts in the present day. Those who receive Doji&#8217;s advice gain a +1k0 bonus to all of their Courtier, Etiquette, Perform, and Sincerity rolls. Demands: Doji requires those who have her guidance to live in a manner both honorable and civilized. If you ever commit a Major Breach of Etiquette (as per the Honor table in the Book of Earth), or you ever lose more than 3 points of Honor or Glory from a single breach of etiquette, Doji will abandon you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_crane_kakita" name="Ancestor, Kakita">
-    <Rank id="1" value="12"/>
+  <Merit type="spiritual" id="ancestor_crane_kakita" name="Ancestor, Kakita" page="242">
+    <Rank id="1" value="12" />
+    <Description>Doji&#8217;s husband was both a duelist and an artisan of renown, author of The Sword, and served as the fi rst Emerald Champion in Rokugan&#8217;s history. However, he also started the Crane Clan&#8217;s long and bitter feud with the Lion Clan. Those who have Kakita&#8217;s guidance may spend a Void point to re-roll any Iaijutsu or Artisan Skill roll with a +1k1 bonus to the second roll. They keep the better result. However, all those who are watched over by Kakita earn the automatic enmity of Matsu samurai, who sense their own ancestor&#8217;s anger &#8211; all members of the Matsu family are effectively Sworn Enemies to you. Demands: Kakita was an honorable man who sought perfection in both the sword and with the artist&#8217;s brush, and he expects the same of you. If you ever lose a duel or an artistic competition, Kakita forsakes you. He also abandons you if your Honor ever drops below 4.0.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_dragon_agasha_kitsuki" name="Ancestor, Agasha Kitsuki">
-    <Rank id="1" value="11"/>
+  <Merit type="spiritual" id="ancestor_dragon_agasha_kitsuki" name="Ancestor, Agasha Kitsuki" page="242">
+    <Rank id="1" value="11" />
+    <Description>The founder of the Kitsuki family originated the concept of the controversial &#8220;Kitsuki Method,&#8221; which uses logical deduction and inference to solve crimes. Those who have his guidance gain the ability to &#8220;read&#8221; others and to pick up on subtle, hidden clues in an uncanny, almost supernatural manner that many samurai fi ne disturbing. When you have Kitsuki&#8217;s guidance, you may use your Perception Trait for any Skill or Trait roll that would normally require you to use your Awareness Trait. Furthermore, if you spend a Void point on any Skill or Trait roll to tell whether someone is lying to you, you gain +2k2 instead of the normal +1k1. Demands: Kitsuki requires you to always pursue the truth. If you ever accept a solution to a problem, crime, or puzzle that you know or sincerely believe to be false, Kitsuki will abandon you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_dragon_mirumoto" name="Ancestor, Mirumoto">
-    <Rank id="1" value="9"/>
+  <Merit type="spiritual" id="ancestor_dragon_mirumoto" name="Ancestor, Mirumoto" page="242">
+    <Rank id="1" value="9" />
+    <Description>The founder of the Dragon Clan&#8217;s warrior family was one of the greatest swordsmen of his age, a pragmatic and cunning warrior and brilliant duelist, and a deep rival to Kakita in the pursuit of swordsmanship. He created the Niten style, a method of fi ghting with both the katana and wakizashi. He also wrote one of the Empire&#8217;s greatest works on swordsmanship, and died fi ghting Fu Leng on the fi rst Day of Thunder. If you have gained Mirumoto&#8217;s attention, he grants you +1k1 to all Agility-based Skill rolls. If the Skill roll is made using a Mirumoto Bushi School Skill, the bonus is +3k1 instead. Demands: Mirumoto expects his descendents to follow his tradition of victory, and to carry on his rivalry with his ancient nemesis Kakita. If you ever issue a challenge and then lose the subsequent duel, Mirumoto will abandon you. He will also leave you if you ever refuse a duel with someone trained in the Kakita Bushi school. He will not abandon you if you lose a duel that was forced on you&#8230; unless that duel was against a Kakita.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_lion_akodo" name="Ancestor, Akodo">
-    <Rank id="1" value="12"/>
+  <Merit type="spiritual" id="ancestor_lion_akodo" name="Ancestor, Akodo" page="242">
+    <Rank id="1" value="12" />
+    <Description>The founder of the Lion Clan was a general beyond compare, one of the greatest tacticians ever to walk the face of the Empire. He was also a supreme soldier, a man who gained strength not just from his own ability but also from the support of all those around him. He forged the Lion into a clan where every soldier was part of a greater whole, made strong by their brothers in arms. While you have Akodo&#8217;s guidance, you gain a +1k0 bonus to all Bugei skill rolls (except Iaijutsu rolls) and a +1k1 bonus to any rolls made on the Mass Battle Table. Further, whenever you fi ght alongside your fellow Lion, you draw strength from their presence, just as Akodo taught. Any time you enter a skirmish with at least one other Lion bushi fi ghting alongside you, you gain +1 extra Void point (this bonus Void must be spent by the end of the skirmish, or it is lost). Demands: Akodo requires all his followers to be soldiers of both steadfast courage and unimpeachable honor. If your Honor ever drops below 5.0, Akodo will abandon you. He will also abandon you if you ever voluntarily leave a battle or skirmish where other Lion are still fi ghting.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_lion_ikoma" name="Ancestor, Ikoma">
-    <Rank id="1" value="9"/>
+  <Merit type="spiritual" id="ancestor_lion_ikoma" name="Ancestor, Ikoma" page="243">
+    <Rank id="1" value="9" />
+    <Description>The founder of the Lion Clan&#8217;s family of storytellers and historians was a capable spinner of tales himself, but he was also a cheerful rogue who chased women and brawled without hesitation or fear. Those who are watched over by Ikoma&#8217;s boisterous spirit are expected to emulate him in all ways. In return, he infuses them with both his toughness and his rough-and-ready wisdom. You gain +1k0 to all rolls you make with the Intelligence Trait, and +2k0 to your damage when fi ghting unarmed (with the Jiujutsu skill). Demands: Ikoma expects you to live as he did &#8211; drink hard, fi ght hard, tell fi ne tales, and welcome the company of beautiful and interesting women. If you ever choose to refuse a drink, run from a fi ght, or insult an attractive or compelling woman, Ikoma will forsake you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_mantis_kaimetsu_uo" name="Ancestor, Kaimetsu-Uo">
-    <Rank id="1" value="9"/>
+  <Merit type="spiritual" id="ancestor_mantis_kaimetsu_uo" name="Ancestor, Kaimetsu-Uo" page="243">
+    <Rank id="1" value="9" />
+    <Description>The original founder of the Mantis Clan was the son of Hida Osano-Wo and his Matsu bride, and one of the most formidable warriors of his day. Preferring action to words, he carved a clan&#8217;s founding out of a dangerous tropical island, and stormed Kyuden Isawa to avenge his father&#8217;s death. Those who gain Kaimetsu-Uo&#8217;s favor are expected to live as he did, carving their way through life with action and sheer determination, using whatever weapon comes to hand, and countenancing no insult from anyone. You gain a +1k1 bonus to all Willpower Trait and Skill rolls except those made to avoid being provoked. You gain a +3k0 bonus when using the Improvised Weapon emphasis of the Jiujutsu skill, and also gain +1k1 damage to all damage rolls made with improvised weapons. Demands: Kaimetsu-Uo requires you to take on all challenges, no matter how strange or embarrassing. If you ever back down from a physical competition or challenge, even a trivial one such as a foot race, he will forsake you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_mantis_gusai" name="Ancestor, Gusai">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="ancestor_mantis_gusai" name="Ancestor, Gusai" page="243">
+    <Rank id="1" value="5" />
+    <Description>One of the most notorious of Mantis ancestors, Gusai proved the power of a single individual by successfully carrying a knife into the presence of the Emperor &#8211; only to see the Emperor prove the limitations of such power when he signed the order for Gusai&#8217;s execution. When Gusai guides you, you gain +3k3 to any Stealth or Sleight-of-Hand roll made to conceal a weapon on your person. Demands: Gusai will abandon you if you ever voluntarily go unarmed into the presence of a rival or enemy.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_phoenix_asako" name="Ancestor, Asako">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="ancestor_phoenix_asako" name="Ancestor, Asako" page="243">
+    <Rank id="1" value="5" />
+    <Description>Shiba&#8217;s favored follower, Asako, learned the secrets of humanity&#8217;s limitless potential from her lord, and founded the mystic order known as the henshin. She treasured friendship above all things, but for this very reason felt the pain of betrayal more deeply and keenly than any other. While Asako guides your steps, others fi nd you a charming ally and a true friend. Any of your Ally Advantages gain a free +1 increase to their level of Devotion, and you gain +1k0 to all Social Skill rolls made against someone with whom you are an Ally. However, if an Ally ever betrays you, you automatically gain Driven: Destroy the Betrayer for no points. Demands: Asako requires you to treat your friends with the same devotion you expect of them. If you ever betray or abandon a friend, Asako will forsake you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_phoenix_shiba" name="Ancestor, Shiba">
-    <Rank id="1" value="9"/>
+  <Merit type="spiritual" id="ancestor_phoenix_shiba" name="Ancestor, Shiba" page="243">
+    <Rank id="1" value="9" />
+    <Description>Known for his wisdom, perception, and foresight, Shiba served the Isawa faithfully in life, and wrote down the Tao, which became the foundation of the Empire&#8217;s religion. When he perished in the Shadowlands, he found a way to pass on his knowledge to his descendents, ensuring the Phoenix would always be well-led by the Soul of Shiba. However, he also sometimes chooses individual Phoenix samurai to benefi t from his guidance. Those who are watched over by Shiba gain +1k1 to all Intelligence Rolls and Intelligence-based Skill Rolls, and may add their Intelligence Rank to their Armor TN at all times. If you enter a skirmish alongside a member of the Isawa family, you gain +1 Void point (this Void point must be used by the end of the skirmish or it is lost). Demands: Shiba requires that you maintain both a high honor and an absolute, unswerving dedication to fulfi lling his oath to the Isawa. If your Honor Rank ever drops below 4.0, he will abandon you. He will also abandon you if you ever willingly disobey a higher-ranking Isawa, or if you ever voluntarily leave a skirmish while an Isawa ally remains behind.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_scorpion_bayushi" name="Ancestor, Bayushi">
-    <Rank id="1" value="12"/>
+  <Merit type="spiritual" id="ancestor_scorpion_bayushi" name="Ancestor, Bayushi" page="243">
+    <Rank id="1" value="12" />
+    <Description>The founder of the Scorpion Clan was known for his subtle cunning and trickery, as well as a sort of cruel honesty that he employed most famously at his brother Hantei&#8217;s deathbed. Although his skills and ruthlessness in both battle and politics were legendary, he also carried a life-long devotion to his follower Shosuro, and her corruption by the Lying Darkness led him to his own death. If you are trained in one of the Bayushi schools (such as the Bayushi Bushi or Bayushi Courtier schools, for example), you gain a +1k0 bonus to all your School Skills, and any time you spend a Void point on a School Skill, you gain +2k2 instead of +1k1. If you have a Kharmic Tie with another character, both of you may use each others&#8217; Void Points, but if one of you dies, the other immediately gains the Momoku Disadvantage for no points. Demands: Bayushi made only one demand of his followers &#8211; loyalty. He expects the same of you. If you ever voluntarily and knowingly betray the Scorpion Clan, he will abandon you. He will also abandon you if your Honor ever climbs to 5.0 or better &#8211; such pure souls have no place in the ranks of Rokugan&#8217;s designated villains.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_scorpion_shoshuro" name="Ancestor, Shoshuro">
-    <Rank id="1" value="8"/>
+  <Merit type="spiritual" id="ancestor_scorpion_shoshuro" name="Ancestor, Shoshuro" page="244">
+    <Rank id="1" value="8" />
+    <Description>Bayushi&#8217;s most beloved follower was consumed by the Lying Darkness, and spent centuries imprisoned by the kami Togashi before fi nally escaping during the Hidden Emperor era. At the end of that era, Bayushi carried her soul into Yomi, and since that time she has begun to show her favor to those of her descendents she fi nds worthy. If Shosuro&#8217;s whispers guide your actions, you gain a +3k1 bonus to all Stealth, Acting, and Sincerity (Deceit) skill rolls. Demands: Having been forced to betray her lord Bayushi once, Shosuro is determined that her descendents will never make the same mistake. If you ever betray the Scorpion Clan, disobey your superiors in the clan, or become corrupted by the Lying Darkness or the Shadow Dragon, Shosuro will immediately abandon you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_spider_hida_atarasi" name="Ancestor, Hida Atarasi">
-    <Rank id="1" value="7"/>
+  <Merit type="spiritual" id="ancestor_spider_hida_atarasi" name="Ancestor, Hida Atarasi" page="244">
+    <Rank id="1" value="7" />
+    <Description>The fi rst son of Hida, and the original Crab Thunder, also became one of the fi rst samurai to be Lost to the Shadowlands Taint. So great was his power that those who encountered him (and were fortunate enough to survive) called him an akutenshi, or &#8220;evil angel.&#8221; Atarasi&#8217;s own father Hida eventually hunted him down and destroyed him in single combat. Atarasi&#8217;s twisted warrior spirit infuses those he guides, allowing them to call on their corruption to deliver terrible blows to their enemies. While Atarasi watches over you, during each round of a skirmish you may choose to spend a Void Point or gain a point of Shadowlands Taint (your choice) in order to add either your Taint Rank or your Earth in unkept dice to your attack and damage rolls for that round. Demands: Atarasi is a fallen soul, and he reviles purity and virtue. If your Honor Rank ever reaches 3.0 or higher, or you ever lose any of your Taint, Atarasi forsakes you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_spider_kuni_yori" name="Ancestor, Kuni Yori">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="ancestor_spider_kuni_yori" name="Ancestor, Kuni Yori" page="244">
+    <Rank id="1" value="5" />
+    <Description>Kuni Yori was once a loyal Crab, a servant of his lord Hida Kisada, but he was seduced by the Shadowlands and betrayed the Crab Clan. Transformed by the power of maho, Yori became an undead abomination, leading the forces of the Shadowlands against his former clan. Yori&#8217;s guidance teaches both deceit and greater mastery of the forces of maho. You gain +1k0 to all Sincerity (Deceit) rolls and all maho spellcasting rolls. However, Yori&#8217;s malign infl uence draws the Taint to you even faster than otherwise. Any time you cast a Maho spell, you gain 1 extra point of Taint. Demands: Yori makes no demands &#8211; he is confi dent that his guidance will inevitably lead to complete corruption by the Taint.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_unicorn_moto" name="Ancestor, Moto">
-    <Rank id="1" value="10"/>
+  <Merit type="spiritual" id="ancestor_unicorn_moto" name="Ancestor, Moto" page="244">
+    <Rank id="1" value="10" />
+    <Description>A formidable desert warrior who swore allegiance to Shinjo and brought his tribe into the Ki-Rin Clan, Moto was known for his incredible speed and refusal to be bound by anything but his own choice. He imbues the same spirit and determination in those of his descendents who win his favor. Any time you roll to resist an attempt to physically restrain you (such as a Grappling attack) or to mentally infl uence you (such as a Temptation Skill roll), you gain a +2k2 bonus to the roll. Likewise, any spell which would restrain your physical movement has its Spellcasting TN increased by an amount equal to 5 x your Willpower. Demands: Moto expects you to live by the same standard of freedom as he did, offering obedience only to your lord and clan. If you ever knowingly and voluntarily allow yourself to be controlled by another who is not your rightful superior in the Unicorn Clan (such as letting yourself be blackmailed by a courtier), Moto will abandon you.</Description>
   </Merit>
-  <Merit type="spiritual" id="ancestor_unicorn_shinjo" name="Ancestor, Shinjo">
-    <Rank id="1" value="8"/>
+  <Merit type="spiritual" id="ancestor_unicorn_shinjo" name="Ancestor, Shinjo" page="244">
+    <Rank id="1" value="8" />
+    <Description>The founder of the Unicorn was known for her boundless curiosity about the world, which caused her to lead her Ki-Rin Clan out into the Burning Sands, and for her deep compassion, which allowed her to retain sympathy even for her fallen brother Fu Leng. After her long imprisonment and sleep in the Burning Sands, she returned to Rokugan to purge the Kolat from her beloved clan. You gain a +1k1 bonus to any Investigation roll made to understand something new, strange, or enigmatic, as Shinjo&#8217;s spirit guides you to seek deeper understanding of the world around you. You also gain +1k1 to all Awareness rolls made with the Etiquette or Sincerity (Honesty) skills, as Shinjo&#8217;s compassion infuses you with empathy and grace. Demands: Shinjo requires you to always act with compassion, even when facing bitter enemies. If you ever fail to show mercy and compassion to a rival or enemy, Shinjo will abandon you. (This does not apply to members of the Kolat or minions of the Lying Darkness or the Shadow Dragon.)</Description>
   </Merit>
 </L5RCM>

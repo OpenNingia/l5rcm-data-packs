@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <!-- MASTERY 1 -->
+  <SpellDef name="[MAHO] Heart Of The Damned" area="Caster" mastery="1" element="earth" range="Touch" duration="Instantaneous" id="maho_heart_of_the_damned">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Description>A foul necromantic ritual, first practiced by Iuchiban himself, this spell calls on the strength of the dead to enhance the living. The caster must touch a recently-dead human corpse (dead within the last day) when casting the spell. The corpse shrivels and rots away as the caster draws on its essence, reddish-black energy flowing out of the dead body and into the caster. The caster heals 2k2 Wounds and regains 1 Rank in any Ring or Trait which has been reduced below its normal level.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Purge The Weak" area="Food and water for up to 5 people" mastery="1" element="earth" range="50 feet" duration="Permanent" id="maho_purge_the_weak">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+20 feet per Raise)</Raise>
+      <Raise>Area of Effect (supplies for 1 additional person per Raise)</Raise>
+    </Raises>
+    <Description>This unpleasant curse ruins food and drink, rendering it foul, diseased, and inedible. The effects of the spell are obvious - food becomes rotten, water turns foul and discolored, and so forth. The food and water lose all nutritional value and anyone who eats or drinks must roll Stamina at TN 20 or become severely ill, suffering a -3k0 penalty to all Skill, Trait, and Spell Casting rolls. The illness is incurable with medical treatment and will last for two weeks unless magically cured.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Suck The Marrow" area="One target creature" mastery="1" element="earth" range="Touch" duration="1 day" id="maho_suck_the_marrow">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 day per 2 Raises)</Raise>
+      <Raise>Range (change to 50 feet for 2 Raises)</Raise>
+    </Raises>
+    <Description>This unpleasant curse impedes the victim's ability to heal and recover from injury and sickness. The victim becomes pale and weak, exuding an unpleasant body odor, and is unable to heal Wounds normally or from applications of the Medicine skill. The victim also is unable to recover from illnesses or poisons, and suffers a -2k0 penalty to any roll made to resist the effects of a poison or disease. Magical healing can still affect the target normally.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Symbol Of Blood" area="30 foot radius" mastery="1" element="water" range="Touch" duration="12 hours" id="maho_symbol_of_blood">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area of Effect (+5 feet per Raise)</Raise>
+      <Raise>Duration (+2 hours per Raise)</Raise>
+    </Raises>
+    <Description>This spell inscribes a sinister ward onto a flat surface. The caster writes the ward in the blood he spill to cast the spell, and once inscribed the ward cannot be destroyed except by physically destroying the surface on which it is written. The ward causes its victims' blood to become sluggish and cold. Anyone other than the caster who enters the area of effect suffers a -2k0 penalty to all physical Actions. The effect only applies while they are within the area of effect, and does not stack with other Symbols of Blood.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Ward of Divine Peace" area="50 foot radius" mastery="1" element="air" range="Touch" duration="8 hours" id="maho_ward_of_divine_peace">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area of Effect (+10 foot radius)</Raise>
+    </Raises>
+    <Description>This spell is favored by Bloodspeaker cell leaders, who use it to maintain psychological dominance over their followers. The spell's name is an ironic joke within the cult's ranks. The spell creates a false aura of calm and well-being that lasts for several hours. This makes it difficult for them to focus their attention or resist appeals from others. Anyone who is within the spell's area of effect, or who enters it while the spell is in effect, suffers a -1k0 penalty to all Skill and Trait rolls that use Awareness or Willpower. This penalty lasts until the end of the spell's duration, but does not stack with itself.</Description>
+  </SpellDef>
+  <!-- MASTERY 2 -->
+  <SpellDef name="[MAHO] Curse Of The Clan" area="One target samurai" mastery="2" element="air" range="50 feet" duration="1 month" id="maho_curse_of_the_clan">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+10 days per Raise)</Raise>
+    </Raises>
+    <Description>This subtle curse causes a samurai to manifest his clan's most stereotypical and notorious behavior. For example, a Crab might become more crude, intolerant, and ruthlessly pragmatic, while a Phoenix might become more arrogant and obsessed with magical power. The changes are significant but not overwhelming, and the victim of the spell will try to rationalize and justify his behavior. If a PC is targeted with this spell the GM should present the situation as a role-playing challenge rather than dictating how the character is played.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Curse Of The Kansen" area="One target creature" mastery="2" element="air" range="50 feet" duration="8 hours" id="maho_curse_of_the_kansen">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+10 feet per Raise)</Raise>
+      <Raise>Duration (+1 hour per Raise)</Raise>
+    </Raises>
+    <Description>This curse subtly attracts hostile kansen to harass the target. The spell's victim begins hearing constant whispers inside his head, voices urging him to sinful and corrupt behavior. The continual distraction causes him to suffer a -1k0 penalty to all Courtier, Etiquette, and Sincerity rolls. If he is rolling to resist the Temptation Skill, the penalty is -2k0 instead. (This effect stacks with the maho spell Sinful Dreams.) If the optional Honor Roll rule is in effect, the victim of this spell also suffers a penalty of -1k0 to Honor Rolls.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Gift Of The Maker" area="One target creature (can be the caster)" mastery="2" element="fire" range="Self;Touch" duration="1 hour" id="maho_gift_of_the_maker">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+30 minutes per Raise)</Raise>
+    </Raises>
+    <Description>The caster summons the power of Jigoku, temporarily granting the blessings of the Taint. Most Bloodspeakers rationalize this spell's effects by claiming it is evoking power from within themselves. The caster (or another person touched by the caster) gains a Greater Shadowlands Power of his choice for the duration of the spell.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Dark Wings" area="Caster" mastery="2" element="water" range="Self" duration="10 minutes" id="maho_dark_wings">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+2 minutes per Raise)</Raise>
+    </Raises>
+    <Description>The caster sprouts monstrous wings from his back, resembling those of a bat or other such creature. For the duration of the spell the caster can fly, and is considered to have Swift 3 (as per the creature ability from the Book of Void, L5R 4th Edition core rulebook) while flying.</Description>
+  </SpellDef>
+  <!-- MASTERY 3 -->
+  <SpellDef name="[MAHO] Dancing With Demons" area="Self;one target creature" mastery="3" element="air" range="500 feet" duration="24 hours" id="maho_dancing_with_demons">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+6 hours per Raise)</Raise>
+    </Raises>
+    <Description>A ritual spell first used by the notorious Doji Nashiko, this spell is also employed by many other maho-tsukai, and has found its way into the repertoire of several Bloodspeaker Cult cells. The spell is a ritual and requires the caster to dance for at least an hour (rolling Perform: Dance / Awareness at TN 25) while casting - if the dance is interrupted or the Skill roll is unsuccessful, the spell fails. However, if the spell succeeds, the caster may choose either to gain a Physical or Mental Advantage for the duration of the spell, or inflict a Physical or Mental Disadvantage on another person within range for the duration of the spell. (The caster need not be able to see the target so long as he is within range.) The maximum Experience Point value of an Advantage or Disadvantage created by the spell is equal to the caster's Air + Insight Rank + Taint Rank, if any. This spell cannot make extreme physical changes to the target, such as removing limbs or organs (e.g. it cannot inflict Disadvantages like Missing Eye). The GM should exercise intelligent judgment in considering its effects.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Mists Of Fear" area="One target creature" mastery="3" element="air" range="50 feet" duration="Instantaneous" id="maho_mists_of_fear">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Special (Increase Fear effect strength by 1 per Raise)</Raise>
+    </Raises>
+    <Description>This spell summons forth a potent illusion of whatever the target fears most in the world. The illusion is present for only a few moments and can only be perceived by the target, who must roll against a Fear 5 effect. If the target suffers from a Phobia the spell will also activate its effects.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Symbol Of The Bloodspeaker" area="50 foot radius" mastery="3" element="air" range="Touch" duration="12 hours" id="maho_symbol_of_the_bloodspeaker">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>None</Raise>
+    </Raises>
+    <Description>The Bloodspeaker Cult uses this spell to protect their meeting places against unwanted intrusion. The symbol must be inscribed into a fl at surface (wall, floor, etc) when it is cast. The moment anyone who is not a loyal member of the Bloodspeaker Cult enters the symbol's radius, the symbol glows a bright sickly green and the intruder is bathed in eerie green flames, inflicting 4k3 damage. The symbol can discharge any number of times against different targets, but each target can only be affected once within the duration of the spell.</Description>
+  </SpellDef>
+  <!-- MASTERY 4 -->
+  <SpellDef name="[MAHO] Tomb Of Earth" area="One target creature" mastery="4" element="earth" range="50 feet" duration="Conditional (see below)" id="maho_tomb_of_earth">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Damage (+1k0 to damage per Raise)</Raise>
+    </Raises>
+    <Description>This spell is a perverse inversion of the elemental spell Tomb of Jade. Instead of targeting those with the Taint, it targets those who are pure of soul - the spell cannot affect anyone who has at least one full Rank of Taint. The victim of Tomb of Earth is held immobile as he begins turning to stone, beginning with the skin and working its way inward. Each Round (including the Round the spell is cast) on the caster's Turn, the caster makes an Opposed Roll of his Insight / Earth against the target's Insight / Air. If the caster wins, the target remains immobilized by the spell (unable to take Actions of any kind) and suffers 2k2 damage. If the target wins, the spell's effects end. If the target is killed by the spell, he is turned completely to stone, which crumbles to dust within 24 hours.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Burning Blood" area="One target creature" mastery="4" element="fire" range="50 feet" duration="Instantaneous" id="maho_burning_blood">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Dmage (+1k0 per Raise)</Raise>
+      <Raise>Range (+10 feet per Raise)</Raise>
+      <Raise>Targets (+1 target per 3 Raises)</Raise>
+    </Raises>
+    <Description>This horrible spell infuses the target's bloodstream with angry Fire kansen, causing his blood to superheat and boil through his skin, emerging as a cloud of reddish vapor. The target suffers Wounds with a DR equal to his Fire, and must roll Willpower at TN 20 or fall Prone due to the unbearable pain. Whether or not the target falls prone, he is considered to be Fatigued on his next two Turns, due to the debilitating effect of the boiling blood.</Description>
+  </SpellDef>
+  <!-- MASTERY 5 -->
+  <SpellDef name="[MAHO] Blood Armor" area="Caster and one target creature" mastery="5" element="earth" range="50 feet" duration="3 Rounds" id="maho_blood_armor">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 Round per 2 Raises)</Raise>
+    </Raises>
+    <Description>This is an extremely vicious defensive spell which high-ranking Bloodspeaker leaders frequently use to defend themselves. When the spell is cast, the maho-tsukai chooses one living target within range. For the duration of the spell, any time the caster suffers Wounds from any source, he only takes 25% of the damage rolled (rounded down). The target of the spell takes the other 75% (rounded up). Casting this spell does not produce any obvious visual effect, but each time the spell shifts damage to the target, the caster glows with unholy reddish-black energy, while appropriate injuries (burns, cuts, etc) spontaneously appear on the target. This spell works on all Wound damage, even from spells like Jade Strike that normally could not hurt the target.</Description>
+  </SpellDef>
+  <!-- MASTERY 6 -->
+  <SpellDef name="[MAHO] Take The Body" area="Caster and one target person" mastery="6" element="air" range="500 feet" duration="Permanent" id="maho_take_the_body">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+500 feet per Raise)</Raise>
+      <Raise>Special (cast as a single Simple Action with 4 Raises)</Raise>
+    </Raises>
+    <Description>This spell is, to the best of anyone's knowledge, known only to two people - Iuchiban and Yajinden. They have guarded its secrets carefully and so far no other maho-tsukai has ever exhibited its power. The spell allows the caster to literally “leap” his soul into the body of another person within range, instantly and permanently taking their body as his own. The caster must succeed in a Contested Willpower roll against the victim, and if the victim wins, the caster is hurled back into his current body. (The victim will be very much aware that he just fought off some kind of terrible all-consuming power.) The spell does not normally cause the souls to “switch”- the abandoned body simply falls dead. The fate of the original soul is unknown, and some Rokugani believe it may actually be destroyed, a truly horrific and blasphemous act. There are some reports of powerful Lost or maho-tsukai being able to switch into the other body rather than be destroyed, but these tales are not confirmed. The occupied body retains its physical Traits and physical Advantages and Disadvantages, but instantly acquires the mental Traits and Void of the caster, along with all of the caster's Skills and any Mental or Spiritual Advantages and Disadvantages the caster may have. (Social Advantages or Disadvantages may or may not persist - the GM should adjudicate such situations.) If the maho-tsukai remains within the same body for an extended period of time (six months or more) it will gradually change to physically resemble the caster's original physical form, changing Rings, Traits, and Advantages as appropriate.</Description>
+  </SpellDef>
+  <SpellDef name="[MAHO] Fierce Blood Of The Earth" area="Caster" mastery="5" element="earth" range="Touch" duration="Instantaneous" id="maho_fierce_blood_of_the_earth">
+    <Tags>
+      <Tag>maho</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+6 hours per 2 Raises)</Raise>
+    </Raises>
+    <Description>A hideous and blasphemous spell that many Bloodspeakers use to artificially extend their lifespans. The caster touches one living being, who must be either willing or physically helpless (securely bound, asleep, or unconscious). The caster must make an Opposed Earth Roll against an unwilling victim. If the spell is successful, the maho-tsukai consumes the victim's life force, killing him instantly. In return, the caster heals all physical injuries, regrows any missing limbs or organs, and extends his life by one year. Although this spell has no obvious or immediate side-effects, using it repeatedly will have a price - the maho-tsukai will acquire a desiccated, almost mummified appearance, making his true nature increasingly difficult to conceal.</Description>
+  </SpellDef>
+</L5RCM>
