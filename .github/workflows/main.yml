@@ -97,7 +97,7 @@ jobs:
           
       - name: Upload Core Pack      
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-core_pack 
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -109,7 +109,7 @@ jobs:
 
       - name: Upload Book of Air     
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-book_of_air
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -121,7 +121,7 @@ jobs:
 
       - name: Upload Book of Earth     
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-book_of_earth
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -133,7 +133,7 @@ jobs:
 
       - name: Upload Book of Fire
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-book_of_fire
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -145,7 +145,7 @@ jobs:
 
       - name: Upload Book of Water
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-book_of_water 
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -157,7 +157,7 @@ jobs:
 
       - name: Upload Book of Void
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-book_of_void
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -169,7 +169,7 @@ jobs:
 
       - name: Upload Community Pack
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-community
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -181,7 +181,7 @@ jobs:
 
       - name: Upload Emerald empire
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-emerald_empire
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -193,7 +193,7 @@ jobs:
 
       - name: Upload Great Clans
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-great_clans
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -205,7 +205,7 @@ jobs:
 
       - name: Upload Imperial histories
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-imperial_histories
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -217,7 +217,7 @@ jobs:
 
       - name: Upload Legend of the burning sands
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-lbs
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -229,7 +229,7 @@ jobs:
 
       - name: Upload Strongholds
         if: contains(github.ref, 'refs/tags/')
-        id: upload-release-asset 
+        id: upload-strongholds
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
