@@ -6,6 +6,7 @@ name=$1-$(jq -r .version ./manifest)
 zip -r -1 $name.l5rcmpack ./* -x *.git*
 mv $name.l5rcmpack $cwd
 cd $cwd
-echo "::set-output name=asset_path::$name.l5rcmpack"
+echo "::set-output name=asset_path::$cwd/$name.l5rcmpack"
+echo "::set-output name=asset_name::$name.l5rcmpack"
 
 
