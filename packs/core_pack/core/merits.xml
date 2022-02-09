@@ -1,624 +1,746 @@
-<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <Merit type="material" id="gaijin_gear" name="Gaijin Gear">
+  <Merit type="material" id="gaijin_gear" name="Gaijin Gear" page="149">
     <Rank id="1" value="5">
-      <Exception tag="mantis" value="4"/>
-      <Exception tag="unicorn" value="4"/>
+      <Exception tag="mantis" value="4" />
+      <Exception tag="unicorn" value="4" />
     </Rank>
+    <Description>You possess a single piece of equipment that is gaijin in origin, constructed somewhere beyond the boundaries of the Emerald Empire. It may be a weapon from one of the many warrior cultures around Rokugan, such as the Senpet Empire, the overseas kingdoms of Merenae and Thrane, the barbarian Yobanjin tribes to the north, or even the distant Yodotai Empire far to the northwest. In this case simply establish a comparable weapon from Rokugan and use its mechanics, but the item will require its own unique Weapon Skill to utilize it. Non-weapon options include such bizarre objects as compasses, spyglasses, magnifying glasses, scissors, etc. Mantis and Unicorn characters may purchase this Advantage for 4 points.</Description>
   </Merit>
-  <Merit type="material" id="gentry" name="Gentry">
-    <Rank id="1" value="0"/>
+  <Merit type="material" id="gentry" name="Gentry" page="149">
+    <Rank id="1" value="0" />
+    <Description>In the manner of all samurai, you have been given a duty to oversee that which ultimately belongs to the Emperor. In your case, however, your charge is signifi cantly larger than most ever achieve. The number of points assigned to this Advantage determines the size of the holding you have been assigned to oversee. Multiple characters can combine points in this Advantage in order to jointly oversee a larger holding. Characters assigned to oversee a holding are responsible for defending it, administrating it, and ensuring that all taxes are paid to all responsible parties. This can be the basis for an entire campaign.</Description>
   </Merit>
-  <Merit type="material" id="inheritance" name="Inheritance">
-    <Rank id="1" value="5"/>
+  <Merit type="material" id="inheritance" name="Inheritance" page="150">
+    <Rank id="1" value="5" />
+    <Description>When you received your gempukku ceremony, your family honored you with an heirloom of your ancestors. It is among your most precious possessions, and you would die before you allowed it to be harmed or brought dishonor to it. You possess one item in addition to the normal starting equipment provided by your School. Whenever you make a Skill Roll using this item, such as a Perform: Biwa roll with a biwa, a Games: Go roll with a go set, or a Kenjutsu roll with a katana, you gain a bonus of +1k1 to the roll. This bonus does not apply to any attack or damage rolls, only Skill Rolls made for non-combat purposes (rolls made outside of a skirmish). Players and GMs may agree to allow a more powerful or unique item to be inherited for a higher Experience Point cost. Such special cases should be discussed carefully beforehand to ensure fairness and balance</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_akodo_blade" rule="akodo_blade" name="Sacred Weapon (Akodo Blade)">
-    <Rank id="1" value="6"/>
+  <Merit type="material" id="sacred_weapon_akodo_blade" rule="akodo_blade" name="Sacred Weapon (Akodo Blade)" page="152">
+    <Rank id="1" value="6" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_black_steel_blade" rule="black_steel_blade" name="Sacred Weapon (Black Steel Blade)">
-    <Rank id="1" value="6"/>
+  <Merit type="material" id="sacred_weapon_black_steel_blade" rule="black_steel_blade" name="Sacred Weapon (Black Steel Blade)" page="152">
+    <Rank id="1" value="6" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_inquisitors_strike" rule="inquisitor_strike" name="Sacred Weapon (Inquisitor's Strike)">
-    <Rank id="1" value="6"/>
+  <Merit type="material" id="sacred_weapon_inquisitors_strike" rule="inquisitor_strike" name="Sacred Weapon (Inquisitor's Strike)" page="152">
+    <Rank id="1" value="6" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_kaiu_blade" rule="kaiu_blade" name="Sacred Weapon (Kaiu Blade)">
-    <Rank id="1" value="6"/>
+  <Merit type="material" id="sacred_weapon_kaiu_blade" rule="kaiu_blade" name="Sacred Weapon (Kaiu Blade)" page="152">
+    <Rank id="1" value="6" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_kakita_blade" rule="kakita_blade" name="Sacred Weapon (Kakita Blade)">
-    <Rank id="1" value="5"/>
+  <Merit type="material" id="sacred_weapon_kakita_blade" rule="kakita_blade" name="Sacred Weapon (Kakita Blade)" page="152">
+    <Rank id="1" value="5" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_moto_scimitar" rule="moto_scimitar" name="Sacred Weapon (Moto Scimitar)">
-    <Rank id="1" value="6"/>
+  <Merit type="material" id="sacred_weapon_moto_scimitar" rule="moto_scimitar" name="Sacred Weapon (Moto Scimitar)" page="152">
+    <Rank id="1" value="6" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_shosuro_blade" rule="shosuro_blade" name="Sacred Weapon (Shosuro Blade)">
-    <Rank id="1" value="5"/>
+  <Merit type="material" id="sacred_weapon_shosuro_blade" rule="shosuro_blade" name="Sacred Weapon (Shosuro Blade)" page="152">
+    <Rank id="1" value="5" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_storm_kama_x2" rule="storm_kama" name="Sacred Weapon (Storm Kama x2)">
-    <Rank id="1" value="6"/>
+  <Merit type="material" id="sacred_weapon_storm_kama_x2" rule="storm_kama" name="Sacred Weapon (Storm Kama x2)" page="152">
+    <Rank id="1" value="6" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="sacred_weapon_twin_sister_blades" rule="twin_sister_blades" name="Sacred Weapon (Twin Sister Blades)">
-    <Rank id="1" value="3"/>
+  <Merit type="material" id="sacred_weapon_twin_sister_blades" rule="twin_sister_blades" name="Sacred Weapon (Twin Sister Blades)" page="152">
+    <Rank id="1" value="3" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="servant" name="Servant">
-    <Rank id="1" value="0"/>
+  <Merit type="material" id="servant" name="Servant" page="153">
+    <Rank id="1" value="0" />
+    <Description>You possess a special weapon created by the master weaponsmiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.</Description>
   </Merit>
-  <Merit type="material" id="wealthy" name="Wealthy">
+  <Merit type="material" id="wealthy" name="Wealthy" page="155">
     <Rank id="1" value="1">
-      <Exception tag="crane" value="0"/>
-      <Exception tag="imperial" value="0"/>
-      <Exception tag="unicorn" value="0"/>
+      <Exception tag="crane" value="0" />
+      <Exception tag="imperial" value="0" />
+      <Exception tag="unicorn" value="0" />
     </Rank>
     <Rank id="2" value="2">
-      <Exception tag="crane" value="1"/>
-      <Exception tag="imperial" value="1"/>
-      <Exception tag="unicorn" value="1"/>
+      <Exception tag="crane" value="1" />
+      <Exception tag="imperial" value="1" />
+      <Exception tag="unicorn" value="1" />
     </Rank>
     <Rank id="3" value="3">
-      <Exception tag="crane" value="2"/>
-      <Exception tag="imperial" value="2"/>
-      <Exception tag="unicorn" value="2"/>
+      <Exception tag="crane" value="2" />
+      <Exception tag="imperial" value="2" />
+      <Exception tag="unicorn" value="2" />
     </Rank>
     <Rank id="4" value="4">
-      <Exception tag="crane" value="3"/>
-      <Exception tag="imperial" value="3"/>
-      <Exception tag="unicorn" value="3"/>
+      <Exception tag="crane" value="3" />
+      <Exception tag="imperial" value="3" />
+      <Exception tag="unicorn" value="3" />
     </Rank>
     <Rank id="5" value="5">
-      <Exception tag="crane" value="4"/>
-      <Exception tag="imperial" value="4"/>
-      <Exception tag="unicorn" value="4"/>
+      <Exception tag="crane" value="4" />
+      <Exception tag="imperial" value="4" />
+      <Exception tag="unicorn" value="4" />
     </Rank>
     <Rank id="6" value="6">
-      <Exception tag="crane" value="5"/>
-      <Exception tag="imperial" value="5"/>
-      <Exception tag="unicorn" value="5"/>
+      <Exception tag="crane" value="5" />
+      <Exception tag="imperial" value="5" />
+      <Exception tag="unicorn" value="5" />
     </Rank>
     <Rank id="7" value="7">
-      <Exception tag="crane" value="6"/>
-      <Exception tag="imperial" value="6"/>
-      <Exception tag="unicorn" value="6"/>
+      <Exception tag="crane" value="6" />
+      <Exception tag="imperial" value="6" />
+      <Exception tag="unicorn" value="6" />
     </Rank>
     <Rank id="8" value="8">
-      <Exception tag="crane" value="7"/>
-      <Exception tag="imperial" value="7"/>
-      <Exception tag="unicorn" value="7"/>
+      <Exception tag="crane" value="7" />
+      <Exception tag="imperial" value="7" />
+      <Exception tag="unicorn" value="7" />
     </Rank>
     <Rank id="9" value="9">
-      <Exception tag="crane" value="8"/>
-      <Exception tag="imperial" value="8"/>
-      <Exception tag="unicorn" value="8"/>
+      <Exception tag="crane" value="8" />
+      <Exception tag="imperial" value="8" />
+      <Exception tag="unicorn" value="8" />
     </Rank>
     <Rank id="10" value="10">
-      <Exception tag="crane" value="9"/>
-      <Exception tag="imperial" value="9"/>
-      <Exception tag="unicorn" value="9"/>
+      <Exception tag="crane" value="9" />
+      <Exception tag="imperial" value="9" />
+      <Exception tag="unicorn" value="9" />
     </Rank>
     <Rank id="11" value="11">
-      <Exception tag="crane" value="10"/>
-      <Exception tag="imperial" value="10"/>
-      <Exception tag="unicorn" value="10"/>
+      <Exception tag="crane" value="10" />
+      <Exception tag="imperial" value="10" />
+      <Exception tag="unicorn" value="10" />
     </Rank>
     <Rank id="12" value="12">
-      <Exception tag="crane" value="11"/>
-      <Exception tag="imperial" value="11"/>
-      <Exception tag="unicorn" value="11"/>
+      <Exception tag="crane" value="11" />
+      <Exception tag="imperial" value="11" />
+      <Exception tag="unicorn" value="11" />
     </Rank>
     <Rank id="13" value="13">
-      <Exception tag="crane" value="12"/>
-      <Exception tag="imperial" value="12"/>
-      <Exception tag="unicorn" value="12"/>
+      <Exception tag="crane" value="12" />
+      <Exception tag="imperial" value="12" />
+      <Exception tag="unicorn" value="12" />
     </Rank>
     <Rank id="14" value="14">
-      <Exception tag="crane" value="13"/>
-      <Exception tag="imperial" value="13"/>
-      <Exception tag="unicorn" value="13"/>
+      <Exception tag="crane" value="13" />
+      <Exception tag="imperial" value="13" />
+      <Exception tag="unicorn" value="13" />
     </Rank>
     <Rank id="15" value="15">
-      <Exception tag="crane" value="14"/>
-      <Exception tag="imperial" value="14"/>
-      <Exception tag="unicorn" value="14"/>
+      <Exception tag="crane" value="14" />
+      <Exception tag="imperial" value="14" />
+      <Exception tag="unicorn" value="14" />
     </Rank>
+    <Description>Your branch of the family is particularly wealthy, and they have granted you additional resources in order to facilitate your fulfi llment of your duty. For each point spent on this Advantage, you gain two additional koku, to be added to the amount in your School outfi t. Crane, Unicorn, and Imperial characters may purchase this Advantage for 1 point less off its total cost.</Description>
   </Merit>
-  <Merit type="mental" id="absolute_direction" name="Absolute Direction">
-    <Rank id="1" value="1"/>
+  <Merit type="mental" id="absolute_direction" name="Absolute Direction" page="146">
+    <Rank id="1" value="1" />
+    <Description>You possess an almost supernatural sense of direction, and you always know what direction is north, no matter the circumstances. This ability does not function if you are more than one day&#8217;s travel inside the Shadowlands.</Description>
   </Merit>
-  <Merit type="mental" id="balance" name="Balance">
-    <Rank id="1" value="2"/>
+  <Merit type="mental" id="balance" name="Balance" page="146">
+    <Rank id="1" value="2" />
+    <Description>You possess an inherent calm and serenity that others have diffi culty overcoming when attempting to antagonize or taunt you, and that strengthens you when your honor is tested. When adding your Honor Rank to the total of any roll made to resist Intimidation or Temptation, you add an additional +1k0 to the roll as well.</Description>
   </Merit>
-  <Merit type="mental" id="clear_thinker" name="Clear Thinker">
+  <Merit type="mental" id="clear_thinker" name="Clear Thinker" page="147">
     <Rank id="1" value="3">
-      <Exception tag="dragon" value="2"/>
+      <Exception tag="dragon" value="2" />
     </Rank>
+    <Description>You possess a sharp mind and keen powers of perception, making it very diffi cult for others to deceive you. Whenever you make a Contested Roll against someone who is attempting to confuse or manipulate you in any way, you gain a bonus of +1k0 to the total of your roll. Dragon characters may purchase this Advantage for 2 points.</Description>
   </Merit>
-  <Merit type="mental" id="crafty" name="Crafty">
+  <Merit type="mental" id="crafty" name="Crafty" page="147">
     <Rank id="1" value="3">
-      <Exception tag="ninja" value="2"/>
-      <Exception tag="scorpion" value="2"/>
-      <Exception tag="spider" value="2"/>
+      <Exception tag="ninja" value="2" />
+      <Exception tag="scorpion" value="2" />
+      <Exception tag="spider" value="2" />
     </Rank>
+    <Description>You have a knack for instinctively knowing how to do things that most people prefer to avoid at all costs. Whenever you are in a situation where you would be forced to make an Unskilled Roll using a Low Skill, you are considered to have 1 rank in the Skill instead. Scorpion, Spider, and ninja characters may purchase this Advantage for 2 points.</Description>
   </Merit>
-  <Merit type="mental" id="daredevil" name="Daredevil">
+  <Merit type="mental" id="daredevil" name="Daredevil" page="147">
     <Rank id="1" value="3">
-      <Exception tag="mantis" value="2"/>
+      <Exception tag="mantis" value="2" />
     </Rank>
+    <Description>You have a natural fl air for athleticism and a complete lack of self-preservation when it comes to physical danger. Whenever you spend a Void Point to enhance an Athletics Skill Roll, you gain a bonus of +3k1 to the total of the roll instead of the normal +1k1. Mantis characters may purchase this Advantage for 2 points.</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_control" name="Dark Paragon (Control)">
+  <Merit type="mental" id="dark_paragon_control" name="Dark Paragon (Control)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Control: Re-roll any Social Skill Roll</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_determination" name="Dark Paragon (Determination)">
+  <Merit type="mental" id="dark_paragon_determination" name="Dark Paragon (Determination)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Determination: Negate all TN/Wound penalties on one Skill or Spell Casting roll (no +5 bonus is applied to the roll)</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_insight" name="Dark Paragon (Insight)">
+  <Merit type="mental" id="dark_paragon_insight" name="Dark Paragon (Insight)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Insight: Re-roll any roll that used the Awareness Trait</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_knowledge" name="Dark Paragon (Knowledge)">
+  <Merit type="mental" id="dark_paragon_knowledge" name="Dark Paragon (Knowledge)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Knowledge: Re-roll any roll that used the Intelligence Trait</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_perfection" name="Dark Paragon (Perfection)">
+  <Merit type="mental" id="dark_paragon_perfection" name="Dark Paragon (Perfection)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Perfection: Spending the Honor causes any one die of your choice on a Skill Roll to explode (no +5 bonus added)</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_strength" name="Dark Paragon (Strength)">
+  <Merit type="mental" id="dark_paragon_strength" name="Dark Paragon (Strength)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Strength: Re-roll any damage Roll</Description>
   </Merit>
-  <Merit type="mental" id="dark_paragon_will" name="Dark Paragon (Will)">
+  <Merit type="mental" id="dark_paragon_will" name="Dark Paragon (Will)" page="147">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>You have mastered one of the precepts of Shourido, the dark code that forms an antithesis of Bushido. Once per session, you may voluntarily sacrifi ce 5 points of Honor as a Free Action in order to affect a particular type of roll as indicated below, and gain a bonus of +5 to the total of that roll. If you do not have 5 points of Honor to spend in this manner, you may spend a Void Point instead. Spider characters may purchase this Advantage for 4 points. Will: Spending the Honor negates 10 Wounds at the moment they are suffered</Description>
   </Merit>
-  <Merit type="mental" id="forbidden_knowledge_gaijin_pepper" rule="fk_gaijin_pepper" name="Forbidden Knowledge (Gaijin Pepper)">
-    <Rank id="1" value="5"/>
+  <Merit type="mental" id="forbidden_knowledge_gaijin_pepper" rule="fk_gaijin_pepper" name="Forbidden Knowledge (Gaijin Pepper)" page="148">
+    <Rank id="1" value="5" />
+    <Description>There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefi ts of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. Gaijin Pepper: You possess fi rsthand knowledge of gunpowder, both how to create it and how to use it. You gain one rank in Craft: Explosives, and possess a small pouch of gaijin pepper that you may carry with you if you so choose.</Description>
   </Merit>
-  <Merit type="mental" id="forbidden_knowledge_gozoku" rule="fk_gozoku" name="Forbidden Knowledge (Gozoku)">
-    <Rank id="1" value="5"/>
+  <Merit type="mental" id="forbidden_knowledge_gozoku" rule="fk_gozoku" name="Forbidden Knowledge (Gozoku)" page="148">
+    <Rank id="1" value="5" />
+    <Description>There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefi ts of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. Gozoku: You possess an intricate knowledge of the Gozoku conspiracy against the throne, either in its fi rst or second incarnation, and may in fact be a member of that organization. You gain one rank in Lore: Gozoku and gain a bonus of +1k1 on Social Skill rolls with known members of the Gozoku.</Description>
   </Merit>
-  <Merit type="mental" id="forbidden_knowledge_kolat" rule="fk_kolat" name="Forbidden Knowledge (Kolat)">
-    <Rank id="1" value="5"/>
+  <Merit type="mental" id="forbidden_knowledge_kolat" rule="fk_kolat" name="Forbidden Knowledge (Kolat)" page="148">
+    <Rank id="1" value="5" />
+    <Description>There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefi ts of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. Kolat: You are intimately familiar with the nature and operations of the blasphemous Kolat order, and may be a member of that organization. You gain one rank in Lore: Kolat and gain a bonus of +1k1 on Social Skill rolls with known members of the Kolat.</Description>
   </Merit>
-  <Merit type="mental" id="forbidden_knowledge_lying_darkness" rule="fk_lying_darkness" name="Forbidden Knowledge (Lying Darkness)">
-    <Rank id="1" value="5"/>
+  <Merit type="mental" id="forbidden_knowledge_lying_darkness" rule="fk_lying_darkness" name="Forbidden Knowledge (Lying Darkness)" page="148">
+    <Rank id="1" value="5" />
+    <Description>There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefi ts of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. Lying Darkness: You are familiar with the entity known as the Lying Darkness, its methods, and its minions. You may have come into confl ict with it in the past, and perhaps it hunts you still. You gain one rank of Lore: Lying Darkness, and you may observe an individual and make a Lore: Lying Darkness / Perception Roll (TN 30) to determine if he has been corrupted by the Lying Darkness.</Description>
   </Merit>
-  <Merit type="mental" id="forbidden_knowledge_maho" rule="fk_maho" name="Forbidden Knowledge (Maho)">
-    <Rank id="1" value="5"/>
+  <Merit type="mental" id="forbidden_knowledge_maho" rule="fk_maho" name="Forbidden Knowledge (Maho)" page="148">
+    <Rank id="1" value="5" />
+    <Description>There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefi ts of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. Maho: You are familiar with the forbidden and blasphemous magic known as maho, and may in fact be a practicing maho-tsukai (black sorcerer) yourself. You gain 1 rank in Lore: Maho and, at the GM&#8217;s discretion, might begin play knowing a maho spell.</Description>
   </Merit>
-  <Merit type="mental" id="higher_purpose" name="Higher Purpose">
-    <Rank id="1" value="3"/>
+  <Merit type="mental" id="higher_purpose" name="Higher Purpose" page="150">
+    <Rank id="1" value="3" />
+    <Description>There is some greater purpose to which you have devoted your life. This is not a simple matter, but some grand work that will take years or perhaps even the whole of your life to accomplish. Whatever this goal is, during any session in which you and the GM agree you have made demonstrable progress toward it, you gain one additional Experience Point.</Description>
   </Merit>
-  <Merit type="mental" id="irreproachable" name="Irreproachable">
+  <Merit type="mental" id="irreproachable" name="Irreproachable" page="151">
     <Rank id="1" value="2">
-      <Exception tag="imperial" value="1"/>
+      <Exception tag="imperial" value="1" />
     </Rank>
+    <Description>You have a soul of virtue that is beyond reproach, and others fi nd it diffi cult if not impossible to lead you into dishonorable behavior. When making a Contested Roll where the other party is using the Temptation Skill, you gain a bonus of +1k0 to your roll. Imperial characters may purchase this Advantage for 1 point.</Description>
   </Merit>
-  <Merit type="mental" id="languages" name="Languages">
-    <Rank id="1" value="1"/>
-    <Rank id="2" value="3"/>
+  <Merit type="mental" id="languages" name="Languages" page="151">
+    <Rank id="1" value="1" />
+    <Rank id="2" value="3" />
+    <Description>The Empire has only one language with two dialects. The world around Rokugan, however, has a wide variety of nations and cultures, each with their own language. For 1 point, you may learn one human language from any surrounding culture, including but not limited to: the Yobanjin dialect, Senpet, Yodotai, Mekham, Merenae, Rhuumal, Thrane, etc. A non-human language, such as the Nezumi or Naga languages, requires three points and confers only an ability to understand the language and a limited ability to express very basic concepts verbally.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_compassion" name="Paragon (Compassion)">
+  <Merit type="mental" id="paragon_compassion" name="Paragon (Compassion)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Compassion: Any time you spend a Void Point to improve a roll made to directly help those lower than you in the Celestial Order, you gain +2k2 instead of +1k1.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_courage" name="Paragon (Courage)">
+  <Merit type="mental" id="paragon_courage" name="Paragon (Courage)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Courage: You add a bonus of +1k1 to the total of any roll made to resist Intimidation or to overcome Fear effects.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_courtesy" name="Paragon (Courtesy)">
+  <Merit type="mental" id="paragon_courtesy" name="Paragon (Courtesy)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Courtesy: Any time you make an Etiquette roll to avoid an embarrassment or breach of honor, you add +2k0 to the roll.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_duty" name="Paragon (Duty)">
+  <Merit type="mental" id="paragon_duty" name="Paragon (Duty)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Duty: You may spend a Void Point on any Skill Roll or Spell Casting Roll to negate all TN penalties for that roll, including Wound penalties.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_honesty" name="Paragon (Honesty)">
+  <Merit type="mental" id="paragon_honesty" name="Paragon (Honesty)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Honesty: On any Sincerity (Honesty) roll, you add a bonus of +1k1. You may add this bonus even if you do not possess the Emphasis, but it would apply in the situation at hand.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_honor" name="Paragon (Honor)">
+  <Merit type="mental" id="paragon_honor" name="Paragon (Honor)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Honor: You may add twice your Honor Rank to all rolls to resist Temptation or Intimidation rolls, instead of the normal bonus.</Description>
   </Merit>
-  <Merit type="mental" id="paragon_sincerity" name="Paragon (Sincerity)">
+  <Merit type="mental" id="paragon_sincerity" name="Paragon (Sincerity)" page="152">
     <Rank id="1" value="7">
-      <Exception tag="lion" value="6"/>
+      <Exception tag="lion" value="6" />
     </Rank>
+    <Description>You exemplify the code of Bushido, and have taken one particular tenet to heart and made it your way of life. In addition to the benefi t listed below, any time you gain Honor for exhibiting the virtue for which you have the Paragon Advantage, you gain an additional +1 Honor. Lion characters may purchase this Advantage for 6 points. Sincerity: You may add a bonus of +2k0 to all Contested Rolls using Sincerity.</Description>
   </Merit>
-  <Merit type="mental" id="precise_memory" name="Precise Memory">
-    <Rank id="1" value="3"/>
+  <Merit type="mental" id="precise_memory" name="Precise Memory" page="152">
+    <Rank id="1" value="3" />
+    <Description>You have an incredible ability to recall exactly things you have seen or heard. In any situation where you need to remember something exactly the way it was, whether the wording of something you read or the details of a person&#8217;s physical appearance, you add a bonus of +1k1 to your Intelligence Trait Roll.</Description>
   </Merit>
-  <Merit type="mental" id="read_lips" name="Read Lips">
+  <Merit type="mental" id="read_lips" name="Read Lips" page="152">
     <Rank id="1" value="4">
-      <Exception tag="courtier" value="3"/>
+      <Exception tag="courtier" value="3" />
     </Rank>
+    <Description>Either through natural ability or incredible patience and practice, you have the ability to understand what others are saying even if you cannot hear them, simply by observing how their lips move. When you are in a situation where others are speaking and you cannot hear them, you can understand what they are saying by making a Perception Trait Roll against TN 15 + 5 for every twenty feet away from you the speakers are. Courtier characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="mental" id="sage" name="Sage">
+  <Merit type="mental" id="sage" name="Sage" page="153">
     <Rank id="1" value="4">
-      <Exception tag="phoenix" value="3"/>
-      <Exception tag="shugenja" value="3"/>
+      <Exception tag="phoenix" value="3" />
+      <Exception tag="shugenja" value="3" />
     </Rank>
+    <Description>You have a love of learning, and have accumulated a staggering amount of information during the course of your lifetime. Whenever you would be forced to make an Unskilled Roll when using a Lore Skill, you instead are considered to have 1 rank in that Skill. Phoenix and shugenja characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="mental" id="soul_of_artistry_artisan" name="Soul of Artistry (Artisan)">
+  <Merit type="mental" id="soul_of_artistry_artisan" name="Soul of Artistry (Artisan)" page="154">
     <Rank id="1" value="4">
-      <Exception tag="courtier" value="3"/>
-      <Exception tag="crane" value="3"/>
+      <Exception tag="courtier" value="3" />
+      <Exception tag="crane" value="3" />
     </Rank>
+    <Description>Your soul soars with the spirit of creativity. Choose either Artisan Skills or Craft Skills when purchasing this Advantage. Any time that you would be required to make an Unskilled Roll using a Skill of the chosen type, you are considered to have 1 rank in that Skill. Crane and courtier characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="mental" id="soul_of_artistry_craft" name="Soul of Artistry (Craft)">
+  <Merit type="mental" id="soul_of_artistry_craft" name="Soul of Artistry (Craft)" page="154">
     <Rank id="1" value="4">
-      <Exception tag="courtier" value="3"/>
-      <Exception tag="crane" value="3"/>
+      <Exception tag="courtier" value="3" />
+      <Exception tag="crane" value="3" />
     </Rank>
+    <Description>Your soul soars with the spirit of creativity. Choose either Artisan Skills or Craft Skills when purchasing this Advantage. Any time that you would be required to make an Unskilled Roll using a Skill of the chosen type, you are considered to have 1 rank in that Skill. Crane and courtier characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="mental" id="tactician" name="Tactician">
+  <Merit type="mental" id="tactician" name="Tactician" page="154">
     <Rank id="1" value="4">
-      <Exception tag="bushi" value="3"/>
-      <Exception tag="lion" value="3"/>
+      <Exception tag="bushi" value="3" />
+      <Exception tag="lion" value="3" />
     </Rank>
+    <Description>You have a mind well suited to the ebb and fl ow of battle. When making a roll on the Mass Battle Table, you may increase or decrease your result by 5. Lion and bushi characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="mental" id="virtuous" rule="virtuous" name="Virtuous">
-    <Rank id="1" value="3"/>
+  <Merit type="mental" id="virtuous" rule="virtuous" name="Virtuous" page="155">
+    <Rank id="1" value="3" />
+    <Description>You embrace virtue in your every thought and action. You possess one additional rank of Honor above your normal starting value (as determined by your School).</Description>
   </Merit>
-  <Merit type="mental" id="wary" name="Wary">
-    <Rank id="1" value="3"/>
+  <Merit type="mental" id="wary" name="Wary" page="155">
+    <Rank id="1" value="3" />
+    <Description>You are constantly on alert, always looking out for the unexpected. When rolling Investigation (Notice) / Perception against Stealth (Ambush) / Agility to detect an ambush, you add +1k1 to your roll.</Description>
   </Merit>
-  <Merit type="mental" id="way_of_the_land" name="Way of the Land">
+  <Merit type="mental" id="way_of_the_land" name="Way of the Land" page="155">
     <Rank id="1" value="2">
-      <Exception tag="unicorn" value="1"/>
+      <Exception tag="unicorn" value="1" />
     </Rank>
+    <Description>You are intimately familiar with a particular region, having traveled it extensively to the point that you know it as well as the interior of your own house. Select the lands of one family, a major city, or some other reasonably sized region. While you are within that region, it is not possible for you to get lost, and you know the location of any available resources to be found there. Unicorn characters may purchase this Advantage for 1 point.</Description>
   </Merit>
-  <Merit type="physical" id="bland" name="Bland">
-    <Rank id="1" value="2"/>
+  <Merit type="physical" id="bland" name="Bland" page="146">
+    <Rank id="1" value="2" />
+    <Description>You are extremely unremarkable in every regard, and others have a diffi cult time recognizing you unless you deliberately draw attention to your identity or affi liations. Whenever someone is making a Lore: Bushido / Awareness roll to determine your Honor Rank, or a Lore: Heraldry / Intelligence roll to determine your identity (based on your Glory Rank), you may voluntarily choose to increase the TN of that roll by 10.</Description>
   </Merit>
-  <Merit type="physical" id="crab_hands" name="Crab Hands">
+  <Merit type="physical" id="crab_hands" name="Crab Hands" page="147">
     <Rank id="1" value="3">
-      <Exception tag="bushi" value="2"/>
-      <Exception tag="crab" value="2"/>
+      <Exception tag="bushi" value="2" />
+      <Exception tag="crab" value="2" />
     </Rank>
+    <Description>You possess a natural affi nity for weapons of all kinds, and can take up even an unfamiliar blade without diffi culty in times of stress. Any time that you would be forced to make an Unskilled Roll when using a Weapon Skill, you are instead considered to have 1 rank in that Weapon Skill. Crab and bushi characters may purchase this Advantage for 2 points.</Description>
   </Merit>
-  <Merit type="physical" id="dangerous_beauty" name="Dangerous Beauty">
+  <Merit type="physical" id="dangerous_beauty" name="Dangerous Beauty" page="147">
     <Rank id="1" value="3">
-      <Exception tag="scorpion" value="2"/>
+      <Exception tag="scorpion" value="2" />
     </Rank>
+    <Description>You possess a certain quality that makes you all but irresistible to members of the opposite sex, and they succumb easily to your manipulations. You gain a bonus of +1k0 to the total of all Temptation Skill Rolls made with members of the opposite sex. Scorpion characters may purchase this Advantage for 2 points.</Description>
   </Merit>
-  <Merit type="physical" id="hands_of_stone" name="Hands of Stone">
+  <Merit type="physical" id="hands_of_stone" name="Hands of Stone" page="150">
     <Rank id="1" value="6">
-      <Exception tag="monk" value="5"/>
+      <Exception tag="monk" value="5" />
     </Rank>
+    <Description>Some have a natural talent for unarmed combat, and you are one such individual. The Damage Rolls for your unarmed attacks are increased by +0k1. Monk characters may purchase this Advantage for 5 points.</Description>
   </Merit>
-  <Merit type="physical" id="large" rule="large" name="Large">
+  <Merit type="physical" id="large" rule="large" name="Large" page="151">
     <Rank id="1" value="4">
-      <Exception tag="crab" value="3"/>
+      <Exception tag="crab" value="3" />
     </Rank>
+    <Description>You are signifi cantly larger than the average Rokugani, ranging in height from 6&#8217;0&#8221; to 6&#8217;3&#8221; in height. You gain a bonus of +1k0 to the total of all Damage Rolls for any large melee weapon. Crab characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="physical" id="prodigy" rule="prodigy" name="Prodigy">
-    <Rank id="1" value="12"/>
+  <Merit type="physical" id="prodigy" rule="prodigy" name="Prodigy" page="152">
+    <Rank id="1" value="12" />
+    <Description>You are a marvel of the dojo, and your sensei believe that you will accomplish incredible things in your lifetime. Whenever you make a School Skill Roll, you gain a bonus of +1k0 to the roll.</Description>
   </Merit>
-  <Merit type="physical" id="quick" name="Quick">
+  <Merit type="physical" id="quick" name="Quick" page="152">
     <Rank id="1" value="6">
-      <Exception tag="ninja" value="5"/>
+      <Exception tag="ninja" value="5" />
     </Rank>
+    <Description>You can react quickly to others, seizing advantage where previously there had been none. If you did not act fi rst during a Combat Round, during the Reactions Stage of combat you may add your Refl exes Trait to the total of your Initiative Score for all subsequent rounds of this skirmish. This may done each Round that you did not act fi rst. Ninja characters may purchase this Advantage for 5 points.</Description>
   </Merit>
-  <Merit type="physical" id="quick_healer" name="Quick Healer">
-    <Rank id="1" value="3"/>
+  <Merit type="physical" id="quick_healer" name="Quick Healer" page="152">
+    <Rank id="1" value="3" />
+    <Description>Your body mends incredibly quickly, allowing you to recover from even devastating wounds with amazing speed. For the purposes of recovering Wounds, your Stamina is considered to be two ranks higher.</Description>
   </Merit>
-  <Merit type="physical" id="silent" name="Silent">
+  <Merit type="physical" id="silent" name="Silent" page="153">
     <Rank id="1" value="3">
-      <Exception tag="ninja" value="2"/>
+      <Exception tag="ninja" value="2" />
     </Rank>
+    <Description>A servant has been assigned to assist you by your family, or possibly one whose help you purchased with your own resources in order to make life a little bit easier. You may have a maximum number of servants equal to twice your Status Rank. Different kinds of servants have different useful abilities and can more easily be supplied by different Clans. Typically, a servant has all Traits at rank 2 and a single Skill at rank 3. You may add additional Skill Ranks or Emphases to a servant at the time the Advantage is purchased by paying 3 additional points per Skill Rank or Emphasis.</Description>
   </Merit>
-  <Merit type="physical" id="strength_of_the_earth" rule="strength_of_earth" name="Strength of the Earth">
+  <Merit type="physical" id="strength_of_the_earth" rule="strength_of_earth" name="Strength of the Earth" page="154">
     <Rank id="1" value="3">
-      <Exception tag="bushi" value="2"/>
+      <Exception tag="bushi" value="2" />
     </Rank>
+    <Description>In your soul can be found the spirit of the mountains and the strength of stone. You can overcome injuries that would cripple other men. The TN penalties you suffer from Wound Ranks are reduced by 3. Bushi characters may purchase this Advantage for 2 points.</Description>
   </Merit>
-  <Merit type="physical" id="voice" name="Voice">
-    <Rank id="1" value="3"/>
+  <Merit type="physical" id="voice" name="Voice" page="155">
+    <Rank id="1" value="3" />
+    <Description>You have a voice that others fi nd pleasing in virtually every respect. You gain a bonus of +1k1 on any Perform Skill Roll that utilizes your voice, such as Perform: Singing or Perform: Oratory.</Description>
   </Merit>
-  <Merit type="social" id="allies" name="Allies">
+  <Merit type="social" id="allies" name="Allies" page="146">
     <Rank id="1" value="0">
-      <Exception tag="crane" value="-1"/>
+      <Exception tag="crane" value="-1" />
     </Rank>
+    <Description>You have carefully nurtured social connections. Some of those in your web of connections would go to great lengths to protect you, while others have considerable resources. And some precious few are both. The total cost of this Advantage is determined by how many points you spend on your ally&#8217;s degree of influence and their devotion to you. Crane characters may purchase this Advantage for 1 point less than its normal cost.</Description>
   </Merit>
-  <Merit type="social" id="blackmail" name="Blackmail">
+  <Merit type="social" id="blackmail" name="Blackmail" page="146">
     <Rank id="1" value="1">
-      <Exception tag="scorpion" value="0"/>
+      <Exception tag="scorpion" value="0" />
     </Rank>
     <Rank id="2" value="2">
-      <Exception tag="scorpion" value="1"/>
+      <Exception tag="scorpion" value="1" />
     </Rank>
     <Rank id="3" value="3">
-      <Exception tag="scorpion" value="2"/>
+      <Exception tag="scorpion" value="2" />
     </Rank>
     <Rank id="4" value="4">
-      <Exception tag="scorpion" value="3"/>
+      <Exception tag="scorpion" value="3" />
     </Rank>
     <Rank id="5" value="5">
-      <Exception tag="scorpion" value="4"/>
+      <Exception tag="scorpion" value="4" />
     </Rank>
+    <Description>You possess knowledge and proof of a dark secret held by another, and can use that secret to elicit their cooperation in a number of ways. The cost of the Advantage is equal to the Status Rank of the individual whom you are blackmailing. Using this Advantage too frequently or making grandiose demands on the person in question may result in them deciding your death is worth the risk of exposing their secret, no matter what the consequences might be. Scorpion characters may purchase this Advantage for 1 point less than its normal cost.</Description>
   </Merit>
-  <Merit type="social" id="blissful_betrothal" name="Blissful Betrothal">
-    <Rank id="1" value="3"/>
+  <Merit type="social" id="blissful_betrothal" name="Blissful Betrothal" page="146">
+    <Rank id="1" value="3" />
+    <Description>Your marriage has been arranged and, much to your delight, you have come to truly love your intended spouse. The social connections you have established as part of your enthusiastic marriage preparations allow you to purchase the following Advantages for two points less each (to a minimum of 1 point): Gentry, Kharmic Tie (with your betrothed only), Social Position, and Wealth.</Description>
   </Merit>
-  <Merit type="social" id="darling_of_the_court" name="Darling Of The Court">
+  <Merit type="social" id="darling_of_the_court" name="Darling Of The Court" page="148">
     <Rank id="1" value="2">
-      <Exception tag="courtier" value="1"/>
+      <Exception tag="courtier" value="1" />
     </Rank>
+    <Description>Your family sacrifi ced considerable resources and favors in order to sponsor your entrance into the School of another Clan. When creating your character, you may select a School of a different Clan to attend. You are still a member of your own Clan, however, creating a potential confl ict between your loyalty to your sensei and your loyalty to your lord and family.</Description>
   </Merit>
-  <Merit type="social" id="different_school" rule="different_school" name="Different School">
-    <Rank id="1" value="5"/>
+  <Merit type="social" id="different_school" rule="different_school" name="Different School" page="148">
+    <Rank id="1" value="5" />
+    <Description>Your family sacrifi ced considerable resources and favors in order to sponsor your entrance into the School of another Clan. When creating your character, you may select a School of a different Clan to attend. You are still a member of your own Clan, however, creating a potential confl ict between your loyalty to your sensei and your loyalty to your lord and family.</Description>
   </Merit>
-  <Merit type="social" id="fame" rule="fame" name="Fame">
-    <Rank id="1" value="3"/>
+  <Merit type="social" id="fame" rule="fame" name="Fame" page="148">
+    <Rank id="1" value="3" />
+    <Description>As a result of your actions, there are many in the Empire who know your name. You gain +1 Glory Rank.</Description>
   </Merit>
-  <Merit type="social" id="heart_of_vengeance" name="Heart of Vengeance">
+  <Merit type="social" id="heart_of_vengeance" name="Heart of Vengeance" page="150">
     <Rank id="1" value="5">
-      <Exception tag="spider" value="4"/>
+      <Exception tag="spider" value="4" />
     </Rank>
+    <Description>One Clan has earned your eternal, undying hatred, and nothing will ever quench your rage. Select one Clan or other faction (such as the Brotherhood of Shinsei or one of the Imperial families) when purchasing this Advantage. You gain a bonus of +1k1 to the total of any Contested Roll made against a member of that Clan/faction. Spider characters may purchase this Advantage for 4 points.</Description>
   </Merit>
-  <Merit type="social" id="hero_of_the_people" name="Hero of the People">
-    <Rank id="1" value="2"/>
+  <Merit type="social" id="hero_of_the_people" name="Hero of the People" page="150">
+    <Rank id="1" value="2" />
+    <Description>Although your reputation among your fellow samurai may not be any better than that of the next individual, your actions have garnered the adoration of the common folk. When meeting citizens of Rokugan who are not members of the samurai caste, the TN for them to recognize you, as determined by your Glory Rank, is lowered by 10.</Description>
   </Merit>
-  <Merit type="social" id="imperial_spouse" rule="imperial_spouse" name="Imperial Spouse">
-    <Rank id="1" value="5"/>
+  <Merit type="social" id="imperial_spouse" rule="imperial_spouse" name="Imperial Spouse" page="150">
+    <Rank id="1" value="5" />
+    <Description>Through a careful exchange of favors and resources, your family arranged for you to be married to a minor member of an Imperial family. Your spouse was not of high enough station to warrant you taking an Imperial name, but there are benefi ts all the same. You gain +0.5 Status Ranks, and gain a bonus of +1k1 to the total of all Social Skill rolls made with members of the Imperial families.</Description>
   </Merit>
-  <Merit type="social" id="leadership" name="Leadership">
+  <Merit type="social" id="leadership" name="Leadership" page="151">
     <Rank id="1" value="6">
-      <Exception tag="lion" value="5"/>
+      <Exception tag="lion" value="5" />
     </Rank>
+    <Description>You have an innate knack for leading and inspiring others in battle. Once per Round during the Reactions stage, you may add your School Rank plus 1k1 to the Initiative Score of one ally in a skirmish. This bonus lasts until the Reactions stage of the following round. An individual may only benefi t from one use of this Advantage per Round. Lion characters may purchase this Advantage for 5 points.</Description>
   </Merit>
-  <Merit type="social" id="multiple_schools" rule="multiple_schools" name="Multiple Schools">
-    <Rank id="1" value="10"/>
+  <Merit type="social" id="multiple_schools" rule="multiple_schools" name="Multiple Schools" page="151">
+    <Rank id="1" value="10" />
+    <Description>You have been given an incredible opportunity to study at multiple dojo, each associated with a different major School. This is a rare opportunity indeed, as being released from one&#8217;s oaths to one sensei in order to study with another requires extraordinary circumstances. This Advantage may only be purchased during play, and once it is taken, the character stops progression in his current School. Upon reaching the next Insight Rank, he begins learning Techniques from the new School beginning at Rank 1. Before learning any Techniques from a given School, you must possess at least one rank in all School Skills taught there. Under no circumstances can a character ever take ranks in both a Bushi School and a Shugenja School; the two are simply incompatible in every respect.</Description>
   </Merit>
-  <Merit type="social" id="perceived_honor" name="Perceived Honor">
-    <Rank id="1" value="2"/>
-    <Rank id="2" value="4"/>
-    <Rank id="3" value="6"/>
-    <Rank id="4" value="8"/>
-    <Rank id="5" value="10"/>
-    <Rank id="6" value="12"/>
-    <Rank id="7" value="14"/>
-    <Rank id="8" value="16"/>
-    <Rank id="9" value="18"/>
+  <Merit type="social" id="perceived_honor" name="Perceived Honor" page="152">
+    <Rank id="1" value="2" />
+    <Rank id="2" value="4" />
+    <Rank id="3" value="6" />
+    <Rank id="4" value="8" />
+    <Rank id="5" value="10" />
+    <Rank id="6" value="12" />
+    <Rank id="7" value="14" />
+    <Rank id="8" value="16" />
+    <Rank id="9" value="18" />
+    <Description>Others fi nd it diffi cult to perceive your true nature, a fact that benefi ts you in concealing your sometimes questionable actions. For each rank you possess in this Advantage, your Honor is considered one full rank higher for the purpose of all attempts to discern it. Anyone attempting to roll Lore: Bushido / Awareness to determine your Honor Rank will determine the false rank instead of your actual Honor.</Description>
   </Merit>
-  <Merit type="social" id="sacrosanct" name="Sacrosanct">
+  <Merit type="social" id="sacrosanct" name="Sacrosanct" page="153">
     <Rank id="1" value="4">
-      <Exception tag="imperial" value="3"/>
+      <Exception tag="imperial" value="3" />
     </Rank>
+    <Description>Because of some great service you or perhaps your parents performed on behalf of the Emperor, the Son of Heaven has placed you under his protection. You may not purchase this Advantage unless you possess an Honor Rank of 6 or higher. So long as your Honor does not drop below 6.0, no one of Honor Rank 5 or higher may attack you unless you attack them fi rst; their rigid code of honor simply will not allow them to blatantly go against the Emperor&#8217;s wishes. Willingly entered duels ignore the effects of this Advantage. Imperial characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="social" id="sensation" name="Sensation">
-    <Rank id="1" value="3"/>
+  <Merit type="social" id="sensation" name="Sensation" page="153">
+    <Rank id="1" value="3" />
+    <Description>You are capable of enrapturing the crowd, no matter the circumstances. Whenever you would be required to make a Skill Roll using a Perform Skill you do not possess, you are considered to have 1 rank in that skill.</Description>
   </Merit>
-  <Merit type="social" id="social_position" rule="social_position" name="Social Position">
-    <Rank id="1" value="6"/>
+  <Merit type="social" id="social_position" rule="social_position" name="Social Position" page="154">
+    <Rank id="1" value="6" />
+    <Description>You have received an illustrious social appointment, whether through your own accomplishments or purely because of political reasons. You gain +1 Status Rank.</Description>
   </Merit>
-  <Merit type="spiritual" id="bentens_blessing" name="Benten's Blessing">
+  <Merit type="spiritual" id="bentens_blessing" name="Benten's Blessing" page="153">
     <Rank id="1" value="4">
-      <Exception tag="crane" value="3"/>
+      <Exception tag="crane" value="3" />
     </Rank>
+    <Description>Benten&#8217;s Blessing (Crane): The Fortune of Romantic Love has showered you with her blessings. Whenever you are attempting to persuade someone, regardless of the circumstances, you gain a bonus of +0k1 to the total of the Social Skill Roll in question. This bonus only applies to persuasion, not coercion.</Description>
   </Merit>
-  <Merit type="spiritual" id="bishamons_blessing" name="Bishamon's Blessing">
+  <Merit type="spiritual" id="bishamons_blessing" name="Bishamon's Blessing" page="153">
     <Rank id="1" value="5">
-      <Exception tag="crab" value="4"/>
-      <Exception tag="lion" value="4"/>
+      <Exception tag="crab" value="4" />
+      <Exception tag="lion" value="4" />
     </Rank>
+    <Description>Bishamon&#8217;s Blessing (5 points) (Crab, Lion): The Fortune of Strength has taken notice of your might, and has favored you with his blessings. Whenever you declare and make three successful Raises on an attack roll for the purposes of the Increased Damage Maneuver, you gain one additional Raise. Free Raises do not count toward activating this effect. You also gain a bonus of +1k0 to the total of any Strength Trait Rolls.</Description>
   </Merit>
-  <Merit type="spiritual" id="blood_of_osanowo" name="Blood of Osano-Wo">
+  <Merit type="spiritual" id="blood_of_osanowo" name="Blood of Osano-Wo" page="147">
     <Rank id="1" value="4">
-      <Exception tag="crab" value="3"/>
-      <Exception tag="mantis" value="3"/>
+      <Exception tag="crab" value="3" />
+      <Exception tag="mantis" value="3" />
     </Rank>
+    <Description>You are descended from a bloodline of Hida Osano-Wo, the Fortune of Fire and Thunder, and his resilience lives on in you. You are immune to any penalties or damage from natural weather conditions, such as winter cold, summer heat, etc. If you suffer damage from a spell that employs natural forces (such as the mighty storm created by Hurricane, or the lightning bolt summoned by Fury of Osano-Wo), reduce the amount of damage you suffer by 1k1. Crab and Mantis characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="chosen_by_the_oracles_air_" name="Chosen by the Oracles ( Air )">
-    <Rank id="1" value="6"/>
+  <Merit type="spiritual" id="chosen_by_the_oracles_air_" name="Chosen by the Oracles ( Air )" page="147">
+    <Rank id="1" value="6" />
+    <Description>For reasons beyond your understanding, you have caught the notice of one of the Oracles, humans suffused with the divine power of the Elemental Dragons. You must select one Ring when you take this Advantage. You gain a bonus of +1k1 to the total of all Ring Rolls using that Ring.</Description>
   </Merit>
-  <Merit type="spiritual" id="chosen_by_the_oracles_earth_" name="Chosen by the Oracles ( Earth )">
-    <Rank id="1" value="6"/>
+  <Merit type="spiritual" id="chosen_by_the_oracles_earth_" name="Chosen by the Oracles ( Earth )" page="147">
+    <Rank id="1" value="6" />
+    <Description>For reasons beyond your understanding, you have caught the notice of one of the Oracles, humans suffused with the divine power of the Elemental Dragons. You must select one Ring when you take this Advantage. You gain a bonus of +1k1 to the total of all Ring Rolls using that Ring.</Description>
   </Merit>
-  <Merit type="spiritual" id="chosen_by_the_oracles_fire_" name="Chosen by the Oracles ( Fire )">
-    <Rank id="1" value="6"/>
+  <Merit type="spiritual" id="chosen_by_the_oracles_fire_" name="Chosen by the Oracles ( Fire )" page="147">
+    <Rank id="1" value="6" />
+    <Description>For reasons beyond your understanding, you have caught the notice of one of the Oracles, humans suffused with the divine power of the Elemental Dragons. You must select one Ring when you take this Advantage. You gain a bonus of +1k1 to the total of all Ring Rolls using that Ring.</Description>
   </Merit>
-  <Merit type="spiritual" id="chosen_by_the_oracles_void_" name="Chosen by the Oracles ( Void )">
-    <Rank id="1" value="6"/>
+  <Merit type="spiritual" id="chosen_by_the_oracles_void_" name="Chosen by the Oracles ( Void )" page="147">
+    <Rank id="1" value="6" />
+    <Description>For reasons beyond your understanding, you have caught the notice of one of the Oracles, humans suffused with the divine power of the Elemental Dragons. You must select one Ring when you take this Advantage. You gain a bonus of +1k1 to the total of all Ring Rolls using that Ring.</Description>
   </Merit>
-  <Merit type="spiritual" id="chosen_by_the_oracles_water_" name="Chosen by the Oracles ( Water )">
-    <Rank id="1" value="6"/>
+  <Merit type="spiritual" id="chosen_by_the_oracles_water_" name="Chosen by the Oracles ( Water )" page="147">
+    <Rank id="1" value="6" />
+    <Description>For reasons beyond your understanding, you have caught the notice of one of the Oracles, humans suffused with the divine power of the Elemental Dragons. You must select one Ring when you take this Advantage. You gain a bonus of +1k1 to the total of all Ring Rolls using that Ring.</Description>
   </Merit>
-  <Merit type="spiritual" id="daikokus_blessing" name="Daikoku's Blessing">
+  <Merit type="spiritual" id="daikokus_blessing" name="Daikoku's Blessing" page="154">
     <Rank id="1" value="4">
-      <Exception tag="mantis" value="3"/>
+      <Exception tag="mantis" value="3" />
     </Rank>
+    <Description>Daikoku&#8217;s Blessing (Mantis): The Fortune of Wealth has favored you with his patronage, and you excel in matters pertaining to wealth and mercantile pursuits. You gain a bonus of +1k1 to the total of all Commerce Skill Rolls.</Description>
   </Merit>
-  <Merit type="spiritual" id="ebisus_blessing" name="Ebisu's Blessing">
+  <Merit type="spiritual" id="ebisus_blessing" name="Ebisu's Blessing" page="154">
     <Rank id="1" value="4">
-      <Exception tag="unicorn" value="3"/>
+      <Exception tag="unicorn" value="3" />
     </Rank>
+    <Description>Ebisu&#8217;s Blessing (Unicorn): You have captured the attention, if only briefl y, of the Fortune of Honest Work, and his favor is clear to those who serve him best. You gain a bonus of +1k1 to the total of all Social Skill Rolls made with citizens of Rokugan who are not members of the samurai caste.</Description>
   </Merit>
-  <Merit type="spiritual" id="elemental_blessing_air" rule="elem_bless_air" name="Elemental Blessing (Air)">
+  <Merit type="spiritual" id="elemental_blessing_air" rule="elem_bless_air" name="Elemental Blessing (Air)" page="148">
     <Rank id="1" value="4">
-      <Exception tag="phoenix" value="3"/>
+      <Exception tag="phoenix" value="3" />
     </Rank>
+    <Description>You are much beloved by the kami of a particular element, although you know not why that might be. As a result, the cost of increasing the Traits associated with one particular Ring, chosen when this Advantage is purchased, is decreased by 1. For example, if you choose Earth when you purchase this Advantage, the cost of increasing Stamina and Willpower is reduced by 1 Experience Point every time you increase them. Void may not be chosen for this Advantage. Phoenix characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="elemental_blessing_earth" rule="elem_bless_earth" name="Elemental Blessing (Earth)">
+  <Merit type="spiritual" id="elemental_blessing_earth" rule="elem_bless_earth" name="Elemental Blessing (Earth)" page="148">
     <Rank id="1" value="4">
-      <Exception tag="phoenix" value="3"/>
+      <Exception tag="phoenix" value="3" />
     </Rank>
+    <Description>You are much beloved by the kami of a particular element, although you know not why that might be. As a result, the cost of increasing the Traits associated with one particular Ring, chosen when this Advantage is purchased, is decreased by 1. For example, if you choose Earth when you purchase this Advantage, the cost of increasing Stamina and Willpower is reduced by 1 Experience Point every time you increase them. Void may not be chosen for this Advantage. Phoenix characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="elemental_blessing_fire" rule="elem_bless_fire" name="Elemental Blessing (Fire)">
+  <Merit type="spiritual" id="elemental_blessing_fire" rule="elem_bless_fire" name="Elemental Blessing (Fire)" page="148">
     <Rank id="1" value="4">
-      <Exception tag="phoenix" value="3"/>
+      <Exception tag="phoenix" value="3" />
     </Rank>
+    <Description>You are much beloved by the kami of a particular element, although you know not why that might be. As a result, the cost of increasing the Traits associated with one particular Ring, chosen when this Advantage is purchased, is decreased by 1. For example, if you choose Earth when you purchase this Advantage, the cost of increasing Stamina and Willpower is reduced by 1 Experience Point every time you increase them. Void may not be chosen for this Advantage. Phoenix characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="elemental_blessing_water" rule="elem_bless_water" name="Elemental Blessing (Water)">
+  <Merit type="spiritual" id="elemental_blessing_water" rule="elem_bless_water" name="Elemental Blessing (Water)" page="148">
     <Rank id="1" value="4">
-      <Exception tag="phoenix" value="3"/>
+      <Exception tag="phoenix" value="3" />
     </Rank>
+    <Description>You are much beloved by the kami of a particular element, although you know not why that might be. As a result, the cost of increasing the Traits associated with one particular Ring, chosen when this Advantage is purchased, is decreased by 1. For example, if you choose Earth when you purchase this Advantage, the cost of increasing Stamina and Willpower is reduced by 1 Experience Point every time you increase them. Void may not be chosen for this Advantage. Phoenix characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="enlightened" rule="enlightened" name="Enlightened">
+  <Merit type="spiritual" id="enlightened" rule="enlightened" name="Enlightened" page="148">
     <Rank id="1" value="6">
-      <Exception tag="dragon" value="5"/>
-      <Exception tag="monk" value="5"/>
+      <Exception tag="dragon" value="5" />
+      <Exception tag="monk" value="5" />
     </Rank>
+    <Description>Your spiritual journey toward complete harmony with the universe as a whole has begun to reach its destination. In addition to whatever storyline effects your GM may choose to bestow on you, you also find it easier to enhance your connection to the Void. When you are using Experience Points to increase your Void Ring, the total cost is decreased by 2 points each time. Dragon and monk characters may purchase this Advantage for 5 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friend_of_the_brotherhood" rule="friend_brotherhood" name="Friend of the Brotherhood">
+  <Merit type="spiritual" id="friend_of_the_brotherhood" rule="friend_brotherhood" name="Friend of the Brotherhood" page="149">
     <Rank id="1" value="5">
-      <Exception tag="dragon" value="4"/>
+      <Exception tag="dragon" value="4" />
     </Rank>
+    <Description>You have studied among your allies at the Brotherhood of Shinsei, and as a result you understand your place in the universe slightly better than most. You may purchase Kiho (rules for Kiho are found in the Book of Water) as though you are a Monk of the Brotherhood of Shinsei, instead of paying a higher cost. You must still meet all other normal restrictions on learning Kiho. Only characters from Monk or Shugenja Schools (and not Monk characters from the Brotherhood of Shinsei) may purchase this Advantage. Dragon characters may purchase this Advantage for 4 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friend_of_the_elements_air" name="Friend of the Elements (Air)">
+  <Merit type="spiritual" id="friend_of_the_elements_air" name="Friend of the Elements (Air)" page="149">
     <Rank id="1" value="4">
-      <Exception tag="shugenja" value="3"/>
+      <Exception tag="shugenja" value="3" />
     </Rank>
+    <Description>The spirits of a certain Element swirl about you at all times, lending their aid when possible even though you are likely unaware of their presence. Choose a Ring when this Advantage is purchased. Whenever you make a Trait Roll with either Trait associated with that Ring, you gain a Free Raise. Shugenja characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friend_of_the_elements_earth" name="Friend of the Elements (Earth)">
+  <Merit type="spiritual" id="friend_of_the_elements_earth" name="Friend of the Elements (Earth)" page="149">
     <Rank id="1" value="4">
-      <Exception tag="shugenja" value="3"/>
+      <Exception tag="shugenja" value="3" />
     </Rank>
+    <Description>The spirits of a certain Element swirl about you at all times, lending their aid when possible even though you are likely unaware of their presence. Choose a Ring when this Advantage is purchased. Whenever you make a Trait Roll with either Trait associated with that Ring, you gain a Free Raise. Shugenja characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friend_of_the_elements_fire" name="Friend of the Elements (Fire)">
+  <Merit type="spiritual" id="friend_of_the_elements_fire" name="Friend of the Elements (Fire)" page="149">
     <Rank id="1" value="4">
-      <Exception tag="shugenja" value="3"/>
+      <Exception tag="shugenja" value="3" />
     </Rank>
+    <Description>The spirits of a certain Element swirl about you at all times, lending their aid when possible even though you are likely unaware of their presence. Choose a Ring when this Advantage is purchased. Whenever you make a Trait Roll with either Trait associated with that Ring, you gain a Free Raise. Shugenja characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friend_of_the_elements_void" name="Friend of the Elements (Void)">
+  <Merit type="spiritual" id="friend_of_the_elements_void" name="Friend of the Elements (Void)" page="149">
     <Rank id="1" value="4">
-      <Exception tag="shugenja" value="3"/>
+      <Exception tag="shugenja" value="3" />
     </Rank>
+    <Description>The spirits of a certain Element swirl about you at all times, lending their aid when possible even though you are likely unaware of their presence. Choose a Ring when this Advantage is purchased. Whenever you make a Trait Roll with either Trait associated with that Ring, you gain a Free Raise. Shugenja characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friend_of_the_elements_water" name="Friend of the Elements (Water)">
+  <Merit type="spiritual" id="friend_of_the_elements_water" name="Friend of the Elements (Water)" page="149">
     <Rank id="1" value="4">
-      <Exception tag="shugenja" value="3"/>
+      <Exception tag="shugenja" value="3" />
     </Rank>
+    <Description>The spirits of a certain Element swirl about you at all times, lending their aid when possible even though you are likely unaware of their presence. Choose a Ring when this Advantage is purchased. Whenever you make a Trait Roll with either Trait associated with that Ring, you gain a Free Raise. Shugenja characters may purchase this Advantage for 3 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="friendly_kami_air" name="Friendly Kami (Air)">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="friendly_kami_air" name="Friendly Kami (Air)" page="149">
+    <Rank id="1" value="5" />
+    <Description>A particular kami has befriended you, and stays in your vicinity at all times. Choose one element when this Advantage is purchased. You gain a bonus of +1k1 to the total of all Spell Casting Rolls made to cast Sense, Commune, or Summon with regard to that Element only. Only shugenja may purchase this Advantage. You may not select this Advantage for an Element in which you are Defi cient.</Description>
   </Merit>
-  <Merit type="spiritual" id="friendly_kami_earth" name="Friendly Kami (Earth)">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="friendly_kami_earth" name="Friendly Kami (Earth)" page="149">
+    <Rank id="1" value="5" />
+    <Description>A particular kami has befriended you, and stays in your vicinity at all times. Choose one element when this Advantage is purchased. You gain a bonus of +1k1 to the total of all Spell Casting Rolls made to cast Sense, Commune, or Summon with regard to that Element only. Only shugenja may purchase this Advantage. You may not select this Advantage for an Element in which you are Defi cient.</Description>
   </Merit>
-  <Merit type="spiritual" id="friendly_kami_fire" name="Friendly Kami (Fire)">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="friendly_kami_fire" name="Friendly Kami (Fire)" page="149">
+    <Rank id="1" value="5" />
+    <Description>A particular kami has befriended you, and stays in your vicinity at all times. Choose one element when this Advantage is purchased. You gain a bonus of +1k1 to the total of all Spell Casting Rolls made to cast Sense, Commune, or Summon with regard to that Element only. Only shugenja may purchase this Advantage. You may not select this Advantage for an Element in which you are Defi cient.</Description>
   </Merit>
-  <Merit type="spiritual" id="friendly_kami_void" name="Friendly Kami (Void)">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="friendly_kami_void" name="Friendly Kami (Void)" page="149">
+    <Rank id="1" value="5" />
+    <Description>A particular kami has befriended you, and stays in your vicinity at all times. Choose one element when this Advantage is purchased. You gain a bonus of +1k1 to the total of all Spell Casting Rolls made to cast Sense, Commune, or Summon with regard to that Element only. Only shugenja may purchase this Advantage. You may not select this Advantage for an Element in which you are Defi cient.</Description>
   </Merit>
-  <Merit type="spiritual" id="friendly_kami_water" name="Friendly Kami (Water)">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="friendly_kami_water" name="Friendly Kami (Water)" page="149">
+    <Rank id="1" value="5" />
+    <Description>A particular kami has befriended you, and stays in your vicinity at all times. Choose one element when this Advantage is purchased. You gain a bonus of +1k1 to the total of all Spell Casting Rolls made to cast Sense, Commune, or Summon with regard to that Element only. Only shugenja may purchase this Advantage. You may not select this Advantage for an Element in which you are Defi cient.</Description>
   </Merit>
-  <Merit type="spiritual" id="fukurokujins_blessing" name="Fukurokujin's Blessing">
+  <Merit type="spiritual" id="fukurokujins_blessing" name="Fukurokujin's Blessing" page="154">
     <Rank id="1" value="4">
-      <Exception tag="dragon" value="3"/>
-      <Exception tag="phoenix" value="3"/>
+      <Exception tag="dragon" value="3" />
+      <Exception tag="phoenix" value="3" />
     </Rank>
+    <Description>Fukurokujin&#8217;s Blessing (Dragon, Phoenix): The Fortune of Wisdom favors you above all others, and you reap the benefi ts of his patronage. Select one Lore Skill when you purchase this Advantage. Whenever you make a Skill Roll using that Skill, you gain a bonus of +1k1 to the total of that roll.</Description>
   </Merit>
-  <Merit type="spiritual" id="great_destiny" name="Great Destiny">
-    <Rank id="1" value="5"/>
+  <Merit type="spiritual" id="great_destiny" name="Great Destiny" page="150">
+    <Rank id="1" value="5" />
+    <Description>The kharmic cycle has some great purpose in store for you, and the Celestial Order will conspire to keep you alive, no matter what, until your destiny can be fulfi lled. Once per session, when you suffer Wounds that would kill you, you are reduced to a single Wound remaining instead. This will only happen once per session, as there are limits to the extent that the Heavens will intervene in mortal affairs.</Description>
   </Merit>
-  <Merit type="spiritual" id="hoteis_blessing" name="Hotei's Blessing">
+  <Merit type="spiritual" id="hoteis_blessing" name="Hotei's Blessing" page="154">
     <Rank id="1" value="4">
-      <Exception tag="dragon" value="3"/>
-      <Exception tag="phoenix" value="3"/>
+      <Exception tag="dragon" value="3" />
+      <Exception tag="phoenix" value="3" />
     </Rank>
+    <Description>Hotei&#8217;s Blessing: The Fortune of Contentment fi nds you a pleasing tribute to his works, and favors you with his sense of serenity and his jovial nature. Whenever an effect of any sort, either a spell, Advantage, Technique, or other effect, would cause you to lose Void Points, the instigator of the effect must fi rst defeat you in a Contested Void Roll. If the effect already calls for a Contested Roll of some kind, your roll is instead increased by +10.</Description>
   </Merit>
-  <Merit type="spiritual" id="inaris_blessing" name="Inari's Blessing">
-    <Rank id="1" value="3"/>
+  <Merit type="spiritual" id="inaris_blessing" name="Inari's Blessing" page="150">
+    <Rank id="1" value="3" />
+    <Description>The Fortune of Rice is a lesser Fortune, but nevertheless is among the most revered entities throughout the whole of Rokugan, particularly by the common people of the Empire. When fasting or deprived of food, you do not suffer from the normal inability to regain Void Points, although other penalties apply as normal.</Description>
   </Merit>
-  <Merit type="spiritual" id="inner_gift" name="Inner Gift">
-    <Rank id="1" value="7"/>
+  <Merit type="spiritual" id="inner_gift" name="Inner Gift" page="151">
+    <Rank id="1" value="7" />
+    <Description>You possess a mysterious gift that even shugenja cannot fully understand. Monks describe individuals such as yourself as existing in a unique state of harmony with the universe, but then they say that sort of thing a lot. Your gift may be a manifestation of the kami, perhaps an indicator of spirit ancestry, or any of a number of different theories. The exact nature of an Inner Gift should be discussed with the GM before taking this Advantage.</Description>
   </Merit>
-  <Merit type="spiritual" id="ishikendo" name="Ishiken-do">
+  <Merit type="spiritual" id="ishikendo" name="Ishiken-do" page="151">
     <Rank id="1" value="8">
-      <Exception tag="phoenix" value="6"/>
+      <Exception tag="phoenix" value="6" />
     </Rank>
+    <Description>You have that rarest of gifts, the ability to commune with the Void itself. This gift is similar in many respects to the ability to speak to the kami, save that there are no naturally occurring kami of the Void; the Void itself is a living thing, both everything and nothing all at once. You may cast Void spells as described later in this chapter. Only shugenja may take this Advantage, and without this Advantage a character cannot cast Void spells. Phoenix characters may purchase this Advantage for 6 points.</Description>
   </Merit>
-  <Merit type="spiritual" id="jurojins_blessing" name="Jurojin's Blessing">
+  <Merit type="spiritual" id="jurojins_blessing" name="Jurojin's Blessing" page="154">
     <Rank id="1" value="4">
-      <Exception tag="scorpion" value="3"/>
+      <Exception tag="scorpion" value="3" />
     </Rank>
+    <Description>Jurojin&#8217;s Blessing (Scorpion): The Fortune of Longevity favors you, and as a result you can expect a long and healthy life. Whenever you are rolling to resist the effects of a disease or poison, you gain a bonus of +2k0 to the total of the roll.</Description>
   </Merit>
-  <Merit type="spiritual" id="kharmic_tie_1" name="Kharmic Tie 1">
-    <Rank id="1" value="1"/>
-    <Rank id="2" value="2"/>
-    <Rank id="3" value="3"/>
-    <Rank id="4" value="4"/>
-    <Rank id="5" value="5"/>
+  <Merit type="spiritual" id="kharmic_tie_1" name="Kharmic Tie 1" page="151">
+    <Rank id="1" value="1" />
+    <Rank id="2" value="2" />
+    <Rank id="3" value="3" />
+    <Rank id="4" value="4" />
+    <Rank id="5" value="5" />
+    <Description>Your destiny is not yours alone, but is bonded to that of another in some fundamental way. You may have been close to this other person during a previous life, or perhaps your destiny in this life will yet be entwined in theirs in some essential manner. Select one person when purchasing this Advantage. For each point spent on this Advantage, once per session you gain a bonus of +1k1 to the total of all attack rolls made when fighting for or protecting the person to whom you are bonded.</Description>
   </Merit>
-  <Merit type="spiritual" id="luck" name="Luck">
-    <Rank id="1" value="3"/>
-    <Rank id="2" value="6"/>
-    <Rank id="3" value="9"/>
+  <Merit type="spiritual" id="luck" name="Luck" page="151">
+    <Rank id="1" value="3" />
+    <Rank id="2" value="6" />
+    <Rank id="3" value="9" />
+    <Description>Fortune favors the mortal man. A number of times per session equal to your rank in this Advantage, you may choose to immediately re-roll any one roll you make, keeping the higher of the two results.</Description>
   </Merit>
-  <Merit type="spiritual" id="magic_resistance" name="Magic Resistance">
-    <Rank id="1" value="2"/>
-    <Rank id="2" value="4"/>
-    <Rank id="3" value="6"/>
+  <Merit type="spiritual" id="magic_resistance" name="Magic Resistance" page="151">
+    <Rank id="1" value="2" />
+    <Rank id="2" value="4" />
+    <Rank id="3" value="6" />
+    <Description>For reasons beyond your understanding, the kami are reluctant to involve themselves with you in any way. For each rank you possess in this Advantage, all elemental spells targeting you have the TN of the Spell Casting Roll made to enact it increased by +3. Maho, gaijin, and non-human forms of magic are not affected by this Advantage.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_chikushudo" name="Touch of the Spirit Realms (Chikushudo)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_chikushudo" name="Touch of the Spirit Realms (Chikushudo)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Chikushudo: You gain a bonus of +1k1 on all Animal Handling rolls.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_gakido" name="Touch of the Spirit Realms (Gaki-do)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_gakido" name="Touch of the Spirit Realms (Gaki-do)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Gaki-do: When you resolve an attack that kills an opponent, you immediately regain 5 Wounds.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_jigoku" name="Touch of the Spirit Realms (Jigoku)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_jigoku" name="Touch of the Spirit Realms (Jigoku)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Jigoku: You may add your Taint Rank to any attack roll and any Skill roll or Trait roll that uses a Physical Trait. If you are Lost, you add twice your Taint Rank rather than your normal bonus. You may not take this Advantage unless you possess the Shadowlands Taint.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_maigo_no_musha" name="Touch of the Spirit Realms (Maigo no Musha)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_maigo_no_musha" name="Touch of the Spirit Realms (Maigo no Musha)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Maigo no Musha: When you are awarded Glory in an amount greater than 3 points, you receive one additional point.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_meido" name="Touch of the Spirit Realms (Meido)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_meido" name="Touch of the Spirit Realms (Meido)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Meido: You gain a bonus of +2k0 to Contested Rolls versus attempts to manipulate you in social interactions, such as use of the Courtier Skill.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_sakkaku" name="Touch of the Spirit Realms (Sakkaku)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_sakkaku" name="Touch of the Spirit Realms (Sakkaku)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Sakkaku: You gain a bonus of +1k1 on Sincerity (Deceit) rolls.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_tengoku" name="Touch of the Spirit Realms (Tengoku)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_tengoku" name="Touch of the Spirit Realms (Tengoku)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Tengoku: You gain a bonus of +2k0 on Earth Ring Rolls made to resist the Shadowlands Taint.</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_toshigoku" name="Touch of the Spirit Realms (Toshigoku)">
-    <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_toshigoku" name="Touch of the Spirit Realms (Toshigoku)" page="154">
+    <Rank id="1" value="8">
+      <Exception tag="shugenja" value="7" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Toshigoku: When making a Move Action to get into range to attack an opponent, the distance of your move is increased by 5 feet. (This costs 8 points instead of 5.)</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_yomi" name="Touch of the Spirit Realms (Yomi)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_yomi" name="Touch of the Spirit Realms (Yomi)" page="154">
     <Rank id="1" value="7">
-      <Exception tag="shugenja" value="6"/>
+      <Exception tag="shugenja" value="6" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Yomi: Select one School Skill. You gain a bonus of +1k0 on all Skill Rolls made using that Skill. (This costs 7 points instead of 5.)</Description>
   </Merit>
-  <Merit type="spiritual" id="touch_of_the_spirit_realms_yumedo" name="Touch of the Spirit Realms (Yume-do)">
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_yumedo" name="Touch of the Spirit Realms (Yume-do)" page="154">
     <Rank id="1" value="5">
-      <Exception tag="shugenja" value="4"/>
+      <Exception tag="shugenja" value="4" />
     </Rank>
+    <Description>Somehow, a fragment of the essence of a spirit realm is present in your soul, and suffuses everything you do. Shugenja characters may purchase this Advantage for 4 points. Yume-do: You can recover all expended Void Points with only four hours of rest, rather than the normal full night of eight hours of rest.</Description>
   </Merit>
-  <Merit type="varies" id="great_potential" name="Great Potential">
-    <Rank id="1" value="5"/>
+  <Merit type="varies" id="great_potential" name="Great Potential" page="150">
+    <Rank id="1" value="5" />
+    <Description>Within you lies the potential to excel at one particular endeavor, perhaps more so than any other living soul in the Empire. Select any one Skill when you purchase this Advantage. When you make Raises on a Skill Roll using that Skill, your Raises are limited by your rank in that Skill instead of your Void Ring. If your Void Ring is higher, however, you may use that as a measure for your Raises if you so choose.</Description>
   </Merit>
 </L5RCM>
