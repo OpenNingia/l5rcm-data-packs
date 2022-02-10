@@ -80,7 +80,7 @@ jobs:
         run: ./scripts/make_pack_ci.sh strongholds_pack
         
       - name: Create Release
-        if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
+        if: contains(github.ref, 'refs/tags/')
         id: create_release
         uses: actions/create-release@v1
         env:
