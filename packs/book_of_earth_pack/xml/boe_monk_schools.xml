@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <School clanid="monks" name="Order of the Nameless Gift" id="order_of_the_nameless_gift">
-    <Trait>Stamina</Trait>
+    <Trait>stamina</Trait>
     <Honor>4.5</Honor>
     <Tags>
       <Tag>monk</Tag>
@@ -42,7 +42,7 @@
     </Outfit>
   </School>
   <School clanid="monks" name="Temple of Persistence" id="temple_of_persistence">
-    <Trait>Stamina</Trait>
+    <Trait>stamina</Trait>
     <Honor>3.5</Honor>
     <Tags>
       <Tag>monk</Tag>
