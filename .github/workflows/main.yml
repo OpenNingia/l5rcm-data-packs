@@ -78,6 +78,10 @@ jobs:
       - name: Strongholds
         id: strongholds
         run: ./scripts/make_pack_ci.sh strongholds_pack
+
+      - name: Enemies of the Empire
+        id: enemies_of_the_empire
+        run: ./scripts/make_pack_ci.sh enemies_of_the_empire_pack
         
       - name: Create Release
         if: contains(github.ref, 'refs/tags/')
@@ -238,3 +242,16 @@ jobs:
           asset_path: ${{ steps.strongholds.outputs.asset_path }}
           asset_name: ${{ steps.strongholds.outputs.asset_name }}
           asset_content_type: application/zip
+
+      - name: Upload Enemies of the Empire
+        if: contains(github.ref, 'refs/tags/')
+        id: upload-enemies_of_the_empire
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ steps.enemies_of_the_empire.outputs.asset_path }}
+          asset_name: ${{ steps.enemies_of_the_empire.outputs.asset_name }}
+          asset_content_type: application/zip
+
