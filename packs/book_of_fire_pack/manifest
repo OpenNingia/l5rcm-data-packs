@@ -2,7 +2,7 @@
 	"id": "book_of_fire",
 	"display_name": "Book of Fire",
 	"authors": ["D'ziel Djenn", "Daniele Simonetti"],
-	"version": "1.1",
+	"version": "1.2",
 	"update-uri": "",
 	"download-uri": "",
 	"min-cm-version": "3.9.3"

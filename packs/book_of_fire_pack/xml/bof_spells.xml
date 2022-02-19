@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <SpellDef name="Fire Kami's Blessing" area="One target creature (may be caster)" mastery="1" element="fire" range="Touch" duration="1 hour" id="fire_kamis_blessing">
+  <SpellDef name="Fire Kami's Blessing" area="One target creature (may be caster)" mastery="1" element="fire" range="Touch" duration="1 hour" id="fire_kamis_blessing" page="185">
     <Tags />
     <Raises>
       <Raise>Duration (+1/2 hour per Raise)</Raise>
     </Raises>
+    <Description>This prayer calls on the Fire kami to stimulate the mind and memory, allowing the recipient to recall the most obscure information, details he may have encountered only once or briefly. For the duration of this spell, the target gains a +Xk0 bonus (where X is the caster’s Fire Ring) to any High or Merchant Skill rolls using the Intelligence Trait.</Description>
   </SpellDef>
-  <SpellDef name="Gift of Amaterasu" area="50' radius sphere" mastery="1" element="fire" range="50'" duration="10 minutes" id="gift_of_amaterasu">
+  <SpellDef name="Gift of Amaterasu" area="50' radius sphere" mastery="1" element="fire" range="50'" duration="10 minutes" id="gift_of_amaterasu" page="185">
     <Tags>
       <Tag>defense</Tag>
     </Tags>
@@ -14,16 +15,18 @@
       <Raise>Range (+25' per Raise)</Raise>
       <Raise>Duration (+5 minutes per Raise)</Raise>
     </Raises>
+    <Description>This spell is a prayer to Amaterasu, the Sun Goddess, asking her to bestow her favor on the caster in the form of radiant Fire kami. (In the twelfth century, when Amaterasu is superceded first by Yakamo and then by the Jade Sun, the name and forms of this spell changes, but the effects remain the same.) Once the prayer is completed, warm sunlight blazes down on the chosen area, bathing it in full daylight even if it is at night, indoors, or underground. This spell is particularly popular among shugenja who are assigned to assist in the protection of castles and other vital locations, since a sudden blaze of daylight can bea very effective deterrent to thieves, assassins, and spies.</Description>
   </SpellDef>
-  <SpellDef name="Osano-Wo's Blessing" area="40' radius" mastery="1" element="fire" range="100'" duration="30 minutes" id="osanowos_blessing">
+  <SpellDef name="Osano-Wo's Blessing" area="40' radius" mastery="1" element="fire" range="100'" duration="30 minutes" id="osanowos_blessing" page="185">
     <Tags></Tags>
     <Raises>
       <Raise>Range (+25' per Raise)</Raise>
       <Raise>Area of Effect (+10' radius per raise)</Raise>
       <Raise>Duration (+10 minutes per Raise)</Raise>
     </Raises>
+    <Description>This prayer acts in the exact opposite way of the commonly-used spell Extinguish; instead of urging the Fire kami to depart and thus put out flames, it urges them to greater energy and vigor, making flames harder to extinguish. For the duration of this spell, all fires within the area of effect become impossible to extinguish by normal means, and any magical effort to put them out (such as the aforementioned Extinguish spell) must succeed in a Contested Fire roll with the caster of Osano Wo’s Blessing. This spell is controversial, since it can result in otherwise controllable fires in cities and villages raging out of control. Pacifistic shugenja such as the Asahina and Isawa generally eschew its usage.</Description>
   </SpellDef>
-  <SpellDef name="Warning Flame" area="One target person (may be caster)" mastery="1" element="fire" range="Touch" duration="10 Rounds" id="warning_flame">
+  <SpellDef name="Warning Flame" area="One target person (may be caster)" mastery="1" element="fire" range="Touch" duration="10 Rounds" id="warning_flame" page="186">
     <Tags>
       <Tag>battle</Tag>
     </Tags>
@@ -31,8 +34,9 @@
       <Raise>Duration (+2 rounds per Raise)</Raise>
       <Raise>Area of Effect (+1 person per 2 Raises)</Raise>
     </Raises>
+    <Description>Fire is the Element of wit and intellect as well as the Element of destruction. This spell excites the Fire kami within the mind, allowing the target to notice threats and react to them far more quickly than normally. For the duration of the spell, the target is immune to being surprised, adds +1k0 to any Initiative rolls he makes, and may add +3 to his Initiative total during the Reactions stage of each Round.</Description>
   </SpellDef>
-  <SpellDef name="Purity of Shinsei " area="One target person/effect" mastery="2" element="fire" range="50'" duration="Instantaneous" id="purity_of_shinsei">
+  <SpellDef name="Purity of Shinsei " area="One target person/effect" mastery="2" element="fire" range="50'" duration="Instantaneous" id="purity_of_shinsei" page="186">
     <Tags>
       <Tag>defense</Tag>
     </Tags>
@@ -40,8 +44,9 @@
       <Raise>Range (+10' per Raise)</Raise>
       <Raise>Area of Effect (+1 target per 2 Raises)</Raise>
     </Raises>
+    <Description>This spell was originally devised by the Isawa to deal with the threat of Yobanjin magic, and later spread to the rest of the Empire when other gaijin threats became more frequent. The spell calls on Shinsei’s principles of Elemental unity and harmony to oppose unnatural foreign magic, using the energy of Fire as a focus. Purity of Shinsei ends the effects of a gaijin spell or spell-like effect. Typically this means targeting an individual who is being afflicted by an ongoing gaijin spell effect (such as a samurai laboring under a foreign curse), though it can also target an effect which is not afflicting a specific individual (such as a foreign curse on a castle, a village, or a physical item). The GM has final discretion on whether a particular gaijin magic effect can be countered with Purity of Shinsei. If the optional Counterspelling rules as in use, the GM may opt to let a shugenja who knows this spell attempt to Counterspell meishodo spells and gaijin magic.</Description>
   </SpellDef>
-  <SpellDef name="Wings of Fire" area="Self" mastery="2" element="fire" range="Touch" duration="10 minutes" id="wings_of_fire">
+  <SpellDef name="Wings of Fire" area="Self" mastery="2" element="fire" range="Touch" duration="10 minutes" id="wings_of_fire" page="186">
     <Tags>
       <Tag>travel</Tag>
     </Tags>
@@ -49,8 +54,9 @@
       <Raise>Duration (+5 minutes per Raise)</Raise>
       <Raise>Special (move at +1 Water Rank for 3 Raises)</Raise>
     </Raises>
+    <Description>This prayer is a simpler and less potent form of the spell Wings of the Phoenix, although it is also slightly more flexible in that it does not require a suit of armor to act as an "anchor" for the Fire kami. When this spell is cast, a cloud of Fire kami gather and take the form of large feathery wings sprouting from the caster’s arms and back. The caster may use these wings to fly slowly (normally moving at a speed equal to Water 1, regardless of his actual Water Ring). If the caster is able to glide (e.g. he is already at a significant height above the ground), he can move more quickly, as though he is Water 4. While the spell is in effect, the caster cannot use his arms for anything but flapping and moving his fiery wings, severely limiting his potential actions; also, he will set fire to any easily flammable objects (such as paper or spell scrolls) he touches, although the Fire kami will avoid harming his clothes. When the spell ends, the Fire kami immediately disperse, regardless of whether the caster is on the ground or in the air - unlike the friendly Air kami, the mercurial and aggressive Fire kami do not particularly care about the caster’s fate once they depart.</Description>
   </SpellDef>
-  <SpellDef name="Agasha's Shield (Tamori's Curse)" area="30' radius around the caster" mastery="3" element="fire" range="Touch/Self" duration="6 rounds" id="agashas_shield">
+  <SpellDef name="Agasha's Shield (Tamori's Curse)" area="30' radius around the caster" mastery="3" element="fire" range="Touch/Self" duration="6 rounds" id="agashas_shield" page="186">
     <Tags>
       <Tag>defense</Tag>
       <Tag>wards</Tag>
@@ -59,15 +65,17 @@
       <Raise>Area of Effect (+5' radius per Raise)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>Originally devised by Agasha shugenja who were working with hanabi (fireworks), in modern times this spell has been renamed Tamori’s Curse by the Tamori family. The spell creates a zone of protection in which Fire kami friendly to the caster reject any intrusion by other Fire kami. Any hostile Fire spell cast within the Area of Effect suffers a -4k0 penalty to the Spell Casting Roll. Any hostile Fire spell cast from an outside location that attempts to project Fire effects into the Area of Effect (such as spells like Fires From Within) will suffer a -3k0 penalty to its DR as Agasha’s Shield disperses and weakens the kami.</Description>
   </SpellDef>
-  <SpellDef name="Oath of the Heavens" area="Two target persons (see description)" mastery="3" element="fire" range="Touch" duration="5 rounds" id="oath_of_the_heavens">
+  <SpellDef name="Oath of the Heavens" area="Two target persons (see description)" mastery="3" element="fire" range="Touch" duration="5 rounds" id="oath_of_the_heavens" page="187">
     <Tags />
     <Raises>
       <Raise>Duration (+1 Round per Raise)</Raise>
       <Raise>Special (+1k0 to the bonus per 2 Raises)</Raise>
     </Raises>
+    <Description>This spell was originally a secret spell of the Agasha family, and has sometimes been credited as being invented by Agasha herself during her rescue from goblins by Mirumoto Hojatsu. In modern times, both the Phoenix Clan Agasha and the Dragon Clan Tamori know the spell, although the Tamori use it far more often. The spell calls on the Fire kami to form a link between the ferocity of a bushi and the intellect of a shugenja, allowing both to work in concert to greater effect. The caster traditionally targets himself and one friendly bushi (usually, though not always, a yojimbo), although it is also possible for the caster to bestow the spell’s benefits on a different shugenja rather than himself. For the duration of the spell, both recipients receive a +2k0 bonus to all rolls involving the Fire Ring and Fire Traits (e.g. all rolls involving Agility and Intelligence). However, the links also makes each recipient vulnerable to effects on the other - if either recipient becomes Fatigued, Dazed, or Stunned, the other immediately shares the same Condition. Moreover, if either recipient is reduced to Down, Out, or Dead, the spell’s effects immediately end.</Description>
   </SpellDef>
-  <SpellDef name="The Breath of Battle" area="One target person" mastery="3" element="fire" range="30'" duration="5 rounds" id="the_breath_of_battle">
+  <SpellDef name="The Breath of Battle" area="One target person" mastery="3" element="fire" range="30'" duration="5 rounds" id="the_breath_of_battle" page="187">
     <Tags>
       <Tag>battle</Tag>
       <Tag>imperial</Tag>
@@ -77,8 +85,9 @@
       <Raise>Duration (+1 Round per Raise)</Raise>
       <Raise>Range (+10' per Raise)</Raise>
     </Raises>
+    <Description>This prayer, variously credited to the Isawa, the Kitsu, or the Seppun, is the positive counterpoint to the notorious Haze of Battle prayer. Where Haze of Battle drives its target into a maddened frenzy of combat by exciting the Fire kami within him, The Breath of Battle invokes a positive and honorable ferocity by using Fire to call on the divine favor of the Sun. The target of this spell gains a +1k1 bonus to all Agility-based Skill Rolls and a +1k0 bonus to all Damage rolls so long as he remains under the direct light of the Sun. The spell cannot function underground, at night, or when the Sun is obscured by clouds (although the spell Gift of Amaterasu can circumvent this restraint), but it ignores minor obstructions to sunlight such as foliage or shoji screens.</Description>
   </SpellDef>
-  <SpellDef name="Whispering Flames" area="All persons within 10' radius" mastery="3" element="fire" range="50'" duration="3 rounds" id="whispering_flames">
+  <SpellDef name="Whispering Flames" area="All persons within 10' radius" mastery="3" element="fire" range="50'" duration="3 rounds" id="whispering_flames" page="187">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
@@ -87,15 +96,18 @@
       <Raise>Area of Effect (+5' radius per 2 Raises)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>The creation of this spell is credited to Asahina himself, who sought ways to use Fire magic peacefully after he joined the Crane Clan, but in modern times it is found in the ranks of many different families. The spell causes the Fire kami to gather and dance in a pleasing visual shape and with a soothing rhythmic light. Those who gaze upon the Fire kami see an entrancing and appealing vision that distracts them from taking violent actions. All persons within the Area of Effect find themselves entranced and are considered Dazed for the duration of the spell. However, the targets may attempt to shake off the spell’s effects during the Reactions Stage of each Round with a Willpower roll against a TN of the caster’s Fire x10. This spell’s effects are most potent against Rokugani, since the Fire kami find it more difficult to create entrancing images for those they do not understand. The GM may award gaijin and nonhuman targets a bonus to their Willpower roll to resist the spell’s effects. Animals, bestial creatures, and mindless creatures such as undead are completely immune to the spell.</Description>
   </SpellDef>
-  <SpellDef name="Blessing of the Sun" area="One willing target person (may be the caster)" mastery="4" element="fire" range="Touch" duration="3 Rounds" id="blessing_of_the_sun">
+  <SpellDef name="Blessing of the Sun" area="One willing target person (may be the caster)" mastery="4" element="fire" range="Touch" duration="3 Rounds" id="blessing_of_the_sun" page="187">
     <Tags></Tags>
     <Raises>
       <Raise>Range (may change to 10' with 2 Raises)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>This spell infuses the target’s limbs with a rush of aggressive Fire kami, allowing him to move and think more quickly and to ignore pain and weariness. However, there is a price to be paid for such Elemental vigor, since once the kami depart the body becomes even more weary than before.
+The recipient of this blessing feels a rush of burning energy and a quickening of thought. He instantly recovers from the Dazed Condition if it is in effect. Moreover, for the duration of the spell, the target’s Fire-related rolls (e.g. any roll using Agility or Intelligence and any Spell Casting Roll using the Fire Ring) may ignore both the effects of being Fatigued and the TN effects of Wound Penalties. However, once the spell expires, the target becomes Fatigued (this stacks with any pre-existing Fatigue effects) and cannot recover from this Fatigue in any way (rest, magic, or Techniques) for 24 hours.</Description>
   </SpellDef>
-  <SpellDef name="Essence of Fire" area="Two target duelists" mastery="4" element="fire" range="10'" duration="One iaijutsu duel" id="essence_of_fire">
+  <SpellDef name="Essence of Fire" area="Two target duelists" mastery="4" element="fire" range="10'" duration="One iaijutsu duel" id="essence_of_fire" page="188">
     <Tags>
       <Tag>wards</Tag>
       <Tag>imperial</Tag>
@@ -103,8 +115,9 @@
     <Raises>
       <Raise>Special (4 Raises to cancel School Techniques that effect duels)</Raise>
     </Raises>
+    <Description>This spell was originally developed by the Asahina to prevent magical tampering with iaijutsu duels. In the Crane view, iaijutsu is a test of the duelist’s own inherent skills and talents, and using the kami to aid in a duel violates its proper nature as the sacred judge of right and wrong. (The Crane also suspected certain other clans, such as the Scorpion and Dragon, of "cheating" with magic during duels.) This spell ensures that no magical effects will dilute the duel’s test of skill. In Crane lands it is traditional for shugenja to invoke this spell as a blessing on an iaijutsu duel, and the custom sometimes appears in other clans and families as well - particularly the Seppun. When this spell is cast, a flow of Fire kami race through the chosen targets and drive out any other active kami on them, immediately ending any ongoing spell effects they may have on their persons. The Fire kami remain until the end of the duel, protecting against further interference - any spell which targets either duelist before the duel concludes will suffer a -3k0 penalty to its Spell Casting Roll In modern times, a few shugenja have developed a more controversial variant of this spell which also uses the Fire kami to interfere with the targets’ memories and suppress their knowledge of bushi Techniques. This tactic is especially popular with shugenja from clans which do not focus on dueling, since it makes a duel purely a test of raw skill with no advantage to those descended from Kakita or Mirumoto. Casting the spell with this additional effect requires 4 Raises.</Description>
   </SpellDef>
-  <SpellDef name="Eyes of the Phoenix" area="One target creature" mastery="4" element="fire" range="25'" duration="1 hour" id="eyes_of_the_phoenix">
+  <SpellDef name="Eyes of the Phoenix" area="One target creature" mastery="4" element="fire" range="25'" duration="1 hour" id="eyes_of_the_phoenix" page="188">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
@@ -112,8 +125,9 @@
       <Raise>Range (+5' per Raise)</Raise>
       <Raise>Area of Effect (+1 creature per 2 Raises)</Raise>
     </Raises>
+    <Description>This spell’s name is somewhat ironic, and has sometimes been credited to a Scorpion shugenja with a low opinion of the Isawa. Regardless of its origin, the spell’s effect is to persuade a small cloud of strong Fire kami to float directly in front of the target’s eyes. This makes it appear to others as though the target’s eyes have caught on fire, an unsettling effect to say the least. When the spell is cast, any allies of the target suffer a Fear 3 effect (if they are vulnerable to Fear - undead are immune, and the GM may rule that other creatures are resistant or immune if it seems appropriate). More importantly, for the duration of the spell, the target is considered to be Blinded.</Description>
   </SpellDef>
-  <SpellDef name="Castle of Fire" area="Circle with a radius of 30' from caster" mastery="5" element="fire" range="Centered on caster" duration="10 Rounds" id="castle_of_fire">
+  <SpellDef name="Castle of Fire" area="Circle with a radius of 30' from caster" mastery="5" element="fire" range="Centered on caster" duration="10 Rounds" id="castle_of_fire" page="188">
     <Tags>
       <Tag>battle</Tag>
       <Tag>defense</Tag>
@@ -122,14 +136,16 @@
       <Raise>Area of Effect (+5' to radius for 2 Raises)</Raise>
       <Raise>Duration (+2 Round per Raise)</Raise>
     </Raises>
+    <Description>Like the other Castle spells, Castle of Fire is a defensive prayer, in this case a more sophisticated version of Wall of Fire. It calls on the kami of Fire to erect a barrier surrounding the caster. The fiery barrier is 1’ thick and 10’ high; anyone who is standing on its location when it appears must roll Reflexes at TN 20 to leap away (either inside or outside the Castle) and avoid being burned. The Castle’s barrier instantly incinerates any arrows or other missiles which try to pass through it. Creatures which pass through the Castle’s barrier (or are caught by it when it appears) suffer 6k6 damage and are set afire.</Description>
   </SpellDef>
-  <SpellDef name="Consumed by Five Fires" area="One target creature (and caster)" mastery="5" element="fire" range="100'" duration="Instantaneous" id="consumed_by_five_fires">
+  <SpellDef name="Consumed by Five Fires" area="One target creature (and caster)" mastery="5" element="fire" range="100'" duration="Instantaneous" id="consumed_by_five_fires" page="188">
     <Tags></Tags>
     <Raises>
       <Raise>Range (+50' for Raise)</Raise>
     </Raises>
+    <Description>One of the most potent and deadly of Fire spells, but also one used only by those facing the most desperate need. The spell invokes an array of powerful Fire kami to strike down the target with incredibly powerful heat and flame - but in order to persuade so many kami to strike with such immense power, the shugenja must bestow them with a gift of his own life-force. The target of this spell is instantly killed, reduced to Dead and then burned down to ashes in a matter of seconds. However, the caster immediately suffers the same number of Wounds as were inflicted on the target - an effect which is often, though not always, lethal. This damage cannot be reduced or mitigated in any way, and if it is lethal the caster cannot avert death. This spell will automatically fail if it targets a creature which is resistant to Fire, and it cannot kill divine entities such as Fortunes.</Description>
   </SpellDef>
-  <SpellDef name="The Dragon's Talon (Kuro's Fire)" area="Up to 10 target creatures within range" mastery="5" element="fire" range="100'" duration="Instantaneous" id="the_dragons_talon">
+  <SpellDef name="The Dragon's Talon (Kuro's Fire)" area="Up to 10 target creatures within range" mastery="5" element="fire" range="100'" duration="Instantaneous" id="the_dragons_talon" page="189">
     <Tags>
       <Tag>battle</Tag>
     </Tags>
@@ -137,21 +153,25 @@
       <Raise>Range (+25' per Raise)</Raise>
       <Raise>Area of Effect (+2 targets per Raise)</Raise>
     </Raises>
+    <Description>A potent battle spell favored by the Elemental Master of Fire and also used by high-ranking battle shugenja from several clans; in the twelfth century Naka Kuro, the Grand Master of the Elements, also used this spell and it came to be called Kuro’s Fire in his honor. Regardless of its name, this spell calls on the unmatched power of the Dragon of Fire to strike down large numbers of lesser foes. When the prayer is completed, bolts of fire resembling the snarling heads of dragons streak out from the shugenja’s hands, striking down the chosen targets. Each target suffers 8k6 damage. However, the nature of this spell is such that the Fire kami will only attack targets who they consider weak and unworthy; in game terms, the spell can only target foes of Insight Rank 1 or 2, or nonhumans of comparable power (GM’s judgment).</Description>
   </SpellDef>
-  <SpellDef name="Curse of the Burning Hand" area="One target creature" mastery="6" element="fire" range="10'" duration="Infinite" id="curse_of_the_burning_hand">
+  <SpellDef name="Curse of the Burning Hand" area="One target creature" mastery="6" element="fire" range="10'" duration="Infinite" id="curse_of_the_burning_hand" page="189">
     <Tags></Tags>
     <Raises>
       <Raise>Range (+5' per Raise)</Raise>
     </Raises>
+    <Description>A truly powerful curse which has only been employed a few times in the Empire’s history, the Curse of the Burning Hand binds a hostile Fire kami to the soul of the target, making it all but impossible to remove. The spell is difficult and requires a full minute to cast; also, the caster must succeed in a Contested Fire Roll against the target in order to inflict the Curse. Once it is in place, the target finds himself constantly wreathed in flames; these fires do not harm him, but harm any friends, allies, or innocents who touch him. The fire inflicts 3k3 damage on anyone who touches the cursed individual, and set alight any physical objects he touches which are flammable (e.g. wood, paper, clothing, etc). However, because the Fire kami is hostile, it will not help its victim against his enemies - the flame will suddenly recede any time he tries to use it as a weapon. Barring any outside interference, the spell’s effects will last indefinitely. However, other spells which remove magical effects can potentially end the Curse of the Burning Hand if the GM judges them to be appropriate; likewise, other effects which drive out kami (such as Banishment) can remove the Curse.</Description>
   </SpellDef>
-  <SpellDef name="Rise, Fire" area="One summoned spirit" mastery="6" element="fire" range="30'" duration="Concentration" id="rise_fire">
+  <SpellDef name="Rise, Fire" area="One summoned spirit" mastery="6" element="fire" range="30'" duration="Concentration" id="rise_fire" page="189">
     <Tags />
     <Raises></Raises>
+    <Description>Fire itself arises and takes physical form to defend you. The ultimate realization of the Summon spell, this prayer summons a massive kami of pure Fire to serve you. It takes the form of a fiery humanoid shape, roughly ten feet in height, its outlines constantly shifting and changing in a perpetual dance of fiery energy. The huge Fire spirit can move up to 10 x your Fire per Round, and it ignites all easily flammable objects within ten feet of itself - paper, leaves, grass, silk, and so forth. The manifest kami is treated as if it has all physical Traits equal to your Fire Ring, and attacks with a Jiujutsu Skill equal to half your Fire Rank; the DR from these attacks is equal to your Fire Rank. Anyone struck by the Fire kami will catch on fire, suffering an additional 1k1 damage per Round until the flames are extinguished. (This effect does not stack.) For purposes of taking damage, the kami is considered to have Wounds as though its Earth is equal to your Fire Ring, but suffers no Wound penalties; it is Invulnerable. If it is successfully reduced to zero Wounds, it is dispelled.</Description>
   </SpellDef>
-  <SpellDef name="The Elements' Fury" area="Caster" mastery="6" element="fire" range="Self" duration="Instantaneous" id="the_elements_fury">
+  <SpellDef name="The Elements' Fury" area="Caster" mastery="6" element="fire" range="Self" duration="Instantaneous" id="the_elements_fury" page="189">
     <Tags></Tags>
     <Raises>
       <Raise>Special (+1 additional spell per 3 Raises)</Raise>
     </Raises>
+    <Description>A supremely advanced form of the lesser spell known as Hurried Steps, this spell has been used by only a few highly advanced masters of magic; its creation is credited to Naka Kaeteru, the first Grand Master of the Elements. When this prayer is completed, the caster’s mind and body are infused with energetic Fire kami to such an extent that his thoughts, movements, and speech become all but superhuman. He may immediately cast a number of spells of Mastery Level 4 or less equal to his Fire Ring, casting each spell as a Free Action regardless of its normal casting time. Spell Casting Rolls must be made and spell slots are used as normal, but there is no need to Raise for a shorter casting time.</Description>
   </SpellDef>
 </L5RCM>
