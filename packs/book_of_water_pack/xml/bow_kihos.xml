@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-	<KihoDef element="Water" id="musubi" mastery="5" name="Musubi" type="internal">
+	<KihoDef element="water" id="musubi" mastery="5" name="Musubi" type="internal">
 		<Description>This kiho invokes the flowing strength and motion of Water to protect the monk. While the kiho is active, the monk moves his staff in a constant whirlwind of motion, swift and relentless yet also graceful and without pause or pattern, guided only by the innate perception of Water. Enemy attacks are deflected away by these motions, suppressed and turned aside by the flow of Water’s power. So long as the Kiho is active and the monk is holding and moving his staff (for mechanical purposes moving the staff in this way is considered a Free Action), the monk adds the combined total of his Water Ring and his Staves Skill Rank to his Armor TN.
 		Furthermore, if the monk devotes more of his time and effort to the whirling and flowing motions of the staff, his defense becomes correspondingly more potent; for each Simple Action in the same Round the monk uses to enhance the Kiho, he may increase his Armor TN by his Water Ring again for that Round. (This additional Armor TN bonus ends at the beginning of the monk’s next Turn.)</Description>
 		<Tag>staff</Tag>
