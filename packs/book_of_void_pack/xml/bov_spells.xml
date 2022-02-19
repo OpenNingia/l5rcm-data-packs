@@ -1,33 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <SpellDef area="self" duration="1 round per question (must maintain concentration)" element="void" id="commune_with_the_void" mastery="2" name="Commune with the Void" range="n/a">
+  <SpellDef area="self" duration="1 round per question (must maintain concentration)" element="void" id="commune_with_the_void" mastery="2" name="Commune with the Void" range="n/a" page="189">
     <Tags/>
     <Raises>
       <Raise>Special (1 Question per three Raises)</Raise>
     </Raises>
+    <Description>Commune with the Void allows the caster to enter into a direct communion with the ineffable Void and thereby gain information in a manner which is superficially similar to the basic Commune spell in the other four Elements. Much like the other Commune spells, this spell allows the caster to seek information. However, the answers tend to be far more enigmatic and unpredictable than those offered by the Elemental kami. The Void, after all, is not an array of individual spirits but a single all-encompassing whole. Thus, while in game terms the caster is still allowed to ask two questions (and can Raise to gain the ability to ask more), in practice the shugenja is not actually “asking” anything, but is using the Void to follow the connections between things and seek insight into their nature and history. In essence, the GM may answer these questions as completely or as confusingly as he might wish, and can provide information not only from the past but also from the future. (Of course, a wise GM should be wary about being too specific about things that have not happened yet.) The GM can even go beyond the specific question if he wishes, giving the player information not actually sought. On the other hand, the Void is difficult to comprehend - the GM should also feel free to deliver confusing or misleading information, but nothing outright false.</Description>
   </SpellDef>
-  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="strengthen_the_void" mastery="2" name="Strengthen the Void" range="n/a">
+  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="strengthen_the_void" mastery="2" name="Strengthen the Void" range="n/a" page="190">
     <Tags/>
     <Raises>
       <Raise>Duration (+1 round per Raise)</Raise>
       <Raise>Area of Effect (+5’ radius per two Raises), Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>This spell allows the caster to thin the veil separating the Void from reality, enhancing the power of the Void within the local area. This is often used when training young ishi, allowing them to touch the Void more readily, but it has a practical value in that anyone within its effect can better harmonize with the Void and thus better reach their own physical and spiritual potential. While this spell is in effect, anyone within the Area of Effect gains a Free Raise to casting Void spells; however, the intensity of the Void in the area makes it harder to focus enough on individual Elements cast other spells, inflicting a +5 TN penalty on all non-Void spells. Also, anyone who spends a Void Point within the area of effect gains a +2k1 bonus instead of the normal +1k1. Any creature of the Lying Darkness (and any mortal with at least 1 Shadow Rank) who enters the area of effect will feel a deep sense of discomfort. Such creatures and individuals must roll Willpower at TN 20 or suffer a +10 TN penalty to all their Skill rolls and attack rolls made while they are within the area of effect. If they fail the Willpower roll by more than 10, they must try to leave the area of effect and cannot voluntarily re-enter it.</Description>
   </SpellDef>
-  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="banish_the_Void" mastery="3" name="Banish the Void" range="n/a">
+  <SpellDef area="20' radius from caster" duration="5 Rounds" element="void" id="banish_the_Void" mastery="3" name="Banish the Void" range="n/a" page="190">
     <Tags/>
     <Raises>
       <Raise>Duration (+1 round per Raise)</Raise>
       <Raise>Area of Effect (+5’ radius per two Raises), Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>This spell is the exact counterpoint to Strengthen the Void; it thickens the veil between the Void and reality, making it more difficult to perceive the Void or to call on the inner harmony which the Void represents. This spell is normally used by ishiken to control the activities of their more powerful and dangerous apprentices, but is sometimes employed in more practical venues as well. Within this spell’s area of effect, casting other Void spells suffers a +10 TN penalty. Also, anyone wishing to spend Void Points within this area must spend two Void Points to gain the effects of one. If the character only has one Void Point, he cannot spend it within the area of effect. GM’s Note: It is left to the GM’s decision whether the effects of Strengthen the Void and Banish the Void also apply to “Void-like” effects such as Naga Akasha or the ratling Name.</Description>
   </SpellDef>
-  <SpellDef area="one target creature" duration="concentration" element="void" id="essence_of_void" mastery="4" name="Essence of Void" range="50’">
+  <SpellDef area="one target creature" duration="concentration" element="void" id="essence_of_void" mastery="4" name="Essence of Void" range="50’" page="191">
     <Tags/>
     <Raises>
       <Raise>Range (+10’ per Raise)</Raise>
       <Raise>Special (+1k0 to Contested Roll per Raise)</Raise>
     </Raises>
+    <Description>This spell allows the ishiken to suffuse another living creature with the pure essence of the Void, overwhelming the creature’s bodily functions and rendering that creature inert and unmoving so long as the spell remains in effect. The caster must be able to see the target, and the spell requires a successful Contested Void Roll (creatures without a Void Ring may resist with Name, Akasha, or Willpower at the GM’s discretion). If the target fails the Contested Roll, it is held immobile, unable to move, speak, or otherwise act of its own volition so long as the caster maintains concentration. On the second and subsequent Rounds of the spell, the target may make another Contested Roll during the Reactions Stage to throw off the spell’s effects.</Description>
   </SpellDef>
-  <SpellDef area="cone 50' long and 30' wide at base" duration="Instantaneous" element="multi" id="air_and_earth" mastery="3" name="Air and Earth" range="self">
+  <SpellDef area="cone 50' long and 30' wide at base" duration="Instantaneous" element="multi" id="air_and_earth" mastery="3" name="Air and Earth" range="self" page="186">
     <Tags>
       <Tag>jade</Tag>
     </Tags>
@@ -39,170 +43,183 @@
       <Element>air</Element>
       <Element>earth</Element>
     </MultiElement>
+    <Description>This spell causes a ferocious horizontal cyclone to blast outward from the caster, ripping up pieces of earth into a barrage of wind and stone. The caster must be standing on a natural earth surface (e.g. not in a building or on a ship) in order to cast this spell. Anyone other than the caster within the area of effect takes 4k2 Wounds (this damage is considered Jade for the purpose of harming supernatural creatures) and is Dazed; they must also make a Contested Earth roll against the caster or be knocked Prone.</Description>
   </SpellDef>
-  <SpellDef name="Fire and Air" area="10' radius" mastery="3" element="multi" range="self" duration="Instantaneous" id="fire_and_air">
-		<Tags>
-			<Tag>travel</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Damage (+1k1 per two Raises)</Raise>
-			<Raise>Special (+10’ to flight distance per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>air</Element>
-			<Element>fire</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Fire and Water" area="10' radius" mastery="2" element="multi" range="50'" duration="2 Rounds" id="fire_and_water">
-		<Tags>
-			<Tag>battle</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+25' per Raise)</Raise>
-			<Raise>Area of Effect (+5’ to radius per Raise, maximum radius equal to caster's Fire x 10')</Raise>
-			<Raise>Duration (+1 Round per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>fire</Element>
-			<Element>water</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Earth and Fire" area="5' radius" mastery="4" element="multi" range="100'" duration="Instantaneous" id="earth_and_fire">
-		<Tags>
-			<Tag>jade</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+25’ per Raise)</Raise>
-			<Raise>Area of Effect (double the radius for 2 Raises, can only be done once)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>earth</Element>
-			<Element>fire</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Water and Air" area="self" mastery="2" element="multi" range="1 mile" duration="Concentration" id="water_and_air">
-		<Tags>
-			<Tag>divination</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+1/2 mile per two Raises)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>air</Element>
-			<Element>water</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Water and Earth" area="20' radius" mastery="2" element="multi" range="100'" duration="5 Rounds" id="water_and_earth">
-		<Tags>
-			<Tag>battle</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+25' per Raise)</Raise>
-			<Raise>Area of Effect (+5’ radius per Raise)</Raise>
-			<Raise>Duration (+1 Round per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>earth</Element>
-			<Element>water</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Cleansing the Body" area="1 target person (can be the caster)" mastery="2" element="multi" range="touch" duration="Instantaneous/24 hours (see description)" id="cleansing_the_body">
-		<Tags>
-			<Tag>jade</Tag>
-			<Tag>Crab</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Area of Effect (+1 person per two Raises)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>earth</Element>
-			<Element>water</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="The Mountain's Wrath" area="self" mastery="4" element="multi" range="N/A" duration="4 Rounds" id="the_mountains_wrath">
-		<Tags>
-			<Tag>defense</Tag>
-			<Tag>Dragon</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Duration (+1 Round per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>earth</Element>
-			<Element>fire</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Wrath of the Sun" area="30' radius" mastery="5" element="multi" range="100'" duration="Instantaneous" id="wrath_of_the_sun">
-		<Tags>
-			<Tag>thunder</Tag>
-			<Tag>Mantis</Tag>
-			<Tag>Centipede</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+25' per Raise)</Raise>
-			<Raise>Area of Effect (+5’ radius per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>fire</Element>
-			<Element>air</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Whispering Flames" area="All Rokugani within 50'" mastery="4" element="multi" range="50'" duration="Concentration" id="cleansing_the_body">
-		<Tags>
-			<Tag>illusion</Tag>
-			<Tag>Phoenix</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+25' per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>fire</Element>
-			<Element>air</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Stifling Wind" area="20' radius" mastery="3" element="multi" range="100'" duration="5 Rounds" id="stiffling_wind">
-		<Tags>
-			<Tag>Scorpion</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+25' per Raise)</Raise>
-			<Raise>Area of Effect (+5’ radius per Raise)</Raise>
-			<Raise>Duration (+1 Round per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>earth</Element>
-			<Element>air</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Soul Sword" area="self" mastery="5" element="multi" range="self" duration="10 rounds" id="soul_sword">
-		<Tags>
-			<Tag>craft</Tag>
-			<Tag>Phoenix</Tag>
-			<Tag>Dragon</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Duration (+2 Rounds per Raise)</Raise>
-			<Raise>Special (pass the blade to another person for two Raises)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>fire</Element>
-			<Element>air</Element>
-			<Element>earth</Element>
-			<Element>water</Element>
-		</MultiElement>
-	</SpellDef>
-	<SpellDef name="Drown the Spirit" area="1 target creature" mastery="4" element="multi" range="30'" duration="3 Rounds" id="drown_the_spirit">
-		<Tags>
-			<Tag>Phoenix</Tag>
-		</Tags>
-		<Raises>
-			<Raise>Range (+10' per Raise)</Raise>
-			<Raise>Duration (+1 Round per Raise)</Raise>
-		</Raises>
-		<MultiElement>
-			<Element>air</Element>
-			<Element>water</Element>
-			<Element>void</Element>
-		</MultiElement>
-	</SpellDef>
+  <SpellDef name="Fire and Air" area="10' radius" mastery="3" element="multi" range="self" duration="Instantaneous" id="fire_and_air" page="187">
+    <Tags>
+      <Tag>travel</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Damage (+1k1 per two Raises)</Raise>
+      <Raise>Special (+10’ to flight distance per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>air</Element>
+      <Element>fire</Element>
+    </MultiElement>
+    <Description>This spell capitalizes on the explosive relationship between Fire and Air to combine offensive and defensive effects. The Fire spirits unleash a blast of flame to scorch the caster’s enemies, while the Air spirits call on the invigorating power of this flame to lift the caster through the air to a safer location nearby. Everyone other than the caster within the spell’s area of effect takes XkX in fire damage (where X is the caster’s Fire), while the caster flies up through the air and lands up to his Air x20’ away, the Air spirits cushioning his descent so he is unharmed. Both effects take place in the same Round.</Description>
+  </SpellDef>
+  <SpellDef name="Fire and Water" area="10' radius" mastery="2" element="multi" range="50'" duration="2 Rounds" id="fire_and_water" page="187">
+    <Tags>
+      <Tag>battle</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+25' per Raise)</Raise>
+      <Raise>Area of Effect (+5’ to radius per Raise, maximum radius equal to caster's Fire x 10')</Raise>
+      <Raise>Duration (+1 Round per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>fire</Element>
+      <Element>water</Element>
+    </MultiElement>
+    <Description>This spell invokes fire and water spirits at the same time and persuades them to mingle, unleashing a cloud of scalding steam. The area of effect is suddenly filled with super-hot steam which lasts until the spell ends, at which point it disperses. Those caught within the steam suffer 2k2 Wounds each Round they are there (unless they are resistant to heat) and their vision is impaired in the same manner as the Missing Eye Disadvantage until they leave the steam cloud.</Description>
+  </SpellDef>
+  <SpellDef name="Earth and Fire" area="5' radius" mastery="4" element="multi" range="100'" duration="Instantaneous" id="earth_and_fire" page="187">
+    <Tags>
+      <Tag>jade</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+25’ per Raise)</Raise>
+      <Raise>Area of Effect (double the radius for 2 Raises, can only be done once)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>earth</Element>
+      <Element>fire</Element>
+    </MultiElement>
+    <Description>This spell invokes the combined wrath of the Earth and Fire kami, bringing them forth from the ground as a blast of searing magma. Anyone caught in the brief but ferocious blast suffers 5k4 Wounds and is knocked Prone. The damage from this spell bypasses the first 5 points of Reduction on the target, and is considered to be Jade for the purpose of harming supernatural creatures.</Description>
+  </SpellDef>
+  <SpellDef name="Water and Air" area="self" mastery="2" element="multi" range="1 mile" duration="Concentration" id="water_and_air" page="187">
+    <Tags>
+      <Tag>divination</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+1/2 mile per two Raises)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>air</Element>
+      <Element>water</Element>
+    </MultiElement>
+    <Description>This spell combines the communicative powers of the Air kami with the clarity and divination abilities of the Water kami to grant a potent form of long-distance divination. The caster must have access to a body of still water (a large basin or tub, a koi pond, a moat, etc) in order to cast this spell. By gazing into the water, the caster gains access to the vantage of Air spirits within the spell’s range, allowing him to look down on any location within that range as though gazing down from the sky, and to hear anything happening in that location. The perspective may be anywhere from a tree-top’s height all the way up to the height of the clouds. This spell has obvious military applications, and is known to be used by the Iuchi for such purposes.</Description>
+  </SpellDef>
+  <SpellDef name="Water and Earth" area="20' radius" mastery="2" element="multi" range="100'" duration="5 Rounds" id="water_and_earth" page="187">
+    <Tags>
+      <Tag>battle</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+25' per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per Raise)</Raise>
+      <Raise>Duration (+1 Round per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>earth</Element>
+      <Element>water</Element>
+    </MultiElement>
+    <Description>This spell persuades the Water kami and Earth kami in the area of effect to mingle, instantly reducing the ground to sticky, nigh-impassable mud. The spell can be cast anywhere where the ground is normal earth or even stone, but cannot be cast on a finished surface such as a tiled or wooden floor. For the duration of the spell, anyone attempting to physically move through the area of effect can only move a number of feet equal to their Water Ring with a Simple Action, and cannot move at all with a Free Action. Moreover, all such persons suffer a -1k1 penalty to any Agility-based rolls due to the mud impeding their physical motions.</Description>
+  </SpellDef>
+  <SpellDef name="Cleansing the Body" area="1 target person (can be the caster)" mastery="2" element="multi" range="touch" duration="Instantaneous/24 hours (see description)" id="cleansing_the_body" page="188">
+    <Tags>
+      <Tag>jade</Tag>
+      <Tag>Crab</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Area of Effect (+1 person per two Raises)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>earth</Element>
+      <Element>water</Element>
+    </MultiElement>
+    <Description>The only known Multi-Element spell created by the Kuni family, this spell calls on both the simple cleansing of Water and the spiritual purity of Earth to help protect against both physical and spiritual pollution. A person targeted with this spell is instantly cleansed of all dirt and filth, and gains a +2k1 bonus to any roll made within the next 24 hours to resist or recover from disease, poison, or infection. Moreover, if the target does not have the Shadowlands Taint, the spell also grants a +2k1 bonus to any rolls made to resist getting the Taint within that same 24 hour period. (This benefit does not work on a target who already has at least one Rank of Taint.) This spell cannot be "stacked" that is, a single person can only benefit from one casting of the spell within a 24-hour period.</Description>
+  </SpellDef>
+  <SpellDef name="The Mountain's Wrath" area="self" mastery="4" element="multi" range="N/A" duration="4 Rounds" id="the_mountains_wrath" page="188">
+    <Tags>
+      <Tag>defense</Tag>
+      <Tag>Dragon</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+1 Round per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>earth</Element>
+      <Element>fire</Element>
+    </MultiElement>
+    <Description>Created by the Tamori family, this spell invokes both the defensive resilience of Earth and the aggressive ferocity of Fire to protect the caster in combat - a common place for the martial Tamori to find themselves. The caster’s skin is covered by a sheath of stone wreathed in an outward layer of flickering red flames. The caster gains Reduction equal to his Earth x3, and any wooden weapon which strikes the caster is set afire. Anyone who touches the caster (or strikes him with unarmed attacks) suffers Xk1 Wounds (where X is the caster’s Fire Rank), and the caster’s own unarmed strikes have their DR increased by the same amount.</Description>
+  </SpellDef>
+  <SpellDef name="Wrath of the Sun" area="30' radius" mastery="5" element="multi" range="100'" duration="Instantaneous" id="wrath_of_the_sun" page="188">
+    <Tags>
+      <Tag>thunder</Tag>
+      <Tag>Mantis</Tag>
+      <Tag>Centipede</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+25' per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>fire</Element>
+      <Element>air</Element>
+    </MultiElement>
+    <Description>This spell is a creation of the Moshi family, and invokes both the fury of Fire and the wrathful aspect of Air to mimic the anger of the Moshi family’s patron Fortune, the Sun itself. When cast, it unleashes a blaze of searing light and a concussive detonation of air directly above the target. All those within the area of effect suffer 5k3 Wounds (3k1 Wounds if they are resistant to heat) and are knocked Prone, Dazed, and considered Blinded; during the Reactions stage of each Round they can attempt to recover from the blindness by rolling Stamina at a TN equal to the caster’s Fire x5 (in addition to the normal roll to recover from Dazed).  This spell is noted for being particularly effective against creatures of the Nothing, which suffer an additional 2k2 damage from its effects.</Description>
+  </SpellDef>
+  <SpellDef name="Whispering Flames" area="All Rokugani within 50'" mastery="4" element="multi" range="50'" duration="Concentration" id="cleansing_the_body" page="188"
+    <Tags>
+      <Tag>illusion</Tag>
+      <Tag>Phoenix</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+25' per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>fire</Element>
+      <Element>air</Element>
+    </MultiElement>
+    <Description>Created by the Isawa as a peaceful alternative to lethal battle, this spell creates a transfixing image, forged from the beauty of fire and the whispers of air. Any Rokugani within 50’ who sees the image must roll Willpower each Round against a TN equal to your Spell Casting Roll. If the roll is failed, the target is unable to take any action that Round other than staring at the image. The target may add his Honor Rank to the total of his Willpower roll (as if resisting Temptation), and gains a cumulative +1k0 bonus to the Willpower roll for each additional Round after the first. Also, any target who suffers physical damage is immediately freed from the spell’s effects (in relation to this, it may be noted that the targets are not physically immobilized and thus have their normal Armor TN).</Description>
+  </SpellDef>
+  <SpellDef name="Stifling Wind" area="20' radius" mastery="3" element="multi" range="100'" duration="5 Rounds" id="stiffling_wind" page="188">
+    <Tags>
+      <Tag>Scorpion</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+25' per Raise)</Raise>
+      <Raise>Area of Effect (+5’ radius per Raise)</Raise>
+      <Raise>Duration (+1 Round per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>earth</Element>
+      <Element>air</Element>
+    </MultiElement>
+    <Description>Devised by the Soshi to support their shinobi allies, this spell is a more sophisticated development of the original Earth and Air spell. It mingles the Earth and Air kami to create a thick, choking cloud that obscures vision and renders breathing difficult. All those within the area of effect are considered Blinded while they remain within the cloud and for one Round after they leave (as they must wipe the dirt out of their eyes before they can see again). Moreover, while they remain within the cloud, at the start of their Turn each Round they must roll Stamina at a TN equal to the caster’s Earth x5 - if the roll is failed, they can only take Free Actions that Round (due to being choked by dust).</Description>
+  </SpellDef>
+  <SpellDef name="Soul Sword" area="self" mastery="5" element="multi" range="self" duration="10 rounds" id="soul_sword" page="189">
+    <Tags>
+      <Tag>craft</Tag>
+      <Tag>Phoenix</Tag>
+      <Tag>Dragon</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Duration (+2 Rounds per Raise)</Raise>
+      <Raise>Special (pass the blade to another person for two Raises)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>fire</Element>
+      <Element>air</Element>
+      <Element>earth</Element>
+      <Element>water</Element>
+    </MultiElement>
+    <Description>One of the more powerful and complex multi-Element spells known, this Agasha spell is the ultimate expression of the Elemental Weapon spells, combining all four Elements to create a weapon of pure Elemental power. The weapon takes the form of a 5k4 katana and is wielded using the Kenjutsu Skill, but with a +2k2 bonus to attack rolls as the spirits within the blade guide it toward its foes. The Soul Sword is considered to have the properties of both Jade and Crystal for the purpose of who can be harmed by it, and it ignores all effects of enemy armor (both Armor TN and Reduction). If the wielder drops or otherwise loses the sword, the Air spirits within the blade fly it back into his hand as a Free Action.</Description>
+  </SpellDef>
+  <SpellDef name="Drown the Spirit" area="1 target creature" mastery="4" element="multi" range="30'" duration="3 Rounds" id="drown_the_spirit" page="189">
+    <Tags>
+      <Tag>Phoenix</Tag>
+    </Tags>
+    <Raises>
+      <Raise>Range (+10' per Raise)</Raise>
+      <Raise>Duration (+1 Round per Raise)</Raise>
+    </Raises>
+    <MultiElement>
+      <Element>air</Element>
+      <Element>water</Element>
+      <Element>void</Element>
+    </MultiElement>
+    <Description>One of the very few Multi-Element spells known to use Void magic, this spell can only be cast by a Void shugenja. It was devised by the Isawa ishiken as a way of punishing or outright defeating powerful foes, and it works by using the Void to turn the target’s internal Air and Water kami against him. The spell is quite visually spectacular, with the caster gathering a visible ball of dark crackling energy in his hands and then sending it forth to strike and suffuse the target. The target of the spell has his Strength Rank reduced by an amount equal to the combined total of his Air and Water Rings for the duration of the spell. If this reduces his Strength Rank to zero, he is helplessly immobilized and cannot take Actions until the spell expires.</Description>
+  </SpellDef>
 </L5RCM>
