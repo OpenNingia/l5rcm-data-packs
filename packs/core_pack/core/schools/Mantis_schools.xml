@@ -83,7 +83,7 @@
     </Spells>
     <Techs>
       <Tech id="mantis_favor_of_the_sun" name="Favor of the Sun" rank="1">
-        <Description> No family has been more reverent of the various incarnations of the Sun throughout their history, and their piety has granted them great favor with the Heavens. During the day, you gain an additional Affinity for Fire spells. This benefit is lost at night. You also gain a Free Raise on any spell with the Thunder keyword.
+        <Description>No family has been more reverent of the various incarnations of the Sun throughout their history, and their piety has granted them great favor with the Heavens. During the day, you gain an additional Affinity for Fire spells. This benefit is lost at night. You also gain a Free Raise on any spell with the Thunder keyword.
 Spells: Sense, Commune, Summon, 3 Air and 3 Fire spells
 </Description>
       </Tech>
@@ -127,7 +127,7 @@ Spells: Sense, Commune, Summon, 3 Air and 3 Fire spells
 </Description>
       </Tech>
       <Tech id="mantis_command_the_winds" name="Command The Winds" rank="3">
-        <Description>The Mantis are taugh to put the force of their boorish and aggressive behavior behind their words in court, making it difficult to tell whether they are lying or telling the truth. A number of times per session equal to your School rank, if you have failed a Sincerity Social Skill Roll, you may re-roll it as an Intimidation (Control) Social Skill Roll instead. You must take the result of the Intimidation roll.
+        <Description>The Mantis are taught to put the force of their boorish and aggressive behavior behind their words in court, making it difficult to tell whether they are lying or telling the truth. A number of times per session equal to your School rank, if you have failed a Sincerity Social Skill Roll, you may re-roll it as an Intimidation (Control) Social Skill Roll instead. You must take the result of the Intimidation roll.
 </Description>
       </Tech>
       <Tech id="mantis_will_of_the_storm" name="Will Of The Storm" rank="4">
@@ -265,7 +265,7 @@ The Storm Rider's connection to the ocean allows him to extend beyond his limits
       </Tech>
       <Tech id="mantis_child_of_osanowo" name="Child Of Osano-Wo" rank="3">
         <Description>
-The Storm Riders are the descendents of the Fortune of Fire and Thunder, and their blessings protect them from his domain. Your Shugenja School Rank is considered 1 higher for the purpose of casting Water spells. You may spend A Void Point as a Free Action to gain immunity to all spells possessing the Thunder keyword for 3 rounds. This ability only affects spells of Mastery Level 3 and lower.
+The Storm Riders are the descendants of the Fortune of Fire and Thunder, and their blessings protect them from his domain. Your Shugenja School Rank is considered 1 higher for the purpose of casting Water spells. You may spend A Void Point as a Free Action to gain immunity to all spells possessing the Thunder keyword for 3 rounds. This ability only affects spells of Mastery Level 3 and lower.
         </Description>
       </Tech>
     </Techs>

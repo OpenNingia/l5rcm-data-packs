@@ -12,13 +12,7 @@
     </Tags>
     <Techs>
       <Tech name="Revel in Villainy" rank="2" id="mantis_revel_in_villany">
-        <Description>
-The Scoundrel will do what he must, despite what society may say about his
-activities. Whenever you spent a Void Point to enhance
-an Athletics, Commerce, Sailing, Sincerity, or Low Skill
-Roll, you gain an additional bonus to the total of the
-roll equal to twice your School Rank.
-        </Description>
+        <Description>The Scoundrel will do what he must, despite what society may say about his activities. Whenever you spent a Void Point to enhance an Athletics, Commerce, Sailing, Sincerity, or Low Skill Roll, you gain an additional bonus to the total of the roll equal to twice your School Rank.</Description>
       </Tech>
     </Techs>
     <Skills/>
@@ -41,23 +35,7 @@ roll equal to twice your School Rank.
     </Tags>
     <Techs>
       <Tech name="The Fortunes' Guidance" rank="3" id="mantis_the_fortunes_guidance">
-        <Description>
-The shugenja who serve the Mantis are taught many techniques
-that allow them to placate the elements, even under
-extreme circumstances. When confronted with dif-
-ficult weather conditions, you may negate them by
-spending a Void Point as a Simple Action. This af-
-fects an area equal to your School Rank x 20 feet
-in all directions from you. In a skirmish, this effect
-lasts a number of Rounds equal to your School Rank.
-Outside of combat, this effect lasts a number of hours
-equal to your School Rank. If the weather effect being
-negated is the result of a spell, you may only negate
-spells with a Mastery Level equal or less than your
-School Rank, and then only by spending a number
-of spell slots equal to the Mastery Level in addition
-to the Void Point.
-        </Description>
+        <Description>The shugenja who serve the Mantis are taught many techniques that allow them to placate the elements, even under extreme circumstances. When confronted with difficult weather conditions, you may negate them by spending a Void Point as a Simple Action. This affects an area equal to your School Rank x 20 feet in all directions from you. In a skirmish, this effect lasts a number of Rounds equal to your School Rank. Outside of combat, this effect lasts a number of hours equal to your School Rank. If the weather effect being negated is the result of a spell, you may only negate spells with a Mastery Level equal or less than your School Rank, and then only by spending a number of spell slots equal to the Mastery Level in addition to the Void Point.</Description>
       </Tech>
     </Techs>
     <Skills/>

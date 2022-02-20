@@ -2,8 +2,8 @@
   <SkillDef trait="strength" type="bugei" id="athletics" name="Athletics" page="139">
     <Tags />
     <MasteryAbilities>
-      <MasteryAbility rank="3">No impedements on Moderate Terrains and Difficult Terrain only reduces Water Ring by 1.</MasteryAbility>
-      <MasteryAbility rank="5">No impedements on any terrains.</MasteryAbility>
+      <MasteryAbility rank="3">No impediments on Moderate Terrains and Difficult Terrain only reduces Water Ring by 1.</MasteryAbility>
+      <MasteryAbility rank="5">No impediments on any terrains.</MasteryAbility>
       <MasteryAbility rank="7">+5 feet to the total of one Move Action per Round.</MasteryAbility>
     </MasteryAbilities>
     <Description>The training that every bushi student receives includes vigorous physical conditioning. For some, this results in a lifelong enjoyment of athletics. Like many who pursue a martial lifestyle, some bushi spend their off duty hours engaging in competitions with one another, or simply pitting themselves against challenges designed to test the limits of their physical abilities. Athletics covers many areas normally governed by Trait Rolls. If you have a background in Athletics, however, you can perform these activities, principally climbing, running, and swimming, with considerably more ease than most. Athletics can also increase your capacity for movement, even when restricted by heavy armor and the like. The Throwing Emphasis allows you to throw items with greater accuracy, including certain weapons such as knives or even the wakizashi (see the Equipment section for more information on which weapons can be thrown). Using Athletics to throw a weapon offensively is considered an attack roll. Athletics Skill Rolls to climb, run, or swim use Strength, whereas the Throwing Emphasis requires Agility.</Description>
@@ -99,7 +99,7 @@
     </Tags>
     <MasteryAbilities>
       <MasteryAbility rank="3">No off-hand penalties when using a knife.</MasteryAbility>
-      <MasteryAbility rank="5">Use of a sai or jitte convers one Free Raise toward use of the Disarm Maneuver.</MasteryAbility>
+      <MasteryAbility rank="5">Use of a sai or jitte confers one Free Raise toward use of the Disarm Maneuver.</MasteryAbility>
       <MasteryAbility rank="7">Gain Free Raise toward use of Extra Attack Maneuver.</MasteryAbility>
     </MasteryAbilities>
     <Description>The art of wielding a knife, or tantojutsu, is not typically considered a priority at most bushi dojo. The katana is the principle weapon of the samurai, of course, and even if one chooses to take up another weapon instead, there are many more effective, more lethal weapons than a simple knife. Yet despite this, virtually every bushi in the Empire is trained in the use of the knife, and carries one at all times. Bushi are imminently practical warriors, after all. </Description>
@@ -591,7 +591,7 @@
   <SkillDef trait="void" type="high" id="tea_ceremony" name="Tea Ceremony" page="139">
     <Tags />
     <MasteryAbilities>
-      <MasteryAbility rank="5">All partecipants regain 2 Void Points instead of 1.</MasteryAbility>
+      <MasteryAbility rank="5">All participants regain 2 Void Points instead of 1.</MasteryAbility>
     </MasteryAbilities>
     <Description>The tea ceremony is an ancient and sacred tradition that was created in the Empire&#8217;s earliest days, ostensibly by Lady Doji herself. It is a ritual that is handed down from parent to child, often with as much weight and attention as the passing down of a family blade from one to another. In a formal tea ceremony, the individual conducting the ritual formally sets the table, prepares the tea, and pours it for all participants, who then consume it in unison, all in complete silence. The ceremony has great spiritual signifi cance, and helps clear the mind for those involved. When conducting a tea ceremony, you must make a Tea Ceremony / Void roll (TN 15 + 5 for each participant after the second). The ceremony is intended for two people, but you may conduct it alone if desired, or up to fi ve people total may be included. If the Skill Roll is successful, all participants regain a spent Void Point. The ceremony takes thirty minutes to complete successfully, and requires a quiet location to be conducted. </Description>
   </SkillDef>
