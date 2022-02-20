@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="crab" name="Tsuru’s Legion" id="crab_tsurus_legion">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>crab_bushi</Tag>
+      <Tag>crab_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Overrun" rank="2" id="tsurus_legion_overrun">
+        <Description>
+Special: Admission to Tsuru’s Legion adds a steed (Rokugani pony) to your outfit if you do not already possess one.
+The cavalry of Tsuru’s Legion are trained to deliver decisive attacks at the critical moment of a battle. When you are mounted, you may perform the Knockdown maneuver for one less Raise and you may spend a Void Point to add +Xk0 to an attack roll with a weapon, where X is your mount’s Strength.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Hida Bushi 2 or Hiruma Bushi 2">
+        <Requirement field="crab_hiruma_bushi_school" type="school" min="1"/>
+        <Requirement field="crab_hida_bushi_school" type="school" min="1"/>
+      </RequirementOption>
+      <Requirement field="horsemanship" type="skill" min="3">Horsemanship: 3</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="crab" name="The Yasuki Taskmasters" id="crab_yasuki_taskmaster">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>crab_bushi</Tag>
+      <Tag>crab_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Technique: Fear is a Gift" rank="3" id="yasuki_taskmaster_fear_is_a_gift">
+        <Description>The Yasuki long ago concluded the best method to get peasant soldiers to face the horrors of the Shadowlands was to make the ashigaru more frightened of their officers than of their enemies. The Taskmasters embrace Intimidation as a Skill with many more applications than others might expect. You treat Intimidation as a Bugei Skill rather than a Low Skill. You may use Willpower as your Trait on any Battle Skill roll, and may use your Intimidation Rank in place of your Battle Rank when rolling for Step 2: Determination on the Mass Battle Table. Finally, any soldiers (samurai, peasant, or otherwise) under your military command may add your Intimidation Skill Rank to the total of any rolls they make to resist Fear effects.</Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Hida Bushi 4, Hida Pragmatist 4, Yasuki Courtier 3">
+        <Requirement field="crab_yasuki_courtier_school" type="school" min="2"/>
+        <Requirement field="crab_ob_hida_pragmatist_school" type="school" min="3"/>
+        <Requirement field="crab_hida_bushi_school" type="school" min="3"/>
+      </RequirementOption>
+      <Requirement field="intimidation" type="skill" min="5">Intimidation: 5</Requirement>
+      <Requirement field="willpower" type="skill" min="4">Intimidation: 4</Requirement>
+      <Requirement field="battle" type="skill" min="3">Battle: 3</Requirement>
+    </Requirements>
+  </School>
+
+</L5RCM>

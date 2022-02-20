@@ -1,0 +1,9 @@
+{
+    "id": "sword_and_fan",
+    "display_name": "Sword and Fan",
+    "authors": ["Simon Key"],
+    "version": "0.0",
+    "min-cm-version": "3.9.5",
+    "update-uri": "",
+    "download-uri": ""
+}

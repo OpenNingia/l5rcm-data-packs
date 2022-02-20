@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Merit type="mental" id="sage_of_the_sword_and_fan" name="Sage of the Sword and Fan">
+    <Rank id="1" value="7">
+      <Exception tag="courtier" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="strategist" name="Strategist">
+    <Rank id="1" value="5">
+      <Exception tag="courtier" value="4"/>
+    </Rank>
+  </Merit>
+</L5RCM>

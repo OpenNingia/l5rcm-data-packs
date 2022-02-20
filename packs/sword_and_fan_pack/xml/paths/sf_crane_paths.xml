@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="crane" name="Doji Apologist" id="crane_doji_apologist">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>courtier</Tag>
+      <Tag>crane_courtier</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="All Is Forgiven" rank="4" id="shinjo_magistrate_eyes_of_the_vigilant">
+        <Description>
+The Apologists can smooth over incidents that would ordinarily disgrace other samurai. You can erase the damage done by a Minor Breach of Etiquette (including any associated Glory or Status loss) with a Social Skill Roll of Etiquette (Courtesy) / Awareness at TN 25. You may reduce a Major Breach of Etiquette to a Minor Breach by successfully calling 2 Raises on this roll. With 5 Raises, you can reduce a Blasphemous Breach of Etiquette to a Major Breach – subject to the GM’s permission (some violations are simply too severe to be mitigated). The Apologist must act promptly in order to resolve an incident before its consequences become set in stone. In general, a Minor Breach can only be repaired within a number of hours equal to twice your Insight Rank, while a Major Breach must be repaired within that many minutes, and a Blasphemous Breach must be mitigated immediately after it takes place. (The GM may adjust these times if it seems appropriate to the specific circumstances.) GM’s Note: The Apologist can only cover for the errors of others, not for himself. The GM may choose to reduce the Honor loss for a breach of etiquette that has been mitigated, to represent the character recovering a sense of moral worth through the mitigation of the error, but the character should always lose at least 1 point of Honor.       <Tech name="Ferocity of the Ki-Rin" rank="4" id="war_dog_master_ferocity_of_the_ki_rin">
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Doji Courtier 4">
+        <Requirement field="crane_doji_courtier_school" type="school" min="3"/>
+      </RequirementOption>
+      <Requirement field="etiquette" trg="Courtesy" type="skill" min="5">Etiquette (Courtesy) 5</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

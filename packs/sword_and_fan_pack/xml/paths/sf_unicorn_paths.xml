@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="unicorn" name="Unicorn War-Dog Master" id="unicorn_war_dog_master">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>unicorn_bushi</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Ferocity of the Ki-Rin" rank="4" id="war_dog_master_ferocity_of_the_ki_rin">
+        <Description>
+Special: Enrolling in this Path grants you a pack of Unicorn War-Dogs (core rulebook, page 321). The total number of war-dogs you can have in your pack is equal to your Awareness.
+The War-Dog Masters learn how to train an entire pack of war-dogs and how to control and direct the pack in combat. As a Complex Action, you can roll Animal Handling (War Dogs) / Willpower at TN 20 to give your entire pack of War-Dogs a simple command (such as “Attack” or “Track” or “Hold Position”). You can Raise on this roll to convey more sophisticated commands, subject to the GM’s judgment and limitations. Also, when your War-Dogs carry out attacks which you have ordered them to make, they gain a +1k0 bonus to their attack and damage rolls.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Shinjo Bushi 4, Utaku Mounted Infantry 4, Moto Bushi 4">
+        <Requirement field="unicorn_shinjo_bushi_school" type="school" min="3"/>
+        <Requirement field="unicorn_utaku_mounted_infantry_bushi_school" type="school" min="3"/>
+        <Requirement field="unicorn_moto_bushi_school" type="school" min="3"/>
+      </RequirementOption>
+      <Requirement field="awareness" type="trait" min="3">Awareness: 3</Requirement>
+      <Requirement field="willpower" type="trait" min="4">Willpower: 4</Requirement>
+      <Requirement field="animal_handling" trg="War-Dogs" type="skill" min="3">Animal Handling (War-Dogs): 5</Requirement>
+    </Requirements>
+  </School>
+  <School clanid="unicorn" name="Shinjo Magistrate" id="unicorn_shinjo_magistrate">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>unicorn_bushi</Tag>
+      <Tag>unicorn_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Eyes of the Vigilant" rank="2" id="shinjo_magistrate_eyes_of_the_vigilant">
+        <Description>The Magistrates are charged with rooting out and destroying criminals, traitors, and law-breakers of all sorts. When using Investigation to try to locate clues or to test another person’s truthfulness, you gain a +1k0 bonus. When tracking known criminals or traitors you gain a +1k0 to Hunting Skill rolls, and when attacking such persons you gain a +1k0 to all Weapon Skill Rolls.
+          GM’s Option: The Unicorn Vigilant – In games set after the Hidden Emperor era, the GM can reflect the Unicorn Clan’s efforts to purge Kolat influence by increasing the Investigation bonus to +1k1 when opposing Kolat activities or agents.</Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Shinjo Bushi 2, Utaku Battle Maiden 2, Moto Bushi 2, Moto Vindicator 2">
+        <Requirement field="unicorn_shinjo_bushi_school" type="school" min="2"/>
+        <Requirement field="unicorn_utaku_battle_maiden_bushi_school" type="school" min="2"/>
+        <Requirement field="unicorn_moto_bushi_school" type="school" min="2"/>
+        <Requirement field="unicorn_moto_vindicator_bushi_school" type="school" min="2"/>
+      </RequirementOption>
+      <Requirement field="investigation" type="skill" min="3">Investigation: 3</Requirement>
+      <Requirement field="lore_law" type="skill" min="3">Lore: Law 3</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>
