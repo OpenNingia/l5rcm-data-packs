@@ -13,7 +13,7 @@
     <Skills />
     <Spells />
     <Requirements>
-      <Requirement field="stealth " type="skill" min="5">Stealth 5</Requirement>
+      <Requirement field="stealth" type="skill" min="5">Stealth 5</Requirement>
       <Requirement field="knives" type="skill" min="5">Knives 5</Requirement>
       <RequirementOption text="Must be Rank 5 in Shosuro Infiltrator or Shosuro Actor school">
         <Requirement field="scorpion_the_final_silence" type="rule" />

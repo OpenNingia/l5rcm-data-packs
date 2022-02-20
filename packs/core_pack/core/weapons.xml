@@ -188,15 +188,16 @@
   </Weapon>
   <Weapon range="25'" skill="ninjutsu" cost="1k" dr="1k1" name="Shuriken">
     <Tags>
-      <Tag>melee</Tag>
       <Tag>ranged</Tag>
       <Tag>small</Tag>
     </Tags>
     <Effect id="throw_25f_rule"/>
+    <Effect id="shuriken_special_rule"/>
   </Weapon>
-  <Weapon range="30'" skill="ninjutsu" cost="1b" dr="1k1" name="Tsubute, ranged">
+  <Weapon range="30'" skill="ninjutsu" cost="1b" dr="1k1" name="Tsubute">
     <Tags>
       <Tag>small</Tag>
+      <Tag>ranged</Tag>
     </Tags>
     <Effect id="tsubute_special_rule"/>
   </Weapon>

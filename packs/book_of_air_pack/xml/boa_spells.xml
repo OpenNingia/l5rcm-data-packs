@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <SpellDef name="Air Kami's Blessing" area="Caster" mastery="3" element="air" range="Personal" duration="8 Hours" id="air_kamis_blessing">
+  <SpellDef name="Air Kami's Blessing" area="Caster" mastery="3" element="air" range="Personal" duration="8 Hours" id="air_kamis_blessing" page="182">
     <Tags/>
     <Raises>
       <Raise>Special (double the bonus for four Raises)</Raise>
     </Raises>
-    <Description>The Book of Air, page 182</Description>
+    <Description>A unique prayer that is as much a meditation as anything else, this spell is only taught in shugenja Schools which have an Air as an Affinity. It causes the Air kami within the soul of the caster to become more properly aligned, giving the caster a far greater grasp on the hearts and souls of other men, along with a certain quickness of reaction. While the blessing lasts, the shugenja may add his Air Ring to the total of all Awareness-based rolls, as well as to his Armor TN. Typically, those who know this spell perform the Blessing each morning during their daily meditations. The effects of this spell cannot be stacked.</Description>
   </SpellDef>
-  <SpellDef name="Arrow's Flight" area="one arrow" mastery="1" element="air" range="Touch" duration="3 Rounds" id="arrows_flight">
+  <SpellDef name="Arrow's Flight" area="one arrow" mastery="1" element="air" range="Touch" duration="3 Rounds" id="arrows_flight" page="182">
     <Tags>
       <Tag>battle</Tag>
     </Tags>
@@ -15,9 +15,9 @@
       <Raise>Duration (+1 Round per Raise)</Raise>
       <Raise>Special (one additional arrow per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 182</Description>
+    <Description>A prayer used by shugenja to aid bushi when an arrow absolutely must hit its target. The shugenja entreats the Air kami to play a game by guiding the arrow, and if the arrow is fired within the duration of the spell, it will unerringly strike its target. (It must still be fired by someone with a minimal understanding of archery - at least one Rank of Kyujutsu.) However, because it is the kami who ultimately ensure the arrow will hit, the shot cannot benefit from the effects of Raises or Techniques.</Description>
   </SpellDef>
-  <SpellDef name="Castle of Air" area="20' radius around the caster" mastery="4" element="air" range="Self" duration="10 Rounds" id="castle_of_air">
+  <SpellDef name="Castle of Air" area="20' radius around the caster" mastery="4" element="air" range="Self" duration="10 Rounds" id="castle_of_air" page="183">
     <Tags>
       <Tag>illusion</Tag>
       <Tag>defence</Tag>
@@ -26,18 +26,18 @@
       <Raise>Duration (+2 Rounds per Raise)</Raise>
       <Raise>Special</Raise>
     </Raises>
-    <Description>The Book of Air, page 183</Description>
+    <Description>The prayer commonly known as Castle of Water protects the caster by creating a physical barrier of water kami to obstruct attackers. The Castle of Air, by contrast, protects the caster by creating a cunning illusion that confuses and bewilders attackers. The Air kami create a circular barrier of false sounds and images, making it incredibly difficult for attackers to actually perceive the correct location of anyone within the bounds of the Castle of Air. An attacker may believe he is striking at the caster when he is actually swinging at empty space. The circular barrier of illusions is centered on the caster. Once cast, it remains in place regardless of whether or where the caster moves. The illusions can only be fully perceived by those who were outside of the Castle of Air when it was cast; those within the Castle when it appears can easily perceive the shadowy, insubstantial nature of the illusions. If foes from outside the Castle attempt to attack those within it, the illusions will try to misdirect or fool them. Mechanically, such attackers must make a Contested Roll of their Perception against the Caster's Air each time they try to attack someone within the Castle. A success means they manage to briefly see through the illusion and may attack normally for that Round (only). A failure means the illusion tricks them and they suffer a -5k0 penalty to their attack rolls that Round. The illusions cannot affect enemy spells, since the Air kami cannot fool other kami.</Description>
   </SpellDef>
-  <SpellDef name="Defender from Beyond" area="One summoned spirit" mastery="5" element="air" range="30'" duration="5 minutes" id="defender_from_beyond">
+  <SpellDef name="Defender from Beyond" area="One summoned spirit" mastery="5" element="air" range="30'" duration="5 minutes" id="defender_from_beyond" page="183">
     <Tags>
       <Tag>battle</Tag>
     </Tags>
     <Raises>
       <Raise>Duration (+1 minute per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 183</Description>
+    <Description>Among the innermost circles of the Kitsu family are the ancestral shugenja who carry the bloodlines of the first kitsu spirits. These secretive shugenja have discovered rituals which can persuade the Air kami to carry a message to Yomi itself, calling for the aid of an ancestral shiryo. Only Kitsu Shugenja may learn this spell, which is a secret of the sodan-senzo order. When the spell is cast, the shugenja beseeches the ancestral spirits of Yomi to send aid. If the Spell Casting Roll succeeds, a shiryo - a spirit from Yomi - will arrive on the scene in five Rounds. Once it arrives, the spirit reclaims its mortal form, but its spiritual nature is easily sensed from the celestial glow which surrounds it. It will offer whatever aid it can to the caster, whether that be advice, knowledge, or combat, but it will not do anything dishonorable. Mechanically, a typical shiryo will have the creature trait of Spirit, and will possess a Rank of 3 in all of its Rings and Traits and a Rank of 4 in any useful Skills. Once the spell's duration expires, the shiryo immediately returns to Yomi. It also leaves for Yomi if its physical body is destroyed (e.g. it is reduced to zero wounds). Although this spell normally calls a "generic" shiryo, the GM may opt to allow the shugenja to summon a specific named ancestral spirit with additional Raises. The GM may also choose to have a more powerful or famous shiryo answer the spell if the specific circumstances seem to warrant it. More powerful Shiryo will possess a School as appropriate for their ancestral clan, typically with a School Rank between 3 and 5.</Description>
   </SpellDef>
-  <SpellDef name="Elemental Cipher" area="One written page" mastery="2" element="air" range="Touch" duration="One Month" id="elemental_cipher">
+  <SpellDef name="Elemental Cipher" area="One written page" mastery="2" element="air" range="Touch" duration="One Month" id="elemental_cipher" page="184">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
@@ -45,9 +45,9 @@
       <Raise>Duration (1 additional week per Raise)</Raise>
       <Raise>Area of Effect (1 additional page per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 184</Description>
+    <Description>Understanding the ways of the Air reveals the indistinct line that exists between language and cipher. A shugenja can cause a piece of writing to be placed under an elemental cipher, enticing the kami to play a small game with those who read the text. The block of text becomes completely unintelligible unless read by the original author or the intended recipient, whose name is whispered as the spell is cast. Normally, an Elemental Cipher is not breakable by traditional decrypting and the kami will only reveal the true text to the intended recipient. However, other shugenja can decipher the kami's game and read the text by making a Spellcraft / Intelligence roll with a TN equal to the total of the original spell-casting roll.</Description>
   </SpellDef>
-  <SpellDef name="Flight of Doves" area="Story told by one target person" mastery="2" element="air" range="25'" duration="10 minutes" id="flight_of_doves">
+  <SpellDef name="Flight of Doves" area="Story told by one target person" mastery="2" element="air" range="25'" duration="10 minutes" id="flight_of_doves" page="184">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
@@ -55,38 +55,38 @@
       <Raise>Range (+5 feet per Raise)</Raise>
       <Raise>Duration (5 minutes per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 184</Description>
+    <Description>This spell was originally devised by the Shiba Illusionists, and is one of their few significant contributions to the ways of magic in Rokugan. In keeping with the traditions of the Shiba Illusionists, this spell is intended primarily for entertainment, but it can sometimes have more practical applications (such as helping a courier describe his experiences to his lore). The spell invokes the Air kami to "illustate" a story being recounted by another individual (designated by the caster). The spirits will supply a visual and auditory illusion to accompany the story, drawing the sounds and images from the mind of the storyteller. The resulting blend of story, sound, and imagery can be quite compelling, and Kakita storytellers have been known to seek out masters of this spell to assist their art.</Description>
   </SpellDef>
-  <SpellDef name="Freedom of the Air" area="One house or other residential building" mastery="2" element="air" range="50'" duration="Hours equal to caster's Air" id="freedom_of_the_air">
+  <SpellDef name="Freedom of the Air" area="One house or other residential building" mastery="2" element="air" range="50'" duration="Hours equal to caster's Air" id="freedom_of_the_air" page="184">
     <Tags>
       <Tag>wards</Tag>
     </Tags>
     <Raises>
       <Raise>Area of Effect (3 Raises to affect a building as large as an inn, 6 Raises to affect a castle)</Raise>
     </Raises>
-    <Description>The Book of Air, page 184</Description>
+    <Description>A cleansing ritual used by shugenja when preparing a house or other building for an important even such as a wedding or a festival. The spell entreats the Air kami to raise a soft but carefully controlled wind which sweeps all the dirt, insects, and other filth out of the building. The spell also has a spiritually purifying effect, making evil or malignant spirits reluctant to remain within the dwelling - any kansen, ghosts, or other hostile disembodied spirits within the building will leave for a number of hours equal to the caster's Air. (Evil spirits which are exceptionally strong or which have an extremely strong attachment to the building cannot be banished by this basic spell, however - it is the GM's discretion whether a spirit is strong enough to resist Freedom of the Air.) The spell was originally devised by the Seppun shugenja, but due to its great usefulness it later spread across the Empire. The Seppun Shugenja School technique may be applied to this spell.</Description>
   </SpellDef>
-  <SpellDef name="Funeral Rites" area="N/A" mastery="4" element="air" range="N/A" duration="5 minutes" id="funeral_rites">
+  <SpellDef name="Funeral Rites" area="N/A" mastery="4" element="air" range="N/A" duration="5 minutes" id="funeral_rites" page="184">
     <Tags/>
     <Raises/>
-    <Description>The Book of Air, page 184</Description>
+    <Description>This ritual was originally devised by the Kitsu sodan-senzo, but due to its widespread applicability it quickly spread to other shugenja families and schools. The Kitsu wished all Rokugani to properly venerate the ancestors, and thus had no difficulty sharing their discovery with the Isawa and the other clans as well. For those who do not have Kitsu blood, this spell is one of the very few ways in which shugenja can actually communicate with the ancestors while in Ningen-Do. The spell is actually an hour-long ritual prayer which can only be performed in the company of a recently deceased individual's relative within twenty four hours of the funeral (which both the shugenja and the relative must have participated in properly). Other shugenja may assist in the ritual if they also know the spell; they do not need to make Spellcasting rolls, but are still considered to use up a spell slot. Once the prayer is properly completed (a successful Spellcasting Roll by the lead shugenja), the caster and the relative may both converse for a few minutes with the spirit of the recently departed. (If extra shugenja assist in the ritual, each assisting shugenja adds +1 minutes to the duration of the spell.) Typically, this ritual is only used in situations where the living relatives want to make quite sure they are properly remembering and honoring their newly-departed ancestor. The exact results of communing with the departed relative are at the discretion of the GM, but could include learning important information, receiving advice and guidance, or taking up a task which the dead samurai left incomplete.</Description>
   </SpellDef>
-  <SpellDef name="Facing Your Devils" area="One target person or creature" mastery="5" element="air" range="30'" duration="10 rounds" id="facing_your_devils">
+  <SpellDef name="Facing Your Devils" area="One target person or creature" mastery="5" element="air" range="30'" duration="10 rounds" id="facing_your_devils" page="185">
     <Tags/>
     <Raises>
       <Raise>Range (+10' per Raise)</Raise>
       <Raise>Duration (+2 Rounds per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 185</Description>
+    <Description>This is a dangerous and powerful spell which had appeared among ronin shugenja from time to time for almost a thousand years of Rokugani history. The spell is often regarded as wicked by clan shugenja, so those ronin who learn it guard its secrets carefully and only pass it on to their most trusted students. Typically no more than one or two shugenja in a generation will learn it. In the time of the Clan Wars, the spell's most famous user was the ronin Heichi Chokei, who claimed to be a descendent of the long-lost Boar Clan. When he was asked about the purpose of the spell, Chokei replied with a smile: "It is for whoever is brave enough to use it." In later years it also gained fame as a favored spell of Naka Kuro, the so-called Grandmaster of the Elements, and his student and successor Naka Tokei. Facing Your Devils appears to call on the Air kami to test the kharmic and elemental balance of a soul by deliberately misaligning the target's Elements. The spell switches the highest and lowers Traits of the target for the duration. This may result in changes to the target's Ring Ranks, with potentially severe consequences (e.g. a dropping Earth Ring reducing available Wounds, for example). The caster may choose the affected Traits in case of a tie. Those who use Facing Your Devils see it as a means to teach others the importance of balance in all things, but much more nefarious and cruel uses are certainly possible and have been employed more than once, lending the spell to a sinister reputation. The Air spirits seem to find the spell amusing, since they do not always recognize the harm it can cause.</Description>
   </SpellDef>
-  <SpellDef name="Gathering Swirl" area="20' radius from caster" mastery="1" element="air" range="Centered on caster'" duration="1 round" id="gathering_swirl">
+  <SpellDef name="Gathering Swirl" area="20' radius from caster" mastery="1" element="air" range="Centered on caster'" duration="1 round" id="gathering_swirl" page="185">
     <Tags/>
     <Raises>
       <Raise>Area of Effect (+5' radius per two Raises)</Raise>
     </Raises>
-    <Description>The Book of Air, page 185</Description>
+    <Description>This spell, most often found in the scroll-satchels of magistrates and their assistants, seems to be a simpler version of the same prayer used for Freedom of the Air. It causes the Air kami to blow furiously through the area of effect, and while initially this seems to produce nothing but chaos, within a few moments the winds gather several unattended items and deposit them in a neat stack (though not an organized one) at whatever location within the area the caster might desire, including in someone's hands if that is preferable. The caster must name the items to be collected when the spell is cast, and only those items will be collected - a convenient way to gather scattered papers, find a note buried under a pile, or otherwise retrieve something important with a minimum of effort. It can also be used, more cleverly, to retrieve a concealed or hidden item, a use which magistrates find quite valuable. However, it cannot be used to snatch items from someone else's grasp or person - the Air spirits consider that to spoil the fun.</Description>
   </SpellDef>
-  <SpellDef name="Garbled Tongue" area="Two conversing persons (one may be the caster)" mastery="3" element="air" range="30'" duration="5 minutes" id="garbled_tongue">
+  <SpellDef name="Garbled Tongue" area="Two conversing persons (one may be the caster)" mastery="3" element="air" range="30'" duration="5 minutes" id="garbled_tongue" page="185">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
@@ -94,9 +94,9 @@
       <Raise>Area of Effect (+1 person per two Raises)</Raise>
       <Raise>Duration (+1 minute per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 185</Description>
+    <Description>Originally developed by Asahina shugenja, this spell found its way into the hands of the Soshi and a few other orders after several minor incidents in court. It is sometimes considered to be a dishonorable spell, but in fact its uses need not be for subterfuge. Rather, much like the Crane courtiers' technique of Cadence, the spell allows discretion in communication in situations where this would not normally be possible. It relies on the playfulness of the Air kami and the subtleties of language. The spell causes the kami to obscure a conversation between two or more persons. The Air spirits create a second layer of speech, one heard by everyone except those actually participating in the conversation (who may include the caster). Though the speakers are aware of this false layer of speech, they will clearly hear the actual conversation taking place. The illusion cannot normally be penetrated except by reading lips (since they will not match the false conversation), although a shugenja can pierce the deception by winning a Contested School Rank / Air roll against the caster.</Description>
   </SpellDef>
-  <SpellDef name="Howl of Isora" area="40' diameter" mastery="4" element="air" range="100'" duration="Instantaneous" id="howl_iof_isora">
+  <SpellDef name="Howl of Isora" area="40' diameter" mastery="4" element="air" range="100'" duration="Instantaneous" id="howl_iof_isora" page="186">
     <Tags>
       <Tag>thunder</Tag>
     </Tags>
@@ -105,9 +105,9 @@
       <Raise>Area of Effect (add 5' to diameter for 2 Raises)</Raise>
       <Raise>Special (+1k0 damage per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 186</Description>
+    <Description>This spell calls on the power of Isora, the Fortune of the Seashore, to unleash a blast of storm-wracked air and lightning that smites an area within range. The sudden roaring onslaught of wind, rain, and lightning inflicts 3k2 damage on everyone within the area of effect, and they must roll their Earth at TN 30 or be Fatigued by Isora's howl. The spell also damages weak or vulnerable physical objects - paper walls will be blown out, scrolls soaked with water, etc. Those who are fortunate enough to be blessed by the Blood of Osano-Wo are immune to the effects of this spell.</Description>
   </SpellDef>
-  <SpellDef name="Look into the Soul" area="One target person or creature" mastery="4" element="air" range="50'" duration="1 Round" id="look_into_the_soul">
+  <SpellDef name="Look into the Soul" area="One target person or creature" mastery="4" element="air" range="50'" duration="1 Round" id="look_into_the_soul" page="186">
     <Tags>
       <Tag>divination</Tag>
     </Tags>
@@ -115,16 +115,16 @@
       <Raise>Area of Effect (one additional target per two Raises)</Raise>
       <Raise>Special (learn additional Ring per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 186</Description>
+    <Description>When a priest invokes this incantation, the Air kami gather together and form a mystical lens through which the shugenja may see the world as the spirits themselves perceive it. The lens lasts only a few moments and the caster can normally only use it to observe one person or creature. That brief moment of observation, however, allows the caster to learn the target's 2 lowest Rings and the values of their constituent Traits, in effect showing part of the person's Elemental composition. Additional Rings may be learned with Raises. (If the character's Rings are all equally balanced, the spell reveals them randomly.) However, the spell cannot and will not reveal the target's Void, for that level of understanding and perception is only possible through mastery of Ishiken-do.</Description>
   </SpellDef>
-  <SpellDef name="Piercing the Heavens" area="N/A" mastery="6" element="air" range="N/A" duration="5 Rounds" id="piercing_the_heavens">
+  <SpellDef name="Piercing the Heavens" area="N/A" mastery="6" element="air" range="N/A" duration="5 Rounds" id="piercing_the_heavens" page="187">
     <Tags/>
     <Raises>
       <Raise>Duration (+1 Round per 3 Raises)</Raise>
     </Raises>
-    <Description>The Book of Air, page 187</Description>
+    <Description>Known only to true masters of magic, this spell is a secret of the Phoenix and has never been intentionally shared with any other shugenja school, not even the Imperial one. It is considered a sacred trust among the most high-ranking of Phoenix priests, and not even all of the Elemental Masters have been considered worthy of its power… for to abuse this prayer is to call down the very wrath of Heaven. This prayer calls for the direct attention of a Fortune named by the shugenja. It may only be performed within a temple or shrine specifically devoted to that Fortune, and may never be cast more than once a month lest it anger the entirety of Tengoku. If the spell is successfully cast, a mote of the Fortune's essence will manifest within the shrine's sacred icon and the shugenja will be permitted to briefly commune with the divine being. The Fortune is neither compelled to answer questions asked nor to fulfill boons requested, and the utmost reverence must be maintained lest its immediate and terrible wrath be unleashed. However, if true reverence is offered and the cause is worthy, the Fortune may offer help available nowhere else.</Description>
   </SpellDef>
-  <SpellDef name="Quiescence of Air" area="30 foot diameter sphere" mastery="2" element="air" range="Caster" duration="10 Rounds" id="quiescence_of_air">
+  <SpellDef name="Quiescence of Air" area="30 foot diameter sphere" mastery="2" element="air" range="Caster" duration="10 Rounds" id="quiescence_of_air" page="187">
     <Tags>
       <Tag>wards</Tag>
     </Tags>
@@ -132,9 +132,9 @@
       <Raise>Range (change to 50' for 2 Raises)</Raise>
       <Raise>Duration (+3 Rounds per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 187</Description>
+    <Description>Security in communication is of paramount importance in many situations, and shugenja often find themselves in situations where a conversation is intended to be completely private, or when they cannot allow themselves to be interrupted by extraneous sounds. By placating the spirits of the Air, a shugenja can convince them to create a barrier against sounds, a bubble of silence through which sound will not pass. The spherical sound-barrier is normally centered around the caster, although with greater effort it can also be centered on a physical object up to fifty feet way. Once this spell is cast, the kami will not allow any sound to enter or leave this bubble, creating absolute privacy for anyone inside of the space. Once created, the bubble of silence will not move, even if the caster for the target object relocates. Characters on one side of a Quiescence of Air spell's barrier gain two Free Raises on Stealth Rolls made against characters on the other side. Ninube shugenja may cast Quiescence of Air as a Nothing Spell.</Description>
   </SpellDef>
-  <SpellDef name="Request to Hato-no-Kami" area="one bird" mastery="2" element="air" range="150'" duration="1 hour" id="request_to_hatonokami">
+  <SpellDef name="Request to Hato-no-Kami" area="one bird" mastery="2" element="air" range="150'" duration="1 hour" id="request_to_hatonokami" page="187">
     <Tags>
       <Tag>travel</Tag>
     </Tags>
@@ -142,9 +142,9 @@
       <Raise>Range (+50' per Raise)</Raise>
       <Raise>Duration (+1 hour per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 187</Description>
+    <Description>A specialized variation of Nature's Touch, this spell is a prayer to the Fortunes that is carried by air kami to the ears of a random bird within the spell's range. (If no bird is available, the spell as no effect.) The bird flies down and lands on the caster's hand, and the caster may instruct it to perform a simple task (such as carrying a message or distracting an enemy) for the duration of the spell. With a successful Animal Handling / Awareness roll at TN 20, the caster may persuade the bird to perform a more complex task, such as searching the area for potential enemies and reporting back. This sort of task is subject to the GM's judgement, since if the task is too complex the bird will not be able to comprehend it. In either case, the bird will not take suicidal actions (such as flying into a fire) and will immediately break off and flee if it is injured.</Description>
   </SpellDef>
-  <SpellDef name="Seeking the Way" area="Caster's trail for one-half mile" mastery="4" element="air" range="touch" duration="3 hours" id="seeking_the_way">
+  <SpellDef name="Seeking the Way" area="Caster's trail for one-half mile" mastery="4" element="air" range="touch" duration="3 hours" id="seeking_the_way" page="187">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
@@ -153,16 +153,16 @@
       <Raise>Area of Effect (one additional person's trail per Raise)</Raise>
       <Raise>Special (additional one-quarter mile of trail per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 187</Description>
+    <Description>This spell is a subtle illusion used to conceal a shugenja's trail from pursuers. The spell convinces mischievous Air kami to hide the tracks of the shugenja (and his mount, if any), along with any other evidence of his passage (such as broken branches). In their place it create a false trail of similar evidence leading in a completely different direction for the same distance. The illusionary trail will follow a reasonable route (e.g. it will not go straight up cliffs or directly into a lake, for example) and will normally be flawless to others' perception; however, someone tracking by scent will be able to sense the original trail, and skilled trackers can potentially see through the illusion by rolling Hunting / Perception against the caster's Spellcraft / Air. Powerful shugenja can persuade the kami to conceal the trails of their companions (and mounts) as well as themselves, as well as lengthening the amount of trail which is concealed and replaced.</Description>
   </SpellDef>
-  <SpellDef name="Soul of Kaze-no-Kami" area="One target person (may be the caster)" mastery="3" element="air" range="20'" duration="10 minutes" id="soul_of_kazenokami">
+  <SpellDef name="Soul of Kaze-no-Kami" area="One target person (may be the caster)" mastery="3" element="air" range="20'" duration="10 minutes" id="soul_of_kazenokami" page="188">
     <Tags/>
     <Raises>
       <Raise>Duration (+2 minutes per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 188</Description>
+    <Description>This spell calls on the Fortune of Wind to infuse the target's soul with the cooling serenity of an icy northern breeze, rendering him or her resistant to the pressures of emotion and stress. The target seems impervious to any sort of emotional manipulation or psychological pressure; in reality, he does feel normal emotions, but the presence of the Air kami mute their impact, so the target can perceive his own emotions as something distant and abstract. The target of this spell gains a bonus of +2k2 to resist the effects of any Social Skill Roll or Fear effects. However, the same icy serenity which makes him resistant to others' manipulation also makes it difficult for him to perceive the emotions of others; he suffers a -2k0 penalty to any Awareness-based Social rolls.</Description>
   </SpellDef>
-  <SpellDef name="Tenjin's Ear" area="30' radius around caster" mastery="4" element="air" range="caster" duration="5 minutes" id="tenjins_ear">
+  <SpellDef name="Tenjin's Ear" area="30' radius around caster" mastery="4" element="air" range="caster" duration="5 minutes" id="tenjins_ear" page="188">
     <Tags>
       <Tag>travel</Tag>
     </Tags>
@@ -171,56 +171,56 @@
       <Raise>Area of Effect (+5' radius per Raise)</Raise>
       <Raise>Duration (+1 minute per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 188</Description>
+    <Description>Named after the Fortune of Scribes, this powerful invocation was originally created by the Unicorn and derived from their secret Meishodo magic. So far as anyone knows, the spell has never been taught to anyone outside of the Unicorn Clan. The spell persuades the Air kami to carry the true meaning of words to the caster's ear, allowing him to perceive the tongue of foreigners. for the duration of the spell, all audible human speech within the area of effect is made intelligible to the caster, regardless of what language is used. The spell does not grant any enhanced hearing (so whispers still cannot be heard), nor does it bestow any capacity to speak in return.</Description>
   </SpellDef>
-  <SpellDef name="Touch of Air's Grace" area="One target person (may be the caster)" mastery="3" element="air" range="touch" duration="1 hour" id="touch_of_airs_grace">
+  <SpellDef name="Touch of Air's Grace" area="One target person (may be the caster)" mastery="3" element="air" range="touch" duration="1 hour" id="touch_of_airs_grace" page="188">
     <Tags>
       <Tag>illusion</Tag>
     </Tags>
     <Raises>
       <Raise>Duration (+10 minutes per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 188</Description>
+    <Description>This illusion was originally devised by the Soshi family, but similar prayers have since been developed among other clans who spend time in the halls and gardens of Rokugan's courtly palaces. The spell entices the Air kami to subtly enhance the target's physical attractiveness, emphasizing his or her fest features and smoothing away any imperfections. The Air kami find this a delightful game and will often be quite creative in the tiny tricks they play to improve the target's appeal. Mechanically, the spell negates the effects of the Disturbing Countenance and Benten's Curse Disadvantages for its duration. If the target does not possess one or both of those Disadvantages, he or she instead gains the benefits of the corresponding Advantages (Dangerous Beauty and Benten's Blessing). If the target already possesses both of those Advantages, the spell does not award any additional benefit (the Air kami find it boring to try to improve someone who is already so attractive).</Description>
   </SpellDef>
-  <SpellDef name="Voice of the Wind" area="One target person (may be the caster)" mastery="1" element="air" range="touch" duration="10 minutes" id="voice_of_the_wind">
+  <SpellDef name="Voice of the Wind" area="One target person (may be the caster)" mastery="1" element="air" range="touch" duration="10 minutes" id="voice_of_the_wind" page="188">
     <Tags/>
     <Raises>
       <Raise>Range (change to 20' for 2 Raises)</Raise>
       <Raise>Duration (+2 minutes per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 188</Description>
+    <Description>The kami of Air are fond of sounds, which are carried through their Element, and can lend their power to strengthen the beauty, passion, and conviction of the human voice. The recipient of this spell finds his or her voice gains timbre, depth, and resonance, becoming in every way more impressive. For the duration of the spell, the target benefits from the Voice Advantage (if he already has Voice, the benefits stack) and also gains a +1k0 bonus to any Social Skill Rolls that involve speech.</Description>
   </SpellDef>
-  <SpellDef name="Whispers of the Forgotten" area="One target person (may be the caster)" mastery="4" element="air" range="50'" duration="5 minutes" id="whispers_of_the_forgotten">
+  <SpellDef name="Whispers of the Forgotten" area="One target person (may be the caster)" mastery="4" element="air" range="50'" duration="5 minutes" id="whispers_of_the_forgotten" page="188">
     <Tags/>
     <Raises>
       <Raise>Range (+25' per Raise)</Raise>
       <Raise>Duration (+1 minute per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 188</Description>
+    <Description>Men's memories are shaky, distant things, lodged deep within their minds, and nearly all mortals possess some past sin, some shame they would rather have forgotten. This spell, a favorite of the Scorpion, causes Air kami to evoke the memories and visions of past crimes. The constant painful memories distract and distress the victim of the spell, making it difficult for him to accomplish anything. For the duration of the spell, he must call one Raise for no effect on any Skill rolls or Spellcasting rolls which he makes. if he has 3 or more points in Mental or Social Disadvantages, he must call 2 Raises instead. It may be noted that there are a handful of stalwart souls in Rokugan who truly do not have any sins haunting their past. Such rare persons are immune to the effects of this spell; it is left to the GM's discretion whether a particular target is truly noble enough to shrug off the Whispers of the Forgotten. Some priests of a more ascetic nature have also been known to cast this spell on themselves in order to remind themselves of their past failings and the need for humility in the face of their human frailties.</Description>
   </SpellDef>
-  <SpellDef name="Wind of the Moon" area="One target person" mastery="6" element="air" range="50'" duration="1 minute" id="wind_of_the_moon">
+  <SpellDef name="Wind of the Moon" area="One target person" mastery="6" element="air" range="50'" duration="1 minute" id="wind_of_the_moon" page="189">
     <Tags/>
     <Raises>
       <Raise>Duration (+1 minute per 2 Raises)</Raise>
       <Raise>Special (+1k1 on the Contested Air roll for 3 Raises)</Raise>
     </Raises>
-    <Description>The Book of Air, page 189</Description>
+    <Description>Air acolytes of some potency realize it is possible to read the minds of others, but a few shugenja have looked at this as only the beginning of what can be done with Air. Through extremely advanced and powerful invocations of the Air kami, it is possible for a shugenja to not only read the surface thoughts of another but to transit his own thoughts into the mind of that person. This is considered a highly questionable act, and the Phoenix Clan considers this spell to border on blasphemy. However, the immense advantages that can be gained from such total manipulation of another means the spell continues to circulate covertly through the Empire. In order for this prayer to succeed, the caster must know the name of the target and must be able to see him or her clearly. Without the visual connection, the thoughts of the target will be too garbled to be decipherable, resulting only in a painful headache to both caster and target. If the name which the caster knows is false (e.g. the target is using an alias) the Spellcasting Roll suffers a +10 TN penalty as the false name confuses the spirits. Furthermore, in order to successfully impose his thoughts on the target's mind, the caster must succeed in an Contested Air Roll against the target; failure means contact is broken and both sides suffer a severe headache as above. However, if the Air roll is successful, the target will be unaware of the mental contact and for the duration of the spell will believe the thoughts springing into his mind are entirely his own. The caster must maintain partial concentration for the duration of the spell - if this is disrupted, the spell ends immediately. A peculiar side effect of this spell is that for an hour after it ends, the caster and target will find it difficult to lie convincingly to each other, inflicting a +10 TN penalty to any Sincerity (Deceit) rolls they make against each other.</Description>
   </SpellDef>
-  <SpellDef name="Wind-Born Slumbers" area="One target person" mastery="2" element="air" range="50'" duration="5 minutes" id="windborn_slumbers">
+  <SpellDef name="Wind-Born Slumbers" area="One target person" mastery="2" element="air" range="50'" duration="5 minutes" id="windborn_slumbers" page="190">
     <Tags/>
     <Raises>
       <Raise>Range (+10' per Raise)</Raise>
       <Raise>Area of Effect (+1 person per 2 Raises)</Raise>
       <Raise>Duration (+1 minute per Raise)</Raise>
     </Raises>
-    <Description>The Book of Air, page 190</Description>
+    <Description>This spell causes the Air kami to subtly insinuate themselves into the target's body, urging him toward weariness and sleep. A target who is physically and mentally inactive (such as a guard standing post at night, or a samurai meditating in his dojo) will automatically fall asleep when targeted by this spell. (The target will awaken normally if he is touched or hears a loud noise, but otherwise sleeps until the spell's duration expires.) If the target is physically or mentally active, the spell will not put him to sleep, but he will suffer the effects of being Fatigued for the duration of the spell. (If the target is already Fatigued, his Fatigue penalties increases as though he had gone another day without rest.)</Description>
   </SpellDef>
-  <SpellDef name="Wisdom of the Kami" area="Caster" mastery="4" element="air" range="touch" duration="1 minute" id="wisdom_of_the_kami">
+  <SpellDef name="Wisdom of the Kami" area="Caster" mastery="4" element="air" range="touch" duration="1 minute" id="wisdom_of_the_kami" page="190">
     <Tags/>
     <Raises>
       <Raise>Duration (+1 minute per Raise)</Raise>
       <Raise>Special (+1 additional Skill Rank, once, for 3 Raises)</Raise>
     </Raises>
-    <Description>The Book of Air, page 190</Description>
+    <Description>This prayer invites the kami of the Air into the mind of the shugenja himself, enhancing the shugenja's mind and thoughts, causing him to be able to make better use of his skills and knowledge. For the duration of the spell, the caster gains 1 Rank in all Skills hie normally possesses, and may benefit from any Mastery Abilities that this would award. This can only grant ranks in Skills the shugenja already possesses - the Air kami cannot evoke knowledge the caster does not possess. When the duration of the spell expires all benefits are lost and any memories of the knowledge or insight which the shugenja gained during the spell's duration are at best fuzzy; no precise or detailed account can ever be given, and severe headaches are known to plague those who try too hard. The benefits for this spell only apply to Skills which the caster actually knows - it cannot increase the Rank of Skills which the caster has temporarily acquired through magic, nor can it combine with Advantages such as Crafty.</Description>
   </SpellDef>
 </L5RCM>

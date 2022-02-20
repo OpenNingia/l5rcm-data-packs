@@ -1397,7 +1397,7 @@
 			<Raise>Duration (+1 Round)</Raise>
 			<Raise>Targets (+1)</Raise>
 		</Raises>
-		<Description>A highly potent offensive spell, originally devised by the Isa-wa Elemental Masters. This prayer summons up a great mass of Fire kami, which roll outward from the caster in a wave of searing flames. Every target within the area of effect, whether friendly or hostile, takes 7k7 Wounds, for the raging flames make no distinction between ally and enemy. You alone do not take damage from the spell.</Description>
+		<Description>A powerful curse that infuses the target's body with angry Fire spirits, wracking him with pain as the kami sear his nerves and ligaments. For the duration of the spell, the victim is considered to be at the Down Wound Level and suffers all associated penalties and conditions, although he takes no actual Wounds from the spell. When the spell expires, the pain instantly ceases and the target may stand up as if nothing had happened. This spell is somewhat controversial with some shugenja schools, particularly the more peaceful ones, since it amounts to little more than the deliberate infliction of pain. A few shugenja have even noted certain disturbing similarities between this spell's effects and those of certain maho curses.</Description>
 	</SpellDef>
 	<SpellDef name="Follow The Flame" area="See below" mastery="5" element="fire" range="Personal" duration="5 Rounds" id="follow_the_flame" page="186">
 		<Tags />

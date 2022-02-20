@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="crane" name="Children of Doji" id="crane_children_of_doji">
+    <Tags>
+      <Tag>advanced</Tag>
+      <Tag>courtier</Tag>
+      <Tag>crane_courtier</Tag>
+      <Tag>crane_advanced</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Social Butterfly" rank="1" id="crane_children_of_doji_social_butterfly">
+        <Description>A Child of Doji makes friends like others breathe and is able to call upon them with the mere mention of a name. When making any Contested Social Skill roll, you gain a bonus of +Xk0, where X equals the number of Allies you possess in this court with a Devotion of 2 or greater (this bonus cannot exceed your Insight Rank in dice). Also, if you have at least three such Allies in this court, you may expend (lose) one of those Allies to gain the Darling of the Court Advantage for the remainder of this season (spring, winter, etc).</Description>
+      </Tech>
+      <Tech name="All is Fair" rank="2" id="crane_children_of_doji_all_is_fair">
+        <Description>A key skill of the Children of Doji is the ability to reach beyond the courts to control the field of battle through their political influence. A rikugunshokan who is leading his army against the Crane may suddenly find that favorable terrain has been deemed sacrosanct and the war must be fought on less advantageous ground, or that a key supply shipment has been diverted elsewhere. Conversely, an ally of the Crane may find a legion of Imperial troops arriving to aid his cause, or a duelist cutting down the opposing commander for a personal slight. You may manipulate a neutral or friendly court to favor or oppose a military conflict happening elsewhere (you cannot, obviously, manipulate the court of your enemy). You must have at least five Allies of Devotion 2 or higher in the court, and must spend a week speaking and maneuvering in the court, after which you may make a roll of Courtier (Manipulation) / Awareness at TN 40. A successful roll awards a Free Raise on Battle Skill Rolls to the commander of the side you favor, with an additional such award granted for each Raise you make on the Courtier roll. If your activities are being opposed by a representative of the other side in the conflict, your Courtier roll becomes a Contested Roll against that opponent. You may only influence each military campaign with this Technique once (GM’s discretion), and each Free Raise is expended once the commander uses it. If the commander does not use the Free Raises by the end of the campaign, they are lost.</Description>
+      </Tech>
+      <Tech name="Gild the Lily" rank="3" id="crane_children_of_doji_gild_the_lily">
+        <Description>The Crane comprehend that the easiest way to maintain a strong network of allies is to regularly offer them favor. Conversely, the best way to flex your political muscle against an obstinate enemy is the denial of favor. You may grant any of your Allies a boon, which takes the form of any Social or Material Advantage with an Experience Point value of up to your Honor Rank. (The GM may veto any Advantage that seems inappropriate.) This is done by spending an hour in court speaking with the ally, then spending a Void Point and making a Courtier (Manipulation)/Awareness roll at a TN of 20 + (5x Experience Point value of Advantage). The effects of the boon last one month. You may use the same method to deny an enemy the effects of a Social Advantage they possess (limited to the same Experience Point cost). You converse with the court at large for an hour, then spend a Void Point and make a Contested Social Skill Roll of your Courtier (Manipulation) / Awareness versus the enemy’s Etiquette (Courtesy) / Awareness. With a success, the enemy cannot use that Advantage for one month. You may not target the same individual with this technique more than once a month.</Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="courtier" type="skill" min="6">Courtier: 6</Requirement>
+      <Requirement field="etiquette" type="skill" min="6">Etiquette: 6</Requirement>
+      <Requirement field="sincerity" type="skill" min="5">Suncerity: 5</Requirement>
+      <RequirementOption text="Any one Perform/Artisan skill 4">
+        <Requirement field="*perform" type="skill" min="4"/>
+        <Requirement field="*artisan" type="skill" min="4"/>
+      </RequirementOption>
+      <Requirement field="rpg" type="more">Ally (with at least four different individuals, one of which must be Devotion 4)</Requirement>
+      <Requirement field="honor" min="5" type="trait"/>Honor Rank 5.0 or higher</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

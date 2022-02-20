@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="dragon" name="The Dragon's Wind" id="dragon_the_dragons_wind">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>dragon_bushi</Tag>
+      <Tag>dragon_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Way of the Horse and Bow" rank="4" id="way_of_the_horse_and_bow">
+        <Description>The Mirumoto horse archers train with their mounts in the rugged lands of the Dragon, allowing them to ride through territory where other cavalry forces do not dare to tread. While you are mounted, your steed treats Moderate terrain as Basic terrain, and Difficult terrain as Moderate terrain. You may attack with a bow as a Simple Action while you are mounted.
+Special Note: Joining this Path adds a steed (Rokugani pony) and a bow (Dai-Kyu) to your Outfit if you did not already possess them.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Mirumoto Taoist Swordsman 3, Mirumoto Bushi 4">
+        <Requirement field="dragon_miromoto_taoist_swordsman_school" type="school" min="3" max="3"/>
+        <Requirement field="dragon_miromoto_bushi_school" type="school" min="4" max="4"/>
+      </RequirementOption>
+      <Requirement field="horsemanship" type="skill" min="5">Horsemanship: 5</Requirement>
+      <Requirement field="kyujutsu" trg="Dai-Kyu" type="skill" min="5">Kyujutsu (Dai-Kyu): 5</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="lion" name="Lion Tactician (Ikoma Tactician)" id="lion_lion_tactician_ikoma_tactician">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>lion_bushi</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Commander’s Fan" rank="4" id="the_commanders_fan">
+        <Description>Lion officers usually carry a war-fan in order to use it for conveying orders on the battlefield. Early on, they discovered the fan could also be used to protect themselves when they came under attack on the battlefield. You gain a +1k1 bonus to Battle (Mass Battle) rolls in any situation where your war-fan makes it easier for you to convey orders (GM’s discretion). While you are carrying a war-fan (regardless of which hand you are using), you may add half your Warfans Skill Rank (rounded up) to your Armor TN. If you are in the Defense or Full Defense Stance, or you are ONLY carrying a war-fan, you may add your full Skill Rank instead. (These do not stack,and carrying two war-fans does not double the bonus.)</Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Any Lion bushi 4, Ikoma Bard 4">
+        <Requirement field="lion_bushi" type="school" min="3" max="3"/>
+        <Requirement field="lion_ikoma_bard_school" type="school" min="3"/>
+      </RequirementOption>
+      <Requirement field="battle" type="skill" min="4">Battle: 4</Requirement>
+      <Requirement field="war_fan" type="skill" min="4">Warfan: 4</Requirement>
+      <Requirement field="rpg" type="more">Must be at least a Gunso in rank.</Requirement>
+    </Requirements>
+  </School>
+
+  <School clanid="lion" name="Ikoma Orators" id="lion_ikoma_orators">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>courtier</Tag>
+      <Tag>lion_courtier</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Voice of Bushido" rank="3" id="ikoma_the_voice_of_bushido">
+        <Description>The Orators use their speechmaking powers to draw attention to the honor of their side and the dishonor of their foes. You must give a speech (suggested of at least five minutes’ length) before a court or similar audience to activate this Technique. If you are targeting an ally with the speech, you roll Perform: Oratory / Awareness at TN 30. If you are targeting an enemy, you either make the same roll (if the enemy does not respond), or make a Contested Social Roll of your Perform: Oratory / Awareness against his Sincerity / Awareness (if he does respond). A successful speech for an ally grants that ally one of the Paragon of Bushido Advantages for one week, while a successful speech against an enemy inflicts one of the Failure of Bushido Disadvantages on that enemy for one week. (If the enemy character has the corresponding Paragon of Bushido Advantage, you instead deny the use of that Advantage for one week.) You cannot affect the same person with this Technique twice in the same month.
+        GM’s Options: GMs who wish to add more depth to the Ikoma Orator’s abilities may choose to let the target’s Honor, Glory, and Infamy affect the rolls required to use the Voice of Bushido technique. When targeting an ally, the TN to bestow the Advantage is reduced by the target’s Honor Rank and Glory Rank, but increased by his Infamy Rank (if any). When targeting an enemy, the reverse applies – Honor and Glory increase the TN, while Infamy reduces it.
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Ikoma Bard 3">
+        <Requirement field="lion_ikoma_bard_school" type="school" min="2"/>
+      </RequirementOption>
+      <Requirement field="sincerity" type="skill" min="4">Sincerity: 4</Requirement>
+      <Requirement field="lore_bushido" type="skill" min="3">Lore: Bushido: 4</Requirement>
+      <Requirement field="perform_oratory" type="skill" min="4">Perform: Oratory: 4</Requirement>
+    </Requirements>
+  </School>
+
+<School clanid="lion" name="Ikoma Scrapper" id="lion_ikoma_scrapper">
+    <Tags>
+      <Tag>alternate</Tag>
+      <Tag>bushi</Tag>
+      <Tag>lion_bushi</Tag>
+      <Tag>lion_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="Every Scar Has a Name" rank="4" id="lion_every_scar_has_a_name">
+        <Description>The Scrapper learns that so long as he can call on the same courage and ruthlessness as Ikoma himself, he is never truly unarmed. You may attack as a Simple Action with unarmed strikes and improvised weapons (if you did not already have the ability to do so). Your vicious attacks can disorient and terrify your opponents. Once per skirmish, if you strike unarmed or with an improvised weapon, you may call two Raises to make your attack inflict a Fear effect on the target, with a Rank equal to your Insight Rank.</Description>
+      </Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <RequirementOption text="Akodo Bushi 4, Matsu Berserker 4, Ikoma Lion’s Shadow 4, Ikoma Bard 4">
+        <Requirement field="lion_akodo_bushi_school" type="school" min="3"/>
+        <Requirement field="lion_matsu_berserker_school" type="school" min="3"/>
+        <Requirement field="lion_ikoma_lions_shadow_school" type="school" min="3"/>
+        <Requirement field="lion_ikoma_bard_school" type="school" min="3"/>
+      </RequirementOption>
+      <Requirement field="strength" type="trait" min="4">Strength: 4</Requirement>
+      <Requirement field="jiujutsu" type="skill" min="5">Jiujutsu: 4</Requirement>
+    </Requirements>
+  </School>
+</L5RCM>

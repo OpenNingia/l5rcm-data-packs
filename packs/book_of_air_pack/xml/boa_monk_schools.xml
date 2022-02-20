@@ -38,7 +38,7 @@
     </Outfit>
   </School>
   <School clanid="monks" name="Wind's Grace Order" id="winds_grace_order">
-    <Trait>Reflexes</Trait>
+    <Trait>reflexes</Trait>
     <Honor>6.5</Honor>
     <Tags>
       <Tag>monk</Tag>
@@ -77,7 +77,7 @@
     </Outfit>
   </School>
   <School clanid="monks" name="Fukurokujin's Eyes" id="fukurokujins_eyes">
-    <Trait>Perception</Trait>
+    <Trait>perception</Trait>
     <Honor>4.5</Honor>
     <Tags>
       <Tag>monk</Tag>

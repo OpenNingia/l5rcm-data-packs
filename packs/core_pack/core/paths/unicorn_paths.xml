@@ -13,7 +13,7 @@
     <Techs>
       <Tech name="The Swift Soul" rank="2" id="unicorn_swift_soul">
         <Description>
-          The Obsidian Magistrate is the bastion of Shourido and enforcer of Daigotsu's will. You gain the BeneFit, Skills, Honor, and Outfit of a Rank 1 Daigotsu Bushi. You may add your Perception Trait plus your Taint Rank to the total of all High and Bugei Skill Rolls. This bonus does not apply to Weapon Skills. You may also add the difference between your Honor and that of your opponent to the total of attack rolls made against that opponent.
+          The Shinjo Scout learns to slip by unnoticed, even deep in enemy territory. You may use the Stealth Skill while on horseback. You are considered to have the Way of the Land Advantage no matter where you are. Finally, you gain +1k0 to all attack rolls while Mounted.
         </Description>
       </Tech>
     </Techs>
@@ -28,7 +28,7 @@
   </School>
 
 
-  <!-- SHINJO SCOUT (MOTO) RANK 2 -->
+  <!-- SHINJO SCOUT (Shinjo) RANK 2 -->
 
   <School clanid="unicorn" name="Shinjo Scout (Shinjo Bushi)" id="unicorn_shinjo_scout_shinjo_bushi">
     <Tags>
@@ -40,7 +40,7 @@
     <Techs>
       <Tech name="The Swift Soul" rank="2" id="unicorn_swift_soul">
         <Description>
-          The Obsidian Magistrate is the bastion of Shourido and enforcer of Daigotsu's will. You gain the BeneFit, Skills, Honor, and Outfit of a Rank 1 Daigotsu Bushi. You may add your Perception Trait plus your Taint Rank to the total of all High and Bugei Skill Rolls. This bonus does not apply to Weapon Skills. You may also add the difference between your Honor and that of your opponent to the total of attack rolls made against that opponent.
+          The Shinjo Scout learns to slip by unnoticed, even deep in enemy territory. You may use the Stealth Skill while on horseback. You are considered to have the Way of the Land Advantage no matter where you are. Finally, you gain +1k0 to all attack rolls while Mounted.
         </Description>
       </Tech>
     </Techs>

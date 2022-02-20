@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <SpellDef area="Body of water up to 500 feet in radius" duration="permanent" element="water" id="purification_of_the_kami" mastery="1" name="Purification of the Kami" range="touch">
+  <SpellDef area="Body of water up to 500 feet in radius" duration="permanent" element="water" id="purification_of_the_kami" mastery="1" name="Purification of the Kami" range="touch" page="180">
     <Tags/>
     <Raises>
       <Raise>Area of Effect (+500 feet radius per Raise)</Raise>
     </Raises>
+    <Description>This prayer invokes the purity and cleansing strength of the Water kami to purge flth and contamination from a body of water such as a pond, a moat, or some of a stream or river. The caster touches the water as part of the casting ritual, and the purifcation ripples out from that point in waves of glowing light. This spell renders all the water within the area of effect wholly pure and safe to drink, removing all dirt, disease, and toxins. (However, it cannot purge the Taint.) The purifcation is a one-off event and cannot prevent dirt or poison from returning to the water later. This spell can also be cast on water inside a single container (such as a bucket, barrel, or bottle). If the spell is cast on an alcoholic beverage (such as sake, shochu, or plum wine) it will purge the drink’s favor and alcohol content, leaving it as pure water.</Description>
   </SpellDef>
-  <SpellDef area="one target creature" duration="Instantaneous" element="water" id="the_swell_of_the_storm" mastery="1" name="The Swell of the Storm" range="25'">
+  <SpellDef area="one target creature" duration="Instantaneous" element="water" id="the_swell_of_the_storm" mastery="1" name="The Swell of the Storm" range="25'" page="180">
     <Tags>
       <Tag>defense</Tag>
     </Tags>
@@ -15,22 +16,25 @@
       <Raise>Area of Effect (+1 target per two Raises)</Raise>
       <Raise>Special (+1k0 on the Contested Roll per Raise)</Raise>
     </Raises>
+    <Description>This spell evokes a sudden blast of water that strikes with the heavy, irresistible power of the tide. The water is summoned into existence, fying out from the caster in a heavy mass and striking the target with gentle but nigh-irresistible power. The target must make a Contested Roll of his Strength against the caster’s Water – failure means Knockdown (the target is knocked Prone). The spell will also extinguish any open fames the targets are carrying (torches, lanterns, candles, etc). This spell can affect Huge creatures, although the GM may wish to award them a bonus on their Contested Roll to refect the greater diffculty of knocking down such large targets.</Description>
   </SpellDef>
-  <SpellDef area="one target creature" duration="10 Rounds" element="water" id="suitengus_curse" mastery="1" name="Suitengu's Curse" range="20'">
+  <SpellDef area="one target creature" duration="10 Rounds" element="water" id="suitengus_curse" mastery="1" name="Suitengu's Curse" range="20'" page="180">
     <Tags/>
     <Raises>
       <Raise>Range (+10' per Raise)</Raise>
       <Raise>Duration (+3 round per Raise)</Raise>
     </Raises>
+    <Description>This prayer invokes Suitengu, the Fortune of the Sea, to drag down the target with the weight of his sullen wrath. The target feels a great weight on all his limbs, as though he is trying to swim in heavy seas. Mechanically, Suitengu’s hostility lower’s the target’s Refexes Rank by 1 and causes him to move as though his Water is 1 Rank lower for the duration of the spell.</Description>
   </SpellDef>
-  <SpellDef area="caster" duration="3 Rounds" element="water" id="strength_of_the_tsunami" mastery="2" name="Strength of the Tsunami" range="touch">
+  <SpellDef area="caster" duration="3 Rounds" element="water" id="strength_of_the_tsunami" mastery="2" name="Strength of the Tsunami" range="touch" page="180">
     <Tags/>
     <Raises>
       <Raise>Area of Effect (cast on someone else for two Raises)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>This spell calls on Water’s affnity to physical strength. The surge of Water kami through the body briefy enhances the muscles, allowing the targeted person to perform prodigious feats. For the duration of the spell, the target’s Strength Rank is increased by an amount equal to half the caster’s Water Ring (rounded down). This cannot raise the Strength Rank higher than 9.</Description>
   </SpellDef>
-  <SpellDef area="one target person" duration="3 Rounds" element="water" id="surging_soul" mastery="2" name="Surging Soul" range="10'">
+  <SpellDef area="one target person" duration="3 Rounds" element="water" id="surging_soul" mastery="2" name="Surging Soul" range="10'" page="180">
     <Tags>
       <Tag>battle</Tag>
     </Tags>
@@ -38,16 +42,18 @@
       <Raise>Range (+10’ per Raise)</Raise>
       <Raise>Duration (+1 Round per Raise)</Raise>
     </Raises>
+    <Description>In contrast to the more peaceful and healing aspects of Water, this prayer evokes the power of Water on the attack, unleashing a surge of chi through the target’s limbs to empower his strikes. However, the massive surge of Water kami through the body also makes it diffcult for the target to remain still. The recipient of this prayer enjoys a +1k1 bonus to all Attack rolls, but cannot enter or beneft from the Center Stance and must take at least one Move Action every Round for the duration of the spell. Surging Soul is greatly favored among war-shugenja such as the martial wing of the Kitsu, the Tamori, the Kuni, and the Iuchi, but fnds less acceptance in families like the Asahina and the Isawa.</Description>
   </SpellDef>
-  <SpellDef area="Body of water 100' radius from caster" duration="Instantaneous" element="water" id="yukis_touch" mastery="2" name="Yuki's Touch" range="touch">
+  <SpellDef area="Body of water 100' radius from caster" duration="Instantaneous" element="water" id="yukis_touch" mastery="2" name="Yuki's Touch" range="touch" page="181">
     <Tags>
       <Tag>travel</Tag>
     </Tags>
     <Raises>
       <Raise>Area of Effect (+50’ radius per Raise)</Raise>
     </Raises>
+    <Description>This spell, named after the legendary spirit known as the Yuki no Onna, persuades the Water spirits in a stream, river, or lake to expel all Fire from their presence, causing the water to instantly freeze. A single natural body of water freezes solid out to a distance of 100’ from the caster. Although this has uses in combat, the most frequent employment of the spell is to allow travelers or soldiers to cross water barriers. Any persons or creatures within the water will be trapped, and if they are under the surface they will suffocate (treat as Drowning). Breaking free of the ice will require a Contested Roll of Strength against the caster’s Water. The ice will melt normally.</Description>
   </SpellDef>
-  <SpellDef area="30' radius around caster" duration="2 Rounds" element="water" id="heavens_tears" mastery="2" name="Heaven's Tears" range="centered on caster">
+  <SpellDef area="30' radius around caster" duration="2 Rounds" element="water" id="heavens_tears" mastery="2" name="Heaven's Tears" range="centered on caster" page="181">
     <Tags>
       <Tag>crystal</Tag>
     </Tags>
@@ -55,15 +61,17 @@
       <Raise>Area of Effect (+5’ radius per Raise)</Raise>
       <Raise>Duration (+1 Round per Raise, may only be done once)</Raise>
     </Raises>
+    <Description>This prayer evokes the sorrow of the Heavens, unleashing a brief deluge of rain which is endowed with the spiritual purity of the Sun. The spell summons divine rain from the sky, and thus can only be used effectively outdoors – it cannot cause rain to fall indoors or underground. Those of pure soul (no Taint or Shadow corruption, Honor Rank 4.0 or better) who are bathed in Heaven’s Tears are healed each Round by a number of Wounds equal to the caster’s Water. Conversely, those with Taint or Shadow corruption suffer 1k1 Wounds for each Round they are exposed to the Tears.</Description>
   </SpellDef>
-  <SpellDef area="1 mile diameter" duration="12 hours" element="water" id="endless_deluge" mastery="3" name="Endless Deluge" range="centered on caster">
+  <SpellDef area="1 mile diameter" duration="12 hours" element="water" id="endless_deluge" mastery="3" name="Endless Deluge" range="centered on caster" page="181">
     <Tags/>
     <Raises>
       <Raise>Area of Effect (+1 mile per two Raises)</Raise>
       <Raise>Duration (+6 hours per Raise)</Raise>
     </Raises>
+    <Description>This spell calls on the Water spirits in the sky to congregate and descend to the earth, unleashing a massive rainstorm. Casting this spell is a ritual requiring at least ten minutes; at the GM’s option, casting this spell in an especially dry region, or during a drought, may require more casting time or require Raises to succeed. Rainclouds gather while the spell is being cast, and once it is completed the clouds open up and rain begins pouring down, continuing without cease for many hours. The chief value of this spell is to extinguish fres (even large confagrations such as forest fres will be doused within a half hour or so) and to abate the effects of drought. However, the relentless pouring rain also obscures visibility and slickens objects, imposing a -1k0 penalty on all physical actions and a -2k0 penalty on ranged attacks. The rain also imposes a -1k1 penalty on Spell Casting Rolls for Fire spells within it, since the relentless water makes the Fire spirits reluctant to act. Finally, due to the large volume of rain over a short period of time, the spell can potentially cause fash-fooding (GM’s option).</Description>
   </SpellDef>
-  <SpellDef area="one target person" duration="10 Rounds" element="water" id="sanctuary_of_the_waves" mastery="3" name="Sanctuary of the Waves" range="50'">
+  <SpellDef area="one target person" duration="10 Rounds" element="water" id="sanctuary_of_the_waves" mastery="3" name="Sanctuary of the Waves" range="50'" page="182">
     <Tags>
       <Tag>defense</Tag>
     </Tags>
@@ -71,30 +79,35 @@
       <Raise>Area of Effect (+1 person per Raise)</Raise>
       <Raise>Duration (+3 Rounds per Raise)</Raise>
     </Raises>
+    <Description>The sea is a thing of great destructive power, but also great mercy and salvation.” - Asako Chukage
+  This spell calls on the power of Water to protect and hide the chosen targets (who must be willing, and can include the caster). The spell can only be cast within range of a large quantity of water in a natural environment – e.g. a pond, stream, or something larger. When the spell is cast, the water lunges out, scoops up the targets, and draws them into the water, concealing them beneath its surface. The targets have enough air to breathe for the duration of the spell, but no longer. The surrounding barrier of water completely protects the targets, but also completely blocks them from any sort of attack against those outside – indeed, they will not even be able to see what is happening above the water unless they can roll Perception at TN 20 to make out the blurry images. Once the spell’s duration expires, the water releases the targets where they are – they must swim to the surface on their own.></Description>
   </SpellDef>
-  <SpellDef area="one willing person" duration="5 minutes" element="water" id="the_inner_ocean" mastery="3" name="The Inner Ocean" range="50'">
+  <SpellDef area="one willing person" duration="5 minutes" element="water" id="the_inner_ocean" mastery="3" name="The Inner Ocean" range="50'" page="182">
     <Tags/>
     <Raises>
       <Raise>Range (+20' per Raise)</Raise>
       <Raise>Duration (+1 Minute per Raise)</Raise>
     </Raises>
+    <Description>This spell evokes the target’s inner Water to the ultimate degree, strengthening it to the point where it completely overwhelms the target’s other Elements. The target – who may be the caster – is physically transformed into pure clear water, along with anything he might be wearing or carrying at the moment the spell is cast. This state persists until the spell expires, and while the target is water he cannot speak, attack, cast spells, or directly manipulate physical objects. However, he can move more quickly (performing Move Actions as though he has +1 Rank in his Water Ring), can indirectly manipulate objects by pushing against them, and can fow his liquid body through narrow openings. (The target’s physical mass does not change, so he cannot squeeze himself into a small box or otherwise evade the constraints of his size.) The target is effectively immune to most physical harm, but Fire spells can damage him, as can truly intense heat such as a burning castle or a lava fow. At the GM’s option, certain types of physical events – such as being scattered or partially soaked up with towels – might also harm the transformed person. Once the spell’s duration ends, the target’s Elements rebalance and he returns to normal.</Description>
   </SpellDef>
-  <SpellDef area="one or more target allies" duration="Instantaneous" element="water" id="typhoons_surge" mastery="3" name="Typhoon's Surge" range="50'">
+  <SpellDef area="one or more target allies" duration="Instantaneous" element="water" id="typhoons_surge" mastery="3" name="Typhoon's Surge" range="50'" page="182">
     <Tags/>
     <Raises>
       <Raise>Range (+10' per Raise)</Raise>
       <Raise>Area of Effect (+1 target beyond casters water per two Raises)</Raise>
     </Raises>
+    <Description>This spell, sometimes called by the more mundane name “Renewed Energy,” is a variation on the more commonly used prayer Rejuvenating Vapors. The spell targets a number of allies within range up to the caster’s Water Rank (additional targets beyond the caster’s Water may be taken with Raises). All of the targets experience a sudden and powerful surge of energy as the spell foods them with invigorating chi. They are freed from the effects of the Fatigued and Dazed conditions, and each target heals a number of Wounds equal to the caster’s Water Rank.</Description>
   </SpellDef>
-  <SpellDef area="one summoned steed" duration="4 hours" element="water" id="steed_of_the_ebbing_tides" mastery="4" name="Steed of the Ebbing Tides" range="25'">
+  <SpellDef area="one summoned steed" duration="4 hours" element="water" id="steed_of_the_ebbing_tides" mastery="4" name="Steed of the Ebbing Tides" range="25'" page="182">
     <Tags>
       <Tag>travel</Tag>
     </Tags>
     <Raises>
       <Raise>Duration (+2 hours per Raise)</Raise>
     </Raises>
+    <Description>This prayer was originally developed by the Iuchi, although the Isawa have since devised a similar spell on their own. It summons forth a number of powerful kami, who take the physical form of a watery, translucent horse. The Steed will bear the caster (or one other person designated by the caster at the time the Steed is frst summoned) in the same manner of a normal horse, can be controlled with Horsemanship in the normal way, and will fght selfessly in its rider’s defense; for game purposes, the Steed is considered to have the same mechanical statistics as an Utaku Warhorse, but also has Reduction 15. It is untiring for as long as it remains in existence. Once the spell expires, the Steed collapses into normal water – which can be an unpleasant surprise if someone is still mounted on it.</Description>
   </SpellDef>
-  <SpellDef area="Up to 25 allies in one group" duration="5 minutes" element="water" id="master_of_the_rolling_river" mastery="4" name="Master of the Roling River" range="100'">
+  <SpellDef area="Up to 25 allies in one group" duration="5 minutes" element="water" id="master_of_the_rolling_river" mastery="4" name="Master of the Rolling River" range="100'" page="183">
     <Tags>
       <Tag>battle</Tag>
     </Tags>
@@ -103,14 +116,16 @@
       <Raise>Duration (+1 minute per Raise)</Raise>
       <Raise>Special (affect non-samurai, see description)</Raise>
     </Raises>
+    <Description>This spell was originally devised by battle shugenja of the Kitsu and Iuchi families, and remains a favorite among them. It infuses a military unit with the fowing speed and relentless strength of Water, allowing the soldiers to move more quickly and strike more powerfully on the battlefeld. The caster chooses one group of allies (up to roughly a squadron) to receive this blessing; all troops in that unit may move as though their Water is 1 Rank higher and are considered to have a Strength 1 Rank higher for the duration of the spell. This spell normally only benefts samurai, but a skilled caster can extend to the blessing to cover other allies. Two Raises will allow the spell to affect non-samurai humans (e.g. ashigaru), while four Raises will allow it to affect non-human allies such as Naga or Ratlings. This spell may also be used to affect Mass Battle scenarios. Each casting of the spell during a Mass Battle awards a bonus equal to the caster’s Water Ring to the total of the commanding general’s next Battle Skill roll to determine winning or losing.</Description>
   </SpellDef>
-  <SpellDef area="any two people" duration="5 rounds" element="water" id="seed_of_qanan" mastery="4" name="Seed of Qanan" range="touch">
+  <SpellDef area="any two people" duration="5 rounds" element="water" id="seed_of_qanan" mastery="4" name="Seed of Qanan" range="touch" page="183">
     <Tags/>
     <Raises>
       <Raise>Duration (+2 rounds per Raise)</Raise>
     </Raises>
+    <Description>A Unicorn secret spell based on gaijin magic, this spell uses the Water kami’s control over internal energy to briefy create a temporary connection between two people, merging their chi and allowing them to call on each others’ knowledge and skill. The targets must be touched simultaneously by the caster to establish the initial link of Water kami, and must remain within 50’ of each other for the link to continue functioning – if this distance is exceeded, the spell immediately ends. In game terms, the linked people are able to use each others’ Skills, employing whichever Skill Rank is higher for a given task. However, they do not gain the benefts of Mastery Abilities.</Description>
   </SpellDef>
-  <SpellDef area="One Imperial road up to ten miles in length" duration="8 hours" element="water" id="the_emperors_road" mastery="4" name="The Emperor's Road" range="touch">
+  <SpellDef area="One Imperial road up to ten miles in length" duration="8 hours" element="water" id="the_emperors_road" mastery="4" name="The Emperor's Road" range="touch" page="183">
     <Tags>
       <Tag>travel</Tag>
       <Tag>imperial</Tag>
@@ -118,8 +133,9 @@
     <Raises>
       <Raise>Area of Effect (+1 mile per Raise)</Raise>
     </Raises>
+    <Description>This spell was originally devised by the Seppun for the purpose of easing and supporting the Emperor’s journeys to and from the annual Imperial Winter Court. Since then the spell has been applied more widely, but is still quite rare outside of the Seppun family. The spell creates a powerful aura of friendly Water spirits along a specifc Imperial road, easing travel along its length. The road is cleared of all minor obstacles and irregularities (a major physical obstacle such as a fallen tree or a rockslide will not be affected), and the Water spirits cause honorable travelers who are loyal to the Emperor to move as though their Water is 2 Ranks higher so long as they remain on the road. Moreover, the blessing infuses these travelers and their mounts with the energy of Water, causing them not to become Fatigued due to travel so long as they remain on the road.</Description>
   </SpellDef>
-  <SpellDef area="10' diameter sphere" duration="one hour" element="water" id="within_the_waves" mastery="4" name="Within the Waves" range="self">
+  <SpellDef area="10' diameter sphere" duration="one hour" element="water" id="within_the_waves" mastery="4" name="Within the Waves" range="self" page="183">
     <Tags>
       <Tag>travel</Tag>
     </Tags>
@@ -127,16 +143,18 @@
       <Raise>Duration (+1/2 hour per Raise)</Raise>
       <Raise>Special (add an additional person within the bubble for three Raises)</Raise>
     </Raises>
+    <Description>This spell was originally devised by Isawa shugenja trying to locate the legendary undersea kingdom which was supposedly the home of Shiba’s wife. Although they never succeeded in that goal, the spell they created has seen considerable use in the centuries since. Within the Waves persuades the Water kami to hold themselves away from the caster in a spherical formation, thereby forming an air bubble around him. The caster can move the bubble by concentrating, allowing him to explore freely beneath the surface of a river, lake, or even the ocean. (Such movement is at the normal speed based on the caster’s Water.) Other persons can enter and leave the bubble by swimming, and a skilled caster can carry a few passengers along within the bubble’s center. When the spell’s duration expires, the Water kami push the bubble to the surface.</Description>
   </SpellDef>
-  <SpellDef area="one target person/creature" duration="one hour" element="water" id="chi_reversal" mastery="5" name="Chi Reversal" range="20'">
+  <SpellDef area="one target person/creature" duration="one hour" element="water" id="chi_reversal" mastery="5" name="Chi Reversal" range="20'" page="184">
     <Tags/>
     <Raises>
       <Raise>Range (+20’ per Raise)</Raise>
       <Raise>Duration (+1/2 hour per Raise)</Raise>
       <Raise>Special (one additional pair of Traits per two Raises)</Raise>
     </Raises>
+    <Description>This prayer invokes Water’s connection to the fow of Chi through the body, taking control of that fow in order to alter the target’s balance of energy. One “pair” of the target’s mental and physical Traits from the same Element (chosen by the caster) have their Ranks fipped for the duration of the spell. Thus, if the caster chose to fip a target’s Fire Traits, an Intelligence of 2 and Agility of 4 would become an Intelligence of 4 and an Agility of 2 for the duration of the spell. The caster may Raise to affect additional pairs of Traits.</Description>
   </SpellDef>
-  <SpellDef area="Trench up to 30' wide and deep and 300' long" duration="15 minutes" element="water" id="open_the_waves" mastery="5" name="Open the Waves" range="300'">
+  <SpellDef area="Trench up to 30' wide and deep and 300' long" duration="15 minutes" element="water" id="open_the_waves" mastery="5" name="Open the Waves" range="300'" page="184">
     <Tags>
       <Tag>Battle</Tag>
     </Tags>
@@ -144,8 +162,9 @@
       <Raise>Area of Effect (increase width or depth of trench by 5’ per Raise)</Raise>
       <Raise>Duration (+5 minutes per Raise)</Raise>
     </Raises>
+    <Description>This spell calls on the Water kami to hold themselves apart, creating a “trench” through a body of water to allow the passage of men, animals, or even wagons and war machines. The spell is employed primarily by martial shugenja who need to help their clan’s armies to cross river obstacles, but has also been used for more benign purposes, such as helping peasants to escape foods. The spell’s chief limitation is that it cannot always clear the water all the way to the bottom – there is only so much that can be asked of the kami.</Description>
   </SpellDef>
-  <SpellDef area="Whirlpool 200' in radius" duration="10 minutes" element="water" id="whirlpool" mastery="5" name="Whirlpool" range="1 mile">
+  <SpellDef area="Whirlpool 200' in radius" duration="10 minutes" element="water" id="whirlpool" mastery="5" name="Whirlpool" range="1 mile" page="184">
     <Tags>
       <Tag>thunder</Tag>
     </Tags>
@@ -153,8 +172,9 @@
       <Raise>Area of Effect (+25’ radius per Raise)</Raise>
       <Raise>Duration (+2 minutes per Raise)</Raise>
     </Raises>
+    <Description>This prayer is a favorite among the Yoritomo, who are credited with frst creating it. It can only be cast near or on a large body of open water – a lake or sea. The spell excites the Water kami into a tremendous rage, causing them to create a huge and powerful whirlpool that will suck down any ships or swimmers in the vicinity. Any swimmer caught within the area of effect will be in danger of being sucked under, requiring a roll of Athletics (Swimming) / Strength at TN 30 each Round to avoid this. A ship within the area of effect will likewise be in danger, and the ship’s captain must roll Navigation / Intelligence at TN 30 every minute to keep the vessel from being sucked under. Once under water, all victims will be subject to Drowning, and can only reach the surface again by rolling Athletics (Swimming) / Strength at TN 40.</Description>
   </SpellDef>
-  <SpellDef area="10'" duration="one hour" element="water" id="opening_the_veil" mastery="6" name="Opening the Veil" range="One spirit portal">
+  <SpellDef area="10'" duration="one hour" element="water" id="opening_the_veil" mastery="6" name="Opening the Veil" range="One spirit portal" page="184">
     <Tags>
       <Tag>Travel</Tag>
     </Tags>
@@ -162,8 +182,9 @@
       <Raise>Duration (+10 minutes per Raise)</Raise>
       <Raise>Special (reach Sakkaku or Yume-do for one Raise, Gaki-do or Toshigoku for two Raises, Yomi for four Raises)</Raise>
     </Raises>
+    <Description>This prayer, a spell known only to the Kitsu and Isawa, invokes the Travel aspect of Water to open a temporary portal into the Spirit Realms. The spell can normally only access the realms of Meido or Chikushudo, but extremely powerful casters can sometimes access Yomi, Sakkaku, Toshigoku, Yume-do, or Gaki-do. The portal lasts only a short time, so passage through it is fraught with risk. Also, this spell cannot work in any area which has been warded against the infuences of the Spirit Realms (GM’s discretion).</Description>
   </SpellDef>
-  <SpellDef area="a circular area 200' in radius" duration="30 minutes" element="water" id="breath_of_mist" mastery="6" name="Breath of Mist" range="1/2 mile">
+  <SpellDef area="a circular area 200' in radius" duration="30 minutes" element="water" id="breath_of_mist" mastery="6" name="Breath of Mist" range="1/2 mile" page="184">
     <Tags>
       <Tag>defense</Tag>
     </Tags>
@@ -171,5 +192,6 @@
       <Raise>Area of Effect (+25’ radius per Raise)</Raise>
       <Raise>Duration (+10 minutes per Raise)</Raise>
     </Raises>
+    <Description>This spell is especially popular among the more pacifstic types of shugenja, since it provides a way to avert a battle without actual violence. The spell evokes the full power of hundreds of Water kami to reduce the ground to a half-liquid mire while, at the same time, flling the air with water vapor to obscure vision. Entire armies have been rendered effectively helpless by this spell, unable to move or to strike out at their foes. In game terms, the spell turns all the ground within the area of effect into Diffcult terrain. The fog reduces normal visibility to 10’. Between 10’ and 30’, characters can discern vague outlines – this imposes a +15 TN penalty on any ranged attacks. Beyond 30’ all characters are effectively Blind.</Description>
   </SpellDef>
 </L5RCM>

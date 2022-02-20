@@ -57,7 +57,11 @@ Special: The Hitsu-do makes it easier for its students to master the ways of Fir
       <Requirement field="fire" type="ring" min="3">Fire 3</Requirement>
       <Requirement field="earth" type="ring" min="3">Earth 3</Requirement>
       <Requirement field="meditation" type="skill" min="3">Meditation 3</Requirement>
-      <RequirementOption>Any Tattooed Order 2<Requirement field="dragon_blood_of_the_kami" type="rule"></Requirement><Requirement field="dragon_the_gift_of_the_lady" type="rule"></Requirement><Requirement field="dragon_swift_fist_subtle_heart" type="rule"></Requirement></RequirementOption>
+      <RequirementOption text="Any Tattooed Order 2">
+        <Requirement field="dragon_blood_of_the_kami" type="rule"></Requirement>
+        <Requirement field="dragon_the_gift_of_the_lady" type="rule"></Requirement>
+        <Requirement field="dragon_swift_fist_subtle_heart" type="rule"></Requirement>
+      </RequirementOption>
     </Requirements>
   </School>
 </L5RCM>
