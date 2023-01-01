@@ -8,10 +8,7 @@
       <Tag>mantis_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Born of the Earth" rank="3" id="born_of_the_earth"><Description>A master of earth’s intricacies can project his mind into the soil and be born again in the form of an animal. If you are sitting upon the bare earth, you may sacrifice two Earth spell slots and make a Meditation Skill Roll (TN 
-15). After ten minutes of meditation, you fall into a deep trance and a natural animal erupts forth from the ground before your body. Your mind inhabits and control this animal form until you choose to end the effect, your real body is harmed or disturbed, or the animal form is killed – in any of those circumstances, the animal form crumbles into dirt and your consciousness returns to your real body. You must choose any one natural animal, either from the Book of the Void in the L5R RPG core rulebook or Chapter One of the sourcebook Enemies of the Empire, as the form you adopt. If the animal form has higher physical or mental Trait Ranks than you, you use the animal form’s Traits – otherwise, you use your own. You gain any and 
-all abilities of the creature, but cannot speak (and thus 
-cannot cast spells) while in the animal’s body.</Description></Tech>
+      <Tech name="Born of the Earth" rank="3" id="born_of_the_earth"><Description>A master of earth’s intricacies can project his mind into the soil and be born again in the form of an animal. If you are sitting upon the bare earth, you may sacrifice two Earth spell slots and make a Meditation Skill Roll (TN  15). After ten minutes of meditation, you fall into a deep trance and a natural animal erupts forth from the ground before your body. Your mind inhabits and control this animal form until you choose to end the effect, your real body is harmed or disturbed, or the animal form is killed – in any of those circumstances, the animal form crumbles into dirt and your consciousness returns to your real body. You must choose any one natural animal, either from the Book of the Void in the L5R RPG core rulebook or Chapter One of the sourcebook Enemies of the Empire, as the form you adopt. If the animal form has higher physical or mental Trait Ranks than you, you use the animal form’s Traits – otherwise, you use your own. You gain any and  all abilities of the creature, but cannot speak (and thus cannot cast spells) while in the animal’s body.</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
@@ -52,8 +49,7 @@ cannot cast spells) while in the animal’s body.</Description></Tech>
       <Tag>mantis_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Intrepid Negotiator" rank="4" id="intrepid_negotiator"><Description>Where the standard Yoritomo training focuses on browbeating foes, the Emissary learns to leaven this aggression with the calm patience of the Earth, outlasting opponents’ anger and thus finding peaceful solutions 
-to potentially violent confrontations. When making an Etiquette or Sincerity roll, you may spend a Void Point to add your Willpower in unkept dice to the roll. If the roll is specifically using Etiquette (Courtesy), you add your Willpower in kept dice instead.</Description></Tech>
+      <Tech name="Intrepid Negotiator" rank="4" id="intrepid_negotiator"><Description>Where the standard Yoritomo training focuses on browbeating foes, the Emissary learns to leaven this aggression with the calm patience of the Earth, outlasting opponents’ anger and thus finding peaceful solutions to potentially violent confrontations. When making an Etiquette or Sincerity roll, you may spend a Void Point to add your Willpower in unkept dice to the roll. If the roll is specifically using Etiquette (Courtesy), you add your Willpower in kept dice instead.</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
