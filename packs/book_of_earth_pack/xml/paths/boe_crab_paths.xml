@@ -8,16 +8,7 @@
       <Tag>crab_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Deny the Horde" rank="4" id="crab_deny_the_horde"><Description>The Slayer technique utilizes the masakari to deliver a 
-terrifying barrage of precise and lethal blows on the foe, 
-using it equally well in either hand. You suffer no penalties 
-for using a masakari in your off-hand (although you still 
-suffer normal penalties for wielding two weapons). You 
-may attack as a Simple Action with a masakari. When 
-using a masakari in the Full Attack Stance against any foe, 
-or in the Attack Stance against a Shadowlands creature or 
-a foe you know to be Tainted, you gain an additional +3k0 
-bonus to your damage rolls.</Description></Tech>
+      <Tech name="Deny the Horde" rank="4" id="crab_deny_the_horde"><Description>The Slayer technique utilizes the masakari to deliver a terrifying barrage of precise and lethal blows on the foe, using it equally well in either hand. You suffer no penalties for using a masakari in your off-hand (although you still suffer normal penalties for wielding two weapons). You may attack as a Simple Action with a masakari. When using a masakari in the Full Attack Stance against any foe, or in the Attack Stance against a Shadowlands creature or a foe you know to be Tainted, you gain an additional +3k0 bonus to your damage rolls.</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
@@ -38,13 +29,7 @@ bonus to your damage rolls.</Description></Tech>
     </Tags>
     <Techs>
       <Tech name="Way of Sumai" rank="2" id="way_of_sumai"><Description>While most Rokugani treat Sumai wrestling as a sport, the Crab have never forgotten that it originated as a combat art. When rolling to control a Grapple, you gain a +1k0 bonus (+2k0 if you are Large). If you choose to inflict damage in a Grapple (e.g. the “hit” option), you gain a +1k1 bonus to the Damage Roll. 
-Special: Enrolling in this Path automatically 
-allows your character to get rid of the Small 
-Disadvantage at no point cost. If you are not 
-Small, you automatically gain Large at no point 
-cost. If you are already Large, you are refunded the 
-point cost of the 
-Advantage.</Description></Tech>
+Special: Enrolling in this Path automatically allows your character to get rid of the Small Disadvantage at no point cost. If you are not Small, you automatically gain Large at no point cost. If you are already Large, you are refunded the point cost of the Advantage.</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
@@ -84,9 +69,7 @@ Advantage.</Description></Tech>
       <Tag>crab_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Strike of Purity" rank="2" id="strike_of_purity"><Description>The Crystal Masters learn how to awaken the spiritual power of crystal and use it to strengthen their spells. When you learn this technique, one piece of crystal which you 
-possess becomes awakened and is then used to empower your spells with the essence of crystal. (If this piece of crystal is lost or destroyed, you cannot use this Technique 
-until you acquire another one – it is the GM’s discretion how much time and effort this will require.)When casting a Fire or Earth spell that inflicts damage (e.g. Jade Strike, Fury of Osano-Wo, etc) you may spend a Void Point to channel the spell through your awakened crystal and infuse the spell with the essence of crystal. This adds one additional Complex Action to the casting time of the spell. The spell does an additional +1k1 damage and is now considered to be Crystal for the purpose of what foes can be damaged by it, whether it can penetrate Invulnerability or Creature Reduction, and so forth.
+      <Tech name="Strike of Purity" rank="2" id="strike_of_purity"><Description>The Crystal Masters learn how to awaken the spiritual power of crystal and use it to strengthen their spells. When you learn this technique, one piece of crystal which you possess becomes awakened and is then used to empower your spells with the essence of crystal. (If this piece of crystal is lost or destroyed, you cannot use this Technique until you acquire another one – it is the GM’s discretion how much time and effort this will require.)When casting a Fire or Earth spell that inflicts damage (e.g. Jade Strike, Fury of Osano-Wo, etc) you may spend a Void Point to channel the spell through your awakened crystal and infuse the spell with the essence of crystal. This adds one additional Complex Action to the casting time of the spell. The spell does an additional +1k1 damage and is now considered to be Crystal for the purpose of what foes can be damaged by it, whether it can penetrate Invulnerability or Creature Reduction, and so forth.
 Special: Must possess a piece of pure crystal. Player must have approval from GM to become a Crystal Master.</Description></Tech>
     </Techs>
     <Skills />
@@ -106,9 +89,7 @@ Special: Must possess a piece of pure crystal. Player must have approval from GM
       <Tag>crab_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Do Me A Favor" rank="4" id="do_me_a_favor"><Description>The Extortionists specialize in rooting out the financial weaknesses of potential customers and then pressuring them into calling on Yasuki assistance. If you have supplied 
-something your target needs, whether money or material goods (this could be achieved through role-play and/or by using the Yasuki Rank 1 and Rank 3 Techniques), you may make a Contested Social Roll of your Intimidation (Control) / Willpower against their Etiquette (Courtesy) / Willpower. With a success, they find the arrangement has left them deeply in debt to you. You may either inflict an Obligation on that person (if the GM judges they have the ability to pay you back) or a Blackmail on them (if the GM judges they cannot pay you back). The default point value of the Disadvantage in either case is 3, but the GM may 
-modify this if circumstances make it appropriate</Description></Tech>
+      <Tech name="Do Me A Favor" rank="4" id="do_me_a_favor"><Description>The Extortionists specialize in rooting out the financial weaknesses of potential customers and then pressuring them into calling on Yasuki assistance. If you have supplied something your target needs, whether money or material goods (this could be achieved through role-play and/or by using the Yasuki Rank 1 and Rank 3 Techniques), you may make a Contested Social Roll of your Intimidation (Control) / Willpower against their Etiquette (Courtesy) / Willpower. With a success, they find the arrangement has left them deeply in debt to you. You may either inflict an Obligation on that person (if the GM judges they have the ability to pay you back) or a Blackmail on them (if the GM judges they cannot pay you back). The default point value of the Disadvantage in either case is 3, but the GM may modify this if circumstances make it appropriate</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
@@ -131,11 +112,7 @@ modify this if circumstances make it appropriate</Description></Tech>
     <Techs>
       <Tech name="Strength of Bamboo" rank="4" id="strength_of_bamboo"><Description>The former warriors of the Severed Hand have learned to rely on the indomitable strength of Earth to resist the tricks, temptations, and blandishments of enemy courtiers. 
 When rolling to resist an opponent’s Social Skill or Courtier Technique, you may use Willpower as your Trait instead of the Trait normally used. In cases where this Technique clashes with another (such as the Bayushi Rank 4 Technique), the GM has discretion as to which Technique trumps the other.
-Special: Your character must be reassigned to 
-the courts due to a physical inability to continue 
-serving the clan in war, e.g. a debilitating injury 
-(GM’s discretion, but obvious examples include 
-Missing Limb and Lame).</Description></Tech>
+Special: Your character must be reassigned to the courts due to a physical inability to continue serving the clan in war, e.g. a debilitating injury (GM’s discretion, but obvious examples include Missing Limb and Lame).</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
