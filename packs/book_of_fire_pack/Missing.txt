@@ -1,6 +1,8 @@
 MISSING: 4 Kata
-Crane Asahina Fire Sculptors
 Mantis College of Clarity
 some special weapons (nemuranai, etc.) and rules
 
 SPECIAL RULE: Hitsu-do reduces Mastery cost of Fire Kiho
+
+Update needed:
+Crane Asahina Fire Sculptors - Ronin shugenkja school IDs (N/A due to Enemies of the Empire pack lacking them)
