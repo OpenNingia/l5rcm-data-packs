@@ -8,8 +8,7 @@
       <Tag>crane_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Way of the Iron Crane" rank="4" id="crane_way_of_the_iron_crane"><Description>The Heavy Regulars use their experience serving alongside the Crab on the Kaiu Wall to inform their own training in heavy weapons, enhancing their defensive position against enemy attacks and striking back hard 
-against charging foes. When wielding a heavy weapon in the Attack stance, you may add +1k1 to your attack rolls against any opponent who is in the Attack or Full Attack Stances. When wielding a heavy weapon in the Defense or Full Defense stances, you may add your Heavy Weapons Skill Rank to your Armor TN.</Description></Tech>
+      <Tech name="Way of the Iron Crane" rank="4" id="crane_way_of_the_iron_crane"><Description>The Heavy Regulars use their experience serving alongside the Crab on the Kaiu Wall to inform their own training in heavy weapons, enhancing their defensive position against enemy attacks and striking back hard against charging foes. When wielding a heavy weapon in the Attack stance, you may add +1k1 to your attack rolls against any opponent who is in the Attack or Full Attack Stances. When wielding a heavy weapon in the Defense or Full Defense stances, you may add your Heavy Weapons Skill Rank to your Armor TN.</Description></Tech>
     </Techs>
     <Skills />
     <Spells />
