@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <School clanid="Crane" name="Asahina Fire Sculptor" id="asahina_fire_sculptor">
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>crane_shugenja</Tag>
+      <Tag>artisan</Tag>
+      <Tag>alternate</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Inner Shape of Fire" rank="2" id="the_inner_shape_of_fire"><Description>An Asahina Fire Sculptor is capable of creating beautiful but fleeting shapes rendered in fire, heat, light, or smoke. You may expend a Fire spell slot and make an Artisan (Sculpture) / Fire roll (base TN is 20, adjusted by the GM depending on the complexity of the sculpture being created). The sculpture will last a number of minutes equal to your Fire Ring, but requires full concentration during that time (i.e. you may do nothing except Free Actions). The sculpture vanishes instantly when the time elapses or you cease concentrating. The GM should award suitable Glory for a successful Fire sculpture “performance.”
+        Special: A GM who wishes to represent the greater degree of control a Fire Sculptor has over the Element of Fire may opt to allow a Fire Sculptor to gain one Free Raise on a Fire spell once per day.</Description></Tech>
+    </Techs>
+    <Skills />
+    <Spells />
+    <Requirements>
+      <Requirement field="fire" type="ring" min="3">Fire 3</Requirement>
+      <Requirement field="artisan" trg="sculpture" type="skill" min="2">Artisan (Sculpture) 2</Requirement>
+      <RequirementOption text="Replaces Any Shugenja 2">
+        <Requirement field="bat_komori_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="crane_asahina_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="crab_kuni_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="dragon_tamori_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="dragonfly_tonbo_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="fox_kitsune_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="imperial_seppun_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="lion_kitsu_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="mantis_moshi_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="mantis_kitsune_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="phoenix_isawa_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="phoenix_agasha_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="scorpion_soshi_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="snake_chuda_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="spider_chuda_shugenja_school" type="school" min="1" max="1" />
+        <Requirement field="unicorn_iuchi_shugenja_school" type="school" min="1" max="1" />
+      </RequirementOption>
+    </Requirements>
+  </School>
+</L5RCM>

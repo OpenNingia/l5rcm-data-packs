@@ -8,8 +8,7 @@
       <Tag>unicorn_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Way of the Ujik-Hai" rank="2" id="way_of_the_ujikhai"><Description>A bariqu wrestler relies on his use of unconventional 
-locks, holds, and maneuvers to defeat his foes, rather than just on raw strength. If your opponent in a Grapple does not have the Bariqu Emphasis of Jiujutsu, you gain a bonus of +1k1 when rolling to control the Grapple. If you have a higher Agility Rank than your opponent in a Grapple, you gain a +2k0 bonus when rolling to control the Grapple. These bonuses stack with each other.</Description></Tech>
+      <Tech name="Way of the Ujik-Hai" rank="2" id="way_of_the_ujikhai"><Description>A bariqu wrestler relies on his use of unconventional locks, holds, and maneuvers to defeat his foes, rather than just on raw strength. If your opponent in a Grapple does not have the Bariqu Emphasis of Jiujutsu, you gain a bonus of +1k1 when rolling to control the Grapple. If you have a higher Agility Rank than your opponent in a Grapple, you gain a +2k0 bonus when rolling to control the Grapple. These bonuses stack with each other.</Description></Tech>
     </Techs>
     <Skills />
     <Spells />

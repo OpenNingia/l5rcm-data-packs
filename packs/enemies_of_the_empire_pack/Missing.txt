@@ -1,0 +1,24 @@
+Rank 1
+Dutiful Disciple (Shugenja) - Enemies of the Empire       205
+Ronin Order (Shugenja) - Enemies of the Empire            205
+Self Taught Shugenja (Shugenja) - Enemies of the Empire   205
+Rank 2
+Claws of the Wolf (Bushi) - Enemies of the Empire         200
+East Wind (Bushi) - Enemies of the Empire                 200
+Eyes of Nanashi (Bushi) - Enemies of the Empire           200
+Moonless Riders (Bushi) - Enemies of the Empire           201
+Silent Blades (Bushi) - Enemies of the Empire             201
+Rank 3
+Broken Guard (Bushi) - Enemies of the Empire              201
+Hidden Sword (Bushi) - Enemies of the Empire              202
+Machi-Kanshisha (Bushi) - Enemies of the Empire           202
+Serpents of Sanada (Bushi) - Enemies of the Empire        202
+Snow Riders (Bushi) - Enemies of the Empire               203
+Rank 4
+Seven Waves Mercenaries (Bushi) - Enemies of the Empire   203
+Sword of Yotsu (Bushi) - Enemies of the Empire            202
+Weavers (Bushi) - Enemies of the Empire                   202
+Rank 5
+Iron Gauntlet Brotherhood (Bushi) - Enemies of the Empire 204
+Shadowed Steel (Bushi) - Enemies of the Empire            204
+Wolf Legion (Bushi) - Enemies of the Empire               204
