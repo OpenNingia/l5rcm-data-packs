@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<L5RCM>
-    <Flaw id="uncentered" name="Uncentered" type="spiritual">
-        <Rank id="1" value="2">
-            <Exception tag="brotherhood" value="4"/>
-        </Rank>
-    </Flaw>
-</L5RCM>
