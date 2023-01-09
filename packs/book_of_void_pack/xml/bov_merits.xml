@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <L5RCM>
-  <Merit id="reincarnated" name="Reincarnated" type="spiritual">
+  <Merit id="reincarnated" name="Reincarnated" type="spiritual" page="191">
     <Rank id="1" value="6">
       <Exception tag="phoenix_monk" value="5"/>
     </Rank>
     <Description>Despite having passed through Meido, you retain some faint recollection of your previous life. You gain +1k0 to any three non-School Skills of your choice (subject to GM’s approval). Any time you spend a Void Point to enhance a roll using one of those Skills, you suffer the effects of the Anachronism disadvantage (from the L5R 4th Edition supplement Imperial Histories, page 241) for 1-10 hours. In addition, you will occasionally have dreams or vague memories from your previous life, which may or may not become relevant to your current existence. Note: GMs who allow Naga characters may also opt to make this Advantage available to Naga to represent the ancestral memories of the Akasha. If used in this way, it costs 7 points and does not impose the Anachronism penalty.</Description>
   </Merit>
-  <Merit id="watanu_trained" name="Watanu-Trained" type="mental">
+  <Merit id="watanu_trained" name="Watanu-Trained" type="mental" page="195">
     <Rank id="1" value="1"/>
     <Description>The Watanu ronin of Iron Heart Village are well known throughout the region for their superior skills in smithing. Select one Craft Skill related to the creation of metallic goods (not weapons or armor). When making Skill Rolls to create such items, you gain a bonus of +1k1.</Description>
   </Merit>
-  <Merit id="iron_heart_native" name="Iron Heart Native" type="physical">
+  <Merit id="iron_heart_native" name="Iron Heart Native" type="physical" page="195">
     <Rank id="1" value="2"/>
     <Description>Your ancestors are from the region near Iron Heart Village, and the traits common to that region remain manifest in you. You gain a bonus of +1k0 to any Stamina Trait Roll or to any non-damage roll using the Strength Trait (including rolls to control Grapples).</Description>
   </Merit>
-  <Merit id="laughing_plains_native" name="Laughing Plains Native" type="mental">
+  <Merit id="laughing_plains_native" name="Laughing Plains Native" type="mental" page="195">
     <Rank id="1" value="2"/>
     <Description>You possess the traits indigenous to the people of Laughing Plains Village, from whence some distant ancestor of yours originated. Your dour and bleakly stoic outlook on life grants you a bonus of +5 when rolling to resist any Fear effect.</Description>
   </Merit>
-  <Merit id="sacred_forest_native" name="Sacred Forest Native" type="mental">
+  <Merit id="sacred_forest_native" name="Sacred Forest Native" type="mental" page="195">
     <Rank id="1" value="2"/>
     <Description>The spiritual folk of Sacred Forest Village consider you one of their own due to the nature of your ancestry, which includes someone from that region. You gain +1k0 to rolls with Lore: Theology and Lore: Spirit Realms.</Description>
   </Merit>
