@@ -4,5 +4,6 @@
         <Rank id="1" value="2">
             <Exception tag="brotherhood" value="4"/>
         </Rank>
+        <Description>Whether it is due to poor teaching, a lack of understanding on your part, or simply an absence of true harmony within your soul, you are incapable of mastering the deepest mysteries of the Void. You may not learn any Void Kiho and you cannot take the Ishiken-do or the Void Versatility Advantages.</Description>
     </Flaw>
 </L5RCM>
