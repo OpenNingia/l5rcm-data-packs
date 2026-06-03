@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <School clanid="crab" name="Crab Knife-Fighters (Hiruma)" id="crab_knife_fighters">
+  <School clanid="crab" name="Crab Knife-Fighters (Hiruma)" id="crab_knife_fighters_hiruma">
     <Tags>
       <Tag>bushi</Tag>
       <Tag>crab_bushi</Tag>
@@ -20,7 +20,7 @@
       </RequirementOption>
     </Requirements>
   </School>
-  <School clanid="crab" name="Crab Knife-Fighters (Hida)" id="crab_knife_fighters">
+  <School clanid="crab" name="Crab Knife-Fighters (Hida)" id="crab_knife_fighters_hida">
     <Tags>
       <Tag>bushi</Tag>
       <Tag>crab_bushi</Tag>

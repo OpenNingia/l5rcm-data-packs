@@ -10,8 +10,8 @@
       <Tag>atemi</Tag>
     </Tags>
   </KihoDef>
-  <KihoDef mastery="4" element="fire" type="mystical " id="sever_the_dark_lords_touch" name="Sever the Dark Lord's Touch">
-    <Description>A mind at one with the universe can perceive and affect the bonds that tie the physical world to the world of the spirit, even when the world in question is as insidious and despicable as the Realm of Evil. While this Kiho is active, a successful atemi strike against an unintelligent undead creature results in a Contested Roll, pitting your Fire against the undead 's Shadowlands Taint. If you are successful, the undead is instantly destroyed, its connection to Jigoku severed.</Description>
+  <KihoDef mastery="4" element="fire" type="mystical " id="sever_the_dark_lords_touch_kuni" name="Sever the Dark Lord's Touch">
+    <Description>A mind at one with the universe can perceive and affect the bonds that tie the physical world to the world of the spirit, even when the world in question is as insidious and despicable as the Realm of Evil. While this Kiho is active, a successful atemi strike against an unintelligent undead creature results in a Contested Roll, pitting your Fire against the undead 's Shadowlands Taint. If you are successful, the undead is instantly destroyed, its connection to Jigoku severed. (Kuni)</Description>
     <Tags>
       <Tag>atemi</Tag>
     </Tags>

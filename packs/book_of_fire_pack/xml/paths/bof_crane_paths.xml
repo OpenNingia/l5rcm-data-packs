@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-  <School clanid="Crane" name="Asahina Fire Sculptor" id="asahina_fire_sculptor">
+  <School clanid="crane" name="Asahina Fire Sculptor" id="asahina_fire_sculptor">
     <Tags>
       <Tag>shugenja</Tag>
       <Tag>crane_shugenja</Tag>
