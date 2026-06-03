@@ -1,257 +1,50 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
-    tags: [ v* ]
+    tags: [ 'v*' ]
   pull_request:
     branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  lint:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Install dependencies
-        run: |
-          sudo apt-get install -y jq
-      
-      - name: Core pack
-        id: core_pack
-        run: |
-          ./scripts/make_pack_ci.sh core_pack
-        
-      - name: Book of air
-        id: book_of_air
-        run: ./scripts/make_pack_ci.sh book_of_air_pack
+        run: pip install lxml
+      - name: Lint all packs
+        run: python scripts/packlint.py --all
 
-      - name: Book of earth
-        id: book_of_earth
-        run: ./scripts/make_pack_ci.sh book_of_earth_pack
-
-      - name: Book of fire
-        id: book_of_fire
-        run: ./scripts/make_pack_ci.sh book_of_fire_pack
-        
-      - name: Book of water
-        id: book_of_water
-        run: ./scripts/make_pack_ci.sh book_of_water_pack
-                       
-      - name: Book of void
-        id: book_of_void
-        run: ./scripts/make_pack_ci.sh book_of_void_pack
-
-      - name: Community
-        id: community
-        run: ./scripts/make_pack_ci.sh community_data_pack
-
-      - name: Emerald empire
-        id: emerald_empire
-        run: ./scripts/make_pack_ci.sh emerald_empire_pack
-
-      - name: Great clans
-        id: great_clans
-        run: ./scripts/make_pack_ci.sh great_clan_pack
-
-      - name: Imperial histories
-        id: imperial_histories
-        run: ./scripts/make_pack_ci.sh imperial_histories_pack
-
-      - name: LBS
-        id: lbs
-        run: ./scripts/make_pack_ci.sh lbs_pack
-
-      - name: Strongholds
-        id: strongholds
-        run: ./scripts/make_pack_ci.sh strongholds_pack
-
-      - name: Enemies of the Empire
-        id: enemies_of_the_empire
-        run: ./scripts/make_pack_ci.sh enemies_of_the_empire_pack
-        
-      - name: Create Release
-        if: contains(github.ref, 'refs/tags/')
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+  build:
+    needs: lint
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # needed to create the draft release on tags
+    steps:
+      - uses: actions/checkout@v4
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this Release
-            - First Change
-            - Second Change
+          submodules: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install lxml
+      - name: Build all packs (deterministic) and validate they install
+        run: python scripts/packbuild.py --all --out-dir dist --validate
+
+      - name: Create draft release and upload packs
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
           draft: true
-          prerelease: false
-          
-      - name: Upload Core Pack      
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-core_pack 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.core_pack.outputs.asset_path }}
-          asset_name: ${{ steps.core_pack.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Book of Air     
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-book_of_air
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.book_of_air.outputs.asset_path }}
-          asset_name: ${{ steps.book_of_air.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Book of Earth     
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-book_of_earth
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.book_of_earth.outputs.asset_path }}
-          asset_name: ${{ steps.book_of_earth.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Book of Fire
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-book_of_fire
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.book_of_fire.outputs.asset_path }}
-          asset_name: ${{ steps.book_of_fire.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Book of Water
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-book_of_water 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.book_of_water.outputs.asset_path }}
-          asset_name: ${{ steps.book_of_water.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Book of Void
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-book_of_void
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.book_of_void.outputs.asset_path }}
-          asset_name: ${{ steps.book_of_void.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Community Pack
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-community
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.community.outputs.asset_path }}
-          asset_name: ${{ steps.community.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Emerald empire
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-emerald_empire
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.emerald_empire.outputs.asset_path }}
-          asset_name: ${{ steps.emerald_empire.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Great Clans
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-great_clans
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.great_clans.outputs.asset_path }}
-          asset_name: ${{ steps.great_clans.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Imperial histories
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-imperial_histories
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.imperial_histories.outputs.asset_path }}
-          asset_name: ${{ steps.imperial_histories.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Legend of the burning sands
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-lbs
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.lbs.outputs.asset_path }}
-          asset_name: ${{ steps.lbs.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Strongholds
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-strongholds
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.strongholds.outputs.asset_path }}
-          asset_name: ${{ steps.strongholds.outputs.asset_name }}
-          asset_content_type: application/zip
-
-      - name: Upload Enemies of the Empire
-        if: contains(github.ref, 'refs/tags/')
-        id: upload-enemies_of_the_empire
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.enemies_of_the_empire.outputs.asset_path }}
-          asset_name: ${{ steps.enemies_of_the_empire.outputs.asset_name }}
-          asset_content_type: application/zip
-
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          files: dist/*.l5rcmpack

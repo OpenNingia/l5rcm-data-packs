@@ -1,2 +1,4 @@
 *.l5rcmpack
 *~
+__pycache__/
+dist/
