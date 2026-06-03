@@ -29,7 +29,7 @@
         <Requirement field="*artisan" type="skill" min="4"/>
       </RequirementOption>
       <Requirement field="rpg" type="more">Ally (with at least four different individuals, one of which must be Devotion 4)</Requirement>
-      <Requirement field="honor" min="5" type="trait"/>Honor Rank 5.0 or higher</Requirement>
+      <Requirement field="honor" min="5" type="trait">Honor Rank 5.0 or higher</Requirement>
     </Requirements>
   </School>
 </L5RCM>

@@ -11,7 +11,7 @@
       <Tech name="No Regrets" rank="4" id="crane_no_regrets">
         <Description>
                 Asahina Archers are taught to minimize the influence of their family's traditional pacifism and focus on defeating their enemies swiftly so that wars may be ended equally swiftly. Their technique allows them to call on their own inherent Air, delivering precisely accurate shots. When making an archery attack, you may make Called Shots for one less Raise (to a minimum of 1) and add half your Air (rounded down) in unkept dice to your attack rolls.
-                </Description>
+        </Description>
       </Tech>
     </Techs>
     <Skills/>
@@ -27,6 +27,33 @@
       <RequirementOption text="Replaces Daidoji Iron Warrior 4 or Doji Magistrate 4">
         <Requirement field="crane_strike_beneath_the_veil" type="rule"/>
         <Requirement field="crane_breath_of_the_law" type="rule"/>
+      </RequirementOption>
+    </Requirements>
+  </School>
+  <School clanid="crane" name="Daidoji Trading Council" id="crane_daidoji_trading_council">
+    <Tags>
+      <Tag>courtier</Tag>
+      <Tag>crane_courtier</Tag>
+      <Tag>alternate</Tag>
+      <Tag>crane_alternate</Tag>
+    </Tags>
+    <Techs>
+      <Tech name="The Golden Path" rank="3" id="crane_the_golden_path">
+        <Description>
+                The members of the Trading Council are taught to detect virtually any possible opportunity for commercial gain, to exploit markets to their advantage, and to crush mercantile rivals from other clans. Once per month you may wage commercial warfare against a rival merchant by making a Contested Roll of Commerce (Merchant) / Awareness against the rival merchant patron. If you succeed, you inflict a loss on that merchant, a number of koku equal to the amount by which your roll exceeded theirs. If you lose the Contested Roll, you lose half that amount of koku. If the GM allows you to purchase additional Advantages (or Ranks in existing Advantages) after character creation, you may purchase Gentry, Wealthy, and Servants for 1 less Experience Point (to a minimum of 1).
+        </Description>
+      </Tech>
+    </Techs>
+    <Skills/>
+    <Spells/>
+    <Requirements>
+      <Requirement field="commerce" type="skill" trg="Merchant" min="3">Commerce (Merchant): 3</Requirement>
+      <Requirement field="crane" type="tag">Member of Crane Clan</Requirement>
+      <Requirement field="rpg" type="more">Gentry or Wealthy Advantage (may be waived by the GM for an individual who has distinguished himself as a merchant in other ways)</Requirement>
+      <RequirementOption text="Replaces Doji Courtier 3, Doji Magistrate 3, Daidoji Iron Warrior 3, or Daidoji Scout 3 (requires Rank 2 of one of these schools)">
+        <Requirement field="crane_doji_courtier_school" type="school" min="2"/>
+        <Requirement field="crane_daidoji_iron_warriors" type="school" min="2"/>
+        <Requirement field="crane_ob_daidoji_scout_school" type="school" min="2"/>
       </RequirementOption>
     </Requirements>
   </School>

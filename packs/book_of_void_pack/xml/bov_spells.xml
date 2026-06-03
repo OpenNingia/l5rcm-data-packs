@@ -160,7 +160,7 @@
     </MultiElement>
     <Description>This spell is a creation of the Moshi family, and invokes both the fury of Fire and the wrathful aspect of Air to mimic the anger of the Moshi family’s patron Fortune, the Sun itself. When cast, it unleashes a blaze of searing light and a concussive detonation of air directly above the target. All those within the area of effect suffer 5k3 Wounds (3k1 Wounds if they are resistant to heat) and are knocked Prone, Dazed, and considered Blinded; during the Reactions stage of each Round they can attempt to recover from the blindness by rolling Stamina at a TN equal to the caster’s Fire x5 (in addition to the normal roll to recover from Dazed).  This spell is noted for being particularly effective against creatures of the Nothing, which suffer an additional 2k2 damage from its effects.</Description>
   </SpellDef>
-  <SpellDef name="Whispering Flames" area="All Rokugani within 50'" mastery="4" element="multi" range="50'" duration="Concentration" id="cleansing_the_body" page="188"
+  <SpellDef name="Whispering Flames" area="All Rokugani within 50'" mastery="4" element="multi" range="50'" duration="Concentration" id="whispering_flames" page="188">
     <Tags>
       <Tag>illusion</Tag>
       <Tag>Phoenix</Tag>
