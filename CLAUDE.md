@@ -11,7 +11,7 @@ A collection of game-data packs for **L5RCM** (Legend of the Five Rings Characte
 - `packs/<pack_name>/` — one directory per pack. Always contains a `manifest` (JSON) plus XML data, either under a subfolder matching the manifest `id` (e.g. `core_pack/core/`) or under `xml/`. Both layouts are supported by the loader.
 - `scripts/` — Python build/validation tooling.
 - `scripts/dal/` — **git submodule** pointing at [`OpenNingia/l5rcm-data-access`](https://github.com/OpenNingia/l5rcm-data-access) (tag `v1.3.1`). Provides the **`l5rdal`** Python 3 package (the parser the app itself uses) for loading and validating pack content. Run `git submodule update --init` after cloning; the tooling also needs `lxml` (`pip install lxml`).
-- `scripts/packlib.py`, `scripts/packlint.py`, `scripts/packbuild.py` — the linter + deterministic builder. See `CONVENTIONS.md`.
+- `scripts/packlib.py`, `scripts/packlint.py`, `scripts/packbuild.py` — the linter + deterministic builder. See `docs/CONVENTIONS.md`.
 - `contents/*.md` — human-readable summaries of each pack. Historically auto-generated via `l5rdal`'s `report.ContentToMarkDown` (needs `jinja2` + the app's `l5rcm` templates); the build tooling here does **not** regenerate them.
 - `.github/workflows/main.yml` — CI: builds every pack on push to `master`; on tags matching `v*` it creates a draft GitHub Release and uploads each `.l5rcmpack` as an asset.
 
@@ -40,7 +40,7 @@ so the published asset matches the directory the app installs into. Cross-pack
 references are resolved against `core_pack` automatically (`--with-core PATH` to
 override, `--no-core` to skip). The output `.l5rcmpack` files land in `packs/`
 (override with `--out-dir`) and are gitignored. Conventions & severity model:
-see `CONVENTIONS.md`.
+see `docs/CONVENTIONS.md`.
 
 ## Pack architecture
 

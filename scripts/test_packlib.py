@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Unit tests for the stat-modifier validation in packlib (MODIFIERS_SCHEMA.md).
+"""Unit tests for the stat-modifier validation in packlib (docs/MODIFIERS_SCHEMA.md).
 
 Run:  python scripts/test_packlib.py        (or: python -m unittest scripts.test_packlib)
 """

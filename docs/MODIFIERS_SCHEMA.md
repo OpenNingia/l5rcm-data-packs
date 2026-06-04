@@ -8,7 +8,7 @@ Insight, persistent roll bonuses, …) to the records it already defines
 abilities, weapon/armor effects), **without shipping executable code**.
 
 The companion analysis that motivated this schema is
-[`contents/stat_modifiers.md`](contents/stat_modifiers.md) (the full catalog of
+[`contents/stat_modifiers.md`](../contents/stat_modifiers.md) (the full catalog of
 stat-changing effects across all packs).
 
 > **Status:** schema **v1, frozen for authoring**. Runtime + lint enforcement

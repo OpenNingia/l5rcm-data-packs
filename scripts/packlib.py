@@ -124,7 +124,7 @@ SPELL_ELEMENT_EXTRA = {"multi", "all", "none", "void"}
 SKILL_TRAIT_EXTRA = {"varies"}
 
 # --------------------------------------------------------------------------- #
-# Stat-modifier schema (MODIFIERS_SCHEMA.md v1) constants
+# Stat-modifier schema (docs/MODIFIERS_SCHEMA.md v1) constants
 # --------------------------------------------------------------------------- #
 
 MOD_KINDS = {
@@ -170,7 +170,7 @@ MOD_SUBSTITUTABLE = {
     "initiative", "attack_roll", "damage_roll", "trait_roll", "skill_roll",
 }
 
-# Value-DSL facade (see MODIFIERS_SCHEMA.md §9). rings/traits are small and
+# Value-DSL facade (see docs/MODIFIERS_SCHEMA.md §9). rings/traits are small and
 # stable, so we validate their members; skills.* / skill('id') are lenient.
 MOD_RINGS = {"air", "earth", "fire", "water", "void"}
 MOD_TRAITS = {
@@ -182,7 +182,7 @@ MOD_VALUE_ATTR_ROOTS = {"rings", "traits", "skills"}
 MOD_VALUE_FUNCS = {"min", "max", "floor", "ceil", "abs", "round",
                    "skill", "merit_rank", "flaw_rank"}
 
-# requires-predicate facade (see MODIFIERS_SCHEMA.md §10).
+# requires-predicate facade (see docs/MODIFIERS_SCHEMA.md §10).
 MOD_PRED_BARE = {"unarmored", "in_light_armor", "in_heavy_armor"} | MOD_VALUE_BARE
 MOD_PRED_FUNCS = {"wielding", "has_kiho", "has_tattoo"} | MOD_VALUE_FUNCS
 
@@ -792,7 +792,7 @@ def check_references(pack: PackInfo, l5rdal, core_dir: Optional[str]) -> list[Fi
 
 
 # --------------------------------------------------------------------------- #
-# Stat-modifier validation (MODIFIERS_SCHEMA.md)
+# Stat-modifier validation (docs/MODIFIERS_SCHEMA.md)
 # --------------------------------------------------------------------------- #
 
 def _validate_expr(expr: str, params: Iterable[str], predicate: bool = False):

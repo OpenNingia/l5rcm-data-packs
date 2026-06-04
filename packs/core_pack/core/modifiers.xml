@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Stat-modifier definitions for the core pack.
-  Schema: see MODIFIERS_SCHEMA.md at the repo root.
+  Schema: see docs/MODIFIERS_SCHEMA.md.
 
   Every `target` below is a real core record id. This file is a reference
   exercising the v1 schema; the runtime/lint support lands with the matching
@@ -11,7 +11,7 @@
   live in expansion packs (would not resolve against core):
     - <Param>  coupled magnitude  -> book_of_earth: the_power_of_the_mountain
     - <OneOf>  exclusive choice    -> book_of_earth: tattoo_bear
-  See MODIFIERS_SCHEMA.md sections 6-7 for those.
+  See docs/MODIFIERS_SCHEMA.md sections 6-7 for those.
 -->
 <L5RCM>
 
