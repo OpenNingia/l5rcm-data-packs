@@ -76,6 +76,22 @@ routes `id == "core"` to its own data root, so it legitimately differs from the
   LF line endings, no trailing whitespace, spaces (not tabs) for indentation, a
   final newline.
 
+## Stat modifiers (`*_modifiers.xml`)
+
+A pack may ship declarative, stat-changing effects (Armor TN, Reduction,
+Initiative, rings/traits, Honor/Glory/Status, Insight, persistent roll bonuses,
+formula substitutions) that attach to its existing records (techniques, kata,
+kiho, tattoo, merits, flaws, ancestors, paths, mastery abilities, weapon/armor
+effects) by `id`. The schema (`<ModifierDef>` and friends) is specified in
+[`MODIFIERS_SCHEMA.md`](MODIFIERS_SCHEMA.md); `packs/core_pack/core/modifiers.xml`
+is the reference example.
+
+**Status:** schema frozen for authoring; `ModifierDef` is **not yet** in the
+recognised-elements list above because runtime + lint enforcement land with the
+matching `l5rdal` release. Until then the loader ignores a `*_modifiers.xml`
+file harmlessly (unknown top-level element), so authoring one early is
+forward-compatible but inert — a pack relying on it MUST bump `min-cm-version`.
+
 ## Package hygiene
 
 A pack ships only its `manifest` and `.xml` files. VCS/OS/editor junk

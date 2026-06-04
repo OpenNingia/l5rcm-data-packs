@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Stat-modifier definitions for the core pack.
+  Schema: see MODIFIERS_SCHEMA.md at the repo root.
+
+  Every `target` below is a real core record id. This file is a reference
+  exercising the v1 schema; the runtime/lint support lands with the matching
+  l5rdal release (until then the loader ignores this file harmlessly).
+
+  Cross-pack constructs not represented here because their canonical examples
+  live in expansion packs (would not resolve against core):
+    - <Param>  coupled magnitude  -> book_of_earth: the_power_of_the_mountain
+    - <OneOf>  exclusive choice    -> book_of_earth: tattoo_bear
+  See MODIFIERS_SCHEMA.md sections 6-7 for those.
+-->
+<L5RCM>
+
+  <!-- B: scalar = function of a trait. Always on (passive school technique). -->
+  <ModifierDef target="dragon_kitsukis_method" kind="tech">
+    <Mod affects="armor_tn" value="traits.perception"/>
+  </ModifierDef>
+
+  <!-- B: scalar = a ring. -->
+  <ModifierDef target="crab_the_mountain_does_not_move" kind="tech">
+    <Mod affects="reduction" value="rings.earth"/>
+  </ModifierDef>
+
+  <!-- B: ceil() over Honor rank. -->
+  <ModifierDef target="honor_is_my_shield" kind="path">
+    <Mod affects="reduction" value="ceil(honor / 2)"/>
+  </ModifierDef>
+
+  <!-- B: multi-term expression (Insight + Air). -->
+  <ModifierDef target="soul_of_the_four_winds" kind="kiho">
+    <Mod affects="armor_tn" value="insight_rank + rings.air"/>
+  </ModifierDef>
+
+  <!-- Multi-mod: a passive Initiative bonus + a combat-gated attack bonus
+       whose flat part is an expression. -->
+  <ModifierDef target="crane_the_way_of_the_crane" kind="tech">
+    <Mod affects="initiative" value="2 * skills.iaijutsu"/>
+    <Mod affects="attack_roll" roll="1" keep="1" bonus="school_rank"
+         when="center_stance"/>
+  </ModifierDef>
+
+  <!-- C: combat-state condition -> manual toggle, starts off. -->
+  <ModifierDef target="striking_as_air" kind="kata">
+    <Mod affects="armor_tn" value="rings.air" when="defense_stance"/>
+  </ModifierDef>
+
+  <!-- requires: equipment predicate, auto-applied when wielding the daisho. -->
+  <ModifierDef target="dragon_way_of_the_dragon" kind="tech">
+    <Mod affects="armor_tn" value="school_rank" requires="wielding('daisho')"/>
+  </ModifierDef>
+
+  <!-- detail by category (tag:ranged) + ceil() over a skill rank. -->
+  <ModifierDef target="dragon_heart_of_the_mountain" kind="path">
+    <Mod affects="attack_roll" detail="tag:ranged"
+         bonus="ceil(skills.athletics / 2)"/>
+  </ModifierDef>
+
+  <!-- D: formula substitution (Void replaces Reflexes for Initiative). -->
+  <ModifierDef target="balance_the_elements_style" kind="kata">
+    <Substitute affects="initiative" use="void" instead_of="reflexes"/>
+  </ModifierDef>
+
+  <!-- op=set + ring_rank cascade: Lame caps Water at 1 for movement. The
+       "+10 TN to leg-based Agility rolls" clause is enemy/situational and is
+       left unmodeled, hence partial=true. -->
+  <ModifierDef target="lame" kind="flaw" partial="true">
+    <Mod affects="ring_rank" detail="ring:water" op="set" value="1"/>
+  </ModifierDef>
+
+  <!-- Negative value (sign convention): reduces wound penalties. -->
+  <ModifierDef target="indomitable_warrior_style" kind="kata">
+    <Mod affects="wound_penalty" value="-rings.earth"/>
+  </ModifierDef>
+
+  <!-- partial=true: only the self-side clause (+1k0 attack) is modeled; the
+       "ignore enemy armor TN" clause is enemy-side, out of scope. -->
+  <ModifierDef target="lion_the_way_of_the_lion" kind="tech" partial="true">
+    <Mod affects="attack_roll" roll="1" keep="0"/>
+  </ModifierDef>
+
+</L5RCM>
