@@ -182,8 +182,11 @@ MOD_VALUE_ATTR_ROOTS = {"rings", "traits", "skills"}
 MOD_VALUE_FUNCS = {"min", "max", "floor", "ceil", "abs", "round",
                    "skill", "merit_rank", "flaw_rank"}
 
-# requires-predicate facade (see docs/MODIFIERS_SCHEMA.md §10).
-MOD_PRED_BARE = {"unarmored", "in_light_armor", "in_heavy_armor"} | MOD_VALUE_BARE
+# requires-predicate facade (see docs/MODIFIERS_SCHEMA.md §10). has_kiho /
+# has_tattoo may appear either bare ("not has_kiho" = owns any) or as a call
+# ("has_kiho('slug')" = owns that one), so they are in both sets.
+MOD_PRED_BARE = ({"unarmored", "in_light_armor", "in_heavy_armor",
+                  "has_kiho", "has_tattoo"} | MOD_VALUE_BARE)
 MOD_PRED_FUNCS = {"wielding", "has_kiho", "has_tattoo"} | MOD_VALUE_FUNCS
 
 MOD_PARAM_NAME_RE = re.compile(r"^[a-z][a-z0-9_]*$")
