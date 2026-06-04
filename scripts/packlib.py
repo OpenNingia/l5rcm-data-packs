@@ -45,6 +45,10 @@ RECOGNIZED_TAGS = (
     "Clan", "Family", "School", "SkillDef", "SpellDef", "Merit", "Flaw",
     "SkillCateg", "KataDef", "KihoDef", "PerkCateg", "EffectDef", "Weapon",
     "Armor", "RingDef", "TraitDef",
+    # ModifierDef is recognised by l5rdal >= 1.4.0. The generic structural loop
+    # does nothing for it (no required attrs / id); its schema is validated by
+    # check_modifiers(). Listed here so it is not flagged as an unknown tag.
+    "ModifierDef",
 )
 
 # Attributes that build_from_xml reads via elem.attrib[...] (raise if missing).
@@ -118,6 +122,71 @@ SPELL_ELEMENT_EXTRA = {"multi", "all", "none", "void"}
 # Sentinel skill trait used by "Craft" skills whose trait varies by craft type.
 # It is a deliberate convention in core data, not an unresolved reference.
 SKILL_TRAIT_EXTRA = {"varies"}
+
+# --------------------------------------------------------------------------- #
+# Stat-modifier schema (MODIFIERS_SCHEMA.md v1) constants
+# --------------------------------------------------------------------------- #
+
+MOD_KINDS = {
+    "tech", "kata", "kiho", "tattoo", "merit", "flaw", "ancestor", "path",
+    "mastery", "weapon_effect", "armor",
+}
+
+# affects that carry a roll/keep/bonus triple ...
+MOD_ROLL_AFFECTS = {
+    "any_roll", "skill_roll", "attack_roll", "damage_roll", "trait_roll", "ring_roll",
+}
+# ... and those that carry a single scalar `value`.
+MOD_SCALAR_AFFECTS = {
+    "armor_tn", "reduction", "wound_penalty", "health_rank", "insight",
+    "honor", "glory", "status", "void_max", "trait_rank", "ring_rank",
+    "spell_tn_self",
+}
+# initiative accepts either shape.
+MOD_BOTH_AFFECTS = {"initiative"}
+MOD_ALL_AFFECTS = MOD_ROLL_AFFECTS | MOD_SCALAR_AFFECTS | MOD_BOTH_AFFECTS
+
+MOD_OPS = {"add", "set", "min", "max"}
+
+MOD_WHEN_VOCAB = {
+    "auto",
+    "defense_stance", "full_defense_stance", "attack_stance",
+    "full_attack_stance", "center_stance",
+    "mounted", "vs_lower_initiative", "first_round", "grappling",
+    "maneuver_increased_damage", "maneuver_called_shot", "maneuver_knockdown",
+    "maneuver_feint", "maneuver_disarm",
+}
+
+MOD_DETAIL_PREFIXES = {"skill", "weapon", "trait", "ring", "tag"}
+
+# affects that *require* a `detail` selector (meaningless without a target).
+# skill_roll / attack_roll / damage_roll take an OPTIONAL detail: omitting it
+# means "applies to all skills / attacks / weapons" (a general bonus); a detail
+# only narrows the scope.
+MOD_DETAIL_REQUIRED = {"trait_roll", "ring_roll", "trait_rank", "ring_rank"}
+
+# affects a <Substitute> may target.
+MOD_SUBSTITUTABLE = {
+    "initiative", "attack_roll", "damage_roll", "trait_roll", "skill_roll",
+}
+
+# Value-DSL facade (see MODIFIERS_SCHEMA.md §9). rings/traits are small and
+# stable, so we validate their members; skills.* / skill('id') are lenient.
+MOD_RINGS = {"air", "earth", "fire", "water", "void"}
+MOD_TRAITS = {
+    "agility", "awareness", "intelligence", "perception",
+    "reflexes", "stamina", "strength", "willpower",
+}
+MOD_VALUE_BARE = {"school_rank", "insight_rank", "honor", "glory", "status", "taint"}
+MOD_VALUE_ATTR_ROOTS = {"rings", "traits", "skills"}
+MOD_VALUE_FUNCS = {"min", "max", "floor", "ceil", "abs", "round",
+                   "skill", "merit_rank", "flaw_rank"}
+
+# requires-predicate facade (see MODIFIERS_SCHEMA.md §10).
+MOD_PRED_BARE = {"unarmored", "in_light_armor", "in_heavy_armor"} | MOD_VALUE_BARE
+MOD_PRED_FUNCS = {"wielding", "has_kiho", "has_tattoo"} | MOD_VALUE_FUNCS
+
+MOD_PARAM_NAME_RE = re.compile(r"^[a-z][a-z0-9_]*$")
 
 # --------------------------------------------------------------------------- #
 # Findings
@@ -723,6 +792,302 @@ def check_references(pack: PackInfo, l5rdal, core_dir: Optional[str]) -> list[Fi
 
 
 # --------------------------------------------------------------------------- #
+# Stat-modifier validation (MODIFIERS_SCHEMA.md)
+# --------------------------------------------------------------------------- #
+
+def _validate_expr(expr: str, params: Iterable[str], predicate: bool = False):
+    """Validate a value-DSL expression (or a requires predicate) against the
+    sandbox whitelist. Returns None on success, or a short error string.
+
+    Mirrors what the app's evaluator will accept: arithmetic over a fixed
+    facade, a whitelist of functions, no attribute access outside
+    rings/traits/skills, no dunder, no arbitrary calls.
+    """
+    import ast
+
+    if expr is None or expr.strip() == "":
+        return "empty expression"
+    try:
+        tree = ast.parse(expr, mode="eval")
+    except SyntaxError as exc:
+        return "not parseable ({0})".format(exc.msg)
+
+    bare = (MOD_PRED_BARE if predicate else MOD_VALUE_BARE) | set(params)
+    funcs = MOD_PRED_FUNCS if predicate else MOD_VALUE_FUNCS
+
+    err = []
+
+    def fail(msg):
+        err.append(msg)
+
+    def visit(node):
+        if err:
+            return
+        if isinstance(node, ast.Expression):
+            visit(node.body)
+        elif isinstance(node, ast.BinOp):
+            if not isinstance(node.op, (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.FloorDiv)):
+                fail("operator {0} not allowed".format(type(node.op).__name__))
+            visit(node.left); visit(node.right)
+        elif isinstance(node, ast.UnaryOp):
+            if not isinstance(node.op, (ast.UAdd, ast.USub, ast.Not)):
+                fail("unary {0} not allowed".format(type(node.op).__name__))
+            if isinstance(node.op, ast.Not) and not predicate:
+                fail("'not' is only allowed in requires predicates")
+            visit(node.operand)
+        elif predicate and isinstance(node, ast.BoolOp):
+            for v in node.values:
+                visit(v)
+        elif predicate and isinstance(node, ast.Compare):
+            if any(not isinstance(o, (ast.Eq, ast.NotEq, ast.Lt, ast.LtE, ast.Gt, ast.GtE))
+                   for o in node.ops):
+                fail("comparison operator not allowed")
+            visit(node.left)
+            for c in node.comparators:
+                visit(c)
+        elif isinstance(node, ast.Call):
+            if not isinstance(node.func, ast.Name):
+                fail("only simple function calls are allowed")
+            elif node.func.id not in funcs:
+                fail("unknown function '{0}'".format(node.func.id))
+            if node.keywords:
+                fail("keyword arguments are not allowed")
+            for a in node.args:
+                visit(a)
+        elif isinstance(node, ast.Attribute):
+            base = node.value
+            if not isinstance(base, ast.Name) or base.id not in MOD_VALUE_ATTR_ROOTS:
+                fail("attribute access only on rings/traits/skills")
+            elif base.id == "rings" and node.attr not in MOD_RINGS:
+                fail("unknown ring '{0}'".format(node.attr))
+            elif base.id == "traits" and node.attr not in MOD_TRAITS:
+                fail("unknown trait '{0}'".format(node.attr))
+            # skills.<id> is lenient (skill ids are pack-defined)
+        elif isinstance(node, ast.Name):
+            if node.id not in bare and node.id not in funcs and node.id not in MOD_VALUE_ATTR_ROOTS:
+                fail("unknown name '{0}'".format(node.id))
+        elif isinstance(node, ast.Constant):
+            # numbers, plus string literals (only meaningful as call args, e.g.
+            # skill('kenjutsu'), wielding('daisho')); other literal types are out.
+            if not isinstance(node.value, (int, float, str)):
+                fail("constant of type {0} not allowed".format(type(node.value).__name__))
+        else:
+            fail("syntax element {0} not allowed".format(type(node).__name__))
+
+    visit(tree)
+    return err[0] if err else None
+
+
+def _check_mod_element(pack_name, rel, mod, params, in_oneof=False):
+    """Validate a single <Mod>. Returns (findings, set_targets) where
+    set_targets is the (affects, detail) keys this Mod marks with op=set."""
+    findings = []
+    line = mod.sourceline
+    affects = mod.attrib.get("affects")
+    op = mod.attrib.get("op", "add")
+    when = mod.attrib.get("when", "auto")
+    detail = mod.attrib.get("detail")
+    value = mod.attrib.get("value")
+    roll, keep, bonus = mod.attrib.get("roll"), mod.attrib.get("keep"), mod.attrib.get("bonus")
+    has_triple = any(x is not None for x in (roll, keep, bonus))
+    set_targets = []
+
+    def e(code, msg):
+        findings.append(_err(pack_name, code, msg, rel, line))
+
+    if not affects:
+        e("modifier-missing-affects", "<Mod> missing required attribute 'affects'")
+    elif affects not in MOD_ALL_AFFECTS:
+        e("modifier-bad-affects", "<Mod> unknown affects '{0}'".format(affects))
+
+    if op not in MOD_OPS:
+        e("modifier-bad-op", "<Mod> invalid op '{0}'".format(op))
+    if when not in MOD_WHEN_VOCAB:
+        e("modifier-bad-when", "<Mod> unknown when '{0}'".format(when))
+
+    # value xor roll/keep/bonus
+    if value is not None and has_triple:
+        e("modifier-value-conflict",
+          "<Mod> has both 'value' and roll/keep/bonus (use one)")
+    elif value is None and not has_triple:
+        e("modifier-missing-value",
+          "<Mod affects='{0}'> has neither 'value' nor roll/keep/bonus".format(affects))
+
+    # roll/scalar consistency vs affects
+    if affects in MOD_ROLL_AFFECTS and value is not None:
+        e("modifier-shape", "roll affects '{0}' must use roll/keep/bonus, not value".format(affects))
+    if affects in MOD_SCALAR_AFFECTS and has_triple:
+        e("modifier-shape", "scalar affects '{0}' must use value, not roll/keep/bonus".format(affects))
+
+    # detail
+    if detail is not None:
+        prefix = detail.split(":", 1)[0] if ":" in detail else None
+        if prefix not in MOD_DETAIL_PREFIXES:
+            e("modifier-bad-detail",
+              "<Mod> detail '{0}' must be one of {1} prefixed (e.g. 'skill:kenjutsu')".format(
+                  detail, sorted(MOD_DETAIL_PREFIXES)))
+    elif affects in MOD_DETAIL_REQUIRED:
+        e("modifier-missing-detail",
+          "<Mod affects='{0}'> requires a 'detail' selector".format(affects))
+
+    # expressions
+    for label, ex in (("value", value), ("roll", roll), ("keep", keep), ("bonus", bonus)):
+        if ex is not None:
+            msg = _validate_expr(ex, params)
+            if msg:
+                e("modifier-bad-expr", "<Mod> {0}='{1}': {2}".format(label, ex, msg))
+    if mod.attrib.get("requires"):
+        msg = _validate_expr(mod.attrib["requires"], params, predicate=True)
+        if msg:
+            e("modifier-bad-expr", "<Mod> requires='{0}': {1}".format(mod.attrib["requires"], msg))
+
+    if op == "set" and affects:
+        set_targets.append((affects, detail))
+
+    return findings, set_targets
+
+
+def check_modifiers(pack: PackInfo, l5rdal, core_dir: Optional[str],
+                    with_core: bool) -> list[Finding]:
+    """Validate every <ModifierDef> in the pack (schema + target resolution)."""
+    from lxml import etree
+    findings: list[Finding] = []
+
+    # Build the per-kind id universe from core+pack, when available.
+    universe = None
+    if with_core:
+        dirs = [pack.path]
+        pack_id = pack.id
+        if pack_id and pack_id != "core" and core_dir and os.path.isdir(core_dir):
+            dirs = [core_dir, pack.path]
+        try:
+            ref = l5rdal.Data(dirs, exception=True)
+            tech_ids = {t.id for s in ref.schools for t in getattr(s, "techs", [])}
+            universe = {
+                "tech": tech_ids, "path": tech_ids,
+                "kata": {x.id for x in ref.katas},
+                "kiho": {x.id for x in ref.kihos},
+                "tattoo": {x.id for x in ref.kihos},
+                "merit": {x.id for x in ref.merits},
+                "ancestor": {x.id for x in ref.merits},
+                "flaw": {x.id for x in ref.flaws},
+                "mastery": {x.id for x in ref.skills},
+                "weapon_effect": {x.id for x in ref.weapon_effects},
+                "armor": {a.name for a in ref.armors} | {x.id for x in ref.weapon_effects},
+            }
+        except Exception:
+            universe = None  # resolution skipped, schema checks still run
+
+    for ap, rp in iter_payload_files(pack.path):
+        if rp == "manifest":
+            continue
+        try:
+            root = etree.parse(ap).getroot()
+        except Exception:
+            continue  # well-formedness already reported by check_xml_structure
+        if root is None or root.tag != "L5RCM":
+            continue
+        rel = rel_to_repo(ap)
+
+        for md in root:
+            if md.tag != "ModifierDef":
+                continue
+            line = md.sourceline
+            target = md.attrib.get("target")
+            kind = md.attrib.get("kind")
+
+            def e(code, msg, ln=line):
+                findings.append(_err(pack.name, code, msg, rel, ln))
+
+            if not target:
+                e("modifier-missing-target", "<ModifierDef> missing required attribute 'target'")
+            if not kind:
+                e("modifier-missing-kind", "<ModifierDef> missing required attribute 'kind'")
+            elif kind not in MOD_KINDS:
+                e("modifier-bad-kind", "<ModifierDef> unknown kind '{0}'".format(kind))
+
+            # declared params (names + max expression)
+            params = []
+            for p in md.findall("Param"):
+                name = p.attrib.get("name")
+                if not name or not MOD_PARAM_NAME_RE.match(name):
+                    e("modifier-bad-param-name",
+                      "<Param> name '{0}' must match [a-z][a-z0-9_]*".format(name),
+                      p.sourceline)
+                else:
+                    params.append(name)
+                if p.attrib.get("max") is None:
+                    e("modifier-missing-param-max", "<Param name='{0}'> missing 'max'".format(name),
+                      p.sourceline)
+                else:
+                    msg = _validate_expr(p.attrib["max"], params)
+                    if msg:
+                        e("modifier-bad-expr", "<Param max='{0}'>: {1}".format(p.attrib["max"], msg),
+                          p.sourceline)
+
+            mods = md.findall("Mod")
+            groups = md.findall("OneOf")
+            subs = md.findall("Substitute")
+            if not (mods or groups or subs):
+                e("modifier-empty",
+                  "<ModifierDef target='{0}'> has no <Mod>/<OneOf>/<Substitute>".format(target))
+
+            set_keys = {}
+
+            def record_set(set_targets, ln):
+                for key in set_targets:
+                    if key in set_keys:
+                        findings.append(_err(pack.name, "modifier-set-conflict",
+                                             "two op='set' on affects='{0}' detail='{1}'".format(
+                                                 key[0], key[1]), rel, ln))
+                    else:
+                        set_keys[key] = ln
+
+            for mod in mods:
+                f, st = _check_mod_element(pack.name, rel, mod, params)
+                findings += f
+                record_set(st, mod.sourceline)
+
+            for g in groups:
+                opts = g.findall("Mod")
+                if len(opts) < 2:
+                    findings.append(_warn(pack.name, "modifier-oneof-too-few",
+                                          "<OneOf> should offer at least two <Mod> options",
+                                          rel, g.sourceline))
+                for mod in opts:
+                    f, st = _check_mod_element(pack.name, rel, mod, params, in_oneof=True)
+                    findings += f
+                    record_set(st, mod.sourceline)
+
+            for s in subs:
+                sl = s.sourceline
+                s_aff = s.attrib.get("affects")
+                if not (s_aff and s.attrib.get("use") and s.attrib.get("instead_of")):
+                    e("modifier-sub-missing",
+                      "<Substitute> requires affects/use/instead_of", sl)
+                elif s_aff not in MOD_SUBSTITUTABLE:
+                    e("modifier-sub-bad-affects",
+                      "<Substitute> affects '{0}' is not substitutable".format(s_aff), sl)
+                if s.attrib.get("requires"):
+                    msg = _validate_expr(s.attrib["requires"], params, predicate=True)
+                    if msg:
+                        e("modifier-bad-expr",
+                          "<Substitute> requires='{0}': {1}".format(s.attrib["requires"], msg), sl)
+                if s.attrib.get("when", "auto") not in MOD_WHEN_VOCAB:
+                    e("modifier-bad-when",
+                      "<Substitute> unknown when '{0}'".format(s.attrib.get("when")), sl)
+
+            # target resolution (only when the reference graph is available)
+            if universe is not None and target and kind in universe:
+                if target not in universe[kind]:
+                    e("modifier-target-unresolved",
+                      "<ModifierDef> target '{0}' (kind={1}) not found in core+pack".format(
+                          target, kind))
+
+    return findings
+
+
+# --------------------------------------------------------------------------- #
 # Orchestration: lint one pack
 # --------------------------------------------------------------------------- #
 
@@ -770,6 +1135,11 @@ def lint_pack(pack: PackInfo, core_dir: Optional[str] = DEFAULT_CORE_DIR,
         findings += load_errs
         if not load_errs and with_core:
             findings += check_references(pack, l5rdal, core_dir)
+    # Stat-modifier schema validation is independent of the (older) submodule
+    # DAL: it reads <ModifierDef> directly and resolves targets against the
+    # core+pack record graph. Run it whenever the pack parsed cleanly.
+    if not any_parse_fatal:
+        findings += check_modifiers(pack, l5rdal, core_dir, with_core)
     return findings
 
 

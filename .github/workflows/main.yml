@@ -20,6 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install lxml
+      - name: Test the linter (stat-modifier validation)
+        run: python scripts/test_packlib.py
       - name: Lint all packs
         run: python scripts/packlint.py --all
 

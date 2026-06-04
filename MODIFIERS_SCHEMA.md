@@ -150,14 +150,20 @@ state).
 
 **Roll-typed** (use `roll`/`keep`/`bonus`):
 
-| `affects`     | internal | detail required        |
-|---------------|----------|------------------------|
-| `any_roll`    | `anyr`   | —                      |
-| `skill_roll`  | `skir`   | `skill:` or `tag:`     |
-| `attack_roll` | `atkr`   | `weapon:` or `tag:`    |
-| `damage_roll` | `wdmg`   | `weapon:` or `tag:`    |
-| `trait_roll`  | `trat`   | `trait:`               |
-| `ring_roll`   | `ring`   | `ring:`                |
+| `affects`     | internal | detail                              |
+|---------------|----------|-------------------------------------|
+| `any_roll`    | `anyr`   | —                                   |
+| `skill_roll`  | `skir`   | *optional* `skill:` or `tag:`       |
+| `attack_roll` | `atkr`   | *optional* `weapon:` or `tag:`      |
+| `damage_roll` | `wdmg`   | *optional* `weapon:` or `tag:`      |
+| `trait_roll`  | `trat`   | **required** `trait:`               |
+| `ring_roll`   | `ring`   | **required** `ring:`                |
+
+For `skill_roll`/`attack_roll`/`damage_roll` the `detail` is *optional*:
+omitting it means the modifier applies to **all** skills / attacks / weapons (a
+general bonus, e.g. "+1k0 to all attacks"); a `detail` only narrows the scope.
+`trait_roll`/`ring_roll` (and the `trait_rank`/`ring_rank` scalars) **require**
+a `detail` — they are meaningless without a target.
 
 **Scalar** (use `value`):
 
@@ -301,18 +307,37 @@ false. None of this touches the `.l5r` file.
 
 ---
 
-## 16. Validation (for `packlint.py`)
+## 16. Validation (implemented in `packlint.py`)
+
+`check_modifiers()` in `scripts/packlib.py` reads every `<ModifierDef>` directly
+(independent of the submodule DAL version) and emits these findings. Multiple
+`ModifierDef` sharing a `target` are **allowed** (they stack) — there is no
+duplicate-target check.
 
 Errors (block build):
-- `target` does not resolve in pack + `core`; duplicate `(target, kind)` *set* clash.
-- `kind`/`affects`/`when` outside their enums; `op` invalid.
-- `value` xor `roll/keep/bonus` violated; expression fails to parse or uses an
-  unknown name/function; `detail` selector unresolved or missing where required.
-- `<Param>` referenced but undeclared; two `set` on the same `affects`+`detail`.
+- `modifier-missing-target` / `modifier-missing-kind` / `modifier-bad-kind`.
+- `modifier-empty` — no `<Mod>`/`<OneOf>`/`<Substitute>`.
+- `modifier-bad-affects` / `modifier-bad-op` / `modifier-bad-when`.
+- `modifier-value-conflict` — both `value` and `roll/keep/bonus`;
+  `modifier-missing-value` — neither; `modifier-shape` — wrong shape for the
+  affects (scalar vs roll).
+- `modifier-missing-detail` — `trait_roll`/`ring_roll`/`trait_rank`/`ring_rank`
+  without a `detail`; `modifier-bad-detail` — unrecognised `detail` prefix.
+- `modifier-bad-expr` — a `value`/`roll`/`keep`/`bonus`/`requires`/`max`
+  expression that fails the sandbox whitelist (syntax error, disallowed
+  operator/node, unknown function, attribute access outside rings/traits/skills,
+  unknown ring/trait, or a name/param that is not in the facade). This is what
+  rejects e.g. `__import__('os').system(...)`.
+- `modifier-set-conflict` — two `op="set"` on the same `affects`+`detail`.
+- `modifier-sub-missing` / `modifier-sub-bad-affects` — malformed `<Substitute>`.
+- `modifier-target-unresolved` — `target` not found in the core+pack record
+  graph for its `kind` (only when a reference graph is available;
+  `kind=ancestor`→merits, `kind=path`→school techs, `kind=mastery`→skills, etc.).
 
 Warnings:
+- `modifier-oneof-too-few` — a `<OneOf>` with fewer than two `<Mod>` options.
 - `partial="true"` missing on a record whose catalog row has unmodeled clauses
-  (best-effort cross-check against `contents/*.md`).
+  (best-effort cross-check against `contents/*.md`) — *planned*.
 - XML hygiene (BOM, CRLF, trailing whitespace, tabs, final newline).
 
 ---
