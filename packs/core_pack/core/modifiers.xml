@@ -148,6 +148,38 @@
   </ModifierDef>
 
   <!-- ============================================================ -->
+  <!-- Batch 2: more supported-affect core effects                  -->
+  <!-- ============================================================ -->
+
+  <!-- Quick (merit): +Reflexes Trait to Initiative -->
+  <ModifierDef target="quick" kind="merit">
+    <Mod affects="initiative" value="traits.reflexes"/>
+  </ModifierDef>
+
+  <!-- The Way Of The Scorpion: +1k1 Initiative; +5 Armor TN vs a lower-
+       Initiative opponent -->
+  <ModifierDef target="scorpion_the_way_of_the_scorpion" kind="tech">
+    <Mod affects="initiative" roll="1" keep="1"/>
+    <Mod affects="armor_tn" value="5" when="vs_lower_initiative"/>
+  </ModifierDef>
+
+  <!-- Speed Of Lightning (Kakita): +2k0 attack vs a lower-Initiative opponent -->
+  <ModifierDef target="crane_speed_of_lightning" kind="tech">
+    <Mod affects="attack_roll" roll="2" keep="0" when="vs_lower_initiative"/>
+  </ModifierDef>
+
+  <!-- Striking as Fire: +Fire Ring to one attack roll (Full Attack Stance) -->
+  <ModifierDef target="striking_as_fire" kind="kata">
+    <Mod affects="attack_roll" roll="rings.fire" keep="0" when="full_attack_stance"/>
+  </ModifierDef>
+
+  <!-- Hummingbird Wings (Hiruma Bushi): +2x School Rank Armor TN for one
+       attack (activated when targeted) -->
+  <ModifierDef target="crab_hummingbird_wings" kind="tech">
+    <Mod affects="armor_tn" value="2 * school_rank" when="activated"/>
+  </ModifierDef>
+
+  <!-- ============================================================ -->
   <!-- Deferred constructs: validated by packlint, skipped by the    -->
   <!-- runtime until the matching support lands (see the schema).    -->
   <!-- ============================================================ -->
