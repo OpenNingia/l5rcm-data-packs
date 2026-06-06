@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <SpellDef name="Fire Kami's Blessing" area="One target creature (may be caster)" mastery="1" element="fire" range="Touch" duration="1 hour" id="fire_kamis_blessing" page="185">
     <Tags />

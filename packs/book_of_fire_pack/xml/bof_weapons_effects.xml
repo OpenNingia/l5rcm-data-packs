@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <EffectDef id="no_dr_explosion">Damage dice cannot explode</EffectDef>
   <EffectDef id="blade_of_secrets">Raises do not increase the TN but still grant effect. Each time the wielder does this, the sword drains a Void Point. If the wielder has no Void Points left, the sword instead drains a Rank of Earth instead, eventually resulting in death if the wielder continues. The wielder will not realize the drain until he begins to feel a physical effect.

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <KataDef mastery="3" element="earth" id="the_power_of_the_mountain" name="The Power of the Mountain">
     <Description>When this Kata is activated, you reduce your Armor TN by an amount up to your Earth Ring; this lasts until you deactivate the Kata. All damage rolls you make while this Kata is in effect have their totals increased by the same amount.</Description>

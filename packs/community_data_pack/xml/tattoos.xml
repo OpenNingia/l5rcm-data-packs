@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <L5RCM>
     <KihoDef type="tattoo" id="tattoo_arrowroot" name="Arrowroot">
         <Description>by invoking the power of this potent healing herb, the tatooed man can heal himself or another character you touch a number of wounds equal to your school rank X 10.When used upon another person, the tattoo however caused the monk himself to bleed, essentially transferring the damage from that person to the monk. This damage could only be healed by resting over time.</Description>
@@ -104,6 +104,6 @@
         <Description>this tattoo is only given to Ize-zumi and a few Tsurai-zumi. When this tattoo is activated, you recover school rank wounds per round during the reaction stage of the round. When this tattoo is active, he doesn't prevent the use of another tattoo.</Description>
     </KihoDef>
     <KihoDef type="tattoo" id="tattoo_torii" name="Torii">
-	<Description>this tattoo is active at all times and do not prevent the use of other tattoos. The TN of your opponent’s assessment roll during duels is increased by your school rank x 5</Description>
+  <Description>this tattoo is active at all times and do not prevent the use of other tattoos. The TN of your opponent’s assessment roll during duels is increased by your school rank x 5</Description>
     </KihoDef>
-</L5RCM>  
+</L5RCM>

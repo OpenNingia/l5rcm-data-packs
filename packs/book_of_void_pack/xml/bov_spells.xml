@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <SpellDef area="self" duration="1 round per question (must maintain concentration)" element="void" id="commune_with_the_void" mastery="2" name="Commune with the Void" range="n/a" page="189">
     <Tags/>

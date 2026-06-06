@@ -50,8 +50,8 @@ technique for the remainder of this skirmish.
       <Requirement field="meditation" type="skill" min="6">Meditation: 6</Requirement>
       <Requirement field="dragon" type="tag">Be a member of Dragon clan</Requirement>
       <Requirement field="rpg" type="more">
-	  You must be chosen or taught by another Master Sensei and cannot be Brash or Proud.
-	  </Requirement>
+    You must be chosen or taught by another Master Sensei and cannot be Brash or Proud.
+    </Requirement>
     </Requirements>
   </School>
 </L5RCM>

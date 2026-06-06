@@ -73,7 +73,7 @@ Action instead.
       <Requirement field="agility" type="trait" min="5">Agility: 5</Requirement>
       <Requirement field="strength" type="trait" min="4">Strength: 4</Requirement>
       <Requirement field="*weapon" type="skill" min="5">Any Weapon Skill at Rank 5</Requirement>
-      
+
     </Requirements>
   </School>
 </L5RCM>

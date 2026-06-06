@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <KataDef mastery="3" element="air" id="breath_of_wind_style" name="Breath of Wind Style" page="259">
     <Description>Your initiative Score increases by 2 during the Reactions Stage of each Combat Round. This effect stacks but disappears immediately if the kata is no longer in effect</Description>

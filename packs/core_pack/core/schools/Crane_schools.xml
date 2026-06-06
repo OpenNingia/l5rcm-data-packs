@@ -231,8 +231,8 @@ The Kenshinzen's will to defeat his enemy exudes out of him, paralyzing his enem
       <Requirement field="meditation" min="5" type="skill">Meditation: 5</Requirement>
       <Requirement field="crane" type="tag">Be a member of Crane clan</Requirement>
       <Requirement field="rpg" type="more">
-	  You must defeat a current member of the Kenshinzen in a legal Iaijutsu duel
-	  </Requirement>
+    You must defeat a current member of the Kenshinzen in a legal Iaijutsu duel
+    </Requirement>
     </Requirements>
   </School>
 </L5RCM>

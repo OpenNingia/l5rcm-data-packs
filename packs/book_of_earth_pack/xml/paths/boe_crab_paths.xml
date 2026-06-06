@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <School clanid="crab" name="Hiruma Slayers" id="hiruma_slayers">
     <Tags>
@@ -28,7 +28,7 @@
       <Tag>crab_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Way of Sumai" rank="2" id="way_of_sumai"><Description>While most Rokugani treat Sumai wrestling as a sport, the Crab have never forgotten that it originated as a combat art. When rolling to control a Grapple, you gain a +1k0 bonus (+2k0 if you are Large). If you choose to inflict damage in a Grapple (e.g. the “hit” option), you gain a +1k1 bonus to the Damage Roll. 
+      <Tech name="Way of Sumai" rank="2" id="way_of_sumai"><Description>While most Rokugani treat Sumai wrestling as a sport, the Crab have never forgotten that it originated as a combat art. When rolling to control a Grapple, you gain a +1k0 bonus (+2k0 if you are Large). If you choose to inflict damage in a Grapple (e.g. the “hit” option), you gain a +1k1 bonus to the Damage Roll.
 Special: Enrolling in this Path automatically allows your character to get rid of the Small Disadvantage at no point cost. If you are not Small, you automatically gain Large at no point cost. If you are already Large, you are refunded the point cost of the Advantage.</Description></Tech>
     </Techs>
     <Skills />
@@ -110,7 +110,7 @@ Special: Must possess a piece of pure crystal. Player must have approval from GM
       <Tag>crab_alternate</Tag>
     </Tags>
     <Techs>
-      <Tech name="Strength of Bamboo" rank="4" id="strength_of_bamboo"><Description>The former warriors of the Severed Hand have learned to rely on the indomitable strength of Earth to resist the tricks, temptations, and blandishments of enemy courtiers. 
+      <Tech name="Strength of Bamboo" rank="4" id="strength_of_bamboo"><Description>The former warriors of the Severed Hand have learned to rely on the indomitable strength of Earth to resist the tricks, temptations, and blandishments of enemy courtiers.
 When rolling to resist an opponent’s Social Skill or Courtier Technique, you may use Willpower as your Trait instead of the Trait normally used. In cases where this Technique clashes with another (such as the Bayushi Rank 4 Technique), the GM has discretion as to which Technique trumps the other.
 Special: Your character must be reassigned to the courts due to a physical inability to continue serving the clan in war, e.g. a debilitating injury (GM’s discretion, but obvious examples include Missing Limb and Lame).</Description></Tech>
     </Techs>

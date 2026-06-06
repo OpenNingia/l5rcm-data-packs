@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <KihoDef mastery="3" element="air" type="internal" id="air_fist" name="Air Fist" page="262">
     <Description>Perhaps the most basic of all Kiho, Air Fist allows a monk to channel the energy of the wind an lend its speed to his stries. While this Kiho is active, as long as the only attacks you make are unarmed attacks, your Initiative Score is increased by +5. If you make any other type of attack, the effect is immediately canceled. The damage of all unarmed strikes made while this Kiho is active is reduced by an amount equal to your Air Ring. This effect ends after a maximum of one day.</Description>
@@ -15,7 +16,7 @@
   </KihoDef>
   <KihoDef mastery="5" element="air" type="mystical" id="harmony_of_the_mind" name="Harmony of the Mind" page="262">
     <Description>A gift often possessed by members of the Brotherhood is the ability to quickly and accurately gauge the strength of others. a useful ability both in assessing new applicants to the order and in determining how best to overcome obstacles. By making a Contested Air Roll against a target within your line of sight, you may learn one of the following pieces of information: their highest or lowest Ring, their highest Skill Rank. or their highest cost Spiritual Advantage or Disadvantage. For every successful Raise made on this roll, you can gain one additional piece of information.
-	You may use this Kiho a number of times per day equal to your Air Ring.
+  You may use this Kiho a number of times per day equal to your Air Ring.
     </Description>
     <Tags />
   </KihoDef>

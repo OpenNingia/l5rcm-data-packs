@@ -60,8 +60,8 @@ call four Raises on the skill roll it will last for one hour.
       <Requirement field="*artisan" type="skill" min="8">At least one Kakita Artisan chosen art Skill must be Rank 8 or higher</Requirement>
       <Requirement field="crane" type="tag">Be a member of Crane clan</Requirement>
       <Requirement field="rpg" type="more">
-		If you are trained as a Kakita Artisan, you must have the Great Potential in the Skill of one of your chosen arts.  If you are not trained as a Kakita Artisan, you must be a Crane with both the Prodigy advantage and Great Potential advantage in either Acting, an Artisan skill, or a Perform skill.  This single skill becomes your chosen art for the purposes of this school's techniques.
-	  </Requirement>
+    If you are trained as a Kakita Artisan, you must have the Great Potential in the Skill of one of your chosen arts.  If you are not trained as a Kakita Artisan, you must be a Crane with both the Prodigy advantage and Great Potential advantage in either Acting, an Artisan skill, or a Perform skill.  This single skill becomes your chosen art for the purposes of this school's techniques.
+    </Requirement>
     </Requirements>
   </School>
 </L5RCM>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
   <School clanid="monks" name="Order of the Nameless Gift" id="order_of_the_nameless_gift">
     <Trait>stamina</Trait>
@@ -29,10 +29,10 @@
     <Spells />
     <Techs>
       <Tech name="Shinsei's Gift" rank="1" id="shinseis_gift">
-	  <Description>
-	  A monk taught by the Order of the Nameless Gift can be an endless well of endurance, patience, and insight. Because they are much more worldly than many other monks in the Brotherhood, their training and experience add to a typical monk’s canny mind and strength in combat. You gain a number of Void Points per day equal to your Earth Ring, but these Void Points may only be spent to reduce damage or to raise your Armor TN. These Void Points may not be spent simultaneously with other Void Points or in any other fashion.
-	  </Description>
-	  </Tech>
+    <Description>
+    A monk taught by the Order of the Nameless Gift can be an endless well of endurance, patience, and insight. Because they are much more worldly than many other monks in the Brotherhood, their training and experience add to a typical monk’s canny mind and strength in combat. You gain a number of Void Points per day equal to your Earth Ring, but these Void Points may only be spent to reduce damage or to raise your Armor TN. These Void Points may not be spent simultaneously with other Void Points or in any other fashion.
+    </Description>
+    </Tech>
     </Techs>
     <Requirements />
     <Outfit bu="0" koku="0" zeni="2">
