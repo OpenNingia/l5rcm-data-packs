@@ -268,6 +268,7 @@ registry).
 
 ```
 auto
+activated            (player-controlled on/off, e.g. an activated Kiho/Kata)
 defense_stance  full_defense_stance  attack_stance  full_attack_stance  center_stance
 mounted  vs_lower_initiative  first_round  grappling
 maneuver_increased_damage  maneuver_called_shot  maneuver_knockdown

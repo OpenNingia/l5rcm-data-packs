@@ -1,85 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Stat-modifier definitions for the core pack.
-  Schema: see docs/MODIFIERS_SCHEMA.md.
+  Schema: see docs/MODIFIERS_SCHEMA.md. Catalog: contents/stat_modifiers.md.
 
-  Every `target` below is a real core record id. This file is a reference
-  exercising the v1 schema; the runtime/lint support lands with the matching
-  l5rdal release (until then the loader ignores this file harmlessly).
-
-  Cross-pack constructs not represented here because their canonical examples
-  live in expansion packs (would not resolve against core):
-    - <Param>  coupled magnitude  -> book_of_earth: the_power_of_the_mountain
-    - <OneOf>  exclusive choice    -> book_of_earth: tattoo_bear
-  See docs/MODIFIERS_SCHEMA.md sections 6-7 for those.
+  Scope of this batch: core effects whose `affects` the app engine already
+  consumes (armor_tn, reduction, initiative, wound_penalty, health_rank,
+  attack_roll, damage_roll, skill_roll, any_roll) with op="add". Effects on
+  honor/glory/status/insight, trait/ring ranks, formula substitutions, OneOf
+  choices, Param magnitudes, tag-scoped details and op=set are kept where they
+  document intent but the runtime skips them until those land (see the schema's
+  deferral notes). Enemy-side clauses are out of scope; such records are flagged
+  partial="true".
 -->
 <L5RCM>
 
-  <!-- B: scalar = function of a trait. Always on (passive school technique). -->
+  <!-- ============================================================ -->
+  <!-- Always-on (passive) Armor TN / Reduction                     -->
+  <!-- ============================================================ -->
+
+  <!-- Kitsuki's Method: +Perception Trait to Armor TN -->
   <ModifierDef target="dragon_kitsukis_method" kind="tech">
     <Mod affects="armor_tn" value="traits.perception"/>
   </ModifierDef>
 
-  <!-- B: scalar = a ring. -->
+  <!-- The Mountain Does Not Move: +Earth Ring Reduction -->
   <ModifierDef target="crab_the_mountain_does_not_move" kind="tech">
     <Mod affects="reduction" value="rings.earth"/>
   </ModifierDef>
 
-  <!-- B: ceil() over Honor rank. -->
+  <!-- Hida's Strength (Defender of the Wall): Reduction 8, even unarmored -->
+  <ModifierDef target="crab_hidas_strength" kind="tech">
+    <Mod affects="reduction" value="8"/>
+  </ModifierDef>
+
+  <!-- Honor Is My Shield (Emerald Magistrate): +half Honor Rank Reduction -->
   <ModifierDef target="honor_is_my_shield" kind="path">
     <Mod affects="reduction" value="ceil(honor / 2)"/>
   </ModifierDef>
 
-  <!-- B: multi-term expression (Insight + Air). -->
-  <ModifierDef target="soul_of_the_four_winds" kind="kiho">
-    <Mod affects="armor_tn" value="insight_rank + rings.air"/>
+  <!-- ============================================================ -->
+  <!-- Gear-gated (auto, applies while the weapon is wielded)        -->
+  <!-- ============================================================ -->
+
+  <!-- Way Of The Dragon: +School Rank Armor TN while wielding the daisho -->
+  <ModifierDef target="dragon_way_of_the_dragon" kind="tech">
+    <Mod affects="armor_tn" value="school_rank" requires="wielding('daisho')"/>
   </ModifierDef>
 
-  <!-- Multi-mod: a passive Initiative bonus + a combat-gated attack bonus
-       whose flat part is an expression. -->
+  <!-- ============================================================ -->
+  <!-- Stance-gated (manual toggle, default off)                    -->
+  <!-- ============================================================ -->
+
+  <!-- Striking as Air: +Air Ring Armor TN (Defense Stance) -->
+  <ModifierDef target="striking_as_air" kind="kata">
+    <Mod affects="armor_tn" value="rings.air" when="defense_stance"/>
+  </ModifierDef>
+
+  <!-- Striking as Earth: +Earth Ring Reduction (Full Defense Stance) -->
+  <ModifierDef target="striking_as_earth" kind="kata">
+    <Mod affects="reduction" value="rings.earth" when="full_defense_stance"/>
+  </ModifierDef>
+
+  <!-- Striking as Void: +Void Ring Armor TN (Center Stance) -->
+  <ModifierDef target="striking_as_void" kind="kata">
+    <Mod affects="armor_tn" value="rings.void" when="center_stance"/>
+  </ModifierDef>
+
+  <!-- Reckless Abandon Style: +Fire Ring Armor TN (Full Attack Stance) -->
+  <ModifierDef target="reckless_abandon_style" kind="kata">
+    <Mod affects="armor_tn" value="rings.fire" when="full_attack_stance"/>
+  </ModifierDef>
+
+  <!-- Drawing The Void (Kenshinzen): +10 Armor TN (Center Stance) -->
+  <ModifierDef target="crane_drawing_the_void" kind="tech">
+    <Mod affects="armor_tn" value="10" when="center_stance"/>
+  </ModifierDef>
+
+  <!-- The Fury Of Matsu (Lion's Pride): +10 Armor TN (Full Attack Stance) -->
+  <ModifierDef target="lion_the_fury_of_matsu" kind="tech">
+    <Mod affects="armor_tn" value="10" when="full_attack_stance"/>
+  </ModifierDef>
+
+  <!-- Torch's Flame Flickers (Hiruma Bushi): +1k0 attack (Attack Stance) -->
+  <ModifierDef target="crab_torchs_flame_flickers" kind="tech">
+    <Mod affects="attack_roll" roll="1" keep="0" when="attack_stance"/>
+  </ModifierDef>
+
+  <!-- The Way Of The Crane: +2x Iaijutsu to Initiative (passive); and
+       +1k1 + School Rank to attack in Center Stance -->
   <ModifierDef target="crane_the_way_of_the_crane" kind="tech">
     <Mod affects="initiative" value="2 * skills.iaijutsu"/>
     <Mod affects="attack_roll" roll="1" keep="1" bonus="school_rank"
          when="center_stance"/>
   </ModifierDef>
 
-  <!-- C: combat-state condition -> manual toggle, starts off. -->
-  <ModifierDef target="striking_as_air" kind="kata">
-    <Mod affects="armor_tn" value="rings.air" when="defense_stance"/>
+  <!-- ============================================================ -->
+  <!-- Always-on roll bonuses                                        -->
+  <!-- ============================================================ -->
+
+  <!-- The Way Of The Mantis: +1k0 to all attacks -->
+  <ModifierDef target="mantis_the_way_of_the_mantis" kind="tech">
+    <Mod affects="attack_roll" roll="1" keep="0"/>
   </ModifierDef>
 
-  <!-- requires: equipment predicate, auto-applied when wielding the daisho. -->
-  <ModifierDef target="dragon_way_of_the_dragon" kind="tech">
-    <Mod affects="armor_tn" value="school_rank" requires="wielding('daisho')"/>
+  <!-- ============================================================ -->
+  <!-- Activated Kiho (manual toggle)                               -->
+  <!-- ============================================================ -->
+
+  <!-- Soul of the Four Winds: +Insight Rank + Air Ring Armor TN -->
+  <ModifierDef target="soul_of_the_four_winds" kind="kiho">
+    <Mod affects="armor_tn" value="insight_rank + rings.air" when="activated"/>
   </ModifierDef>
 
-  <!-- detail by category (tag:ranged) + ceil() over a skill rank. -->
+  <!-- Embrace the Stone: +2x Earth Ring Reduction -->
+  <ModifierDef target="embrace_the_stone" kind="kiho">
+    <Mod affects="reduction" value="2 * rings.earth" when="activated"/>
+  </ModifierDef>
+
+  <!-- Partaking the Waves: +Water Ring Reduction -->
+  <ModifierDef target="partaking_the_waves" kind="kiho">
+    <Mod affects="reduction" value="rings.water" when="activated"/>
+  </ModifierDef>
+
+  <!-- ============================================================ -->
+  <!-- Passive wound-penalty reduction                              -->
+  <!-- ============================================================ -->
+
+  <!-- Indomitable Warrior Style: -Earth Ring to wound-rank TN penalties -->
+  <ModifierDef target="indomitable_warrior_style" kind="kata">
+    <Mod affects="wound_penalty" value="-rings.earth"/>
+  </ModifierDef>
+
+  <!-- ============================================================ -->
+  <!-- Partial (only the self-side clause is modelled)              -->
+  <!-- ============================================================ -->
+
+  <!-- Hida (ancestor): +1k0 damage. (The "ignore 4 enemy RD" clause is
+       enemy-side, out of scope.) -->
+  <ModifierDef target="ancestor_crab_hida" kind="ancestor" partial="true">
+    <Mod affects="damage_roll" roll="1" keep="0"/>
+  </ModifierDef>
+
+  <!-- The Way Of The Lion: +1k0 attack. (The "ignore enemy armor TN" clause
+       is enemy-side, out of scope.) -->
+  <ModifierDef target="lion_the_way_of_the_lion" kind="tech" partial="true">
+    <Mod affects="attack_roll" roll="1" keep="0"/>
+  </ModifierDef>
+
+  <!-- ============================================================ -->
+  <!-- Deferred constructs: validated by packlint, skipped by the    -->
+  <!-- runtime until the matching support lands (see the schema).    -->
+  <!-- ============================================================ -->
+
+  <!-- Heart of the Mountain: +half Athletics to RANGED attacks (tag detail) -->
   <ModifierDef target="dragon_heart_of_the_mountain" kind="path">
     <Mod affects="attack_roll" detail="tag:ranged"
          bonus="ceil(skills.athletics / 2)"/>
   </ModifierDef>
 
-  <!-- D: formula substitution (Void replaces Reflexes for Initiative). -->
-  <ModifierDef target="balance_the_elements_style" kind="kata">
-    <Substitute affects="initiative" use="void" instead_of="reflexes"/>
-  </ModifierDef>
-
-  <!-- op=set + ring_rank cascade: Lame caps Water at 1 for movement. The
-       "+10 TN to leg-based Agility rolls" clause is enemy/situational and is
-       left unmodeled, hence partial=true. -->
+  <!-- Lame: Water Ring capped at 1 for movement (op=set + ring_rank cascade).
+       The "+10 TN to leg-based Agility rolls" clause is left unmodelled. -->
   <ModifierDef target="lame" kind="flaw" partial="true">
     <Mod affects="ring_rank" detail="ring:water" op="set" value="1"/>
   </ModifierDef>
 
-  <!-- Negative value (sign convention): reduces wound penalties. -->
-  <ModifierDef target="indomitable_warrior_style" kind="kata">
-    <Mod affects="wound_penalty" value="-rings.earth"/>
-  </ModifierDef>
-
-  <!-- partial=true: only the self-side clause (+1k0 attack) is modeled; the
-       "ignore enemy armor TN" clause is enemy-side, out of scope. -->
-  <ModifierDef target="lion_the_way_of_the_lion" kind="tech" partial="true">
-    <Mod affects="attack_roll" roll="1" keep="0"/>
+  <!-- Balance The Elements Style: use Void instead of Reflexes for Initiative -->
+  <ModifierDef target="balance_the_elements_style" kind="kata">
+    <Substitute affects="initiative" use="void" instead_of="reflexes"/>
   </ModifierDef>
 
 </L5RCM>

@@ -150,6 +150,9 @@ MOD_OPS = {"add", "set", "min", "max"}
 
 MOD_WHEN_VOCAB = {
     "auto",
+    # generic player-controlled on/off for effects that are switched on rather
+    # than tied to a specific stance (e.g. an activated Kiho/Kata).
+    "activated",
     "defense_stance", "full_defense_stance", "attack_stance",
     "full_attack_stance", "center_stance",
     "mounted", "vs_lower_initiative", "first_round", "grappling",
