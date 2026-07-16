@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Merit type="mental" id="student_of_shourido" name="Student of Shourido" page="96">
+    <Rank id="1" value="9">
+      <Exception tag="spider" value="6" />
+    </Rank>
+    <Description>Truly dedicated followers of the Way of Victory are able to prevail despite their rejection of Bushido. When rolling to resist Temptation, Intimidation, or Fear, you may choose to add +5 to your roll instead of adding your Honor Rank to the roll. If the optional Honor Roll rule (page 92 of the L5R 4th Edition Core rulebook) is being used, you may roll 5 dice instead of rolling dice equal to your Honor Rank. This Advantage costs 6 points for Spider characters.</Description>
+  </Merit>
+  <Merit type="social" id="well_connected" name="Well-Connected" page="97">
+    <Rank id="1" value="3">
+      <Exception tag="courtier" value="2" />
+    </Rank>
+    <Rank id="2" value="6">
+      <Exception tag="courtier" value="4" />
+    </Rank>
+    <Rank id="3" value="9">
+      <Exception tag="courtier" value="6" />
+    </Rank>
+    <Description>Characters who possess this Advantage are integrated into the fabric of a particular court so well that they can call on a large number of people for small acts of assistance. Choose one court when you purchase this Advantage. One time each session per level of the Advantage, you may roll Courtier / Awareness at TN 20. If successful, you gain the benefit of one minor favor from someone else at court. This favor should not be something that inconveniences the benefactor, and it will only be a small piece of information or a simple bit of assistance, but it will always be useful to some task you are currently pursuing. Courtiers may purchase this Advantage for one point less per Rank.</Description>
+  </Merit>
+</L5RCM>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- SUSUMU COURTIER (Rank 1 Alternate Path, replaces Daigotsu Courtier 1) -->
+
+  <School clanid="spider" name="Susumu Courtier" id="spider_susumu_courtier">
+    <Trait>willpower</Trait>
+    <Honor>1.5</Honor>
+    <Tags>
+      <Tag>courtier</Tag>
+      <Tag>spider_courtier</Tag>
+      <Tag>alternate</Tag>
+      <Tag>spider_alternate</Tag>
+    </Tags>
+    <Skills>
+      <Skill rank="1" id="courtier" emphases="Manipulation"/>
+      <Skill id="etiquette" rank="1"/>
+      <Skill rank="1" id="sincerity" emphases="Deceit"/>
+      <Skill id="temptation" rank="1"/>
+      <Skill id="lore_shourido" rank="1"/>
+      <Skill id="investigation" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>low</Wildcard>
+        <Wildcard>high</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Techs>
+      <Tech name="The Way of Victory" rank="1" id="spider_the_way_of_victory">
+        <Description>
+Susumu courtiers learn how to use the Code of Shourido to strengthen their own efforts in court and to ferret out and intensify the selfish impulses of other samurai. You gain the Student of Shourido Advantage for free (if for some reason you already possess this Advantage, the Experience Point cost is refunded). After a few minutes' conversation with another samurai, you may make a Contested Social roll of your Temptation/Willpower against your opponent's Etiquette/Willpower; with a success, you detect whether the character has any personal flaws which would make him amenable to the appeal of Shourido. (You do not learn the specific nature of the flaws, merely whether they exist.)
+        </Description>
+      </Tech>
+    </Techs>
+    <Requirements>
+      <Requirement field="spider_daigotsu_courtier_school" type="school" min="0">Replaces Daigotsu Courtier 1</Requirement>
+    </Requirements>
+    <Outfit koku="3" bu="0" zeni="0">
+      <Item>Sensible Clothing</Item>
+      <Item>Wakizashi</Item>
+      <Item>Calligraphy Set</Item>
+      <Item>Traveling Pack</Item>
+    </Outfit>
+  </School>
+
+</L5RCM>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <SkillDef trait="agility" type="bugei" id="swordsmanship_ring_sword" name="Swordsmanship (Ring-Sword)" page="98">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">When using a ring-sword, you may perform a Disarm Maneuver against an opponent wielding a Small or Medium weapon for one less Raise.</MasteryAbility>
+      <MasteryAbility rank="5">You may ready a sword as a Free Action instead of a Simple Action.</MasteryAbility>
+      <MasteryAbility rank="7">When using a ring-sword, you gain +1k0 damage, and you may perform a Disarm Maneuver against an opponent wielding a Large weapon for one less Raise.</MasteryAbility>
+    </MasteryAbilities>
+    <Description>Many of the Yobanjin fight with the so-called "ring-sword," a sword with large looped rings in the hilt which are used to try to snare enemy blades. The Yobanjin use of the ring-sword causes them to pursue a style of sword-fighting different from the Rokugani, using the "generic" term Swordsmanship rather than Rokugani names such as Kenjutsu. No Yobanjin will learn Iaijutsu.</Description>
+  </SkillDef>
+  <SkillDef trait="agility" type="low" id="crossbow" name="Crossbow" page="99">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">You may now reload a crossbow with only one Complex Action.</MasteryAbility>
+    </MasteryAbilities>
+    <Description>The Crossbow Skill is considered Bugei by the Yobanjin and other gaijin cultures, but is treated as a Low Skill in Rokugan. The Yobanjin feel no special scruples over distinguishing between "honorable" and "peasant" weapons, and use the crossbow freely.</Description>
+  </SkillDef>
+  <SkillDef trait="varies" type="high" id="craft_maskmaking" name="Craft (Maskmaking)" page="97">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities />
+    <Description>The craft of fashioning courtly masks. Although every clan has artisans who specialize in the creation of such masks, the Scorpion Clan takes this artistry to a much higher level, given the importance of masks to Scorpion culture.</Description>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_shourido" name="Lore (Shourido)" page="96">
+    <Tags />
+    <MasteryAbilities />
+    <Description>Knowledge of Shourido, the Way of Victory: the philosophy of empowerment through the rejection of Bushido embraced by the Spider Clan. Students of Shourido study its tenets in order to strengthen their own efforts and to ferret out and intensify the selfish impulses of other samurai.</Description>
+  </SkillDef>
+</L5RCM>
