@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <L5RCM>
-
+  <Clan name="Various" id="various"/>
   <!-- YOBANJIN WARRIOR (Rank 1 Path, functions as the Yobanjin basic bushi school) -->
 
-  <School clanid="yobanjin" name="Yobanjin Warrior" id="yobanjin_warrior">
+  <School clanid="various" name="Yobanjin Warrior" id="yobanjin_warrior">
     <Trait>agility</Trait>
     <Honor>4.5</Honor>
     <Tags>
       <Tag>bushi</Tag>
-      <Tag>yobanjin_bushi</Tag>
+      <Tag>ronin</Tag>
+      <Tag>ronin_bushi</Tag>
+      <Tag>yobanjin</Tag>
     </Tags>
     <Skills>
       <Skill id="athletics" rank="1"/>
@@ -42,12 +44,14 @@ The Yobanjin focus their training on the preferred weapons of their people and o
 
   <!-- YOBANJIN SHAMAN (Basic Shugenja School) -->
 
-  <School clanid="yobanjin" name="Yobanjin Shaman (Shugenja)" id="yobanjin_shaman_shugenja">
+  <School clanid="various" name="Yobanjin Shaman (Shugenja)" id="yobanjin_shaman_shugenja">
     <Trait>willpower</Trait>
     <Honor>4.5</Honor>
     <Tags>
       <Tag>shugenja</Tag>
-      <Tag>yobanjin_shugenja</Tag>
+      <Tag>ronin</Tag>
+      <Tag>ronin_shugenja</Tag>
+      <Tag>yobanjin</Tag>
     </Tags>
     <Skills>
       <Skill id="athletics" rank="1"/>

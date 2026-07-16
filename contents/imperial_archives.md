@@ -2,27 +2,10 @@
 The Imperial Archives
 =====================
 
-Clans
------
-* Yobanjin
-
-Families
---------
-
-### [yobanjin]
-* Daughters of the Flame
-* Mountain Wind Tribe
-* Sons of the Mountain
-* Tribe of the Sky
-* Children of the Frozen Peaks
-* Divine Wave Tribe
-* Small River Tribe
-* Carriers of the Fire
-
 Schools
 -------
 
-### [yobanjin]
+### [ronin]
 * Yobanjin Warrior
 * Yobanjin Shaman (Shugenja)
 
