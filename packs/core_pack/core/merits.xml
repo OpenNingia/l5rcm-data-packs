@@ -60,76 +60,91 @@
       <Exception tag="crane" value="0" />
       <Exception tag="imperial" value="0" />
       <Exception tag="unicorn" value="0" />
+      <Exception tag="blissful_betrothal" value="1" />
     </Rank>
     <Rank id="2" value="2">
       <Exception tag="crane" value="1" />
       <Exception tag="imperial" value="1" />
       <Exception tag="unicorn" value="1" />
+      <Exception tag="blissful_betrothal" value="1" />
     </Rank>
     <Rank id="3" value="3">
       <Exception tag="crane" value="2" />
       <Exception tag="imperial" value="2" />
       <Exception tag="unicorn" value="2" />
+      <Exception tag="blissful_betrothal" value="1" />
     </Rank>
     <Rank id="4" value="4">
       <Exception tag="crane" value="3" />
       <Exception tag="imperial" value="3" />
       <Exception tag="unicorn" value="3" />
+      <Exception tag="blissful_betrothal" value="2" />
     </Rank>
     <Rank id="5" value="5">
       <Exception tag="crane" value="4" />
       <Exception tag="imperial" value="4" />
       <Exception tag="unicorn" value="4" />
+      <Exception tag="blissful_betrothal" value="3" />
     </Rank>
     <Rank id="6" value="6">
       <Exception tag="crane" value="5" />
       <Exception tag="imperial" value="5" />
       <Exception tag="unicorn" value="5" />
+      <Exception tag="blissful_betrothal" value="4" />
     </Rank>
     <Rank id="7" value="7">
       <Exception tag="crane" value="6" />
       <Exception tag="imperial" value="6" />
       <Exception tag="unicorn" value="6" />
+      <Exception tag="blissful_betrothal" value="5" />
     </Rank>
     <Rank id="8" value="8">
       <Exception tag="crane" value="7" />
       <Exception tag="imperial" value="7" />
       <Exception tag="unicorn" value="7" />
+      <Exception tag="blissful_betrothal" value="6" />
     </Rank>
     <Rank id="9" value="9">
       <Exception tag="crane" value="8" />
       <Exception tag="imperial" value="8" />
       <Exception tag="unicorn" value="8" />
+      <Exception tag="blissful_betrothal" value="7" />
     </Rank>
     <Rank id="10" value="10">
       <Exception tag="crane" value="9" />
       <Exception tag="imperial" value="9" />
       <Exception tag="unicorn" value="9" />
+      <Exception tag="blissful_betrothal" value="8" />
     </Rank>
     <Rank id="11" value="11">
       <Exception tag="crane" value="10" />
       <Exception tag="imperial" value="10" />
       <Exception tag="unicorn" value="10" />
+      <Exception tag="blissful_betrothal" value="9" />
     </Rank>
     <Rank id="12" value="12">
       <Exception tag="crane" value="11" />
       <Exception tag="imperial" value="11" />
       <Exception tag="unicorn" value="11" />
+      <Exception tag="blissful_betrothal" value="10" />
     </Rank>
     <Rank id="13" value="13">
       <Exception tag="crane" value="12" />
       <Exception tag="imperial" value="12" />
       <Exception tag="unicorn" value="12" />
+      <Exception tag="blissful_betrothal" value="11" />
     </Rank>
     <Rank id="14" value="14">
       <Exception tag="crane" value="13" />
       <Exception tag="imperial" value="13" />
       <Exception tag="unicorn" value="13" />
+      <Exception tag="blissful_betrothal" value="12" />
     </Rank>
     <Rank id="15" value="15">
       <Exception tag="crane" value="14" />
       <Exception tag="imperial" value="14" />
       <Exception tag="unicorn" value="14" />
+      <Exception tag="blissful_betrothal" value="13" />
     </Rank>
     <Description>Your branch of the family is particularly wealthy, and they have granted you additional resources in order to facilitate your fulfi llment of your duty. For each point spent on this Advantage, you gain two additional koku, to be added to the amount in your School outfi t. Crane, Unicorn, and Imperial characters may purchase this Advantage for 1 point less off its total cost.</Description>
   </Merit>
@@ -480,7 +495,9 @@
     <Description>You are capable of enrapturing the crowd, no matter the circumstances. Whenever you would be required to make a Skill Roll using a Perform Skill you do not possess, you are considered to have 1 rank in that skill.</Description>
   </Merit>
   <Merit type="social" id="social_position" rule="social_position" name="Social Position" page="154">
-    <Rank id="1" value="6" />
+    <Rank id="1" value="6">
+      <Exception tag="blissful_betrothal" value="4" />
+    </Rank>
     <Description>You have received an illustrious social appointment, whether through your own accomplishments or purely because of political reasons. You gain +1 Status Rank.</Description>
   </Merit>
   <Merit type="spiritual" id="bentens_blessing" name="Benten's Blessing" page="153">
@@ -661,11 +678,21 @@
     <Description>Jurojin&#8217;s Blessing (Scorpion): The Fortune of Longevity favors you, and as a result you can expect a long and healthy life. Whenever you are rolling to resist the effects of a disease or poison, you gain a bonus of +2k0 to the total of the roll.</Description>
   </Merit>
   <Merit type="spiritual" id="kharmic_tie_1" name="Kharmic Tie 1" page="151">
-    <Rank id="1" value="1" />
-    <Rank id="2" value="2" />
-    <Rank id="3" value="3" />
-    <Rank id="4" value="4" />
-    <Rank id="5" value="5" />
+    <Rank id="1" value="1">
+      <Exception tag="blissful_betrothal" value="1" />
+    </Rank>
+    <Rank id="2" value="2">
+      <Exception tag="blissful_betrothal" value="1" />
+    </Rank>
+    <Rank id="3" value="3">
+      <Exception tag="blissful_betrothal" value="1" />
+    </Rank>
+    <Rank id="4" value="4">
+      <Exception tag="blissful_betrothal" value="2" />
+    </Rank>
+    <Rank id="5" value="5">
+      <Exception tag="blissful_betrothal" value="3" />
+    </Rank>
     <Description>Your destiny is not yours alone, but is bonded to that of another in some fundamental way. You may have been close to this other person during a previous life, or perhaps your destiny in this life will yet be entwined in theirs in some essential manner. Select one person when purchasing this Advantage. For each point spent on this Advantage, once per session you gain a bonus of +1k1 to the total of all attack rolls made when fighting for or protecting the person to whom you are bonded.</Description>
   </Merit>
   <Merit type="spiritual" id="luck" name="Luck" page="151">
