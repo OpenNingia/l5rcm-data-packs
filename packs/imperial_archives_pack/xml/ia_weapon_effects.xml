@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <EffectDef id="crossbow_reload_rule">Reloading a crossbow requires two Complex Actions (reduced to one Complex Action at Crossbow Skill Rank 5). A crossbow relies on its own mechanical force to deliver damage, and thus does not add the wielder's Strength to its DR. A loaded crossbow can be fired one-handed.</EffectDef>
+</L5RCM>

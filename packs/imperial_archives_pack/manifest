@@ -1,0 +1,9 @@
+{
+	"id": "imperial_archives",
+	"display_name": "The Imperial Archives",
+	"authors": ["Daniele Simonetti"],
+	"version": "1.0",
+	"min-cm-version": "3.9",
+	"update-uri": "",
+	"download-uri": ""
+}

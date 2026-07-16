@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Weapon skill="swordsmanship_ring_sword" cost="10k" dr="2k2" name="Yobanjin Ring-Sword">
+    <Tags>
+      <Tag>medium</Tag>
+      <Tag>melee</Tag>
+      <Tag>gaijin</Tag>
+    </Tags>
+  </Weapon>
+  <Weapon skill="crossbow" cost="5k" dr="4k2" range="150'" name="Crossbow (Oyumi)">
+    <Tags>
+      <Tag>medium</Tag>
+      <Tag>ranged</Tag>
+      <Tag>peasant</Tag>
+    </Tags>
+    <Effect id="crossbow_reload_rule"/>
+  </Weapon>
+</L5RCM>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Flaw type="social" id="debt" name="Debt" page="97">
+    <Rank id="1" value="2">
+      <Exception tag="courtier" value="3" />
+    </Rank>
+    <Rank id="2" value="4">
+      <Exception tag="courtier" value="5" />
+    </Rank>
+    <Rank id="3" value="8">
+      <Exception tag="courtier" value="9" />
+    </Rank>
+    <Description>Whether through bad luck or simple imprudence, at some point you found yourself short of money and "solved" this problem by taking out a loan, either from a wealthy commoner or a fellow samurai. You are expected to repay this loan, and until you do, the shame of your indebted state hangs over you. For 2 points, your debt is equivalent to one quarter of your yearly stipend. For 4 points, you owe your entire yearly stipend, and for 8 points, you owe substantially more than that. If others learn about your debt, you will at a minimum lose Glory and your fellow samurai may come to look down on you. Moreover, even if you keep the debt secret, your creditor may decide to use it to pressure you into doing things on his behalf. This Disadvantage is worth one additional point for courtiers.</Description>
+  </Flaw>
+</L5RCM>

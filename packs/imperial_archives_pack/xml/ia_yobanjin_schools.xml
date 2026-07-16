@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+
+  <!-- YOBANJIN WARRIOR (Rank 1 Path, functions as the Yobanjin basic bushi school) -->
+
+  <School clanid="yobanjin" name="Yobanjin Warrior" id="yobanjin_warrior">
+    <Trait>agility</Trait>
+    <Honor>4.5</Honor>
+    <Tags>
+      <Tag>bushi</Tag>
+      <Tag>yobanjin_bushi</Tag>
+    </Tags>
+    <Skills>
+      <Skill id="athletics" rank="1"/>
+      <Skill id="crossbow" rank="1"/>
+      <Skill id="lore_theology" rank="1" emphases="Yobanjin"/>
+      <Skill id="swordsmanship_ring_sword" rank="1"/>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells/>
+    <Techs>
+      <Tech name="Strength of the Unbowed" rank="1" id="yobanjin_strength_of_the_unbowed">
+        <Description>
+The Yobanjin focus their training on the preferred weapons of their people and on the strength found in their Rujia philosophy. You gain a +1k0 bonus to your Swordsmanship and Crossbow Skill rolls. Once per skirmish, you may add your "Integrity" Rank to the total of either a Skill roll or a Damage roll with a ring-sword or a crossbow. (The "Integrity Rank" of the Yobanjin represents their adherence to the Rujia philosophy rather than Bushido, and is used mechanically in the same manner as Honor.)
+        </Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit koku="0" bu="0" zeni="0">
+      <Item>Yobanjin Clothing</Item>
+      <Item>Light Armor</Item>
+      <Item>Yobanjin Ring-Sword</Item>
+      <Item>Crossbow (Oyumi)</Item>
+      <Item>Leather Satchel</Item>
+    </Outfit>
+  </School>
+
+  <!-- YOBANJIN SHAMAN (Basic Shugenja School) -->
+
+  <School clanid="yobanjin" name="Yobanjin Shaman (Shugenja)" id="yobanjin_shaman_shugenja">
+    <Trait>willpower</Trait>
+    <Honor>4.5</Honor>
+    <Tags>
+      <Tag>shugenja</Tag>
+      <Tag>yobanjin_shugenja</Tag>
+    </Tags>
+    <Skills>
+      <Skill id="athletics" rank="1"/>
+      <Skill id="defense" rank="1"/>
+      <Skill id="hunting" rank="1"/>
+      <Skill id="knives" rank="1"/>
+      <Skill id="lore_theology" rank="1" emphases="Yobanjin"/>
+      <PlayerChoose rank="1">
+        <Wildcard>any</Wildcard>
+      </PlayerChoose>
+    </Skills>
+    <Spells>
+      <Spell id="sense"/>
+      <Spell id="commune"/>
+      <PlayerChoose count="3" element="anynodefic"/>
+    </Spells>
+    <Techs>
+      <Tech name="Spirits of the Mountain" rank="1" id="yobanjin_spirits_of_the_mountain">
+        <Description>
+Yobanjin shamans are able to cast Elemental spells without scrolls, but can only cast spells of Mastery Rank 1, 2, or 3. (At the GM's option, spells which are specific to Rokugani culture may be excluded.) Once per year, a shaman may summon a wyrm and bind it to an amulet.
+        </Description>
+      </Tech>
+    </Techs>
+    <Requirements/>
+    <Outfit koku="0" bu="0" zeni="0">
+      <Item>Yobanjin Clothing</Item>
+      <Item>Knife</Item>
+      <Item>Leather Satchel</Item>
+    </Outfit>
+  </School>
+
+</L5RCM>
