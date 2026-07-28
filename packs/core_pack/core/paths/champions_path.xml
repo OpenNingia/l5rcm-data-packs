@@ -101,6 +101,7 @@ This effect lasts until the start of your next Turn.
     <Tags>
       <Tag>champion</Tag>
       <Tag>alternate</Tag>
+      <Tag>keep_replaced_tech</Tag>
     </Tags>
     <Techs>
       <Tech name="Soul of Promise" rank="0" id="soul_of_promise">
